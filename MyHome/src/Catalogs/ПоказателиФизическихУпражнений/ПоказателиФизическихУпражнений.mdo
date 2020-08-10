@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="937a5c72-3f4d-4eae-bbf9-32be0fa5a804">
+  <producedTypes>
+    <objectType typeId="0b7f7544-a211-42a2-8bdd-4bd7642683ff" valueTypeId="c81bcb49-2bd4-4424-b36d-dd3020ff7973"/>
+    <refType typeId="b7df2e02-6aba-4f8c-9f4f-ba3c127b5028" valueTypeId="3ffa7fe3-ae4d-48ba-abad-e14e48d2e991"/>
+    <selectionType typeId="61c0d7a5-8fe6-4c4c-ade8-6716c4a29287" valueTypeId="d9d8ab48-100c-4d0d-a6b4-2073ab5f0d84"/>
+    <listType typeId="606cc629-2627-42b6-8f84-f49e4d0c6cc9" valueTypeId="8a3f63c4-9683-4eef-90f2-385e7b20de0b"/>
+    <managerType typeId="b0f64a27-48be-435f-8486-efa109c83ea9" valueTypeId="784fc65d-b333-4af3-a95a-cab1ee7191b0"/>
+  </producedTypes>
+  <name>ПоказателиФизическихУпражнений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели физических упражнений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПоказателиФизическихУпражнений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПоказателиФизическихУпражнений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1f1aa4fb-d341-41f2-9ec3-14f75710c158">
+    <name>КалорийНаЕдиницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калорий на единицу</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Калорийность</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
