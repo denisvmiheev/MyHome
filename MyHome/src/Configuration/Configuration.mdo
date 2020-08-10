@@ -49,6 +49,8 @@
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <definedTypes>DefinedType.Калорийность</definedTypes>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
+  <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
 </mdclass:Configuration>
