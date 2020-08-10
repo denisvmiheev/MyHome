@@ -30,16 +30,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="1f1aa4fb-d341-41f2-9ec3-14f75710c158">
-    <name>КалорийНаЕдиницу</name>
-    <synonym>
-      <key>ru</key>
-      <value>Калорий на единицу</value>
-    </synonym>
-    <type>
-      <types>DefinedType.Калорийность</types>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:Catalog>

@@ -44,13 +44,18 @@
   <commonPictures>CommonPicture.РазделФинансы16</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.Спорт16</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
+  <documents>Document.РегистрацияФизическихУпражений</documents>
+  <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
 </mdclass:Configuration>

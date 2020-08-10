@@ -80,4 +80,16 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="840a1ab6-d2b0-4b43-a071-5e67af440843">
+    <name>КалорийНаЕдиницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калорий на единицу</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Калорийность</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

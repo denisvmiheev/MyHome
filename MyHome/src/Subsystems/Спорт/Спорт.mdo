@@ -16,4 +16,6 @@
     <picture>CommonPicture.Спорт16</picture>
   </picture>
   <content>Catalog.ФизическиеУпражнения</content>
+  <content>Catalog.ПоказателиФизическихУпражнений</content>
+  <content>Document.РегистрацияФизическихУпражений</content>
 </mdclass:Subsystem>
