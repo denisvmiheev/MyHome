@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8579b76-8ef3-4091-b10b-64f75523e550">
+  <producedTypes>
+    <objectType typeId="7d1926c5-883a-415c-8ee2-369e241d6208" valueTypeId="fb04e371-456b-4538-804e-fe448f6857f7"/>
+    <refType typeId="96cbb44e-7838-48c2-8521-19e0a88ad1a8" valueTypeId="ce24b995-4f76-4d49-8b21-870804fbc515"/>
+    <selectionType typeId="ccf967e5-dae7-4e05-8e76-09fae5af12ab" valueTypeId="1a12f232-5334-47f6-877f-80713ff0f4d3"/>
+    <listType typeId="c59722fb-6099-43d2-bcc7-3bcd7679f45b" valueTypeId="2c654c5b-1898-408d-8d21-24a6f7889e49"/>
+    <managerType typeId="c7972786-51bd-4920-816c-0736e34adad5" valueTypeId="e8e48f9e-7b05-461e-9324-2e77892bf85a"/>
+    <containerType typeId="f790f7a0-dc06-4166-89c7-23e13228df80" valueTypeId="4f1dff31-06d0-4dec-b1cf-d044968fbaef"/>
+  </producedTypes>
+  <name>СтатьиРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СтатьиРасходов.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СтатьиРасходов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <types>CatalogRef.Пользователи</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

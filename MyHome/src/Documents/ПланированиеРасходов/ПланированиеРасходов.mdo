@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e86dee2-8afd-49d9-94b7-2b9a868b914e">
+  <producedTypes>
+    <objectType typeId="fb561545-6632-4384-b888-5184d0c388a1" valueTypeId="e5b1aaea-a271-4698-ac50-f59915b8adeb"/>
+    <refType typeId="7d1af64f-e0e5-4e41-af00-8f6fa853026b" valueTypeId="13f59fe4-fb93-4e4b-a2af-d579bd5b9210"/>
+    <selectionType typeId="d05eedeb-0531-4319-8fc4-2e6a4045b4a6" valueTypeId="aee18b18-4070-42b1-87e4-06b526c4b46c"/>
+    <listType typeId="ca5bc9dc-8707-43ad-a9ed-214adf95539b" valueTypeId="f02b3681-6ad3-440d-aa8b-eb81ee4398b8"/>
+    <managerType typeId="3b0aa343-5d6e-473d-8561-906ac6afcab5" valueTypeId="99df7ae6-dc58-4c92-9b83-da8d74ba4577"/>
+  </producedTypes>
+  <name>ПланированиеРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПланированиеРасходов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПланированиеРасходов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПланированиеРасходов.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="da0865d6-9ca3-451a-9620-53dbac4568fe">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ='MMMM yyyy'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ='MMMM yyyy'</value>
+    </editFormat>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da5291da-a4d4-4698-9b4d-9da068c27a02">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="57a44322-f83a-41d5-88a2-3fb48d694138">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b54d8cd1-7284-4eff-88fe-1950ffa64c2d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ab97b6a6-dc19-4c04-9b15-4f5e637faadb">
+    <producedTypes>
+      <objectType typeId="53807681-6d7e-413b-834f-7d3676de13be" valueTypeId="7312a2ea-2fd1-44df-ad3c-07bffbd4e6d0"/>
+      <rowType typeId="7875b8d6-bcad-4eec-9613-abdafea20dc0" valueTypeId="c0d39baa-b6a9-45e5-997c-401b6e74b17e"/>
+    </producedTypes>
+    <name>ОбязательныеРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательные расходы</value>
+    </synonym>
+    <attributes uuid="2be7006f-51ff-4f51-ab9c-da0bba28c36e">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44030436-aba0-4937-8ab1-3a453b564cbd">
+      <name>АналитикаРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика</value>
+      </synonym>
+      <type>
+        <types>Characteristic.СтатьиРасходов</types>
+      </type>
+      <linkByType>
+        <field>Document.ПланированиеРасходов.TabularSection.ОбязательныеРасходы.Attribute.СтатьяРасходов</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="79fd884a-53ae-4204-b7f0-9f7707021f84">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

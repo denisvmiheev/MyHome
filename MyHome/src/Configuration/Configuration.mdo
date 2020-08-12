@@ -36,6 +36,7 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Спорт</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
   <commonPictures>CommonPicture.РазделАдминистрирование16</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
   <commonPictures>CommonPicture.РазделБюджетированиеИПланирование16</commonPictures>
@@ -53,9 +54,16 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <commonForms>CommonForm.ВыборСтандартногоПериодаМесяц</commonForms>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
+  <documents>Document.ПланированиеРасходов</documents>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоДомашние</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Домашний</chartsOfAccounts>
 </mdclass:Configuration>
