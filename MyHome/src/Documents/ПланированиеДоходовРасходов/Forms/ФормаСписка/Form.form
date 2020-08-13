@@ -208,6 +208,60 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>СуммаДоход</name>
+      <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Доход</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СуммаДоход</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СуммаДоходРасширеннаяПодсказка</name>
+        <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СуммаДоходКонтекстноеМеню</name>
+        <id>26</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
@@ -427,19 +481,18 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ 
-       ПланированиеРасходов.Ссылка, 
-       ПланированиеРасходов.ПометкаУдаления, 
-       ПланированиеРасходов.Номер, 
-       ПланированиеРасходов.Дата,
-       НАЧАЛОПЕРИОДА(ПланированиеРасходов.НачалоПериода, МЕСЯЦ) КАК МесяцПланирования,
-       ПланированиеРасходов.Проведен,
-       ПланированиеРасходов.ОбязательныеРасходы.*, 
-       ПланированиеРасходов.МоментВремени
- ИЗ 
-       Документ.ПланированиеДоходовРасходов
- КАК 
-       ПланированиеРасходов</queryText>
+      <queryText>ВЫБРАТЬ
+	ПланированиеРасходов.Ссылка,
+	ПланированиеРасходов.ПометкаУдаления,
+	ПланированиеРасходов.Номер,
+	ПланированиеРасходов.Дата,
+	НАЧАЛОПЕРИОДА(ПланированиеРасходов.НачалоПериода, МЕСЯЦ) КАК МесяцПланирования,
+	ПланированиеРасходов.Проведен,
+	ПланированиеРасходов.ОбязательныеРасходы.*,
+	ПланированиеРасходов.МоментВремени,
+	ПланированиеРасходов.СуммаДоход
+ИЗ
+	Документ.ПланированиеДоходовРасходов КАК ПланированиеРасходов</queryText>
       <mainTable>Document.ПланированиеДоходовРасходов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>

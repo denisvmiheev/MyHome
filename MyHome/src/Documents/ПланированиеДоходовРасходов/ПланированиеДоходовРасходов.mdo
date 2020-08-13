@@ -80,6 +80,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ed0fe006-d903-4e6b-b476-9e11242d67d9">
+    <name>СуммаДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма доход</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="57a44322-f83a-41d5-88a2-3fb48d694138">
     <name>ФормаДокумента</name>
     <synonym>
