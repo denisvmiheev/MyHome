@@ -176,6 +176,19 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="b2f24f72-a5fa-4631-8cc2-7ccc6d599bd9">
+      <name>Кошелек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кошелек</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КошелькиИСчета</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="68df4d5c-9ace-4a94-a2aa-4bcac5fd99fa">
     <producedTypes>
@@ -209,6 +222,9 @@
       <type>
         <types>Characteristic.СтатьиДоходов</types>
       </type>
+      <linkByType>
+        <field>Document.ПланированиеДоходовРасходов.TabularSection.Доходы.Attribute.СтатьяДоходов</field>
+      </linkByType>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -237,6 +253,19 @@
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
       </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e3312c9e-b414-4552-a4b5-1ed4115d2907">
+      <name>Кошелек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кошелек</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КошелькиИСчета</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

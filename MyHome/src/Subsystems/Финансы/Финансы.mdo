@@ -11,4 +11,5 @@
     <picture>CommonPicture.РазделФинансы16</picture>
   </picture>
   <content>Document.ПланированиеДоходовРасходов</content>
+  <content>Catalog.КошелькиИСчета</content>
 </mdclass:Subsystem>

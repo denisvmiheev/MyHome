@@ -60,12 +60,16 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
+  <catalogs>Catalog.КошелькиИСчета</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
   <documents>Document.ПланированиеДоходовРасходов</documents>
+  <documents>Document.РегистрацияРасходов</documents>
+  <enums>Enum.ТипыКошельковИСчетов</enums>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвиженияДенежныхСредств</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиДоходов</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
