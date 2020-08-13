@@ -61,9 +61,11 @@
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
-  <documents>Document.ПланированиеРасходов</documents>
+  <documents>Document.ПланированиеДоходовРасходов</documents>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоДомашние</chartsOfCharacteristicTypes>
+  <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
-  <chartsOfAccounts>ChartOfAccounts.Домашний</chartsOfAccounts>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиДоходов</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

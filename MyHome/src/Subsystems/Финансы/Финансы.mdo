@@ -10,6 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделФинансы16</picture>
   </picture>
-  <content>Document.ПланированиеРасходов</content>
-  <content>ChartOfAccounts.Домашний</content>
+  <content>Document.ПланированиеДоходовРасходов</content>
 </mdclass:Subsystem>

@@ -437,10 +437,10 @@
        ПланированиеРасходов.ОбязательныеРасходы.*, 
        ПланированиеРасходов.МоментВремени
  ИЗ 
-       Документ.ПланированиеРасходов
+       Документ.ПланированиеДоходовРасходов
  КАК 
        ПланированиеРасходов</queryText>
-      <mainTable>Document.ПланированиеРасходов</mainTable>
+      <mainTable>Document.ПланированиеДоходовРасходов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
