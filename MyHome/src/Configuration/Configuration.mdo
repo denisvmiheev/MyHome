@@ -47,22 +47,22 @@
   <commonPictures>CommonPicture.Спорт16</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
-  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <commonForms>CommonForm.ВыборСтандартногоПериодаМесяц</commonForms>
+  <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
