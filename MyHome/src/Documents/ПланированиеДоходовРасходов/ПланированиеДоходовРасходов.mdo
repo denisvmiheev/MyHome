@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e86dee2-8afd-49d9-94b7-2b9a868b914e">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e86dee2-8afd-49d9-94b7-2b9a868b914e">
   <producedTypes>
     <objectType typeId="fb561545-6632-4384-b888-5184d0c388a1" valueTypeId="e5b1aaea-a271-4698-ac50-f59915b8adeb"/>
     <refType typeId="7d1af64f-e0e5-4e41-af00-8f6fa853026b" valueTypeId="13f59fe4-fb93-4e4b-a2af-d579bd5b9210"/>
@@ -26,8 +26,8 @@
   <defaultObjectForm>Document.ПланированиеДоходовРасходов.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПланированиеДоходовРасходов.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ДоходыРасходы</registerRecords>
-  <registerRecords>AccumulationRegister.Доходы</registerRecords>
   <registerRecords>AccumulationRegister.Расходы</registerRecords>
+  <registerRecords>AccumulationRegister.Доходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="da0865d6-9ca3-451a-9620-53dbac4568fe">
@@ -50,6 +50,9 @@
       <key>ru</key>
       <value>ДФ='MMMM yyyy'</value>
     </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -65,6 +68,9 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -77,6 +83,9 @@
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -89,6 +98,9 @@
     <type>
       <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -129,6 +141,8 @@
       <type>
         <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -142,6 +156,8 @@
       <type>
         <types>Characteristic.СтатьиРасходов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <linkByType>
         <field>Document.ПланированиеДоходовРасходов.TabularSection.ОбязательныеРасходы.Attribute.СтатьяРасходов</field>
       </linkByType>
@@ -157,6 +173,8 @@
       <type>
         <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -173,6 +191,8 @@
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -185,6 +205,8 @@
       <type>
         <types>CatalogRef.КошелькиИСчета</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -209,6 +231,8 @@
       <type>
         <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -222,6 +246,8 @@
       <type>
         <types>Characteristic.СтатьиДоходов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <linkByType>
         <field>Document.ПланированиеДоходовРасходов.TabularSection.Доходы.Attribute.СтатьяДоходов</field>
       </linkByType>
@@ -237,6 +263,8 @@
       <type>
         <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -253,6 +281,8 @@
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -265,6 +295,8 @@
       <type>
         <types>CatalogRef.КошелькиИСчета</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
