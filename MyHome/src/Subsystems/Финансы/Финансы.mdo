@@ -14,4 +14,5 @@
   <content>DataProcessor.ЗагрузкаБанковскихВыписок</content>
   <content>Document.РегистрацияРасходов</content>
   <content>Document.ПланированиеДоходовРасходов</content>
+  <content>Catalog.МестаРасхода</content>
 </mdclass:Subsystem>

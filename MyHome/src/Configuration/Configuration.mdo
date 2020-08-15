@@ -67,12 +67,15 @@
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
   <catalogs>Catalog.КошелькиИСчета</catalogs>
+  <catalogs>Catalog.МестаРасхода</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
   <documents>Document.ПланированиеДоходовРасходов</documents>
   <documents>Document.РегистрацияРасходов</documents>
   <enums>Enum.ТипыКошельковИСчетов</enums>
   <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
+  <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
+  <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>

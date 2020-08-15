@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="825d5f14-ca83-4349-b051-8ea4a9a1b9a3">
+  <producedTypes>
+    <objectType typeId="ff9855bd-d98b-43f4-b829-cbaf164d5831" valueTypeId="0b5e7f9a-1e03-4285-acf4-17cea82f30dd"/>
+    <refType typeId="bcca454e-befd-4c94-bfa8-856a76371fcd" valueTypeId="53089472-8234-4363-aeb2-396c652dd409"/>
+    <selectionType typeId="a8cb79e9-5e60-4d07-b1a9-2bdf2ec3cb3d" valueTypeId="83111eb8-bb73-445a-8f6f-bd1bf8548df7"/>
+    <listType typeId="bd5d10fe-9a58-4f33-8ef1-9c50277add17" valueTypeId="3ade259b-bb07-4052-9f9c-648ecf80e495"/>
+    <managerType typeId="52334c43-d4ef-4c68-bb4d-c293b0e0fe9c" valueTypeId="5a754834-f0ef-4474-8deb-f0e81bdfa15c"/>
+  </producedTypes>
+  <name>МестаРасхода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места расхода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаРасхода.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МестаРасхода.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

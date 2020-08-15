@@ -21,12 +21,18 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <type>
+    <types>CatalogRef.МестаРасхода</types>
     <types>CatalogRef.Пользователи</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
   </type>
+  <hierarchical>true</hierarchical>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>

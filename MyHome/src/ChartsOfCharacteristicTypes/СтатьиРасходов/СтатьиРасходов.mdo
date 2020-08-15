@@ -23,14 +23,16 @@
   <type>
     <types>String</types>
     <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.МестаРасхода</types>
     <stringQualifiers>
       <length>10</length>
     </stringQualifiers>
   </type>
+  <hierarchical>true</hierarchical>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
