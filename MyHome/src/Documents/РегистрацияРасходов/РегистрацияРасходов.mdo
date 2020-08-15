@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РегистрацияРасходов.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ДоходыРасходы</registerRecords>
   <registerRecords>AccumulationRegister.Расходы</registerRecords>
   <registerRecords>AccumulationRegister.ДвиженияДенежныхСредств</registerRecords>
@@ -61,6 +62,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="6b22e064-483c-46ee-85c0-04f43ec213b2">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="dbae6bfd-4f3c-486d-b248-215afa563e90">
     <producedTypes>
       <objectType typeId="3b2b1b01-fa9e-4947-9c1b-ef170f244b1d" valueTypeId="be50ea97-62fc-4933-b69d-67f9965a4c6d"/>
@@ -146,6 +156,22 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bbcec6eb-878d-4faa-8e31-bf9be4799447">
+      <name>ДатаРасхода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата расхода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

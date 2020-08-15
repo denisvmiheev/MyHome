@@ -10,7 +10,8 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделФинансы16</picture>
   </picture>
-  <content>Document.ПланированиеДоходовРасходов</content>
   <content>Catalog.КошелькиИСчета</content>
   <content>DataProcessor.ЗагрузкаБанковскихВыписок</content>
+  <content>Document.РегистрацияРасходов</content>
+  <content>Document.ПланированиеДоходовРасходов</content>
 </mdclass:Subsystem>
