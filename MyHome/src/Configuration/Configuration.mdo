@@ -53,6 +53,12 @@
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
@@ -65,6 +71,8 @@
   <documents>Document.ПланированиеДоходовРасходов</documents>
   <documents>Document.РегистрацияРасходов</documents>
   <enums>Enum.ТипыКошельковИСчетов</enums>
+  <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
+  <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
