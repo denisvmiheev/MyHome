@@ -144,6 +144,93 @@
       </fillValue>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="6d2ad00c-cf6f-4e62-8f75-25aec8f91b0a">
+    <producedTypes>
+      <objectType typeId="0cc61f0d-7ef9-4d82-b11d-cfe01321ac7a" valueTypeId="fbcc73af-1665-497b-9656-e71e7d5c273f"/>
+      <rowType typeId="934d5a30-e784-4241-bff8-c95e86993a69" valueTypeId="56395dcf-be31-45e5-ae79-0ff3da21b360"/>
+    </producedTypes>
+    <name>ТаблицаДляСозданияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица для создания документов</value>
+    </synonym>
+    <attributes uuid="a66318fd-8a67-4d2c-8fcc-283f84dcb345">
+      <name>Обрабатывать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обрабатывать</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </attributes>
+    <attributes uuid="3a64a1e7-8162-4b2d-bd51-9a52f04fd3b9">
+      <name>Кошелек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кошелек</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КошелькиИСчета</types>
+      </type>
+    </attributes>
+    <attributes uuid="2377a355-7dfc-477f-b13b-3b829c8ed06d">
+      <name>СтатьяДоходовРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья доходов расходов</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="ed0f7385-8832-4241-aa9c-2cf1ffac4546">
+      <name>АналитикаДоходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика доходов</value>
+      </synonym>
+      <type>
+        <types>Characteristic.СтатьиДоходов</types>
+      </type>
+    </attributes>
+    <attributes uuid="d27fad2b-736c-43e1-ad39-a865e9726277">
+      <name>АналитикаРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика расходов</value>
+      </synonym>
+      <type>
+        <types>Characteristic.СтатьиРасходов</types>
+      </type>
+    </attributes>
+    <attributes uuid="dfaaa9a7-c120-434f-8b35-f9755b9b892c">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
+      </type>
+    </attributes>
+    <attributes uuid="f6fccecf-a4c5-4625-9f4e-0c59ad676fa1">
+      <name>Содержание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Содержание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+    </attributes>
+  </tabularSections>
   <forms uuid="c6ada2a6-d422-4143-b9c7-54185b782b3e">
     <name>Форма</name>
     <synonym>

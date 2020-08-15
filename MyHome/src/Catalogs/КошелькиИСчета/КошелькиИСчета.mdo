@@ -176,6 +176,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e08a9e23-40c7-414a-a147-486319a99da4">
+    <name>ИдентификаторКошелька</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор кошелька</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="bbaaf3ed-3ae2-41a9-91ab-1f0828765136">
     <name>ФормаЭлемента</name>
     <synonym>
