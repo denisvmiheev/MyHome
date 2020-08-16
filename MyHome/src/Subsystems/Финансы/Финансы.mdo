@@ -15,4 +15,5 @@
   <content>Document.РегистрацияРасходов</content>
   <content>Document.ПланированиеДоходовРасходов</content>
   <content>Catalog.МестаРасхода</content>
+  <content>Document.ПеремещениеДенежныхСредств</content>
 </mdclass:Subsystem>
