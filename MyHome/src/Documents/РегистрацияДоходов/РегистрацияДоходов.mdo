@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1ccb34b-a397-4967-b71e-ffab9010c958">
+  <producedTypes>
+    <objectType typeId="88b0af2c-f96d-41ba-bb89-2bf57164948d" valueTypeId="eac81188-baae-40f7-b3a0-e57a6b094492"/>
+    <refType typeId="2847160b-a8e6-430b-9534-56cbb108b5eb" valueTypeId="b5726aab-94c1-4e3a-9f22-dc52186d399f"/>
+    <selectionType typeId="b18d2254-d47c-43da-87e9-592e570e9f55" valueTypeId="6b0244ec-243d-4293-9a1a-257194de0348"/>
+    <listType typeId="1a91bc7a-a134-41be-ae76-2c224f598ac0" valueTypeId="152b47c9-5656-4823-9173-22f084ba99dc"/>
+    <managerType typeId="1395485d-57f6-4293-af57-4be26bb4bc60" valueTypeId="df9c298c-d281-4158-b0bb-8560fecf8f1f"/>
+  </producedTypes>
+  <name>РегистрацияДоходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация доходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РегистрацияДоходов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДоходыРасходы</registerRecords>
+  <registerRecords>AccumulationRegister.ДвиженияДенежныхСредств</registerRecords>
+  <registerRecords>AccumulationRegister.Доходы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="676c6d59-b072-48ae-882b-49d2763a7579">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e53b362-b35a-4fb6-b10d-a1337ce733d0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="bfe6e923-fd62-4f87-9245-f103bc10d5fc">
+    <producedTypes>
+      <objectType typeId="414ec543-eb96-4f6d-8d0b-aa16969569eb" valueTypeId="fd62faa3-3ead-412e-8e2b-faa56a6fb03b"/>
+      <rowType typeId="c78c6388-2b4d-426c-81d6-82ec24b1b407" valueTypeId="2ea08ba7-0c64-4e2e-b299-e289dc0525c5"/>
+    </producedTypes>
+    <name>Доходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы</value>
+    </synonym>
+    <attributes uuid="8b840a3c-82c6-4824-82d2-11a498b8f200">
+      <name>ИсточникОплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник оплаты</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КошелькиИСчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cdd79d3e-e6ca-415c-80d1-a8df6b28e1a8">
+      <name>СтатьяДоходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья доходов</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5632157e-762f-439e-9615-c1e6cdab7db5">
+      <name>АналитикаДоходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика доходов</value>
+      </synonym>
+      <type>
+        <types>Characteristic.СтатьиДоходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <linkByType>
+        <field>Document.РегистрацияДоходов.TabularSection.Доходы.Attribute.СтатьяДоходов</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f69932c2-5d44-4dfc-a72e-94081580f168">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d3ecddb-da77-41db-bc92-868cfa98ac7f">
+      <name>Содержание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Содержание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="124322fb-f59b-4efa-b93f-1bc8bea0dd86">
+      <name>ДатаОперации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата операции</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -72,6 +72,7 @@
   <documents>Document.ПланированиеДоходовРасходов</documents>
   <documents>Document.РегистрацияРасходов</documents>
   <documents>Document.ПеремещениеДенежныхСредств</documents>
+  <documents>Document.РегистрацияДоходов</documents>
   <enums>Enum.ТипыКошельковИСчетов</enums>
   <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
   <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
