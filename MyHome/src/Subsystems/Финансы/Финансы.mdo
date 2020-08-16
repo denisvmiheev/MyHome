@@ -17,4 +17,5 @@
   <content>Catalog.МестаРасхода</content>
   <content>Document.ПеремещениеДенежныхСредств</content>
   <content>Document.РегистрацияДоходов</content>
+  <content>Report.АнализРасходов</content>
 </mdclass:Subsystem>

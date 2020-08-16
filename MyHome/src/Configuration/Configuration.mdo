@@ -76,6 +76,7 @@
   <enums>Enum.ТипыКошельковИСчетов</enums>
   <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
   <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
+  <reports>Report.АнализРасходов</reports>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
