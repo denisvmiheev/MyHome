@@ -62,7 +62,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="6b22e064-483c-46ee-85c0-04f43ec213b2">
+  <forms uuid="fd17f0df-b6a2-48b6-a41c-adf5b3b18858">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -82,10 +82,10 @@
       <value>Расходы</value>
     </synonym>
     <attributes uuid="2b863f0a-5935-447d-a18e-8f92cbabc1fe">
-      <name>ИсточникОплаты</name>
+      <name>Кошелек</name>
       <synonym>
         <key>ru</key>
-        <value>Источник оплаты</value>
+        <value>Кошелек</value>
       </synonym>
       <type>
         <types>CatalogRef.КошелькиИСчета</types>
@@ -160,10 +160,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="bbcec6eb-878d-4faa-8e31-bf9be4799447">
-      <name>ДатаРасхода</name>
+      <name>ДатаОперации</name>
       <synonym>
         <key>ru</key>
-        <value>Дата расхода</value>
+        <value>Дата операции</value>
       </synonym>
       <type>
         <types>Date</types>
