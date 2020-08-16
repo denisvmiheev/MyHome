@@ -53,6 +53,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </resources>
+  <resources uuid="a106861d-b47f-40b1-9aaa-3fdd65e92914">
+    <name>КошелекКор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелек кор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КошелькиИСчета</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
   <dimensions uuid="9d315fb0-d95a-435e-af82-598e0621f372">
     <name>Категория</name>
     <synonym>

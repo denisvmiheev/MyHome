@@ -307,6 +307,16 @@
       <fillChecking>ShowError</fillChecking>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="75403049-ce63-4dfd-adf6-c6852df2a6d9">
+      <name>КошелекКор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кошелек кор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КошелькиИСчета</types>
+      </type>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="c3ad3aaf-f8b7-46cd-a73a-a828590fde13">
     <producedTypes>
@@ -325,11 +335,9 @@
         <value>Документ</value>
       </synonym>
       <type>
-        <types>String</types>
         <types>DocumentRef.РегистрацияРасходов</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <types>DocumentRef.ПеремещениеДенежныхСредств</types>
+        <types>DocumentRef.РегистрацияДоходов</types>
       </type>
     </attributes>
   </tabularSections>
