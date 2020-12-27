@@ -173,12 +173,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДанныеВыписки.LineNumber</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДанныеВыписки.НомерСтроки</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -229,10 +225,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДанныеВыписки.ДатаОперации</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДанныеВыписки.ДатаОперации</segments>
             </paths>
@@ -285,10 +277,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДанныеВыписки.ИдентификаторКарты</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДанныеВыписки.ИдентификаторКарты</segments>
             </paths>
@@ -341,10 +329,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДанныеВыписки.СуммаПлатежа</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДанныеВыписки.СуммаПлатежа</segments>
             </paths>
@@ -397,10 +381,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДанныеВыписки.Категория</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДанныеВыписки.Категория</segments>
             </paths>
@@ -453,10 +433,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДанныеВыписки.МСС</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДанныеВыписки.МСС</segments>
             </paths>
@@ -509,10 +485,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДанныеВыписки.Описание</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДанныеВыписки.Описание</segments>
             </paths>
@@ -724,6 +696,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -779,12 +752,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.LineNumber</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.НомерСтроки</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -834,8 +803,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТаблицаДляСозданияДокументов.ВидДвижения</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.ТаблицаДляСозданияДокументов.ВидДвижения</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТаблицаДляСозданияДокументовВидДвиженияРасширеннаяПодсказка</name>
@@ -885,10 +856,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.Обрабатывать</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.Обрабатывать</segments>
             </paths>
@@ -934,8 +901,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТаблицаДляСозданияДокументов.ДатаОперации</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.ТаблицаДляСозданияДокументов.ДатаОперации</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТаблицаДляСозданияДокументовДатаОперацииРасширеннаяПодсказка</name>
@@ -985,10 +954,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.Кошелек</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.Кошелек</segments>
             </paths>
@@ -1040,8 +1005,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТаблицаДляСозданияДокументов.КошелекКор</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.ТаблицаДляСозданияДокументов.КошелекКор</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТаблицаДляСозданияДокументовКошелекКорРасширеннаяПодсказка</name>
@@ -1091,10 +1058,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.СтатьяДоходовРасходов</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.СтатьяДоходовРасходов</segments>
             </paths>
@@ -1147,10 +1110,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.АналитикаДоходов</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.АналитикаДоходов</segments>
             </paths>
@@ -1203,10 +1162,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.АналитикаРасходов</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.АналитикаРасходов</segments>
             </paths>
@@ -1259,10 +1214,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.Сумма</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.Сумма</segments>
             </paths>
@@ -1315,10 +1266,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаДляСозданияДокументов.Содержание</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ТаблицаДляСозданияДокументов.Содержание</segments>
             </paths>
@@ -1594,6 +1541,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <items xsi:type="form:FormField">
         <name>СохранитьСоответствия</name>
@@ -1603,8 +1551,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.СохранитьСоответствия</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.СохранитьСоответствия</segments>
+          </paths>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTip>
@@ -1698,12 +1648,8 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
             <paths xsi:type="form:DataPath">
               <segments>Объект.СозданныеДокументы.LineNumber</segments>
-            </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.СозданныеДокументы.НомерСтроки</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -1754,10 +1700,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <activeLanguage>1</activeLanguage>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.СозданныеДокументы.Документ</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.СозданныеДокументы.Документ</segments>
             </paths>
@@ -1969,6 +1911,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2138,13 +2081,13 @@
       <common>true</common>
     </edit>
     <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.ФайлДляЗагрузки</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ВариантЗагрузки</segments>
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.СохранитьСоответствия</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Объект.ФайлДляЗагрузки</segments>
     </settingsSavedData>
     <main>true</main>
   </attributes>
@@ -2213,9 +2156,7 @@
       <value>Кэшированные значения</value>
     </title>
     <id>6</id>
-    <valueType>
-      <types>Arbitrary</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

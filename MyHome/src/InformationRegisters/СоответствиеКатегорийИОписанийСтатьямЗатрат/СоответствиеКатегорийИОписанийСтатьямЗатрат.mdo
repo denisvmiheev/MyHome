@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b69ea8b-0ed4-4be4-8d86-8756396ab346">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b69ea8b-0ed4-4be4-8d86-8756396ab346">
   <producedTypes>
     <selectionType typeId="4fc289f8-19a7-42c4-919e-b49d41a4da4c" valueTypeId="bb734dc3-392d-4b98-83d9-52644d5c3a3e"/>
     <listType typeId="09ac69e9-bd55-44ad-a9ac-8a512ba1a4ba" valueTypeId="4dec0ea7-097f-45e9-a45f-8e8856054795"/>
@@ -26,8 +26,11 @@
       <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
       <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="83071578-3530-42cf-a399-6a11f54b0451">
     <name>АналитикаДоходов</name>
@@ -38,8 +41,11 @@
     <type>
       <types>Characteristic.СтатьиДоходов</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="918c21f1-f677-4674-bb06-bf7c2c955bbe">
     <name>АналитикаРасходов</name>
@@ -50,8 +56,11 @@
     <type>
       <types>Characteristic.СтатьиРасходов</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="a106861d-b47f-40b1-9aaa-3fdd65e92914">
     <name>КошелекКор</name>
@@ -62,8 +71,11 @@
     <type>
       <types>CatalogRef.КошелькиИСчета</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="9d315fb0-d95a-435e-af82-598e0621f372">
     <name>Категория</name>
@@ -77,8 +89,13 @@
         <length>250</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="c5db7be6-538e-4b41-b531-cea70995602f">
@@ -93,8 +110,13 @@
         <length>250</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

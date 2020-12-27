@@ -21,9 +21,9 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <type>
-    <types>CatalogRef.МестаРасхода</types>
-    <types>CatalogRef.Пользователи</types>
     <types>String</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.МестаРасхода</types>
     <stringQualifiers>
       <length>10</length>
     </stringQualifiers>

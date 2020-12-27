@@ -45,6 +45,8 @@
         <length>500</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <dimensions uuid="7b7c53e7-ecbb-4aac-806e-3afcc816e344">

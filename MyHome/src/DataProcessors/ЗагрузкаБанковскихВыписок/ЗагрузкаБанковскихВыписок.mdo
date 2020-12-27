@@ -47,6 +47,8 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <tabularSections uuid="8554f86e-86a0-4854-9630-9d71323ef889">
     <producedTypes>
@@ -119,6 +121,9 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
     <attributes uuid="7d94287a-c34e-4140-891d-f15711f27bae">
       <name>МСС</name>
@@ -150,6 +155,9 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
   </tabularSections>
   <tabularSections uuid="6d2ad00c-cf6f-4e62-8f75-25aec8f91b0a">
@@ -171,6 +179,9 @@
       <type>
         <types>Boolean</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="3a64a1e7-8162-4b2d-bd51-9a52f04fd3b9">
       <name>Кошелек</name>
@@ -181,7 +192,10 @@
       <type>
         <types>CatalogRef.КошелькиИСчета</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="2377a355-7dfc-477f-b13b-3b829c8ed06d">
       <name>СтатьяДоходовРасходов</name>
@@ -190,14 +204,19 @@
         <value>Статья доходов расходов</value>
       </synonym>
       <type>
-        <types>String</types>
         <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
         <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+        <types>String</types>
         <stringQualifiers>
           <length>10</length>
         </stringQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
     <attributes uuid="ed0f7385-8832-4241-aa9c-2cf1ffac4546">
       <name>АналитикаДоходов</name>
@@ -208,9 +227,12 @@
       <type>
         <types>Characteristic.СтатьиДоходов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <linkByType>
         <field>DataProcessor.ЗагрузкаБанковскихВыписок.TabularSection.ТаблицаДляСозданияДокументов.Attribute.СтатьяДоходовРасходов</field>
       </linkByType>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="d27fad2b-736c-43e1-ad39-a865e9726277">
       <name>АналитикаРасходов</name>
@@ -221,9 +243,12 @@
       <type>
         <types>Characteristic.СтатьиРасходов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <linkByType>
         <field>DataProcessor.ЗагрузкаБанковскихВыписок.TabularSection.ТаблицаДляСозданияДокументов.Attribute.СтатьяДоходовРасходов</field>
       </linkByType>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="dfaaa9a7-c120-434f-8b35-f9755b9b892c">
       <name>Сумма</name>
@@ -234,7 +259,10 @@
       <type>
         <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="f6fccecf-a4c5-4625-9f4e-0c59ad676fa1">
       <name>Содержание</name>
@@ -248,6 +276,11 @@
           <length>500</length>
         </stringQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
     <attributes uuid="9f586561-08d4-4c67-9a6a-70e65d20fa95">
       <name>ВидДвижения</name>
@@ -258,7 +291,10 @@
       <type>
         <types>EnumRef.ВидыДвиженийДенежныхСредств</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="2c1a98ee-4eb0-4ad0-8608-85eb7ab61427">
       <name>Категория</name>
@@ -274,6 +310,9 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
     <attributes uuid="e78fff7d-997d-4024-b049-90b2f079a97f">
       <name>Описание</name>
@@ -289,6 +328,9 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
     <attributes uuid="a2d967e7-d249-40a0-bc52-2ecd5564ba8d">
       <name>ДатаОперации</name>
@@ -316,6 +358,9 @@
       <type>
         <types>CatalogRef.КошелькиИСчета</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <tabularSections uuid="c3ad3aaf-f8b7-46cd-a73a-a828590fde13">
@@ -335,10 +380,13 @@
         <value>Документ</value>
       </synonym>
       <type>
+        <types>DocumentRef.РегистрацияДоходов</types>
         <types>DocumentRef.РегистрацияРасходов</types>
         <types>DocumentRef.ПеремещениеДенежныхСредств</types>
-        <types>DocumentRef.РегистрацияДоходов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="c6ada2a6-d422-4143-b9c7-54185b782b3e">

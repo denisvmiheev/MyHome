@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="167b5731-67f2-466e-a081-4341355e45ee">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="167b5731-67f2-466e-a081-4341355e45ee">
   <producedTypes>
     <objectType typeId="6b38e83b-093a-4f6a-ade0-a8b6b249c2e3" valueTypeId="65c1700b-8a1f-43da-976c-8752393ea8ae"/>
     <refType typeId="fbd405eb-f33e-461e-9181-817706c7876a" valueTypeId="cf2c0308-fd52-4d14-8667-5eb909f8ed22"/>
@@ -37,6 +37,11 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -49,6 +54,9 @@
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -81,6 +89,8 @@
       <type>
         <types>CatalogRef.КошелькиИСчета</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -94,6 +104,8 @@
       <type>
         <types>CatalogRef.КошелькиИСчета</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -106,6 +118,8 @@
       <type>
         <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -122,6 +136,8 @@
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
