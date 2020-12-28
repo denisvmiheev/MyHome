@@ -38,6 +38,7 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Спорт</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
+  <subsystems>Subsystem.Учет</subsystems>
   <commonPictures>CommonPicture.РазделАдминистрирование16</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
   <commonPictures>CommonPicture.РазделБюджетированиеИПланирование16</commonPictures>
@@ -46,6 +47,8 @@
   <commonPictures>CommonPicture.РазделФинансы16</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.Спорт16</commonPictures>
+  <commonPictures>CommonPicture.РазделРегламентированныйУчет16</commonPictures>
+  <commonPictures>CommonPicture.РегламентированныйУчет</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
@@ -59,6 +62,8 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.СобытияФорм</commonModules>
+  <commonModules>CommonModule.СобытияФормВызовСервера</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
@@ -69,18 +74,22 @@
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
   <catalogs>Catalog.КошелькиИСчета</catalogs>
   <catalogs>Catalog.МестаРасхода</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
   <documents>Document.ПланированиеДоходовРасходов</documents>
   <documents>Document.РегистрацияРасходов</documents>
   <documents>Document.ПеремещениеДенежныхСредств</documents>
   <documents>Document.РегистрацияДоходов</documents>
   <documents>Document.ВводОстатков</documents>
+  <documents>Document.Гарантия</documents>
   <enums>Enum.ТипыКошельковИСчетов</enums>
   <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
   <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
   <reports>Report.АнализРасходов</reports>
+  <reports>Report.ГарантийныеСроки</reports>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
+  <informationRegisters>InformationRegister.Гарантия</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
