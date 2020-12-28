@@ -352,7 +352,7 @@
             <name>ГруппаКолонка1</name>
             <id>170</id>
             <items xsi:type="form:FormField">
-              <name>ДоходыКошелек1</name>
+              <name>ДоходыКошелекТекущиеДанные</name>
               <id>148</id>
               <title>
                 <key>ru</key>
@@ -369,7 +369,7 @@
                 </paths>
               </dataPath>
               <extendedTooltip>
-                <name>ДоходыКошелек1РасширеннаяПодсказка</name>
+                <name>ДоходыКошелекТекущиеДанныеРасширеннаяПодсказка</name>
                 <id>150</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -384,7 +384,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДоходыКошелек1КонтекстноеМеню</name>
+                <name>ДоходыКошелекТекущиеДанныеКонтекстноеМеню</name>
                 <id>149</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -408,7 +408,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ДоходыСтатьяДоходов1</name>
+              <name>ДоходыСтатьяДоходовТекущиеДанные</name>
               <id>151</id>
               <title>
                 <key>ru</key>
@@ -424,8 +424,12 @@
                   <segments>Объект.Доходы[0].СтатьяДоходов</segments>
                 </paths>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ДоходыСтатьяДоходовТекущиеДанныеПриИзменении</name>
+              </handlers>
               <extendedTooltip>
-                <name>ДоходыСтатьяДоходов1РасширеннаяПодсказка</name>
+                <name>ДоходыСтатьяДоходовТекущиеДанныеРасширеннаяПодсказка</name>
                 <id>153</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -440,7 +444,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДоходыСтатьяДоходов1КонтекстноеМеню</name>
+                <name>ДоходыСтатьяДоходовТекущиеДанныеКонтекстноеМеню</name>
                 <id>152</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -455,6 +459,10 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <handlers>
+                  <event>ChoiceProcessing</event>
+                  <name>ДоходыСтатьяДоходовТекущиеДанныеОбработкаВыбора</name>
+                </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -464,7 +472,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ДоходыАналитикаДоходов1</name>
+              <name>ДоходыАналитикаДоходовТекущиеДанные</name>
               <id>154</id>
               <title>
                 <key>ru</key>
@@ -481,7 +489,7 @@
                 </paths>
               </dataPath>
               <extendedTooltip>
-                <name>ДоходыАналитикаДоходов1РасширеннаяПодсказка</name>
+                <name>ДоходыАналитикаДоходовТекущиеДанныеРасширеннаяПодсказка</name>
                 <id>156</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -496,7 +504,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДоходыАналитикаДоходов1КонтекстноеМеню</name>
+                <name>ДоходыАналитикаДоходовТекущиеДанныеКонтекстноеМеню</name>
                 <id>155</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -517,6 +525,11 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <typeLink>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>Items.Доходы.CurrentData.СтатьяДоходов</segments>
+                  </datapath>
+                </typeLink>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -1510,6 +1523,23 @@
     <id>2</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КэшированныеЗначения</name>
+    <title>
+      <key>ru</key>
+      <value>Кэшированные значения</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>Arbitrary</types>
     </valueType>
     <view>
       <common>true</common>

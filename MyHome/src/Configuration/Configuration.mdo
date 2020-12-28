@@ -59,6 +59,8 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.СобытияФорм</commonModules>
+  <commonModules>CommonModule.СобытияФормВызовСервера</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
