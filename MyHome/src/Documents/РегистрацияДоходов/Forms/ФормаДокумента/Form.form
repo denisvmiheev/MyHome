@@ -459,10 +459,6 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <handlers>
-                  <event>ChoiceProcessing</event>
-                  <name>ДоходыСтатьяДоходовТекущиеДанныеОбработкаВыбора</name>
-                </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
