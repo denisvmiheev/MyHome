@@ -64,17 +64,23 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.СобытияФорм</commonModules>
   <commonModules>CommonModule.СобытияФормВызовСервера</commonModules>
+  <commonModules>CommonModule.ПрисоединенныеФайлыВызовСервера</commonModules>
+  <commonModules>CommonModule.ПрисоединенныеФайлыКлиент</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.ВладелецФайлов</definedTypes>
+  <commonCommands>CommonCommand.ПрисоединенныеФайлыКОбъекту</commonCommands>
   <commonForms>CommonForm.ВыборСтандартногоПериодаМесяц</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
+  <commonForms>CommonForm.ПрисоединенныеФайлы</commonForms>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
   <catalogs>Catalog.КошелькиИСчета</catalogs>
   <catalogs>Catalog.МестаРасхода</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ГарантияПрисоединенныеФайлы</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
   <documents>Document.ПланированиеДоходовРасходов</documents>
   <documents>Document.РегистрацияРасходов</documents>
