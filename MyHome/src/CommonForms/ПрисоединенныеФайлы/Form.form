@@ -12,6 +12,9 @@
       <segments>Список</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <excludedCommands>Create</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>SearchEverywhere</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СписокНаименование</name>
@@ -74,6 +77,9 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Расширение</segments>
+        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Список.Расширение</segments>
         </paths>
@@ -163,12 +169,12 @@
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
     <handlers>
-      <event>Selection</event>
-      <name>СписокВыбор</name>
-    </handlers>
-    <handlers>
       <event>BeforeAddRow</event>
       <name>СписокПередНачаломДобавления</name>
+    </handlers>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокВыбор</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -332,11 +338,6 @@
     <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
-      <period>
-        <startDate>0001-01-01T00:00:00</startDate>
-        <endDate>0001-01-01T00:00:00</endDate>
-      </period>
-      <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
     </extInfo>
   </items>
