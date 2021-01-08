@@ -357,8 +357,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Перемещения[0].КошелекОткуда</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.Перемещения[0].КошелекОткуда</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ПеремещенияКошелекОткуда1РасширеннаяПодсказка</name>
@@ -411,8 +413,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Перемещения[0].КошелекКуда</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.Перемещения[0].КошелекКуда</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ПеремещенияКошелекКуда1РасширеннаяПодсказка</name>
