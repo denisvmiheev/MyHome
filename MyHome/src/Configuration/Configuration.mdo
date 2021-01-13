@@ -18,19 +18,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.Администратор</defaultRoles>
   <requiredMobileApplicationPermissions>
-    <permission>AllowOSBackup</permission>
-    <use>true</use>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Camera</permission>
-    <use>true</use>
-    <description>
-      <key>ru</key>
-      <value></value>
-    </description>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>FileExchangeWithPersonalComputer</permission>
+    <permission>PushNotification</permission>
     <use>true</use>
   </requiredMobileApplicationPermissions>
   <requiredMobileApplicationPermissions>
@@ -38,7 +26,19 @@
     <use>true</use>
   </requiredMobileApplicationPermissions>
   <requiredMobileApplicationPermissions>
-    <permission>PushNotification</permission>
+    <permission>FileExchangeWithPersonalComputer</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>Camera</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>InstallPackages</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
     <use>true</use>
   </requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
