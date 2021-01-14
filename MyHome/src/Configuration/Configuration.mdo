@@ -115,6 +115,7 @@
   <reports>Report.АнализРасходов</reports>
   <reports>Report.ГарантийныеСроки</reports>
   <reports>Report.БюджетДоходовРасходов</reports>
+  <reports>Report.АнализДвиженийДенежныхСредств</reports>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
