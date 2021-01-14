@@ -602,6 +602,10 @@
               </paths>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>НовыйРасходСтатьяРасходовПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>НовыйРасходСтатьяРасходовРасширеннаяПодсказка</name>
               <id>48</id>
@@ -1100,6 +1104,21 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КэшированныеЗначения</name>
+    <title>
+      <key>ru</key>
+      <value>Кэшированные значения</value>
+    </title>
+    <id>9</id>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

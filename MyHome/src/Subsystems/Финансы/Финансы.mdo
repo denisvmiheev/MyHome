@@ -19,6 +19,7 @@
   <content>Document.РегистрацияДоходов</content>
   <content>Report.АнализРасходов</content>
   <content>Document.ВводОстатков</content>
+  <content>Report.БюджетДоходовРасходов</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
 </mdclass:Subsystem>
