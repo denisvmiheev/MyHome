@@ -10,7 +10,6 @@
 			<item xsi:type="FilterItemComparison">
 				<left xsi:type="dcscor:Field">ТекущийОстаток</left>
 				<comparisonType>Less</comparisonType>
-				<right xsi:nil="true"/>
 			</item>
 		</filter>
 		<appearance>
@@ -30,7 +29,6 @@
 			<item xsi:type="FilterItemComparison">
 				<left xsi:type="dcscor:Field">ТекущийОстаток</left>
 				<comparisonType>GreaterOrEqual</comparisonType>
-				<right xsi:nil="true"/>
 			</item>
 		</filter>
 		<appearance>

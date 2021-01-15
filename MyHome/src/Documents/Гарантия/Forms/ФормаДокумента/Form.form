@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаШапка</name>
     <id>1</id>
@@ -155,8 +155,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Ответственный</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Ответственный</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -351,8 +353,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Товары[0].Номенклатура</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.Товары[0].Номенклатура</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураОднаОперацияРасширеннаяПодсказка</name>
@@ -404,8 +408,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Товары[0].ДатаПокупки</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.Товары[0].ДатаПокупки</segments>
+              </paths>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -462,8 +468,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Товары[0].ГарантияМес</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.Товары[0].ГарантияМес</segments>
+              </paths>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -564,8 +572,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Товары[0].ГарантийныйСрок</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.Товары[0].ГарантийныйСрок</segments>
+              </paths>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -699,12 +709,8 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
               <paths xsi:type="form:DataPath">
                 <segments>Объект.Товары.LineNumber</segments>
-              </paths>
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.НомерСтроки</segments>
               </paths>
             </dataPath>
             <extendedTooltip>
@@ -755,10 +761,6 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.Номенклатура</segments>
-              </paths>
               <paths xsi:type="form:DataPath">
                 <segments>Объект.Товары.Номенклатура</segments>
               </paths>
@@ -811,10 +813,6 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ДатаПокупки</segments>
-              </paths>
               <paths xsi:type="form:DataPath">
                 <segments>Объект.Товары.ДатаПокупки</segments>
               </paths>
@@ -871,10 +869,6 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ГарантийныйСрок</segments>
-              </paths>
               <paths xsi:type="form:DataPath">
                 <segments>Объект.Товары.ГарантийныйСрок</segments>
               </paths>
@@ -931,10 +925,6 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
-              <activeLanguage>1</activeLanguage>
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ГарантияМес</segments>
-              </paths>
               <paths xsi:type="form:DataPath">
                 <segments>Объект.Товары.ГарантияМес</segments>
               </paths>
@@ -1149,6 +1139,7 @@
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <fileDragMode>AsFileRef</fileDragMode>
+          <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1283,10 +1274,8 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Движения</segments>
-      </paths>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>

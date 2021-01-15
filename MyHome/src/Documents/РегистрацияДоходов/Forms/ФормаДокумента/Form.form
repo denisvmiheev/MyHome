@@ -1534,9 +1534,7 @@
       <value>Кэшированные значения</value>
     </title>
     <id>3</id>
-    <valueType>
-      <types>Arbitrary</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

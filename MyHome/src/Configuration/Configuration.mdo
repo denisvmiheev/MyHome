@@ -18,6 +18,26 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.Администратор</defaultRoles>
   <requiredMobileApplicationPermissions>
+    <permission>PushNotification</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>Print</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>FileExchangeWithPersonalComputer</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>Camera</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>InstallPackages</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
     <use>true</use>
   </requiredMobileApplicationPermissions>
@@ -66,6 +86,7 @@
   <commonModules>CommonModule.СобытияФормВызовСервера</commonModules>
   <commonModules>CommonModule.ПрисоединенныеФайлыВызовСервера</commonModules>
   <commonModules>CommonModule.ПрисоединенныеФайлыКлиент</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
@@ -93,7 +114,10 @@
   <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
   <reports>Report.АнализРасходов</reports>
   <reports>Report.ГарантийныеСроки</reports>
+  <reports>Report.БюджетДоходовРасходов</reports>
+  <reports>Report.АнализДвиженийДенежныхСредств</reports>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
+  <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <informationRegisters>InformationRegister.Гарантия</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>

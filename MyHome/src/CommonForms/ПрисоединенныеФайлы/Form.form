@@ -12,9 +12,7 @@
       <segments>Список</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Create</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>SearchEverywhere</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СписокНаименование</name>
       <id>40</id>
@@ -23,8 +21,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Наименование</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Наименование</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокНаименованиеРасширеннаяПодсказка</name>
@@ -74,10 +74,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Расширение</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Список.Расширение</segments>
         </paths>
@@ -159,6 +155,36 @@
         <toolTipRepresentation>None</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:Button">
+        <name>СписокУдалитьФайл</name>
+        <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокУдалитьФайлРасширеннаяПодсказка</name>
+          <id>44</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.УдалитьФайл</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -167,12 +193,16 @@
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
     <handlers>
+      <event>Selection</event>
+      <name>СписокВыбор</name>
+    </handlers>
+    <handlers>
       <event>BeforeAddRow</event>
       <name>СписокПередНачаломДобавления</name>
     </handlers>
     <handlers>
-      <event>Selection</event>
-      <name>СписокВыбор</name>
+      <event>BeforeDeleteRow</event>
+      <name>СписокПередУдалением</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -336,6 +366,11 @@
     <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
     </extInfo>
   </items>
@@ -453,6 +488,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ДобавитьФайл</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УдалитьФайл</name>
+    <title>
+      <key>ru</key>
+      <value>Удалить</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалитьФайл</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

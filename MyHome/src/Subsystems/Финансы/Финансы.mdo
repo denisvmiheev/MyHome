@@ -6,6 +6,11 @@
     <value>Финансы</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделФинансы16</picture>
@@ -19,6 +24,8 @@
   <content>Document.РегистрацияДоходов</content>
   <content>Report.АнализРасходов</content>
   <content>Document.ВводОстатков</content>
+  <content>Report.БюджетДоходовРасходов</content>
+  <content>Report.АнализДвиженийДенежныхСредств</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
 </mdclass:Subsystem>
