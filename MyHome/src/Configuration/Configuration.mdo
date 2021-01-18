@@ -87,6 +87,10 @@
   <commonModules>CommonModule.ПрисоединенныеФайлыВызовСервера</commonModules>
   <commonModules>CommonModule.ПрисоединенныеФайлыКлиент</commonModules>
   <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
+  <commonModules>CommonModule.АвтоплатежиСервер</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
@@ -102,6 +106,7 @@
   <catalogs>Catalog.МестаРасхода</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ГарантияПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Автоплатежи</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
   <documents>Document.ПланированиеДоходовРасходов</documents>
   <documents>Document.РегистрацияРасходов</documents>
