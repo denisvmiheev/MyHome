@@ -27,6 +27,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Автоплатежи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Автоплатежи.Form.ФормаСписка</defaultListForm>
   <attributes uuid="77b7c058-4182-457a-91d1-ad8dd38cddfb">
     <name>ВидПлатежа</name>
     <synonym>
@@ -147,6 +148,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="598315b5-f28c-4c69-8576-1f33d7962771">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
