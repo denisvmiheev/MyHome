@@ -123,6 +123,7 @@
   <reports>Report.АнализДвиженийДенежныхСредств</reports>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <informationRegisters>InformationRegister.Гарантия</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
