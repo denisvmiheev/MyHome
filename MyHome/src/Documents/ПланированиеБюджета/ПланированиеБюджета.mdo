@@ -7,13 +7,13 @@
     <listType typeId="ca5bc9dc-8707-43ad-a9ed-214adf95539b" valueTypeId="f02b3681-6ad3-440d-aa8b-eb81ee4398b8"/>
     <managerType typeId="3b0aa343-5d6e-473d-8561-906ac6afcab5" valueTypeId="99df7ae6-dc58-4c92-9b83-da8d74ba4577"/>
   </producedTypes>
-  <name>ПланированиеДоходовРасходов</name>
+  <name>ПланированиеБюджета</name>
   <synonym>
     <key>ru</key>
-    <value>Планирование доходов расходов</value>
+    <value>Планирование бюджета</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПланированиеДоходовРасходов.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ПланированиеБюджета.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,11 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПланированиеДоходовРасходов.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.ПланированиеДоходовРасходов.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.ДоходыРасходы</registerRecords>
-  <registerRecords>AccumulationRegister.Расходы</registerRecords>
-  <registerRecords>AccumulationRegister.Доходы</registerRecords>
+  <defaultObjectForm>Document.ПланированиеБюджета.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПланированиеБюджета.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="da0865d6-9ca3-451a-9620-53dbac4568fe">
@@ -104,6 +101,30 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="24008c1c-2e2b-4624-b524-c32d9b58f7bf">
+    <name>СуммаРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма расход</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb596f00-3823-43ec-90b4-d225166452ec">
+    <name>СуммаНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма накопления</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="57a44322-f83a-41d5-88a2-3fb48d694138">
     <name>ФормаДокумента</name>
     <synonym>
@@ -113,7 +134,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="b54d8cd1-7284-4eff-88fe-1950ffa64c2d">
+  <forms uuid="50b501e4-6809-4ff2-95b9-5fc66916986a">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -122,96 +143,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="ab97b6a6-dc19-4c04-9b15-4f5e637faadb">
-    <producedTypes>
-      <objectType typeId="53807681-6d7e-413b-834f-7d3676de13be" valueTypeId="7312a2ea-2fd1-44df-ad3c-07bffbd4e6d0"/>
-      <rowType typeId="7875b8d6-bcad-4eec-9613-abdafea20dc0" valueTypeId="c0d39baa-b6a9-45e5-997c-401b6e74b17e"/>
-    </producedTypes>
-    <name>ОбязательныеРасходы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Обязательные расходы</value>
-    </synonym>
-    <attributes uuid="2be7006f-51ff-4f51-ab9c-da0bba28c36e">
-      <name>СтатьяРасходов</name>
-      <synonym>
-        <key>ru</key>
-        <value>Статья расходов</value>
-      </synonym>
-      <type>
-        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="44030436-aba0-4937-8ab1-3a453b564cbd">
-      <name>АналитикаРасходов</name>
-      <synonym>
-        <key>ru</key>
-        <value>Аналитика</value>
-      </synonym>
-      <type>
-        <types>Characteristic.СтатьиРасходов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <linkByType>
-        <field>Document.ПланированиеДоходовРасходов.TabularSection.ОбязательныеРасходы.Attribute.СтатьяРасходов</field>
-      </linkByType>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="79fd884a-53ae-4204-b7f0-9f7707021f84">
-      <name>Сумма</name>
-      <synonym>
-        <key>ru</key>
-        <value>Сумма</value>
-      </synonym>
-      <type>
-        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="577bafe1-394c-4023-88b3-a5ff8f2933a7">
-      <name>ДатаРасхода</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата расхода</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="b2f24f72-a5fa-4631-8cc2-7ccc6d599bd9">
-      <name>Кошелек</name>
-      <synonym>
-        <key>ru</key>
-        <value>Кошелек</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.КошелькиИСчета</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
   <tabularSections uuid="68df4d5c-9ace-4a94-a2aa-4bcac5fd99fa">
     <producedTypes>
       <objectType typeId="9e22d436-a808-4f4f-b9eb-af39e7b1f2d2" valueTypeId="9289e8cc-572b-41b9-8ccd-79e6ec5e933f"/>
@@ -237,23 +168,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="315871be-91b6-4167-9a44-9eefeec305aa">
-      <name>АналитикаДоходов</name>
-      <synonym>
-        <key>ru</key>
-        <value>Аналитика доходов</value>
-      </synonym>
-      <type>
-        <types>Characteristic.СтатьиДоходов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <linkByType>
-        <field>Document.ПланированиеДоходовРасходов.TabularSection.Доходы.Attribute.СтатьяДоходов</field>
-      </linkByType>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="c7527562-193e-43e6-b42b-9f464b99ef1b">
       <name>Сумма</name>
       <synonym>
@@ -269,31 +183,40 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e1e9bde8-3eee-4a02-b6ed-68bb763f1a23">
-      <name>ДатаДохода</name>
+  </tabularSections>
+  <tabularSections uuid="ddd01b7a-f9a6-4513-bec4-116f3017363d">
+    <producedTypes>
+      <objectType typeId="737bfc26-6910-4058-823b-abf9bde791e1" valueTypeId="5b44b636-411f-4ba3-8940-6aa6af4abf28"/>
+      <rowType typeId="bb88de0a-ec19-4845-a6d6-3f81fc76a98d" valueTypeId="96d60dde-c4b4-42da-ac64-454118f53360"/>
+    </producedTypes>
+    <name>Расходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы</value>
+    </synonym>
+    <attributes uuid="2a590ed7-5f5d-4b9f-8705-3087c30aa7b7">
+      <name>СтатьяРасходов</name>
       <synonym>
         <key>ru</key>
-        <value>Дата дохода</value>
+        <value>Статья расходов</value>
       </synonym>
       <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e3312c9e-b414-4552-a4b5-1ed4115d2907">
-      <name>Кошелек</name>
+    <attributes uuid="b27f1811-642b-44a5-8fcd-619f1fd2072d">
+      <name>Сумма</name>
       <synonym>
         <key>ru</key>
-        <value>Кошелек</value>
+        <value>Сумма</value>
       </synonym>
       <type>
-        <types>CatalogRef.КошелькиИСчета</types>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

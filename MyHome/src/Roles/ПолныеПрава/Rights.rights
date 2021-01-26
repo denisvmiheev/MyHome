@@ -296,7 +296,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПланированиеДоходовРасходов</name>
+		<name>Document.ПланированиеБюджета</name>
 		<right>
 			<name>Delete</name>
 			<value>false</value>
