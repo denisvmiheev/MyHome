@@ -128,7 +128,6 @@
   <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <informationRegisters>InformationRegister.Гарантия</informationRegisters>
-  <informationRegisters>InformationRegister.ИнтерфейсыПользователей</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
