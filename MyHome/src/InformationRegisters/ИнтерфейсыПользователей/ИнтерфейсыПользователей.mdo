@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bc04473-a4d9-4181-aea9-8b9d56fe3689">
+  <producedTypes>
+    <selectionType typeId="7a4f808c-2330-4ada-b452-73aa47e27b67" valueTypeId="a1001d7e-a3b5-4c10-b232-256b4931150e"/>
+    <listType typeId="b60855ed-3078-4365-8acb-d40102afc33b" valueTypeId="0dad27bd-8a74-48b1-85f8-8f1f420f2c6e"/>
+    <managerType typeId="64df53ce-74bb-4c35-8414-f193a1fa2586" valueTypeId="a6a72785-144b-4c93-972c-37cb4f4ed65e"/>
+    <recordSetType typeId="a45dca00-7701-47dd-8e86-15c196ae1641" valueTypeId="805fc98d-e6d6-47f8-93d1-58ca9804e54a"/>
+    <recordKeyType typeId="609b1294-cc8c-4a06-8033-80a2aa5adce1" valueTypeId="f9a4592c-52bf-4ff4-ac52-326f09c5dca1"/>
+    <recordType typeId="73a91815-8765-451d-8ab3-88e04df05e9c" valueTypeId="95c3cfa4-ddd3-4a8d-a262-11a5561514c5"/>
+    <recordManagerType typeId="9ba35484-c393-47c5-907d-766696c0777b" valueTypeId="2d22989c-bb7a-4238-9544-dab224f58b90"/>
+  </producedTypes>
+  <name>ИнтерфейсыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейсы пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="55451e71-b88e-4107-af85-f399a2355f92">
+    <name>ИспользуетсяМобильныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется мобильный клиент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="d3fb2632-6b52-4a54-9d91-9adafc4d0eb1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

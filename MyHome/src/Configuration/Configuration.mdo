@@ -59,6 +59,8 @@
   <subsystems>Subsystem.Спорт</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.Учет</subsystems>
+  <styleItems>StyleItem.ЦветОтрицательнаяСумма</styleItems>
+  <styleItems>StyleItem.ЦветПоложительнаяСумма</styleItems>
   <commonPictures>CommonPicture.РазделАдминистрирование16</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
   <commonPictures>CommonPicture.РазделБюджетированиеИПланирование16</commonPictures>
@@ -126,6 +128,7 @@
   <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <informationRegisters>InformationRegister.Гарантия</informationRegisters>
+  <informationRegisters>InformationRegister.ИнтерфейсыПользователей</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>

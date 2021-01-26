@@ -196,6 +196,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b87694da-9ddf-4942-9da1-436e5d4d0f4a">
+    <name>ОтображатьОстатокНаРабочемСтоле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать остаток на рабочем столе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="bbaaf3ed-3ae2-41a9-91ab-1f0828765136">
     <name>ФормаЭлемента</name>
     <synonym>
