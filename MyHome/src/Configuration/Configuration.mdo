@@ -73,6 +73,7 @@
   <commonPictures>CommonPicture.РегламентированныйУчет</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
+  <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
