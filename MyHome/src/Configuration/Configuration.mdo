@@ -61,6 +61,7 @@
   <subsystems>Subsystem.Учет</subsystems>
   <styleItems>StyleItem.ЦветОтрицательнаяСумма</styleItems>
   <styleItems>StyleItem.ЦветПоложительнаяСумма</styleItems>
+  <styleItems>StyleItem.ЦветФонаГруппыИндикатора</styleItems>
   <commonPictures>CommonPicture.РазделАдминистрирование16</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
   <commonPictures>CommonPicture.РазделБюджетированиеИПланирование16</commonPictures>
@@ -94,11 +95,13 @@
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьПланированиеБюджета</functionalOptions>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.ВладелецФайлов</definedTypes>
   <commonCommands>CommonCommand.ПрисоединенныеФайлыКОбъекту</commonCommands>
+  <constants>Constant.ИспользоватьПланированиеБюджета</constants>
   <commonForms>CommonForm.ВыборСтандартногоПериодаМесяц</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ПрисоединенныеФайлы</commonForms>
@@ -111,7 +114,7 @@
   <catalogs>Catalog.ГарантияПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Автоплатежи</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
-  <documents>Document.ПланированиеДоходовРасходов</documents>
+  <documents>Document.ПланированиеБюджета</documents>
   <documents>Document.РегистрацияРасходов</documents>
   <documents>Document.ПеремещениеДенежныхСредств</documents>
   <documents>Document.РегистрацияДоходов</documents>

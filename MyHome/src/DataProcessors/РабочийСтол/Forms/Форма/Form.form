@@ -99,6 +99,9 @@
                 <group>AlwaysHorizontal</group>
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
+                <backColor xsi:type="core:ColorRef">
+                  <color>Style.ЦветФонаГруппыИндикатора</color>
+                </backColor>
                 <throughAlign>Auto</throughAlign>
                 <currentRowUse>Auto</currentRowUse>
               </extInfo>
@@ -221,10 +224,8 @@
               <group>Vertical</group>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
-              <backColor xsi:type="core:ColorDef">
-                <red>193</red>
-                <green>204</green>
-                <blue>198</blue>
+              <backColor xsi:type="core:ColorRef">
+                <color>Style.ЦветФонаГруппыИндикатора</color>
               </backColor>
               <throughAlign>Auto</throughAlign>
               <currentRowUse>Auto</currentRowUse>
@@ -665,6 +666,9 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
+          <backColor xsi:type="core:ColorRef">
+            <color>Style.ЦветФонаГруппыИндикатора</color>
+          </backColor>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
@@ -780,10 +784,8 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
-            <backColor xsi:type="core:ColorDef">
-              <red>221</red>
-              <green>235</green>
-              <blue>249</blue>
+            <backColor xsi:type="core:ColorRef">
+              <color>Style.ЦветФонаГруппыИндикатора</color>
             </backColor>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>

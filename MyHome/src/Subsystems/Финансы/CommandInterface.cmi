@@ -18,7 +18,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ПланированиеДоходовРасходов.StandardCommand.OpenList</command>
+      <command>Document.ПланированиеБюджета.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
