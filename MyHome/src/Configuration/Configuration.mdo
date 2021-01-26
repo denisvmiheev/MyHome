@@ -61,6 +61,7 @@
   <subsystems>Subsystem.Учет</subsystems>
   <styleItems>StyleItem.ЦветОтрицательнаяСумма</styleItems>
   <styleItems>StyleItem.ЦветПоложительнаяСумма</styleItems>
+  <styleItems>StyleItem.ЦветФонаГруппыИндикатора</styleItems>
   <commonPictures>CommonPicture.РазделАдминистрирование16</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
   <commonPictures>CommonPicture.РазделБюджетированиеИПланирование16</commonPictures>
