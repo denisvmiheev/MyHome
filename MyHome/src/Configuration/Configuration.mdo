@@ -72,6 +72,7 @@
   <commonPictures>CommonPicture.Спорт16</commonPictures>
   <commonPictures>CommonPicture.РазделРегламентированныйУчет16</commonPictures>
   <commonPictures>CommonPicture.РегламентированныйУчет</commonPictures>
+  <commonPictures>CommonPicture.Камера48</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.ПолныеПрава</roles>
@@ -94,6 +95,9 @@
   <commonModules>CommonModule.АвтоплатежиСервер</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиПовтИсп</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.СканированиеКлиент</commonModules>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПланированиеБюджета</functionalOptions>
   <definedTypes>DefinedType.Калорийность</definedTypes>
@@ -102,6 +106,7 @@
   <definedTypes>DefinedType.ВладелецФайлов</definedTypes>
   <commonCommands>CommonCommand.ПрисоединенныеФайлыКОбъекту</commonCommands>
   <constants>Constant.ИспользоватьПланированиеБюджета</constants>
+  <constants>Constant.СистемаПроверкиЧеков</constants>
   <commonForms>CommonForm.ВыборСтандартногоПериодаМесяц</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ПрисоединенныеФайлы</commonForms>
@@ -113,6 +118,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ГарантияПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Автоплатежи</catalogs>
+  <catalogs>Catalog.ВнешниеСистемы</catalogs>
   <documents>Document.РегистрацияФизическихУпражений</documents>
   <documents>Document.ПланированиеБюджета</documents>
   <documents>Document.РегистрацияРасходов</documents>

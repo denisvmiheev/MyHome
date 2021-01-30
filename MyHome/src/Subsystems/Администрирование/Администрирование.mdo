@@ -12,4 +12,5 @@
   </picture>
   <content>Catalog.Пользователи</content>
   <content>DataProcessor.КонсольЗаданий</content>
+  <content>Catalog.ВнешниеСистемы</content>
 </mdclass:Subsystem>

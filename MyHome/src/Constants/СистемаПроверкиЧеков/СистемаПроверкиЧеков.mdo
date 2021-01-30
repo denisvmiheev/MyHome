@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d6cda81-7f63-4752-b69a-889ad5714090">
+  <producedTypes>
+    <managerType typeId="c279c704-993a-4cad-89f0-a3ef4386105b" valueTypeId="a4ae9c49-8139-4547-bb85-f7cf12d47653"/>
+    <valueManagerType typeId="873805f1-a8a8-4d05-9e56-6e9654acdd96" valueTypeId="8a78b3b1-8e2f-4495-8fa9-5ea107763e82"/>
+    <valueKeyType typeId="485c06c6-eabf-49d9-b1aa-33bac27fea9d" valueTypeId="8344f011-98cb-4aec-be82-c1a276a78e1f"/>
+  </producedTypes>
+  <name>СистемаПроверкиЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система проверки чеков</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВнешниеСистемы</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
