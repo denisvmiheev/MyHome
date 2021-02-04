@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПланированиеБюджета.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПланированиеБюджета.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ПланированиеБюджета</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="da0865d6-9ca3-451a-9620-53dbac4568fe">
@@ -118,6 +119,18 @@
     <synonym>
       <key>ru</key>
       <value>Сумма накопления</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="209050e8-3ce4-49be-a3d4-33e400c8bb3c">
+    <name>СуммаБюджетНаДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма бюджет на день</value>
     </synonym>
     <type>
       <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>

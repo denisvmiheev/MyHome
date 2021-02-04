@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88270f23-5b33-4b98-bacf-6bdd08b8f30c">
+  <producedTypes>
+    <objectType typeId="f6d12dd1-868a-480b-8730-8f7e8b7d2f48" valueTypeId="0c36c474-0a8b-429b-9201-e4c605f2f35d"/>
+    <managerType typeId="c69c811a-6bde-4b6c-a9fc-0467b2c72e39" valueTypeId="1e0d8d1f-0502-47b4-ab05-9be697a922fd"/>
+  </producedTypes>
+  <name>ПланированиеБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование бюджета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПланированиеБюджета.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0de8f4e5-4612-465f-8aec-c943663a164b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

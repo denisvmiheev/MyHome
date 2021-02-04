@@ -1418,13 +1418,17 @@
         <items xsi:type="form:FormField">
           <name>СуммаБюджетНаДень</name>
           <id>130</id>
+          <title>
+            <key>ru</key>
+            <value>Средний бюджет на день</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>СуммаБюджетНаДень</segments>
+            <segments>Объект.СуммаБюджетНаДень</segments>
           </dataPath>
           <extendedTooltip>
             <name>СуммаБюджетНаДеньРасширеннаяПодсказка</name>
@@ -1621,23 +1625,6 @@
       <stringQualifiers>
         <length>20</length>
       </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СуммаБюджетНаДень</name>
-    <title>
-      <key>ru</key>
-      <value>Бюджет на день</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
     </valueType>
     <view>
       <common>true</common>
