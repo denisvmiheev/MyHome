@@ -26,6 +26,8 @@
   <content>Document.ВводОстатков</content>
   <content>Report.БюджетДоходовРасходов</content>
   <content>Report.АнализДвиженийДенежныхСредств</content>
+  <content>Report.ПланированиеБюджета</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
+  <subsystems>Планирование</subsystems>
 </mdclass:Subsystem>

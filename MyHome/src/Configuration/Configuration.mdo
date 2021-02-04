@@ -133,6 +133,7 @@
   <reports>Report.ГарантийныеСроки</reports>
   <reports>Report.БюджетДоходовРасходов</reports>
   <reports>Report.АнализДвиженийДенежныхСредств</reports>
+  <reports>Report.ПланированиеБюджета</reports>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
@@ -143,6 +144,7 @@
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияДенежныхСредств</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПланированиеБюджета</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиДоходов</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

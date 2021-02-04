@@ -8,4 +8,7 @@
   <location>Constant.ИспользоватьПланированиеБюджета</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Document.ПланированиеБюджета</content>
+  <content>AccumulationRegister.ПланированиеБюджета</content>
+  <content>Report.ПланированиеБюджета</content>
+  <content>Subsystem.Финансы.Subsystem.Планирование</content>
 </mdclass:FunctionalOption>
