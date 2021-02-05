@@ -126,6 +126,7 @@
   <documents>Document.РегистрацияДоходов</documents>
   <documents>Document.ВводОстатков</documents>
   <documents>Document.Гарантия</documents>
+  <documents>Document.ВозвратРасходов</documents>
   <enums>Enum.ТипыКошельковИСчетов</enums>
   <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
   <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
