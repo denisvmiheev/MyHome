@@ -76,6 +76,13 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.АвтоплатежиСервер</commonModules>
+  <commonModules>CommonModule.ПрисоединенныеФайлыВызовСервера</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПрисоединенныеФайлыКлиент</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиПовтИсп</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
@@ -84,20 +91,15 @@
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.СканированиеКлиент</commonModules>
+  <commonModules>CommonModule.СобытияФорм</commonModules>
+  <commonModules>CommonModule.СобытияФормВызовСервера</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.СобытияФорм</commonModules>
-  <commonModules>CommonModule.СобытияФормВызовСервера</commonModules>
-  <commonModules>CommonModule.ПрисоединенныеФайлыВызовСервера</commonModules>
-  <commonModules>CommonModule.ПрисоединенныеФайлыКлиент</commonModules>
-  <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
-  <commonModules>CommonModule.АвтоплатежиСервер</commonModules>
-  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
-  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
-  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиПовтИсп</commonModules>
-  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиКлиентСервер</commonModules>
-  <commonModules>CommonModule.СканированиеКлиент</commonModules>
+  <commonModules>CommonModule.ПланированиеБюджетаСервер</commonModules>
+  <commonModules>CommonModule.СКДВызовСервера</commonModules>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПланированиеБюджета</functionalOptions>
   <definedTypes>DefinedType.Калорийность</definedTypes>
@@ -110,42 +112,43 @@
   <commonForms>CommonForm.ВыборСтандартногоПериодаМесяц</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ПрисоединенныеФайлы</commonForms>
+  <catalogs>Catalog.Автоплатежи</catalogs>
+  <catalogs>Catalog.КошелькиИСчета</catalogs>
+  <catalogs>Catalog.ВнешниеСистемы</catalogs>
+  <catalogs>Catalog.МестаРасхода</catalogs>
+  <catalogs>Catalog.ГарантияПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ФизическиеУпражнения</catalogs>
-  <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
-  <catalogs>Catalog.КошелькиИСчета</catalogs>
-  <catalogs>Catalog.МестаРасхода</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.ГарантияПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Автоплатежи</catalogs>
-  <catalogs>Catalog.ВнешниеСистемы</catalogs>
-  <documents>Document.РегистрацияФизическихУпражений</documents>
-  <documents>Document.ПланированиеБюджета</documents>
-  <documents>Document.РегистрацияРасходов</documents>
-  <documents>Document.ПеремещениеДенежныхСредств</documents>
-  <documents>Document.РегистрацияДоходов</documents>
   <documents>Document.ВводОстатков</documents>
-  <documents>Document.Гарантия</documents>
+  <documents>Document.ПеремещениеДенежныхСредств</documents>
   <documents>Document.ВозвратРасходов</documents>
+  <documents>Document.Гарантия</documents>
+  <documents>Document.ПланированиеБюджета</documents>
+  <documents>Document.РегистрацияДоходов</documents>
+  <documents>Document.РегистрацияРасходов</documents>
+  <documents>Document.РегистрацияФизическихУпражений</documents>
   <enums>Enum.ТипыКошельковИСчетов</enums>
   <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
   <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
+  <reports>Report.АнализДвиженийДенежныхСредств</reports>
+  <reports>Report.БюджетДоходовРасходов</reports>
   <reports>Report.АнализРасходов</reports>
   <reports>Report.ГарантийныеСроки</reports>
-  <reports>Report.БюджетДоходовРасходов</reports>
-  <reports>Report.АнализДвиженийДенежныхСредств</reports>
   <reports>Report.ПланированиеБюджета</reports>
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
-  <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
+  <dataProcessors>DataProcessor.НастройкиПрограммы</dataProcessors>
   <informationRegisters>InformationRegister.Гарантия</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
+  <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияДенежныхСредств</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПланированиеБюджета</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиДоходов</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

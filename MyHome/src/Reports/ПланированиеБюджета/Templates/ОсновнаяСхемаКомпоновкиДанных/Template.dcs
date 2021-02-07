@@ -143,11 +143,11 @@
 	План.Регистратор КАК Регистратор,
 	План.СтатьяДоходовРасходов КАК СтатьяДоходовРасходов,
 	План.СуммаПриход КАК ДоходПлан,
-	План.СуммаРасход КАК РасходПлан,
+	План.СуммаРасход + План.СуммаБюджетНаДеньПриход КАК РасходПлан,
 	План.ПериодДень КАК ПериодДень,
 	План.ПериодМесяц КАК ПериодМесяц,
 	План.ПериодГод КАК ПериодГод,
-	План.СуммаБюджетНаДеньПриход КАК БюджетНаДеньПлан,
+	План.СуммаБюджетНаДеньПриход + План.СуммаРасход КАК БюджетНаДеньПлан,
 	0 КАК БюджетНаДеньФакт,
 	0 КАК ДоходФакт,
 	0 КАК РасходФакт
@@ -455,6 +455,19 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
 					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общий баланс месяца (с учетом плановых расходов)</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
