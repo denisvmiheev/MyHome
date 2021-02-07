@@ -11,6 +11,16 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.РабочийСтол.Form.Форма</defaultForm>
+  <attributes uuid="8cfc66ce-9685-44cd-92d3-489a2ea4c88f">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+  </attributes>
   <forms uuid="69c8a80d-1cd1-476c-86d9-96046063e2d2">
     <name>Форма</name>
     <synonym>
