@@ -140,6 +140,7 @@
   <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
   <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкиПрограммы</dataProcessors>
   <informationRegisters>InformationRegister.Гарантия</informationRegisters>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияДенежныхСредств</accumulationRegisters>
