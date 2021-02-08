@@ -100,6 +100,8 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ПланированиеБюджетаСервер</commonModules>
   <commonModules>CommonModule.СКДВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбработчикиСобытийДокументов</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПланированиеБюджета</functionalOptions>
   <definedTypes>DefinedType.Калорийность</definedTypes>
