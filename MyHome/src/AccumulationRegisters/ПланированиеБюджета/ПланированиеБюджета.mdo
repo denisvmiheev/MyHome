@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04f491f7-b9fe-41a0-b50d-0515d3963e6a">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04f491f7-b9fe-41a0-b50d-0515d3963e6a">
   <producedTypes>
     <selectionType typeId="feeb0b67-9709-44f8-9b2b-7976701fcbb6" valueTypeId="adbce71e-2e9d-4696-b606-9b97598852c0"/>
     <listType typeId="cd7b88a1-c129-477a-93aa-b797afc88fe1" valueTypeId="67f20bc8-c228-4b35-a066-a80a22078b2d"/>
@@ -25,6 +25,8 @@
     <type>
       <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="6ba02599-83da-4dca-98b2-0ac646bce9c2">
@@ -36,6 +38,8 @@
     <type>
       <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="f1cb7fe5-414c-4520-866a-3e3b6ec99b66">
@@ -48,6 +52,8 @@
       <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
       <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

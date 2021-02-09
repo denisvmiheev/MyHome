@@ -11,8 +11,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ПериодРасходов</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ПериодРасходов</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПериодРасходовРасширеннаяПодсказка</name>
@@ -139,10 +141,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоРасходов.Подобрать</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>ДеревоРасходов.Подобрать</segments>
         </paths>
@@ -196,8 +194,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ДеревоРасходов.ПредставлениеСтроки</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ДеревоРасходов.ПредставлениеСтроки</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоРасходовПредставлениеСтрокиРасширеннаяПодсказка</name>
@@ -247,10 +247,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоРасходов.Сумма</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>ДеревоРасходов.Сумма</segments>
         </paths>
@@ -504,12 +500,12 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

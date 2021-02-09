@@ -370,8 +370,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ОтображатьОстатокНаРабочемСтоле</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ОтображатьОстатокНаРабочемСтоле</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ОтображатьОстатокНаРабочемСтолеРасширеннаяПодсказка</name>

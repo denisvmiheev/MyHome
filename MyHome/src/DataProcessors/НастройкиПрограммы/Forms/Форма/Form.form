@@ -14,8 +14,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КонстантыДляНастройки.ИспользоватьПланированиеБюджета</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КонстантыДляНастройки.ИспользоватьПланированиеБюджета</segments>
+          </paths>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -93,8 +95,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КонстантыДляНастройки.СистемаПроверкиЧеков</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КонстантыДляНастройки.СистемаПроверкиЧеков</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КонстантыСистемаПроверкиЧековРасширеннаяПодсказка</name>
