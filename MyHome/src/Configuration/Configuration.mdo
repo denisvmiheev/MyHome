@@ -111,8 +111,13 @@
   <commonModules>CommonModule.СКДВызовСервера</commonModules>
   <commonModules>CommonModule.ОбработчикиСобытийДокументов</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыВызовСервера</commonModules>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПланированиеБюджета</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользуетсяПолнофункциональныйИнтерфейс</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользуетсяМобильныйИнтерфейс</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.ВариантИнтерфейса</functionalOptionsParameters>
   <definedTypes>DefinedType.Калорийность</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбойЗнак</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
@@ -154,6 +159,7 @@
   <dataProcessors>DataProcessor.НастройкиПрограммы</dataProcessors>
   <informationRegisters>InformationRegister.Гарантия</informationRegisters>
   <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеСеансовИнформационнойБазы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияДенежныхСредств</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>

@@ -11,7 +11,6 @@
       <lang>ru</lang>
     </pages>
   </help>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Спорт16</picture>
   </picture>
