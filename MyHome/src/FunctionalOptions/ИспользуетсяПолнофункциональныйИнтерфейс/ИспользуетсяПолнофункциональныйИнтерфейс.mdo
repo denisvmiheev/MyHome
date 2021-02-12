@@ -12,4 +12,6 @@
   <content>Subsystem.Финансы.Subsystem.Планирование</content>
   <content>DataProcessor.ЗагрузкаБанковскихВыписок</content>
   <content>Document.ВводОстатков</content>
+  <content>Subsystem.Финансы</content>
+  <content>Subsystem.Учет</content>
 </mdclass:FunctionalOption>

@@ -16,6 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfCharacteristicTypes.СтатьиДоходов.StandardAttribute.Code</inputByString>
   <inputByString>ChartOfCharacteristicTypes.СтатьиДоходов.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

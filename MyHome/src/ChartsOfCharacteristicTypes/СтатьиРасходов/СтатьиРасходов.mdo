@@ -16,6 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfCharacteristicTypes.СтатьиРасходов.StandardAttribute.Code</inputByString>
   <inputByString>ChartOfCharacteristicTypes.СтатьиРасходов.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

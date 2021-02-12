@@ -68,6 +68,7 @@
   <subsystems>Subsystem.Спорт</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.Учет</subsystems>
+  <subsystems>Subsystem.ФинансыМобильныйИнтерфейс</subsystems>
   <styleItems>StyleItem.ЦветОтрицательнаяСумма</styleItems>
   <styleItems>StyleItem.ЦветПоложительнаяСумма</styleItems>
   <styleItems>StyleItem.ЦветФонаГруппыИндикатора</styleItems>
@@ -83,6 +84,7 @@
   <commonPictures>CommonPicture.РегламентированныйУчет</commonPictures>
   <commonPictures>CommonPicture.Камера48</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.НомерСеанса</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.АвтоплатежиСервер</commonModules>
@@ -113,6 +115,8 @@
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыВызовСервера</commonModules>
+  <commonModules>CommonModule.ПользователиПовтИсп</commonModules>
+  <commonModules>CommonModule.МобильныйИнтерфейс</commonModules>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПланированиеБюджета</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользуетсяПолнофункциональныйИнтерфейс</functionalOptions>

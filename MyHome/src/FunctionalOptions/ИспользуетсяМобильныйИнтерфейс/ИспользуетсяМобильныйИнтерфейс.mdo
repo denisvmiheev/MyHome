@@ -7,4 +7,5 @@
   </synonym>
   <location>InformationRegister.ДанныеСеансовИнформационнойБазы.Resource.ИспользуетсяМобильныйИнтерфейс</location>
   <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ФинансыМобильныйИнтерфейс</content>
 </mdclass:FunctionalOption>
