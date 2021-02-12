@@ -18,6 +18,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Расход</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Расходы</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -92,6 +100,24 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d2552a5d-3252-4b36-bf98-19997d8a5236">
+    <name>ФормаДокументаМобильныйИнтерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа мобильный интерфейс</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="02196264-1b30-4a21-9ea8-453a67c0c10a">
+    <name>ФормаСпискаМобильныйИнтерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка мобильный интерфейс</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
