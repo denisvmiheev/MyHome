@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ВводОстатков.StandardCommand.OpenList</commands>
+      <commands>Document.ПеремещениеДенежныхСредств.StandardCommand.OpenList</commands>
+      <commands>Document.РегистрацияДоходов.StandardCommand.OpenList</commands>
+      <commands>Document.РегистрацияРасходов.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>
