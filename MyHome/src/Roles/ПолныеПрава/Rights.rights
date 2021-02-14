@@ -22,14 +22,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>MobileClient</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TechnicalSpecialistMode</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>CollaborationSystemInfoBaseRegistration</name>
 			<value>false</value>
 		</right>
@@ -261,6 +253,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВозвратРасходов</name>
+		<right>
+			<name>Delete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПоказателиФизическихУпражнений</name>
 		<right>
 			<name>Delete</name>
@@ -409,21 +416,6 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВозвратРасходов</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Delete</name>
 			<value>false</value>
 		</right>
 	</object>
