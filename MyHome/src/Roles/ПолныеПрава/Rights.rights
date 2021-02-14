@@ -22,34 +22,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>ActiveUsers</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EventLog</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>MobileClient</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ThickClient</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ExternalConnection</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Automation</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TechnicalSpecialistMode</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>CollaborationSystemInfoBaseRegistration</name>
 			<value>false</value>
 		</right>
@@ -277,6 +249,21 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВозвратРасходов</name>
+		<right>
+			<name>Delete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 	</object>

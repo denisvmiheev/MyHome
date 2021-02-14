@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.РегистрацияРасходов</content>
   <content>Document.РегистрацияДоходов</content>
+  <content>Document.ПеремещениеДенежныхСредств</content>
 </mdclass:Subsystem>
