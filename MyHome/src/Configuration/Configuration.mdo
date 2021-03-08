@@ -83,6 +83,7 @@
   <commonPictures>CommonPicture.РазделРегламентированныйУчет16</commonPictures>
   <commonPictures>CommonPicture.РегламентированныйУчет</commonPictures>
   <commonPictures>CommonPicture.Камера48</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьРасход</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.НомерСеанса</sessionParameters>
   <roles>Role.Администратор</roles>
