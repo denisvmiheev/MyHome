@@ -32,4 +32,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="f57c2e4c-fa11-4cfd-a3eb-859b9516b1bc">
+    <name>ДобавлениеРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление расхода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
