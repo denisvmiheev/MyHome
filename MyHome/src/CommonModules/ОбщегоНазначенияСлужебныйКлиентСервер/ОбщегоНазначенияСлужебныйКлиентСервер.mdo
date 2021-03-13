@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Общего назначения служебный клиент сервер</value>
   </synonym>
+  <comment>Клиентские и серверные процедуры общего назначения</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

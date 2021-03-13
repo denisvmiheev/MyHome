@@ -10,7 +10,11 @@
     <value>Планирование бюджета</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ПланированиеБюджета.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <templates uuid="0de8f4e5-4612-465f-8aec-c943663a164b">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

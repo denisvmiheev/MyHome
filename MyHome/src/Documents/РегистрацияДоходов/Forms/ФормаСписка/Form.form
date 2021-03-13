@@ -212,8 +212,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.СтатьяДоходов</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.СтатьяДоходов</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СтатьяДоходовРасширеннаяПодсказка</name>
@@ -266,8 +268,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.АналитикаДоходов</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.АналитикаДоходов</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>АналитикаДоходовРасширеннаяПодсказка</name>
@@ -316,8 +320,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ВнеплановыйДоход</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.ВнеплановыйДоход</segments>
+        </paths>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
