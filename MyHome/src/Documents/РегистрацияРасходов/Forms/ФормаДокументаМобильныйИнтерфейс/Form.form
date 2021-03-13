@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Table">
     <name>Расходы</name>
     <id>16</id>
@@ -12,14 +12,14 @@
       <segments>Объект.Расходы</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>OutputList</excludedCommands>
+    <excludedCommands>CancelSearch</excludedCommands>
     <excludedCommands>CopyToClipboard</excludedCommands>
+    <excludedCommands>EndEdit</excludedCommands>
+    <excludedCommands>Find</excludedCommands>
+    <excludedCommands>OutputList</excludedCommands>
     <excludedCommands>SelectAll</excludedCommands>
     <excludedCommands>ShowMultipleSelection</excludedCommands>
-    <excludedCommands>Find</excludedCommands>
-    <excludedCommands>CancelSearch</excludedCommands>
     <excludedCommands>ShowRowRearrangement</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
     <items xsi:type="form:FormField">
       <name>РасходыКошелек</name>
       <id>32</id>
@@ -29,8 +29,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Расходы.Кошелек</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Расходы.Кошелек</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>РасходыКошелекРасширеннаяПодсказка</name>
@@ -80,8 +82,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Расходы.СтатьяРасходов</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Расходы.СтатьяРасходов</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>РасходыСтатьяРасходовРасширеннаяПодсказка</name>
@@ -130,8 +134,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Расходы.АналитикаРасходов</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Расходы.АналитикаРасходов</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>РасходыАналитикаРасходовРасширеннаяПодсказка</name>
@@ -181,8 +187,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Расходы.Сумма</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Расходы.Сумма</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>РасходыСуммаРасширеннаяПодсказка</name>
@@ -231,8 +239,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Расходы.ДатаОперации</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Расходы.ДатаОперации</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>РасходыДатаОперацииРасширеннаяПодсказка</name>
@@ -317,7 +327,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>РасходыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -356,7 +365,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>РасходыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -395,7 +403,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>Расходы</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -446,6 +453,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
@@ -455,8 +463,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Комментарий</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
@@ -529,10 +539,8 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Движения</segments>
-      </paths>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>

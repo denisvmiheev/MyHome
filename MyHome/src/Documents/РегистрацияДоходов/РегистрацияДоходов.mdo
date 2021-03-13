@@ -33,10 +33,10 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РегистрацияДоходов.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РегистрацияДоходов.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ПланированиеБюджета</registerRecords>
   <registerRecords>AccumulationRegister.ДоходыРасходы</registerRecords>
   <registerRecords>AccumulationRegister.ДвиженияДенежныхСредств</registerRecords>
   <registerRecords>AccumulationRegister.Доходы</registerRecords>
-  <registerRecords>AccumulationRegister.ПланированиеБюджета</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="676c6d59-b072-48ae-882b-49d2763a7579">

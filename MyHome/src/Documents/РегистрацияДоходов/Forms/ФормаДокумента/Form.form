@@ -635,8 +635,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.Доходы[0].ВнеплановыйДоход</segments>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>Объект.Доходы[0].ВнеплановыйДоход</segments>
+                  </paths>
                 </dataPath>
                 <titleLocation>Right</titleLocation>
                 <toolTip>

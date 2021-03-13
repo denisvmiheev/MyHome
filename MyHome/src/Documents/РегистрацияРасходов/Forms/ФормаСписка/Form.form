@@ -204,8 +204,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.СтатьяРасходов</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.СтатьяРасходов</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СтатьяРасходовРасширеннаяПодсказка</name>
@@ -254,8 +256,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.АналитикаРасходов</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.АналитикаРасходов</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>АналитикаРасходовРасширеннаяПодсказка</name>

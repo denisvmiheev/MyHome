@@ -9,6 +9,6 @@
     <value>Владелец файлов</value>
   </synonym>
   <type>
-    <types>DocumentRef.Гарантия</types>
+    <types>CatalogRef.ПапкиФайлов</types>
   </type>
 </mdclass:DefinedType>
