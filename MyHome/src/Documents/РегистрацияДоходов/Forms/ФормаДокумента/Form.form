@@ -1637,6 +1637,10 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

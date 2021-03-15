@@ -19,7 +19,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <version>0.0.1.1</version>
+  <version>0.0.2.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -738,6 +738,8 @@
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтПодчиненного</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДатуЗапретаИзмененияПередУдалением</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
