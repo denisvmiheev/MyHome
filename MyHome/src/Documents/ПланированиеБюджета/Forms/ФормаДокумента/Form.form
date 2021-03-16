@@ -1724,6 +1724,10 @@
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
     </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

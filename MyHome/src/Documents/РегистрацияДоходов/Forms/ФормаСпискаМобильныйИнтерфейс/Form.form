@@ -57,9 +57,11 @@
       <items xsi:type="form:FormGroup">
         <name>ГруппаСтрока1</name>
         <id>33</id>
+        <displayImportance>VeryHigh</displayImportance>
         <items xsi:type="form:FormField">
           <name>Дата</name>
           <id>19</id>
+          <displayImportance>VeryHigh</displayImportance>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -108,6 +110,7 @@
         <items xsi:type="form:FormField">
           <name>Сумма</name>
           <id>28</id>
+          <displayImportance>VeryHigh</displayImportance>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -185,9 +188,11 @@
       <items xsi:type="form:FormGroup">
         <name>ГруппаСтрока2</name>
         <id>35</id>
+        <displayImportance>VeryHigh</displayImportance>
         <items xsi:type="form:FormField">
           <name>СтатьяДоходов</name>
           <id>39</id>
+          <displayImportance>VeryHigh</displayImportance>
           <title>
             <key>ru</key>
             <value>Статья</value>
@@ -244,6 +249,7 @@
         <items xsi:type="form:FormField">
           <name>АналитикаДоходов</name>
           <id>42</id>
+          <displayImportance>VeryHigh</displayImportance>
           <title>
             <key>ru</key>
             <value>Аналитика</value>
@@ -300,6 +306,7 @@
         <items xsi:type="form:FormField">
           <name>ВнеплановыйДоход</name>
           <id>45</id>
+          <displayImportance>VeryHigh</displayImportance>
           <title>
             <key>ru</key>
             <value>Вне плана</value>
@@ -378,10 +385,11 @@
       <items xsi:type="form:FormGroup">
         <name>ГруппаСтрока3</name>
         <id>37</id>
-        <displayImportance>Low</displayImportance>
+        <displayImportance>VeryLow</displayImportance>
         <items xsi:type="form:FormField">
           <name>Автор</name>
           <id>22</id>
+          <displayImportance>VeryLow</displayImportance>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -430,6 +438,7 @@
         <items xsi:type="form:FormField">
           <name>Комментарий</name>
           <id>25</id>
+          <displayImportance>VeryLow</displayImportance>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -711,6 +720,7 @@
     <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
+    <refreshRequest>PullFromTop</refreshRequest>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>

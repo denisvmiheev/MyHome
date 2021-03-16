@@ -102,7 +102,13 @@
     <value>Раздел дат запрета изменения</value>
   </objectPresentation>
   <type>
+    <types>DocumentRef.ВводОстатков</types>
     <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
+    <types>DocumentRef.ВозвратРасходов</types>
+    <types>DocumentRef.ПеремещениеДенежныхСредств</types>
+    <types>DocumentRef.ПланированиеБюджета</types>
+    <types>DocumentRef.РегистрацияДоходов</types>
+    <types>DocumentRef.РегистрацияРасходов</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -123,6 +129,21 @@
   <defaultObjectForm>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="6e3b4df1-f026-49a2-bcfb-2a218dc7daf9">
+    <name>УдалитьНоваяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая ссылка (Удалить)</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="0b322ee2-b018-4d00-8f05-62ee16e519ff">
     <name>ФормаЭлемента</name>
     <synonym>
