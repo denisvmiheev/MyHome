@@ -113,6 +113,7 @@
           <items xsi:type="form:FormField">
             <name>КошелекОткуда</name>
             <id>28</id>
+            <displayImportance>VeryHigh</displayImportance>
             <title>
               <key>ru</key>
               <value>Откуда</value>
@@ -249,6 +250,7 @@
           <items xsi:type="form:FormField">
             <name>КошелекКуда</name>
             <id>31</id>
+            <displayImportance>VeryHigh</displayImportance>
             <title>
               <key>ru</key>
               <value>Куда</value>
@@ -695,6 +697,8 @@
     <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
+    <refreshRequest>PullFromTop</refreshRequest>
+    <behaviorOnHorizontalCompression>HideItemsByImportance</behaviorOnHorizontalCompression>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
