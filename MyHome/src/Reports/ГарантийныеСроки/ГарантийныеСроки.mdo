@@ -10,7 +10,11 @@
     <value>Гарантийные сроки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ГарантийныеСроки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <templates uuid="aaae46b3-7d4b-4e4b-8aaa-6d8b0450a289">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

@@ -10,7 +10,11 @@
     <value>Анализ расходов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.АнализРасходов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <templates uuid="061b914b-0ee0-4eb7-996a-9ed12e40f2b1">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
