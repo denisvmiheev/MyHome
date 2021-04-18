@@ -11,5 +11,6 @@
   <content>Document.ПеремещениеДенежныхСредств</content>
   <content>Document.РегистрацияДоходов</content>
   <content>Document.ВводОстатков</content>
+  <content>Document.ВозвратРасходов</content>
   <parentSubsystem>Subsystem.Финансы</parentSubsystem>
 </mdclass:Subsystem>

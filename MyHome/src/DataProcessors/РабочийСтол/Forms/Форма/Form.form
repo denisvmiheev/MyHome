@@ -307,7 +307,7 @@
               <value>Группа расходы</value>
             </title>
             <width>35</width>
-            <height>12</height>
+            <height>14</height>
             <horizontalStretch>false</horizontalStretch>
             <verticalStretch>false</verticalStretch>
             <extendedTooltip>
@@ -752,7 +752,7 @@
               <value>Группа расходы</value>
             </title>
             <width>35</width>
-            <height>12</height>
+            <height>14</height>
             <horizontalStretch>false</horizontalStretch>
             <verticalStretch>false</verticalStretch>
             <extendedTooltip>
@@ -962,7 +962,7 @@
               <value>Группа расходы</value>
             </title>
             <width>35</width>
-            <height>12</height>
+            <height>14</height>
             <horizontalStretch>false</horizontalStretch>
             <verticalStretch>false</verticalStretch>
             <extendedTooltip>
@@ -1005,6 +1005,608 @@
           <extendedTooltip>
             <name>Контейнер02РасширеннаяПодсказка</name>
             <id>204</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>WeakSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияРазделитель3</name>
+          <id>387</id>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияРазделитель3РасширеннаяПодсказка</name>
+            <id>389</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияРазделитель3КонтекстноеМеню</name>
+            <id>388</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <maxHeight>1</maxHeight>
+          <horizontalStretch>false</horizontalStretch>
+          <verticalStretch>false</verticalStretch>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>Контейнер03</name>
+          <id>363</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаПланируемыеРасходы</name>
+            <id>380</id>
+            <items xsi:type="form:FormGroup">
+              <name>ГруппаПланируемыеРасходыОтступ</name>
+              <id>382</id>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Заголовок</name>
+                <id>390</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Заголовок</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_ЗаголовокРасширеннаяПодсказка</name>
+                  <id>392</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_ЗаголовокКонтекстноеМеню</name>
+                  <id>391</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Расход0</name>
+                <id>405</id>
+                <titleTextColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </titleTextColor>
+                <titleFont xsi:type="core:FontDef">
+                  <height>12.0</height>
+                </titleFont>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход0</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_Расход0РасширеннаяПодсказка</name>
+                  <id>407</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_Расход0КонтекстноеМеню</name>
+                  <id>406</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <horizontalAlign>Right</horizontalAlign>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <font xsi:type="core:FontDef">
+                    <height>12.0</height>
+                  </font>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Расход1</name>
+                <id>393</id>
+                <titleTextColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </titleTextColor>
+                <titleFont xsi:type="core:FontDef">
+                  <height>12.0</height>
+                </titleFont>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход1</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_Расход1РасширеннаяПодсказка</name>
+                  <id>395</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_Расход1КонтекстноеМеню</name>
+                  <id>394</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <horizontalAlign>Right</horizontalAlign>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <font xsi:type="core:FontDef">
+                    <height>12.0</height>
+                  </font>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Расход2</name>
+                <id>396</id>
+                <titleTextColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </titleTextColor>
+                <titleFont xsi:type="core:FontDef">
+                  <height>12.0</height>
+                </titleFont>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход2</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_Расход2РасширеннаяПодсказка</name>
+                  <id>398</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_Расход2КонтекстноеМеню</name>
+                  <id>397</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <horizontalAlign>Right</horizontalAlign>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <font xsi:type="core:FontDef">
+                    <height>12.0</height>
+                  </font>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Расход3</name>
+                <id>399</id>
+                <titleTextColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </titleTextColor>
+                <titleFont xsi:type="core:FontDef">
+                  <height>12.0</height>
+                </titleFont>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход3</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_Расход3РасширеннаяПодсказка</name>
+                  <id>401</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_Расход3КонтекстноеМеню</name>
+                  <id>400</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <horizontalAlign>Right</horizontalAlign>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <font xsi:type="core:FontDef">
+                    <height>12.0</height>
+                  </font>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Расход4</name>
+                <id>402</id>
+                <titleTextColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </titleTextColor>
+                <titleFont xsi:type="core:FontDef">
+                  <height>12.0</height>
+                </titleFont>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход4</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_Расход4РасширеннаяПодсказка</name>
+                  <id>404</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_Расход4КонтекстноеМеню</name>
+                  <id>403</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <horizontalAlign>Right</horizontalAlign>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <font xsi:type="core:FontDef">
+                    <height>12.0</height>
+                  </font>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Расход5</name>
+                <id>408</id>
+                <titleTextColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </titleTextColor>
+                <titleFont xsi:type="core:FontDef">
+                  <height>12.0</height>
+                </titleFont>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход5</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_Расход5РасширеннаяПодсказка</name>
+                  <id>410</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_Расход5КонтекстноеМеню</name>
+                  <id>409</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <horizontalAlign>Right</horizontalAlign>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <font xsi:type="core:FontDef">
+                    <height>12.0</height>
+                  </font>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ПланируемыеРасходы_Расход6</name>
+                <id>411</id>
+                <titleTextColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </titleTextColor>
+                <titleFont xsi:type="core:FontDef">
+                  <height>12.0</height>
+                </titleFont>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход6</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПланируемыеРасходы_Расход6РасширеннаяПодсказка</name>
+                  <id>413</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПланируемыеРасходы_Расход6КонтекстноеМеню</name>
+                  <id>412</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <horizontalAlign>Right</horizontalAlign>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <font xsi:type="core:FontDef">
+                    <height>12.0</height>
+                  </font>
+                </extInfo>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа расходы отступ</value>
+              </title>
+              <horizontalStretch>true</horizontalStretch>
+              <verticalStretch>true</verticalStretch>
+              <extendedTooltip>
+                <name>ГруппаПланируемыеРасходыОтступРасширеннаяПодсказка</name>
+                <id>383</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>Vertical</group>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <backColor xsi:type="core:ColorRef">
+                  <color>Style.ЦветФонаГруппыИндикатора</color>
+                </backColor>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Группа планируемые расходы</value>
+            </title>
+            <width>35</width>
+            <height>14</height>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extendedTooltip>
+              <name>ГруппаПланируемыеРасходыРасширеннаяПодсказка</name>
+              <id>381</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>HorizontalIfPossible</group>
+              <representation>WeakSeparation</representation>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <backColor xsi:type="core:ColorRef">
+                <color>Style.ЦветФонаГруппыИндикатора</color>
+              </backColor>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Контейнер03</value>
+          </title>
+          <extendedTooltip>
+            <name>Контейнер03РасширеннаяПодсказка</name>
+            <id>364</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2115,6 +2717,202 @@
       <value>Остатки кошельков кошелек0</value>
     </title>
     <id>59</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Заголовок</name>
+    <title>
+      <key>ru</key>
+      <value>Планируемые расходы заголовок</value>
+    </title>
+    <id>60</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Расход1</name>
+    <id>61</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Расход2</name>
+    <id>62</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Расход3</name>
+    <id>63</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Расход4</name>
+    <id>64</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Расход0</name>
+    <id>65</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_ДанныеРасходов</name>
+    <title>
+      <key>ru</key>
+      <value>Планируемые расходы данные расходов</value>
+    </title>
+    <id>68</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>ДатаРасхода</name>
+      <title>
+        <key>ru</key>
+        <value>Дата расхода</value>
+      </title>
+      <id>69</id>
+      <valueType>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтатьяРасходов</name>
+      <title>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </title>
+      <id>70</id>
+      <valueType>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СуммаРасходПлан</name>
+      <title>
+        <key>ru</key>
+        <value>Сумма расход план</value>
+      </title>
+      <id>71</id>
+      <valueType>
+        <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СуммаРасходФакт</name>
+      <title>
+        <key>ru</key>
+        <value>Сумма расход факт</value>
+      </title>
+      <id>72</id>
+      <valueType>
+        <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Расход5</name>
+    <id>73</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПланируемыеРасходы_Расход6</name>
+    <id>74</id>
     <valueType>
       <types>FormattedString</types>
     </valueType>
