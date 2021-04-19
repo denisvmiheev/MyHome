@@ -766,8 +766,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Перемещения.Сумма</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.Перемещения.Сумма</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>ПеремещенияСуммаРасширеннаяПодсказка</name>

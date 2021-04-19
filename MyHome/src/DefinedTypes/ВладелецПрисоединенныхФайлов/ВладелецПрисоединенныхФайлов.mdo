@@ -9,6 +9,7 @@
     <value>Владелец присоединенных файлов</value>
   </synonym>
   <type>
+    <types>DocumentRef.Гарантия</types>
     <types>CatalogRef.ПапкиФайлов</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>

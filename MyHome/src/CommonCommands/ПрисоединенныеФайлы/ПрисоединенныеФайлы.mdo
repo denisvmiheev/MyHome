@@ -3,7 +3,7 @@
   <name>ПрисоединенныеФайлы</name>
   <synonym>
     <key>ru</key>
-    <value>Присоединенные файлы</value>
+    <value>Файлы</value>
   </synonym>
   <group>FormNavigationPanelGoTo</group>
   <commandParameterType>

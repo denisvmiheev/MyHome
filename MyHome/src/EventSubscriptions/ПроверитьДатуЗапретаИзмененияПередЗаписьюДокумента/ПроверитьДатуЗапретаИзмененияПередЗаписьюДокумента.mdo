@@ -6,12 +6,12 @@
     <value>Проверить дату запрета изменения перед записью документа</value>
   </synonym>
   <source>
-    <types>DocumentObject.ВозвратРасходов</types>
     <types>DocumentObject.ПеремещениеДенежныхСредств</types>
-    <types>DocumentObject.ПланированиеБюджета</types>
     <types>DocumentObject.РегистрацияДоходов</types>
     <types>DocumentObject.РегистрацияРасходов</types>
     <types>DocumentObject.ВводОстатков</types>
+    <types>DocumentObject.ВозвратРасходов</types>
+    <types>DocumentObject.ПланированиеБюджета</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</handler>

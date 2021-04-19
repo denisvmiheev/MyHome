@@ -744,6 +744,8 @@
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьДатуЗапретаИзмененияПередУдалением</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайла</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>

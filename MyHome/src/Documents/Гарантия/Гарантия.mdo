@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Гарантия.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Гарантия.Form.ФормаСписка</defaultListForm>
   <registerRecords>InformationRegister.Гарантия</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -65,6 +66,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9b1769f-70ae-4a43-8682-042dcd580d6f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
