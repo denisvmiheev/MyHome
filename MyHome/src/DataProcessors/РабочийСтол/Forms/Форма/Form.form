@@ -47,6 +47,7 @@
       <items xsi:type="form:FormGroup">
         <name>СтрокаКонтейнеров0</name>
         <id>193</id>
+        <displayImportance>VeryHigh</displayImportance>
         <items xsi:type="form:FormGroup">
           <name>Контейнер00</name>
           <id>199</id>
@@ -1130,9 +1131,6 @@
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ГиперссылкаЦвет</color>
                 </titleTextColor>
-                <titleFont xsi:type="core:FontDef">
-                  <height>12.0</height>
-                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1175,9 +1173,6 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontDef">
-                    <height>12.0</height>
-                  </font>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -1186,9 +1181,6 @@
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ГиперссылкаЦвет</color>
                 </titleTextColor>
-                <titleFont xsi:type="core:FontDef">
-                  <height>12.0</height>
-                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1231,9 +1223,6 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontDef">
-                    <height>12.0</height>
-                  </font>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -1242,9 +1231,6 @@
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ГиперссылкаЦвет</color>
                 </titleTextColor>
-                <titleFont xsi:type="core:FontDef">
-                  <height>12.0</height>
-                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1287,9 +1273,6 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontDef">
-                    <height>12.0</height>
-                  </font>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -1298,9 +1281,6 @@
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ГиперссылкаЦвет</color>
                 </titleTextColor>
-                <titleFont xsi:type="core:FontDef">
-                  <height>12.0</height>
-                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1343,9 +1323,6 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontDef">
-                    <height>12.0</height>
-                  </font>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -1354,9 +1331,6 @@
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ГиперссылкаЦвет</color>
                 </titleTextColor>
-                <titleFont xsi:type="core:FontDef">
-                  <height>12.0</height>
-                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1399,9 +1373,6 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontDef">
-                    <height>12.0</height>
-                  </font>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -1410,9 +1381,6 @@
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ГиперссылкаЦвет</color>
                 </titleTextColor>
-                <titleFont xsi:type="core:FontDef">
-                  <height>12.0</height>
-                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1455,9 +1423,6 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontDef">
-                    <height>12.0</height>
-                  </font>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -1466,9 +1431,6 @@
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ГиперссылкаЦвет</color>
                 </titleTextColor>
-                <titleFont xsi:type="core:FontDef">
-                  <height>12.0</height>
-                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1511,9 +1473,6 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontDef">
-                    <height>12.0</height>
-                  </font>
                 </extInfo>
               </items>
               <visible>true</visible>
