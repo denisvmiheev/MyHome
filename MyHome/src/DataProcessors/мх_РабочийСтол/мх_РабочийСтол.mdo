@@ -7,7 +7,7 @@
   <name>мх_РабочийСтол</name>
   <synonym>
     <key>ru</key>
-    <value>Мх рабочий стол</value>
+    <value>Рабочий стол</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.мх_РабочийСтол.Form.Форма</defaultForm>
