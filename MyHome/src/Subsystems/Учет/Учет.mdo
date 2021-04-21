@@ -10,8 +10,8 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделРегламентированныйУчет16</picture>
   </picture>
-  <content>InformationRegister.Гарантия</content>
-  <content>Document.Гарантия</content>
+  <content>InformationRegister.мх_Гарантия</content>
+  <content>Document.мх_Гарантия</content>
   <content>Catalog.Номенклатура</content>
-  <content>Report.ГарантийныеСроки</content>
+  <content>Report.мх_ГарантийныеСроки</content>
 </mdclass:Subsystem>

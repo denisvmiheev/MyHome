@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4080e5bf-d2a9-4aaf-baf6-70150ca890b9">
+  <producedTypes>
+    <objectType typeId="3ffd2954-1cab-4a0d-b0eb-b60f80e372aa" valueTypeId="4015445a-e9bc-43c8-b31e-eed486be9327"/>
+    <refType typeId="4f9f1e7c-5ffc-4e7b-9f66-0281a02ccdb0" valueTypeId="884aa938-525c-44cb-ae86-384887e2fb32"/>
+    <selectionType typeId="7af9a85b-5737-4b5d-bb31-4e4fccea56e6" valueTypeId="c40c5cab-140c-4ea3-a31f-4852bf89fbeb"/>
+    <listType typeId="abc5b178-a0b8-42ee-9af3-710458838d9e" valueTypeId="d3bd3ff9-aaa4-4d6a-9700-076c548614da"/>
+    <managerType typeId="79f56f07-994f-4fa4-8e66-6dcdd6aec6bd" valueTypeId="90b7b36a-ad82-4560-a45d-e05f1b6846b9"/>
+  </producedTypes>
+  <name>мх_ФизическиеУпражнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические упражнения (MyHome)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.мх_ФизическиеУпражнения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.мх_ФизическиеУпражнения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="430a0267-40ab-4a94-b19a-1fd50fafce7e">
+      <name>Подтягивание</name>
+      <description>Подтягивание</description>
+      <code xsi:type="core:StringValue">
+        <value>00001</value>
+      </code>
+    </items>
+    <items id="7f625d44-8b59-45cb-bdf6-cfcfb40330d6">
+      <name>Отжимание</name>
+      <description>Отжимание</description>
+      <code xsi:type="core:StringValue">
+        <value>00002</value>
+      </code>
+    </items>
+    <items id="668cc16a-d763-4f9e-98a1-20b110e5a6b0">
+      <name>Бег</name>
+      <description>Бег</description>
+      <code xsi:type="core:StringValue">
+        <value>00003</value>
+      </code>
+    </items>
+    <items id="8b7fd5d8-e6f5-44ff-951a-4cd42fba605b">
+      <name>Плавание</name>
+      <description>Плавание</description>
+      <code xsi:type="core:StringValue">
+        <value>00004</value>
+      </code>
+    </items>
+    <items id="946495de-ec2e-41b2-8275-d3a45e5b0db3">
+      <name>Футбол</name>
+      <description>Футбол</description>
+      <code xsi:type="core:StringValue">
+        <value>00005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ce742f3d-1383-42fd-ba5d-28bd97cce03f">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_ПоказателиФизическихУпражнений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="840a1ab6-d2b0-4b43-a071-5e67af440843">
+    <name>КалорийНаЕдиницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калорий на единицу</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Калорийность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

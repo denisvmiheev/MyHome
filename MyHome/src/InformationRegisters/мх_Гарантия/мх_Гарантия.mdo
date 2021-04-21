@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07e45c6d-c36d-48f7-b9de-1599937a8588">
+  <producedTypes>
+    <selectionType typeId="5366f172-c037-4a7b-b8d5-932f6af9825a" valueTypeId="dcc49428-5ebd-4d6c-8c69-8e25af87cda1"/>
+    <listType typeId="15be4e94-395c-490c-9a51-0f014221f347" valueTypeId="64c2f1c9-5bf8-462c-a089-167b4b79a883"/>
+    <managerType typeId="e0b46756-ebdd-4db9-97e9-e31fab68bad4" valueTypeId="d4a4f765-878e-4030-b2c5-b3ecc01d0949"/>
+    <recordSetType typeId="f12fea68-323c-4945-b468-02efecd70462" valueTypeId="0ed4beba-0d62-4a2a-aca2-a9cf5e1be74c"/>
+    <recordKeyType typeId="4570aa35-4f2a-4301-bd1b-22b35fa50fa7" valueTypeId="25d050f5-18fb-49e2-9e92-9ca0e96e8fd4"/>
+    <recordType typeId="f80579b7-abb3-44fd-976a-f61de76e395a" valueTypeId="d7cf1bb5-3758-49f5-9a9c-3968c6626efc"/>
+    <recordManagerType typeId="56fb1816-480c-4a83-bfcb-9b55886d9b27" valueTypeId="0fe69470-d5de-4ea5-81d8-233d59b1ab2e"/>
+  </producedTypes>
+  <name>мх_Гарантия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мх гарантия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d6f1875d-35db-4560-bd9c-3eb59d70fcaf">
+    <name>ДатаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата покупки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df406a04-15a6-48ad-a790-562ac2069d74">
+    <name>ГарантияМес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия мес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ade903f8-db79-49a5-9579-223d46752b6b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c2db271f-9075-4693-aeaf-646df5e3041d">
+    <name>ГарантийныйСрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийный срок</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -3,10 +3,10 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.ВводОстатков.StandardCommand.OpenList</commands>
-      <commands>Document.ПеремещениеДенежныхСредств.StandardCommand.OpenList</commands>
-      <commands>Document.РегистрацияДоходов.StandardCommand.OpenList</commands>
-      <commands>Document.РегистрацияРасходов.StandardCommand.OpenList</commands>
+      <commands>Document.мх_ВводОстатков.StandardCommand.OpenList</commands>
+      <commands>Document.мх_ПеремещениеДенежныхСредств.StandardCommand.OpenList</commands>
+      <commands>Document.мх_РегистрацияДоходов.StandardCommand.OpenList</commands>
+      <commands>Document.мх_РегистрацияРасходов.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

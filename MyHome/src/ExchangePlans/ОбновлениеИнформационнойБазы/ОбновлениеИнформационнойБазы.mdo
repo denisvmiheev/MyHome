@@ -183,7 +183,7 @@
     <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
   </content>
   <content>
-    <mdObject>Catalog.ГарантияПрисоединенныеФайлы</mdObject>
+    <mdObject>Catalog.мх_ГарантияПрисоединенныеФайлы</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

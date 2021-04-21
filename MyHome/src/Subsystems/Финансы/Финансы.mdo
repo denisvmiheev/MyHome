@@ -15,18 +15,18 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделФинансы16</picture>
   </picture>
-  <content>Catalog.КошелькиИСчета</content>
-  <content>DataProcessor.ЗагрузкаБанковскихВыписок</content>
-  <content>Document.РегистрацияРасходов</content>
-  <content>Document.ПланированиеБюджета</content>
-  <content>Catalog.МестаРасхода</content>
-  <content>Document.ПеремещениеДенежныхСредств</content>
-  <content>Document.РегистрацияДоходов</content>
-  <content>Report.АнализРасходов</content>
-  <content>Document.ВводОстатков</content>
-  <content>Report.БюджетДоходовРасходов</content>
-  <content>Report.АнализДвиженийДенежныхСредств</content>
-  <content>Report.ПланированиеБюджета</content>
+  <content>Catalog.мх_КошелькиИСчета</content>
+  <content>DataProcessor.мх_ЗагрузкаБанковскихВыписок</content>
+  <content>Document.мх_РегистрацияРасходов</content>
+  <content>Document.мх_ПланированиеБюджета</content>
+  <content>Catalog.мх_МестаРасхода</content>
+  <content>Document.мх_ПеремещениеДенежныхСредств</content>
+  <content>Document.мх_РегистрацияДоходов</content>
+  <content>Report.мх_АнализРасходов</content>
+  <content>Document.мх_ВводОстатков</content>
+  <content>Report.мх_БюджетДоходовРасходов</content>
+  <content>Report.мх_АнализДвиженийДенежныхСредств</content>
+  <content>Report.мх_ПланированиеБюджета</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
   <subsystems>Планирование</subsystems>

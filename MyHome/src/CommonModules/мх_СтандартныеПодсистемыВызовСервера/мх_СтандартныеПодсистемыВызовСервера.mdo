@@ -3,7 +3,7 @@
   <name>мх_СтандартныеПодсистемыВызовСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Стандартные подсистемы вызов сервера (My Home)</value>
+    <value>Стандартные подсистемы вызов сервера (MyHome)</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

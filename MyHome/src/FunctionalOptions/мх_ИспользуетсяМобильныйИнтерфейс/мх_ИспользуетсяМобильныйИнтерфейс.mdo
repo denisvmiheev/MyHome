@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f3cd226-b1ea-4699-9096-70307c2a793b">
+  <name>мх_ИспользуетсяМобильныйИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется мобильный интерфейс (MyHome)</value>
+  </synonym>
+  <location>InformationRegister.мх_ДанныеСеансовИнформационнойБазы.Resource.ИспользуетсяМобильныйИнтерфейс</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ФинансыМобильныйИнтерфейс</content>
+</mdclass:FunctionalOption>

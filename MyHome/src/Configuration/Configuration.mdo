@@ -69,19 +69,20 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
-  <subsystems>Subsystem.Спорт</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.MyHome</subsystems>
+  <subsystems>Subsystem.ФинансыМобильныйИнтерфейс</subsystems>
   <subsystems>Subsystem.Учет</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
-  <subsystems>Subsystem.ФинансыМобильныйИнтерфейс</subsystems>
+  <subsystems>Subsystem.Спорт</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряРабочийЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряПраздникЦвет</styleItems>
-  <styleItems>StyleItem.ЦветФонаГруппыИндикатора</styleItems>
-  <styleItems>StyleItem.ЦветПоложительнаяСумма</styleItems>
+  <styleItems>StyleItem.мх_ЦветФонаГруппыИндикатора</styleItems>
+  <styleItems>StyleItem.мх_ЦветПоложительнаяСумма</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряПредпраздничныйЦвет</styleItems>
-  <styleItems>StyleItem.ЦветОтрицательнаяСумма</styleItems>
+  <styleItems>StyleItem.мх_ЦветОтрицательнаяСумма</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряСубботаЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -388,7 +389,7 @@
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
-  <sessionParameters>SessionParameter.НомерСеанса</sessionParameters>
+  <sessionParameters>SessionParameter.мх_НомерСеанса</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
   <sessionParameters>SessionParameter.ВыполняетсяОбновлениеИБ</sessionParameters>
   <sessionParameters>SessionParameter.ВыполняетсяУдалениеОбъектов</sessionParameters>
@@ -639,14 +640,14 @@
   <commonModules>CommonModule.РезервноеКопированиеИБКлиент</commonModules>
   <commonModules>CommonModule.РезервноеКопированиеИБКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.РезервноеКопированиеИБСервер</commonModules>
-  <commonModules>CommonModule.СканированиеКлиент</commonModules>
-  <commonModules>CommonModule.СКДВызовСервера</commonModules>
+  <commonModules>CommonModule.мх_СканированиеКлиент</commonModules>
+  <commonModules>CommonModule.мх_СКДВызовСервера</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектов</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектовВызовСервера</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектовКлиент</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектовКлиентСервер</commonModules>
-  <commonModules>CommonModule.СобытияФорм</commonModules>
-  <commonModules>CommonModule.СобытияФормВызовСервера</commonModules>
+  <commonModules>CommonModule.мх_СобытияФорм</commonModules>
+  <commonModules>CommonModule.мх_СобытияФормВызовСервера</commonModules>
   <commonModules>CommonModule.СоединенияИБ</commonModules>
   <commonModules>CommonModule.СоединенияИБВызовСервера</commonModules>
   <commonModules>CommonModule.СоединенияИБГлобальный</commonModules>
@@ -695,9 +696,9 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.мх_СтандартныеПодсистемыВызовСервера</commonModules>
-  <commonModules>CommonModule.СобытияФормКлиент</commonModules>
-  <commonModules>CommonModule.КошелькиИСчетаПовтИсп</commonModules>
-  <commonModules>CommonModule.КошелькиИСчета</commonModules>
+  <commonModules>CommonModule.мх_СобытияФормКлиент</commonModules>
+  <commonModules>CommonModule.мх_КошелькиИСчетаПовтИсп</commonModules>
+  <commonModules>CommonModule.мх_КошелькиИСчета</commonModules>
   <commonModules>CommonModule.мх_РабочийСтол</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
@@ -746,7 +747,7 @@
   <eventSubscriptions>EventSubscription.ПроверитьДатуЗапретаИзмененияПередУдалением</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
-  <scheduledJobs>ScheduledJob.ОбработкаАвтоплатежей</scheduledJobs>
+  <scheduledJobs>ScheduledJob.мх_ОбработкаАвтоплатежей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
@@ -762,9 +763,9 @@
   <scheduledJobs>ScheduledJob.УдалениеПомеченных</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
-  <functionalOptions>FunctionalOption.ИспользоватьПланированиеБюджета</functionalOptions>
-  <functionalOptions>FunctionalOption.ИспользуетсяПолнофункциональныйИнтерфейс</functionalOptions>
-  <functionalOptions>FunctionalOption.ИспользуетсяМобильныйИнтерфейс</functionalOptions>
+  <functionalOptions>FunctionalOption.мх_ИспользоватьПланированиеБюджета</functionalOptions>
+  <functionalOptions>FunctionalOption.мх_ИспользуетсяПолнофункциональныйИнтерфейс</functionalOptions>
+  <functionalOptions>FunctionalOption.мх_ИспользуетсяМобильныйИнтерфейс</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьГруппыПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьДатыЗапретаЗагрузки</functionalOptions>
@@ -787,7 +788,7 @@
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВЛокальномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВМоделиСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.ХранитьФайлыВТомахНаДиске</functionalOptions>
-  <functionalOptionsParameters>FunctionalOptionsParameter.ВариантИнтерфейса</functionalOptionsParameters>
+  <functionalOptionsParameters>FunctionalOptionsParameter.мх_ВариантИнтерфейса</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиОбъектНазначения</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиТипФормы</functionalOptionsParameters>
   <definedTypes>DefinedType.АдресатЗапретаИзменения</definedTypes>
@@ -836,11 +837,11 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
-  <constants>Constant.ИспользоватьПланированиеБюджета</constants>
+  <constants>Constant.мх_ИспользоватьПланированиеБюджета</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
   <constants>Constant.ВерсияДатЗапретаИзменения</constants>
   <constants>Constant.ГлавныйУзел</constants>
-  <constants>Constant.СистемаПроверкиЧеков</constants>
+  <constants>Constant.мх_СистемаПроверкиЧеков</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ДополнительныйЯзык1</constants>
@@ -953,15 +954,15 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
-  <catalogs>Catalog.Автоплатежи</catalogs>
-  <catalogs>Catalog.КошелькиИСчета</catalogs>
+  <catalogs>Catalog.мх_Автоплатежи</catalogs>
+  <catalogs>Catalog.мх_КошелькиИСчета</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.ГарантияПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.мх_ГарантияПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.ПоказателиФизическихУпражнений</catalogs>
-  <catalogs>Catalog.МестаРасхода</catalogs>
-  <catalogs>Catalog.ФизическиеУпражнения</catalogs>
-  <catalogs>Catalog.ВнешниеСистемы</catalogs>
+  <catalogs>Catalog.мх_ПоказателиФизическихУпражнений</catalogs>
+  <catalogs>Catalog.мх_МестаРасхода</catalogs>
+  <catalogs>Catalog.мх_ФизическиеУпражнения</catalogs>
+  <catalogs>Catalog.мх_ВнешниеСистемы</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
@@ -981,20 +982,20 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
-  <documents>Document.ВводОстатков</documents>
-  <documents>Document.ПеремещениеДенежныхСредств</documents>
-  <documents>Document.ВозвратРасходов</documents>
-  <documents>Document.Гарантия</documents>
-  <documents>Document.ПланированиеБюджета</documents>
-  <documents>Document.РегистрацияДоходов</documents>
-  <documents>Document.РегистрацияРасходов</documents>
-  <documents>Document.РегистрацияФизическихУпражений</documents>
-  <enums>Enum.ТипыКошельковИСчетов</enums>
+  <documents>Document.мх_ВводОстатков</documents>
+  <documents>Document.мх_ПеремещениеДенежныхСредств</documents>
+  <documents>Document.мх_ВозвратРасходов</documents>
+  <documents>Document.мх_Гарантия</documents>
+  <documents>Document.мх_РегистрацияДоходов</documents>
+  <documents>Document.мх_ПланированиеБюджета</documents>
+  <documents>Document.мх_РегистрацияРасходов</documents>
+  <documents>Document.мх_РегистрацияФизическихУпражений</documents>
+  <enums>Enum.мх_ТипыКошельковИСчетов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
-  <enums>Enum.ВариантыЗагрузкиБанковскихВыписок</enums>
+  <enums>Enum.мх_ВариантыЗагрузкиБанковскихВыписок</enums>
   <enums>Enum.ВидыДвиженийДенежныхСредств</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыНазначенияДатЗапрета</enums>
@@ -1025,12 +1026,12 @@
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <reports>Report.АнализДвиженийДенежныхСредств</reports>
-  <reports>Report.БюджетДоходовРасходов</reports>
-  <reports>Report.ГарантийныеСроки</reports>
-  <reports>Report.АнализРасходов</reports>
+  <reports>Report.мх_АнализДвиженийДенежныхСредств</reports>
+  <reports>Report.мх_БюджетДоходовРасходов</reports>
+  <reports>Report.мх_ГарантийныеСроки</reports>
+  <reports>Report.мх_АнализРасходов</reports>
   <reports>Report.ДвиженияДокумента</reports>
-  <reports>Report.ПланированиеБюджета</reports>
+  <reports>Report.мх_ПланированиеБюджета</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
   <reports>Report.МестаИспользованияСсылок</reports>
@@ -1042,10 +1043,10 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
-  <dataProcessors>DataProcessor.ЗагрузкаБанковскихВыписок</dataProcessors>
+  <dataProcessors>DataProcessor.мх_ЗагрузкаБанковскихВыписок</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
-  <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
+  <dataProcessors>DataProcessor.мх_РабочийСтол</dataProcessors>
   <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаДанныхСверткаСсылокНаПользователейВРазделенныхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
@@ -1073,10 +1074,10 @@
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистемОбластейДанных</informationRegisters>
-  <informationRegisters>InformationRegister.Гарантия</informationRegisters>
+  <informationRegisters>InformationRegister.мх_Гарантия</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеСеансовИнформационнойБазы</informationRegisters>
+  <informationRegisters>InformationRegister.мх_ДанныеСеансовИнформационнойБазы</informationRegisters>
   <informationRegisters>InformationRegister.ДатыЗапретаИзменения</informationRegisters>
   <informationRegisters>InformationRegister.ДвоичныеДанныеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
@@ -1110,18 +1111,18 @@
   <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОФайлах</informationRegisters>
   <informationRegisters>InformationRegister.СклоненияПредставленийОбъектов</informationRegisters>
-  <informationRegisters>InformationRegister.СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
+  <informationRegisters>InformationRegister.мх_СоответствиеКатегорийИОписанийСтатьямЗатрат</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</informationRegisters>
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ДвиженияДенежныхСредств</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ПланированиеБюджета</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СтатистикаФизическихУпражнений</accumulationRegisters>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиДоходов</chartsOfCharacteristicTypes>
+  <accumulationRegisters>AccumulationRegister.мх_ДвиженияДенежныхСредств</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.мх_Доходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.мх_ДоходыРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.мх_ПланированиеБюджета</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.мх_Расходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.мх_СтатистикаФизическихУпражнений</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.мх_СтатьиРасходов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.мх_СтатьиДоходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

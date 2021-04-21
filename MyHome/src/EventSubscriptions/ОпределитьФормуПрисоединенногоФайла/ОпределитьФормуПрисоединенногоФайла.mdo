@@ -6,7 +6,7 @@
     <value>Определить форму присоединенного файла</value>
   </synonym>
   <source>
-    <types>CatalogManager.ГарантияПрисоединенныеФайлы</types>
+    <types>CatalogManager.мх_ГарантияПрисоединенныеФайлы</types>
   </source>
   <event>FormGetProcessing</event>
   <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>

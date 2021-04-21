@@ -6,7 +6,7 @@
     <value>Установить пометку удаления присоединенных файлов документов</value>
   </synonym>
   <source>
-    <types>DocumentObject.Гарантия</types>
+    <types>DocumentObject.мх_Гарантия</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
