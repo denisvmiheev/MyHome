@@ -10,7 +10,7 @@
   <name>мх_Гарантия</name>
   <synonym>
     <key>ru</key>
-    <value>Мх гарантия</value>
+    <value>Гарантия (MyHome)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.мх_Гарантия.StandardAttribute.Number</inputByString>
@@ -18,6 +18,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Гарантия</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Гарантии</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

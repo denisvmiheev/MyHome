@@ -7,7 +7,7 @@
   <name>мх_АнализРасходов</name>
   <synonym>
     <key>ru</key>
-    <value>Мх анализ расходов</value>
+    <value>Анализ расходов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>CommonForm.ФормаОтчета</defaultForm>
@@ -15,6 +15,10 @@
   <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
   <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Анализ расходов</value>
+  </extendedPresentation>
   <templates uuid="061b914b-0ee0-4eb7-996a-9ed12e40f2b1">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

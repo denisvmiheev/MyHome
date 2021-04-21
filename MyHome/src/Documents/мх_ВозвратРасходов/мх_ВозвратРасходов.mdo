@@ -10,7 +10,7 @@
   <name>мх_ВозвратРасходов</name>
   <synonym>
     <key>ru</key>
-    <value>Мх возврат расходов</value>
+    <value>Возврат расходов (MyHome)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.мх_ВозвратРасходов.StandardAttribute.Number</inputByString>
@@ -19,6 +19,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Возврат расходов</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Возврат расходов</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

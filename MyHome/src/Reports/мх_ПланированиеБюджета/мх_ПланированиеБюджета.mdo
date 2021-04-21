@@ -7,7 +7,7 @@
   <name>мх_ПланированиеБюджета</name>
   <synonym>
     <key>ru</key>
-    <value>Мх планирование бюджета</value>
+    <value>Планирование бюджета</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>CommonForm.ФормаОтчета</defaultForm>

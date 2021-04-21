@@ -986,8 +986,8 @@
   <documents>Document.мх_ПеремещениеДенежныхСредств</documents>
   <documents>Document.мх_ВозвратРасходов</documents>
   <documents>Document.мх_Гарантия</documents>
-  <documents>Document.мх_ПланированиеБюджета</documents>
   <documents>Document.мх_РегистрацияДоходов</documents>
+  <documents>Document.мх_ПланированиеБюджета</documents>
   <documents>Document.мх_РегистрацияРасходов</documents>
   <documents>Document.мх_РегистрацияФизическихУпражений</documents>
   <enums>Enum.мх_ТипыКошельковИСчетов</enums>

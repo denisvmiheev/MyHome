@@ -10,7 +10,7 @@
   <name>мх_КошелькиИСчета</name>
   <synonym>
     <key>ru</key>
-    <value>Мх кошельки и счета</value>
+    <value>Кошельки и счета (MyHome)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.мх_КошелькиИСчета.StandardAttribute.Description</inputByString>
@@ -98,6 +98,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кошелек / счет</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кошельки и счета</value>
+  </listPresentation>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
