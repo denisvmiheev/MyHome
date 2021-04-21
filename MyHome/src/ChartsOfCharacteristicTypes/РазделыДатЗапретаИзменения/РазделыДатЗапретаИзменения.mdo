@@ -102,13 +102,13 @@
     <value>Раздел дат запрета изменения</value>
   </objectPresentation>
   <type>
-    <types>DocumentRef.ВводОстатков</types>
-    <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
-    <types>DocumentRef.ВозвратРасходов</types>
-    <types>DocumentRef.ПеремещениеДенежныхСредств</types>
-    <types>DocumentRef.ПланированиеБюджета</types>
     <types>DocumentRef.РегистрацияДоходов</types>
+    <types>DocumentRef.ВводОстатков</types>
+    <types>DocumentRef.ВозвратРасходов</types>
+    <types>DocumentRef.ПланированиеБюджета</types>
+    <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
     <types>DocumentRef.РегистрацияРасходов</types>
+    <types>DocumentRef.ПеремещениеДенежныхСредств</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeAllowedLength>Variable</codeAllowedLength>
