@@ -2,13 +2,13 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Document.РегистрацияРасходов.StandardCommand.Create</command>
+      <command>Document.мх_РегистрацияРасходов.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.РегистрацияДоходов.StandardCommand.Create</command>
+      <command>Document.мх_РегистрацияДоходов.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
@@ -17,13 +17,13 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.РегистрацияДоходов.StandardCommand.OpenList</commands>
-      <commands>Document.РегистрацияРасходов.StandardCommand.OpenList</commands>
+      <commands>Document.мх_РегистрацияДоходов.StandardCommand.OpenList</commands>
+      <commands>Document.мх_РегистрацияРасходов.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
-      <commands>Document.РегистрацияДоходов.StandardCommand.Create</commands>
-      <commands>Document.РегистрацияРасходов.StandardCommand.Create</commands>
+      <commands>Document.мх_РегистрацияДоходов.StandardCommand.Create</commands>
+      <commands>Document.мх_РегистрацияРасходов.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

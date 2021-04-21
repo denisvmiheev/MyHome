@@ -14,7 +14,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Спорт16</picture>
   </picture>
-  <content>Catalog.ФизическиеУпражнения</content>
-  <content>Catalog.ПоказателиФизическихУпражнений</content>
-  <content>Document.РегистрацияФизическихУпражений</content>
+  <content>Catalog.мх_ФизическиеУпражнения</content>
+  <content>Catalog.мх_ПоказателиФизическихУпражнений</content>
+  <content>Document.мх_РегистрацияФизическихУпражений</content>
 </mdclass:Subsystem>

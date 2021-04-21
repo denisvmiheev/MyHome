@@ -2,31 +2,31 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Catalog.КошелькиИСчета.StandardCommand.OpenList</command>
+      <command>Catalog.мх_КошелькиИСчета.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Catalog.МестаРасхода.StandardCommand.OpenList</command>
+      <command>Catalog.мх_МестаРасхода.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ВводОстатков.StandardCommand.OpenList</command>
+      <command>Document.мх_ВводОстатков.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ПеремещениеДенежныхСредств.StandardCommand.OpenList</command>
+      <command>Document.мх_ПеремещениеДенежныхСредств.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ПланированиеБюджета.StandardCommand.OpenList</command>
+      <command>Document.мх_ПланированиеБюджета.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.РегистрацияДоходов.StandardCommand.OpenList</command>
+      <command>Document.мх_РегистрацияДоходов.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.РегистрацияРасходов.StandardCommand.OpenList</command>
+      <command>Document.мх_РегистрацияРасходов.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>

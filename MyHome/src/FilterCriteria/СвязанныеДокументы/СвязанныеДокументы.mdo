@@ -10,8 +10,8 @@
     <value>Связанные документы</value>
   </synonym>
   <type>
-    <types>DocumentRef.ВозвратРасходов</types>
-    <types>DocumentRef.РегистрацияРасходов</types>
+    <types>DocumentRef.мх_ВозвратРасходов</types>
+    <types>DocumentRef.мх_РегистрацияРасходов</types>
   </type>
-  <content>Document.ВозвратРасходов.TabularSection.Расходы.Attribute.ДокументРасхода</content>
+  <content>Document.мх_ВозвратРасходов.TabularSection.Расходы.Attribute.ДокументРасхода</content>
 </mdclass:FilterCriterion>

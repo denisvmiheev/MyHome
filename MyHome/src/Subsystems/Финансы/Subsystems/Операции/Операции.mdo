@@ -7,10 +7,10 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.РегистрацияРасходов</content>
-  <content>Document.ПеремещениеДенежныхСредств</content>
-  <content>Document.РегистрацияДоходов</content>
-  <content>Document.ВводОстатков</content>
-  <content>Document.ВозвратРасходов</content>
+  <content>Document.мх_РегистрацияРасходов</content>
+  <content>Document.мх_ПеремещениеДенежныхСредств</content>
+  <content>Document.мх_РегистрацияДоходов</content>
+  <content>Document.мх_ВводОстатков</content>
+  <content>Document.мх_ВозвратРасходов</content>
   <parentSubsystem>Subsystem.Финансы</parentSubsystem>
 </mdclass:Subsystem>

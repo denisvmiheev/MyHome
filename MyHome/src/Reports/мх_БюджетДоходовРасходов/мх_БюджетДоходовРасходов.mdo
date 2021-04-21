@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abf566b8-3a30-4f82-8fd1-940885e0c573">
+  <producedTypes>
+    <objectType typeId="8ecb3127-b222-4ef0-b91e-187c593344f2" valueTypeId="372d14d8-e137-44a3-be43-033d79d69a4c"/>
+    <managerType typeId="1db271d7-6a89-48f0-8f03-70c6792ae107" valueTypeId="536fc55b-5d47-4182-a96a-91abe57e6225"/>
+  </producedTypes>
+  <name>мх_БюджетДоходовРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мх бюджет доходов расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.мх_БюджетДоходовРасходов.Template.Макет</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="e71c5637-a20e-4366-b26a-b51046c43492">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -10,7 +10,7 @@
   </synonym>
   <type>
     <types>CatalogObject.ВерсииФайлов</types>
-    <types>CatalogObject.ГарантияПрисоединенныеФайлы</types>
+    <types>CatalogObject.мх_ГарантияПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
   </type>
 </mdclass:DefinedType>

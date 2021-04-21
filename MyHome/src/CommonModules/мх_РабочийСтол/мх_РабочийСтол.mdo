@@ -3,7 +3,7 @@
   <name>мх_РабочийСтол</name>
   <synonym>
     <key>ru</key>
-    <value>Рабочий стол (МХ)</value>
+    <value>Рабочий стол (MyHome)</value>
   </synonym>
   <server>true</server>
 </mdclass:CommonModule>

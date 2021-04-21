@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22bf9618-a23e-4047-91cb-d9e94abed281">
+  <producedTypes>
+    <refType typeId="4d6dfdd3-0a01-4ced-9e5a-6fbb3d6ed8fb" valueTypeId="83d7e82f-5171-4306-b949-218f751af9cf"/>
+    <listType typeId="c5d9d628-712c-4e43-8f05-e6d1aa12b829" valueTypeId="8bc7f689-3795-4588-854e-7aebd658c855"/>
+    <managerType typeId="e191ef64-2f00-4867-874a-6b24147470b8" valueTypeId="30e133a2-2365-4660-b263-36115f1937b8"/>
+  </producedTypes>
+  <name>мх_ТипыКошельковИСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мх типы кошельков и счетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b925bee0-4e10-4518-aecf-e02b6184bb49">
+    <name>Наличность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="346eb817-610b-4a7e-b305-99fc9d80eb27">
+    <name>ДебетоваяБанковскаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дебетовая банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adfb3a77-4f36-48b9-b267-617a3cffb8ec">
+    <name>КредитнаяБанковскаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитная банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ab78ebb-7528-4e98-8b7c-a212ec5f541c">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e12a951b-59e0-47d8-a0e0-2c193a785c59">
+    <name>ЭлектронныйКошелек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный кошелек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c8a59ea-235d-4128-af52-253024117e0f">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
