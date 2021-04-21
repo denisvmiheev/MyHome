@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.КошелькиИСчета</content>
-  <content>Catalog.МестаРасхода</content>
+  <content>Catalog.мх_КошелькиИСчета</content>
+  <content>Catalog.мх_МестаРасхода</content>
   <parentSubsystem>Subsystem.Финансы</parentSubsystem>
 </mdclass:Subsystem>
