@@ -311,7 +311,7 @@
       <name>ВнеплановыйДоход</name>
       <synonym>
         <key>ru</key>
-        <value>Внеплановый доход</value>
+        <value>Вне плана</value>
       </synonym>
       <type>
         <types>Boolean</types>
