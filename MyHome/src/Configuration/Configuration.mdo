@@ -451,6 +451,36 @@
   <roles>Role.ЧтениеГрафиковРаботы</roles>
   <roles>Role.ЧтениеДополнительныхОтчетовИОбработок</roles>
   <roles>Role.ЧтениеКурсовВалют</roles>
+  <roles>Role.мх_ПодсистемаФинансы</roles>
+  <roles>Role.мх_ПодсистемаУчет</roles>
+  <roles>Role.мх_ЧтениеКошелькиИСчета</roles>
+  <roles>Role.мх_ДобавлениеИзменениеКошелькиИСчета</roles>
+  <roles>Role.мх_ЧтениеМестаРасхода</roles>
+  <roles>Role.мх_ДобавлениеИзменениеМестаРасхода</roles>
+  <roles>Role.мх_БазовыеПрава</roles>
+  <roles>Role.мх_ЧтениеВводаОстатков</roles>
+  <roles>Role.мх_ДобавлениеИзменениеВводаОстатков</roles>
+  <roles>Role.мх_ЧтениеПеремещениеДенежныхСредств</roles>
+  <roles>Role.мх_ДобавлениеИзменениеПеремещениеДенежныхСредств</roles>
+  <roles>Role.мх_ЧтениеВозвратРасходов</roles>
+  <roles>Role.мх_ДобавлениеИзменениеВозвратРасходов</roles>
+  <roles>Role.мх_ЧтениеРегистрацияРасходов</roles>
+  <roles>Role.мх_ДобавлениеИзменениеРегистрацияРасходов</roles>
+  <roles>Role.мх_ЧтениеРегистрацияДоходов</roles>
+  <roles>Role.мх_ДобавлениеИзменениеРегистрацияДоходов</roles>
+  <roles>Role.мх_ЧтениеПланированиеБюджета</roles>
+  <roles>Role.мх_ДобавлениеИзменениеПланированиеБюджета</roles>
+  <roles>Role.мх_ОтчетыПоФинансам</roles>
+  <roles>Role.мх_ЧтениеСтатейРасходов</roles>
+  <roles>Role.мх_ДобавлениеИзменениеСтатейРасходов</roles>
+  <roles>Role.мх_ЧтениеСтатейДоходов</roles>
+  <roles>Role.мх_ДобавлениеИзменениеСтатейДоходов</roles>
+  <roles>Role.мх_ИспользованиеЗагрузкиБанковскихВыписок</roles>
+  <roles>Role.мх_ИспользованиеРабочегоСтола</roles>
+  <roles>Role.мх_ЧтениеДоходовРасходов</roles>
+  <roles>Role.мх_ИзменениеДоходовРасходов</roles>
+  <roles>Role.мх_ЧтениеДвиженияДенежныхСредств</roles>
+  <roles>Role.мх_ДобавлениеИзменениеДвиженияДенежныхСредств</roles>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПоискаСтрок</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаTWAIN</commonTemplates>
@@ -522,7 +552,7 @@
   <commonModules>CommonModule.КалендарныеГрафикиПереопределяемый</commonModules>
   <commonModules>CommonModule.КалендарныеГрафикиСлужебный</commonModules>
   <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
-  <commonModules>CommonModule.МобильныйИнтерфейс</commonModules>
+  <commonModules>CommonModule.мх_МобильныйИнтерфейс</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиент</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиентСервер</commonModules>
   <commonModules>CommonModule.МультиязычностьПереопределяемый</commonModules>
@@ -596,7 +626,7 @@
   <commonModules>CommonModule.ПользователиКлиент</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиПереопределяемый</commonModules>
-  <commonModules>CommonModule.ПользователиПовтИсп</commonModules>
+  <commonModules>CommonModule.мх_ПользователиПовтИсп</commonModules>
   <commonModules>CommonModule.ПользователиСлужебный</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйВМоделиСервиса</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйВМоделиСервисаВызовСервера</commonModules>

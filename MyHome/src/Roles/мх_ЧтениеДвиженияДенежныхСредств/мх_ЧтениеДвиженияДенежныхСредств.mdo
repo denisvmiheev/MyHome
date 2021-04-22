@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbc4c60a-05d4-416e-a512-54cdc7ac1cdf">
+  <name>мх_ЧтениеДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение движений денежных средств (MyHome)</value>
+  </synonym>
+</mdclass:Role>
