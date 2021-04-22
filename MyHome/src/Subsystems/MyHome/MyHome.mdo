@@ -61,4 +61,36 @@
   <content>AccumulationRegister.мх_Расходы</content>
   <content>AccumulationRegister.мх_СтатистикаФизическихУпражнений</content>
   <content>InformationRegister.мх_ДанныеСеансовИнформационнойБазы</content>
+  <content>Role.мх_ПодсистемаУчет</content>
+  <content>Role.мх_ПодсистемаФинансы</content>
+  <content>Role.мх_ЧтениеКошелькиИСчета</content>
+  <content>Role.мх_ДобавлениеИзменениеКошелькиИСчета</content>
+  <content>Role.мх_ЧтениеМестаРасхода</content>
+  <content>Role.мх_ДобавлениеИзменениеМестаРасхода</content>
+  <content>Role.мх_БазовыеПрава</content>
+  <content>Role.мх_ЧтениеВводаОстатков</content>
+  <content>Role.мх_ДобавлениеИзменениеВводаОстатков</content>
+  <content>Role.мх_ЧтениеПеремещениеДенежныхСредств</content>
+  <content>Role.мх_ДобавлениеИзменениеПеремещениеДенежныхСредств</content>
+  <content>Role.мх_ЧтениеВозвратРасходов</content>
+  <content>Role.мх_ДобавлениеИзменениеВозвратРасходов</content>
+  <content>Role.мх_ЧтениеРегистрацияРасходов</content>
+  <content>Role.мх_ДобавлениеИзменениеРегистрацияРасходов</content>
+  <content>Role.мх_ЧтениеРегистрацияДоходов</content>
+  <content>Role.мх_ДобавлениеИзменениеРегистрацияДоходов</content>
+  <content>Role.мх_ЧтениеПланированиеБюджета</content>
+  <content>Role.мх_ДобавлениеИзменениеПланированиеБюджета</content>
+  <content>Role.мх_ОтчетыПоФинансам</content>
+  <content>Role.мх_ЧтениеСтатейРасходов</content>
+  <content>Role.мх_ДобавлениеИзменениеСтатейРасходов</content>
+  <content>Role.мх_ЧтениеСтатейДоходов</content>
+  <content>Role.мх_ДобавлениеИзменениеСтатейДоходов</content>
+  <content>Role.мх_ИспользованиеЗагрузкиБанковскихВыписок</content>
+  <content>Role.мх_ИспользованиеРабочегоСтола</content>
+  <content>Role.мх_ЧтениеДоходовРасходов</content>
+  <content>Role.мх_ИзменениеДоходовРасходов</content>
+  <content>Role.мх_ЧтениеДвиженияДенежныхСредств</content>
+  <content>Role.мх_ДобавлениеИзменениеДвиженияДенежныхСредств</content>
+  <content>CommonModule.мх_ПользователиПовтИсп</content>
+  <content>CommonModule.мх_МобильныйИнтерфейс</content>
 </mdclass:Subsystem>
