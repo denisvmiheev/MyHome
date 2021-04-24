@@ -363,10 +363,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.Расходы.Кошелек</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Расходы[0].Кошелек</segments>
               </dataPath>
               <extendedTooltip>
                 <name>РасходыКошелекТекущиеДанныеРасширеннаяПодсказка</name>
@@ -419,10 +417,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.Расходы.СтатьяРасходов</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Расходы[0].СтатьяРасходов</segments>
               </dataPath>
               <handlers>
                 <event>OnChange</event>
@@ -479,10 +475,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.Расходы.АналитикаРасходов</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Расходы[0].АналитикаРасходов</segments>
               </dataPath>
               <extendedTooltip>
                 <name>РасходыАналитикаРасходовТекущиеДанныеРасширеннаяПодсказка</name>
@@ -571,10 +565,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.Расходы.ДатаОперации</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Расходы[0].ДатаОперации</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ДоходыДатаОперации1РасширеннаяПодсказка</name>
@@ -623,10 +615,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.Расходы.Сумма</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Расходы[0].Сумма</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ДоходыСумма1РасширеннаяПодсказка</name>
@@ -679,10 +669,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.Расходы.ДокументРасхода</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Расходы[0].ДокументРасхода</segments>
               </dataPath>
               <extendedTooltip>
                 <name>РасходыДокументРасходаРасширеннаяПодсказка</name>
@@ -797,10 +785,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Расходы.Содержание</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Расходы[0].Содержание</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДоходыСодержание1РасширеннаяПодсказка</name>
@@ -1706,6 +1692,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
+        <readOnly>true</readOnly>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
