@@ -546,8 +546,8 @@
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
-  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиКлиентСервер</commonModules>
-  <commonModules>CommonModule.ИнтеграцияСВнешнимиСистемамиПовтИсп</commonModules>
+  <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиПовтИсп</commonModules>
   <commonModules>CommonModule.КалендарныеГрафики</commonModules>
   <commonModules>CommonModule.КалендарныеГрафикиПереопределяемый</commonModules>
   <commonModules>CommonModule.КалендарныеГрафикиСлужебный</commonModules>
