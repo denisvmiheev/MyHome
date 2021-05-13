@@ -12,5 +12,6 @@
     <types>DocumentRef.мх_Гарантия</types>
     <types>CatalogRef.ПапкиФайлов</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.мх_Документы</types>
   </type>
 </mdclass:DefinedType>

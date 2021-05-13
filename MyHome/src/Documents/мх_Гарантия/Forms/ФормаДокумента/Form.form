@@ -353,10 +353,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.Номенклатура</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары[0].Номенклатура</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураОднаОперацияРасширеннаяПодсказка</name>
@@ -408,10 +406,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ДатаПокупки</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары[0].ДатаПокупки</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -468,10 +464,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ГарантияМес</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары[0].ГарантияМес</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -572,10 +566,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ГарантийныйСрок</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары[0].ГарантийныйСрок</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>

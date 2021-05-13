@@ -87,6 +87,24 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="bfab1a83-65ae-4906-a320-27f8864c030a">
+    <name>ФормаСпискаМобильныйИнтерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка мобильный интерфейс</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd8b6a02-5302-4424-a08e-cbaa8b8280b5">
+    <name>ФормаДокументаМобильныйИнтерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа мобильный интерфейс</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="84e9be57-1b80-4d46-98e6-51f62c65d0d6">
     <producedTypes>
       <objectType typeId="772bc334-704f-4964-aa9f-a07629054118" valueTypeId="7ab94b7b-4609-4247-a2ed-8bcfe1343c9f"/>
@@ -104,7 +122,7 @@
         <value>Номенклатура</value>
       </synonym>
       <type>
-        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.мх_Номенклатура</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

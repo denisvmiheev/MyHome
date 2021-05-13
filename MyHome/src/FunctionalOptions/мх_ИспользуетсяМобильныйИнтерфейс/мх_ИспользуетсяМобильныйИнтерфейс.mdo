@@ -8,4 +8,5 @@
   <location>InformationRegister.мх_ДанныеСеансовИнформационнойБазы.Resource.ИспользуетсяМобильныйИнтерфейс</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Subsystem.ФинансыМобильныйИнтерфейс</content>
+  <content>Subsystem.УчетМобильныйИнтерфейс</content>
 </mdclass:FunctionalOption>

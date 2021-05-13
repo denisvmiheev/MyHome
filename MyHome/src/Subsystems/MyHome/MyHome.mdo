@@ -93,4 +93,11 @@
   <content>Role.мх_ДобавлениеИзменениеДвиженияДенежныхСредств</content>
   <content>CommonModule.мх_ПользователиПовтИсп</content>
   <content>CommonModule.мх_МобильныйИнтерфейс</content>
+  <content>Role.мх_ДобавлениеИзменениеНоменклатуры</content>
+  <content>Role.мх_ЧтениеНоменклатура</content>
+  <content>Catalog.мх_Документы</content>
+  <content>Catalog.мх_Номенклатура</content>
+  <content>Role.мх_ЧтениеДокументы</content>
+  <content>Role.мх_ДобавлениеИзменениеДокументов</content>
+  <content>Catalog.мх_ДокументыПрисоединенныеФайлы</content>
 </mdclass:Subsystem>
