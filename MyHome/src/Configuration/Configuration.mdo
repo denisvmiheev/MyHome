@@ -484,6 +484,8 @@
   <roles>Role.мх_ДобавлениеИзменениеДвиженияДенежныхСредств</roles>
   <roles>Role.мх_ЧтениеНоменклатура</roles>
   <roles>Role.мх_ДобавлениеИзменениеНоменклатуры</roles>
+  <roles>Role.мх_ЧтениеДокументы</roles>
+  <roles>Role.мх_ДобавлениеИзменениеДокументов</roles>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПоискаСтрок</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаTWAIN</commonTemplates>
@@ -1015,6 +1017,8 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
+  <catalogs>Catalog.мх_Документы</catalogs>
+  <catalogs>Catalog.мх_ДокументыПрисоединенныеФайлы</catalogs>
   <documents>Document.мх_ВводОстатков</documents>
   <documents>Document.мх_ПеремещениеДенежныхСредств</documents>
   <documents>Document.мх_ВозвратРасходов</documents>
