@@ -75,6 +75,7 @@
   <subsystems>Subsystem.Учет</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.Спорт</subsystems>
+  <subsystems>Subsystem.УчетМобильныйИнтерфейс</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряРабочийЦвет</styleItems>
@@ -481,6 +482,8 @@
   <roles>Role.мх_ИзменениеДоходовРасходов</roles>
   <roles>Role.мх_ЧтениеДвиженияДенежныхСредств</roles>
   <roles>Role.мх_ДобавлениеИзменениеДвиженияДенежныхСредств</roles>
+  <roles>Role.мх_ЧтениеНоменклатура</roles>
+  <roles>Role.мх_ДобавлениеИзменениеНоменклатуры</roles>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПоискаСтрок</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаTWAIN</commonTemplates>
@@ -988,7 +991,7 @@
   <catalogs>Catalog.мх_КошелькиИСчета</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.мх_ГарантияПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.мх_Номенклатура</catalogs>
   <catalogs>Catalog.мх_ПоказателиФизическихУпражнений</catalogs>
   <catalogs>Catalog.мх_МестаРасхода</catalogs>
   <catalogs>Catalog.мх_ФизическиеУпражнения</catalogs>

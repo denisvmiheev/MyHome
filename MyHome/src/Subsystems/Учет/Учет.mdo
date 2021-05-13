@@ -12,6 +12,6 @@
   </picture>
   <content>InformationRegister.мх_Гарантия</content>
   <content>Document.мх_Гарантия</content>
-  <content>Catalog.Номенклатура</content>
+  <content>Catalog.мх_Номенклатура</content>
   <content>Report.мх_ГарантийныеСроки</content>
 </mdclass:Subsystem>

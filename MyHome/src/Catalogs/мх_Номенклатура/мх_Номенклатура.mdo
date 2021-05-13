@@ -7,18 +7,35 @@
     <listType typeId="14c0d22c-d30c-48a9-bbea-0ea701909e67" valueTypeId="6ce9b518-13cb-4332-8124-40bc9b0b92e7"/>
     <managerType typeId="20c6d8bc-efaa-4d59-af8a-1221fa19f6a1" valueTypeId="8b59fe4d-ef97-4520-8564-096e57348317"/>
   </producedTypes>
-  <name>Номенклатура</name>
+  <name>мх_Номенклатура</name>
   <synonym>
     <key>ru</key>
-    <value>Номенклатура</value>
+    <value>Номенклатура (MyHome)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.мх_Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.мх_Номенклатура.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>

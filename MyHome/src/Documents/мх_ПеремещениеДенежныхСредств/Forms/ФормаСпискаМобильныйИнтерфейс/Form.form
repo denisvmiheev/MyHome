@@ -51,6 +51,18 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
+    <excludedCommands>ShowMultipleSelection</excludedCommands>
+    <excludedCommands>Refresh</excludedCommands>
+    <excludedCommands>FindByCurrentValue</excludedCommands>
+    <excludedCommands>SearchHistory</excludedCommands>
+    <excludedCommands>DynamicListStandardSettings</excludedCommands>
+    <excludedCommands>Post</excludedCommands>
+    <excludedCommands>LoadDynamicListSettings</excludedCommands>
+    <excludedCommands>SaveDynamicListSettings</excludedCommands>
+    <excludedCommands>CopyToClipboard</excludedCommands>
+    <excludedCommands>ChangeHistory</excludedCommands>
+    <excludedCommands>UndoPosting</excludedCommands>
+    <excludedCommands>OutputList</excludedCommands>
     <items xsi:type="form:FormGroup">
       <name>СписокГруппаКолонки</name>
       <id>37</id>
