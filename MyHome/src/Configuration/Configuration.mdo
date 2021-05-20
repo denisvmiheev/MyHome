@@ -58,7 +58,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.17</compatibilityMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
   <languages uuid="5627039f-352b-405a-9469-802c05453f18">
     <name>Русский</name>
     <synonym>
@@ -735,6 +735,7 @@
   <commonModules>CommonModule.мх_КошелькиИСчетаПовтИсп</commonModules>
   <commonModules>CommonModule.мх_КошелькиИСчета</commonModules>
   <commonModules>CommonModule.мх_РабочийСтол</commonModules>
+  <commonModules>CommonModule.мх_СобытияФормПовтИсп</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
