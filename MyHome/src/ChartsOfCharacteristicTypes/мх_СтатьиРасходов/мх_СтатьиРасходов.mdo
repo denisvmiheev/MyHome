@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8579b76-8ef3-4091-b10b-64f75523e550">
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8579b76-8ef3-4091-b10b-64f75523e550">
   <producedTypes>
     <objectType typeId="7d1926c5-883a-415c-8ee2-369e241d6208" valueTypeId="fb04e371-456b-4538-804e-fe448f6857f7"/>
     <refType typeId="96cbb44e-7838-48c2-8521-19e0a88ad1a8" valueTypeId="ce24b995-4f76-4d49-8b21-870804fbc515"/>
@@ -55,29 +55,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>ChartOfCharacteristicTypes.мх_СтатьиРасходов.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="4ccebd65-f214-4658-89ae-b8fce788a185">
-    <name>ТипАналитикиПоУмолчанию</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип аналитики по умолчанию</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="fd99a9b2-90a9-472a-ac6b-3928178ad1a2">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:ChartOfCharacteristicTypes>
