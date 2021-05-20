@@ -96,6 +96,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="185fa9dc-1dda-442e-91ef-bf6a195ce6f3">
+    <name>ИнтерфейсОпределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерфейс определен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="af3aa563-d6d1-4d64-b03f-13c14291e848">
     <name>НомерСеанса</name>
     <synonym>

@@ -100,4 +100,5 @@
   <content>Role.мх_ЧтениеДокументы</content>
   <content>Role.мх_ДобавлениеИзменениеДокументов</content>
   <content>Catalog.мх_ДокументыПрисоединенныеФайлы</content>
+  <content>CommonModule.мх_СобытияФормПовтИсп</content>
 </mdclass:Subsystem>
