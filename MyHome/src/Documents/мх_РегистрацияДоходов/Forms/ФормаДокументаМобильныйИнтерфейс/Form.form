@@ -53,10 +53,10 @@
       <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <headerHorizontalAlign>Right</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
+        <maxWidth>10</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
@@ -104,6 +104,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -156,6 +157,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -209,12 +211,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
+        <maxWidth>8</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
@@ -261,6 +264,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -313,6 +317,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -347,7 +352,7 @@
         <key>ru</key>
         <value>Если флаг установлен, то сумма будет добавлена к плану дня, соответствующего дате операции</value>
       </toolTip>
-      <toolTipRepresentation>Button</toolTipRepresentation>
+      <toolTipRepresentation>None</toolTipRepresentation>
       <extendedTooltip>
         <name>ДоходыВнеплановыйДоходРасширеннаяПодсказка</name>
         <id>52</id>
@@ -388,7 +393,7 @@
         <id>53</id>
         <title>
           <key>ru</key>
-          <value>Добавить строку</value>
+          <value>Новая строка</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>

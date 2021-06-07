@@ -52,69 +52,6 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ДатаДохода</name>
-      <id>16</id>
-      <displayImportance>VeryHigh</displayImportance>
-      <title>
-        <key>ru</key>
-        <value>Дата</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДатаДохода</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ДатаДоходаРасширеннаяПодсказка</name>
-        <id>18</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ДатаДоходаКонтекстноеМеню</name>
-        <id>17</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <maxWidth>8</maxWidth>
-        <maxHeight>8</maxHeight>
-        <wrap>true</wrap>
-        <format>
-          <key>ru</key>
-          <value>ДФ=dd.MM.yyyy</value>
-        </format>
-        <editFormat>
-          <key>ru</key>
-          <value>ДФ=dd.MM.yyyy</value>
-        </editFormat>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>СтатьяДоходов</name>
       <id>19</id>
       <displayImportance>VeryHigh</displayImportance>
@@ -161,7 +98,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <maxWidth>10</maxWidth>
+        <maxWidth>13</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
@@ -216,7 +153,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <maxWidth>8</maxWidth>
+        <maxWidth>13</maxWidth>
         <maxHeight>1</maxHeight>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
@@ -268,9 +205,72 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <maxWidth>7</maxWidth>
-        <maxHeight>7</maxHeight>
+        <maxWidth>8</maxWidth>
+        <maxHeight>8</maxHeight>
         <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДатаДохода</name>
+      <id>16</id>
+      <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Дата</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаДохода</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаДоходаРасширеннаяПодсказка</name>
+        <id>18</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаДоходаКонтекстноеМеню</name>
+        <id>17</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <maxWidth>8</maxWidth>
+        <maxHeight>8</maxHeight>
+        <wrap>true</wrap>
+        <format>
+          <key>ru</key>
+          <value>ДФ=dd.MM.yyyy</value>
+        </format>
+        <editFormat>
+          <key>ru</key>
+          <value>ДФ=dd.MM.yyyy</value>
+        </editFormat>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
