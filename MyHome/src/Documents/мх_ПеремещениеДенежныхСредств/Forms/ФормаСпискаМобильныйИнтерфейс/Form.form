@@ -63,297 +63,187 @@
     <excludedCommands>ChangeHistory</excludedCommands>
     <excludedCommands>UndoPosting</excludedCommands>
     <excludedCommands>OutputList</excludedCommands>
-    <items xsi:type="form:FormGroup">
-      <name>СписокГруппаКолонки</name>
-      <id>37</id>
-      <items xsi:type="form:FormGroup">
-        <name>КолонкиСтрока1</name>
-        <id>43</id>
-        <items xsi:type="form:FormGroup">
-          <name>СписокГруппаКолонка1</name>
-          <id>39</id>
-          <displayImportance>VeryHigh</displayImportance>
-          <items xsi:type="form:FormField">
-            <name>Дата</name>
-            <id>19</id>
-            <displayImportance>VeryHigh</displayImportance>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Список.Date</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>ДатаРасширеннаяПодсказка</name>
-              <id>21</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ДатаКонтекстноеМеню</name>
-              <id>20</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>КошелекОткуда</name>
-            <id>28</id>
-            <displayImportance>VeryHigh</displayImportance>
-            <title>
-              <key>ru</key>
-              <value>Откуда</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Список.КошелекОткуда</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>КошелекОткудаРасширеннаяПодсказка</name>
-              <id>30</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>КошелекОткудаКонтекстноеМеню</name>
-              <id>29</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <maxWidth>15</maxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>false</horizontalStretch>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Список группа колонка1</value>
-          </title>
-          <extendedTooltip>
-            <name>СписокГруппаКолонка1РасширеннаяПодсказка</name>
-            <id>40</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>Vertical</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>СписокГруппаКолонка2</name>
-          <id>41</id>
-          <displayImportance>VeryHigh</displayImportance>
-          <items xsi:type="form:FormField">
-            <name>Сумма</name>
-            <id>34</id>
-            <displayImportance>VeryHigh</displayImportance>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Список.Сумма</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>СуммаРасширеннаяПодсказка</name>
-              <id>36</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>СуммаКонтекстноеМеню</name>
-              <id>35</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>КошелекКуда</name>
-            <id>31</id>
-            <displayImportance>VeryHigh</displayImportance>
-            <title>
-              <key>ru</key>
-              <value>Куда</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Список.КошелекКуда</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>КошелекКудаРасширеннаяПодсказка</name>
-              <id>33</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>КошелекКудаКонтекстноеМеню</name>
-              <id>32</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Список группа колонка1</value>
-          </title>
-          <extendedTooltip>
-            <name>СписокГруппаКолонка2РасширеннаяПодсказка</name>
-            <id>42</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>Vertical</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
+    <items xsi:type="form:FormField">
+      <name>КошелекОткуда</name>
+      <id>19</id>
+      <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Откуда</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КошелекОткуда</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КошелекОткудаРасширеннаяПодсказка</name>
+        <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Колонки строка1</value>
-        </title>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КошелекОткудаКонтекстноеМеню</name>
+        <id>20</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <maxWidth>13</maxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>КошелекКуда</name>
+      <id>22</id>
+      <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Куда</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КошелекКуда</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КошелекКудаРасширеннаяПодсказка</name>
+        <id>24</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КошелекКудаКонтекстноеМеню</name>
+        <id>23</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <maxWidth>13</maxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Сумма</name>
+      <id>25</id>
+      <displayImportance>VeryHigh</displayImportance>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Сумма</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СуммаРасширеннаяПодсказка</name>
+        <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СуммаКонтекстноеМеню</name>
+        <id>26</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <horizontalAlign>Left</horizontalAlign>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <maxWidth>7</maxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>СписокГруппаНизкая</name>
+      <id>34</id>
+      <displayImportance>VeryLow</displayImportance>
+      <items xsi:type="form:FormField">
+        <name>Дата</name>
+        <id>16</id>
+        <displayImportance>VeryLow</displayImportance>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Дата</segments>
+        </dataPath>
         <extendedTooltip>
-          <name>КолонкиСтрока1РасширеннаяПодсказка</name>
-          <id>44</id>
+          <name>ДатаРасширеннаяПодсказка</name>
+          <id>18</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -366,125 +256,53 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <type>ColumnGroup</type>
-        <extInfo xsi:type="form:ColumnGroupExtInfo">
-          <showTitle>true</showTitle>
+        <contextMenu>
+          <name>ДатаКонтекстноеМеню</name>
+          <id>17</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <maxWidth>6</maxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ДФ=dd.MM.yyyy</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ДФ=dd.MM.yyyy</value>
+          </editFormat>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <items xsi:type="form:FormGroup">
-        <name>КолонкиСтрока2</name>
-        <id>45</id>
+      <items xsi:type="form:FormField">
+        <name>Ответственный</name>
+        <id>28</id>
         <displayImportance>VeryLow</displayImportance>
-        <items xsi:type="form:FormField">
-          <name>Комментарий</name>
-          <id>22</id>
-          <displayImportance>VeryLow</displayImportance>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Список.Комментарий</segments>
-            </paths>
-          </dataPath>
-          <extendedTooltip>
-            <name>КомментарийРасширеннаяПодсказка</name>
-            <id>24</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>КомментарийКонтекстноеМеню</name>
-            <id>23</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>Ответственный</name>
-          <id>25</id>
-          <displayImportance>VeryLow</displayImportance>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Список.Ответственный</segments>
-            </paths>
-          </dataPath>
-          <extendedTooltip>
-            <name>ОтветственныйРасширеннаяПодсказка</name>
-            <id>27</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ОтветственныйКонтекстноеМеню</name>
-            <id>26</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Колонки строка2</value>
-        </title>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Ответственный</segments>
+        </dataPath>
         <extendedTooltip>
-          <name>КолонкиСтрока2РасширеннаяПодсказка</name>
-          <id>46</id>
+          <name>ОтветственныйРасширеннаяПодсказка</name>
+          <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -497,9 +315,79 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <type>ColumnGroup</type>
-        <extInfo xsi:type="form:ColumnGroupExtInfo">
-          <showTitle>true</showTitle>
+        <contextMenu>
+          <name>ОтветственныйКонтекстноеМеню</name>
+          <id>29</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Комментарий</name>
+        <id>31</id>
+        <displayImportance>VeryLow</displayImportance>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Комментарий</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>КомментарийРасширеннаяПодсказка</name>
+          <id>33</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КомментарийКонтекстноеМеню</name>
+          <id>32</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -509,11 +397,11 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Список группа колонки</value>
+        <value>Список группа низкая</value>
       </title>
       <extendedTooltip>
-        <name>СписокГруппаКолонкиРасширеннаяПодсказка</name>
-        <id>38</id>
+        <name>СписокГруппаНизкаяРасширеннаяПодсказка</name>
+        <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -528,7 +416,6 @@
       </extendedTooltip>
       <type>ColumnGroup</type>
       <extInfo xsi:type="form:ColumnGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -710,7 +597,7 @@
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
     <refreshRequest>PullFromTop</refreshRequest>
-    <behaviorOnHorizontalCompression>HideItemsByImportance</behaviorOnHorizontalCompression>
+    <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -733,10 +620,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -745,6 +628,7 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <collapseItemsByImportanceVariant>Use</collapseItemsByImportanceVariant>
   <attributes>
     <name>Список</name>
     <id>1</id>
