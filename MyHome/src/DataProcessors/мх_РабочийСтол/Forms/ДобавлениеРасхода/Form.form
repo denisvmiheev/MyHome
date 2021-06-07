@@ -47,6 +47,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -104,6 +105,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -158,6 +160,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -219,6 +222,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -276,6 +280,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -328,6 +333,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <horizontalAlign>Right</horizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -344,6 +350,10 @@
     <items xsi:type="form:FormField">
       <name>ДобавитьЕщеОдинРасход</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить еще</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -354,7 +364,7 @@
           <segments>ДобавитьЕщеОдинРасход</segments>
         </paths>
       </dataPath>
-      <titleLocation>Right</titleLocation>
+      <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ДобавитьЕщеОдинРасходРасширеннаяПодсказка</name>
         <id>37</id>
@@ -381,6 +391,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
+      <groupHorizontalAlign>Right</groupHorizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
