@@ -576,7 +576,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВМоделиСервиса</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.ОбработчикиСобытийДокументов</commonModules>
+  <commonModules>CommonModule.мх_ОбработчикиСобытийДокументов</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
