@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Report.мх_БюджетДоходовРасходов</name>
+		<name>Report.мх_АнализДвиженийДенежныхСредств</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -37,7 +37,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.мх_АнализДвиженийДенежныхСредств</name>
+		<name>Report.мх_БюджетДоходовРасходов</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

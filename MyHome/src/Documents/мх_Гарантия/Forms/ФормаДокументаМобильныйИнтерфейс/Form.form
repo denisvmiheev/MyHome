@@ -21,8 +21,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Номенклатура</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Товары.Номенклатура</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
@@ -73,8 +75,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ГарантияМес</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Товары.ГарантияМес</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТоварыГарантияМесРасширеннаяПодсказка</name>
@@ -125,8 +129,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ГарантийныйСрок</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Товары.ГарантийныйСрок</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТоварыГарантийныйСрокРасширеннаяПодсказка</name>
@@ -177,8 +183,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ДатаПокупки</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Товары.ДатаПокупки</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТоварыДатаПокупкиРасширеннаяПодсказка</name>

@@ -292,8 +292,10 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
-    <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>СписокИдентификаторов.DefaultPicture</segments>
+    <rowPictureDataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>СписокИдентификаторов.DefaultPicture</segments>
+      </paths>
     </rowPictureDataPath>
     <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">

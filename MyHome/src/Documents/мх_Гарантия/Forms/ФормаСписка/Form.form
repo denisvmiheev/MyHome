@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -46,10 +46,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Список</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Список</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
@@ -61,8 +59,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ЕстьФайлы</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.ЕстьФайлы</segments>
+        </paths>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -114,8 +114,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Номер</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Number</segments>
+        </paths>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -161,8 +163,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Дата</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Date</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
@@ -207,8 +211,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Номенклатура</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Номенклатура</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НоменклатураРасширеннаяПодсказка</name>
@@ -257,8 +263,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ГарантийныйСрок</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.ГарантийныйСрок</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ГарантийныйСрокРасширеннаяПодсказка</name>
@@ -307,8 +315,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Комментарий</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Комментарий</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
@@ -353,8 +363,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ответственный</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Ответственный</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -435,7 +447,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -474,7 +485,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -513,7 +523,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>Список</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -565,10 +574,8 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
-    <rowPictureDataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Список.СтандартнаяКартинка</segments>
-      </paths>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
@@ -647,171 +654,6 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Номер</dataPath>
-        <field>Номер</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Дата</dataPath>
-        <field>Дата</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Комментарий</dataPath>
-        <field>Комментарий</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ответственный</dataPath>
-        <field>Ответственный</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары.Ссылка</dataPath>
-        <field>Товары.Ссылка</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары.НомерСтроки</dataPath>
-        <field>Товары.НомерСтроки</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары.Номенклатура</dataPath>
-        <field>Товары.Номенклатура</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары.ДатаПокупки</dataPath>
-        <field>Товары.ДатаПокупки</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары.ГарантийныйСрок</dataPath>
-        <field>Товары.ГарантийныйСрок</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары.ГарантияМес</dataPath>
-        <field>Товары.ГарантияМес</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
-        <dataPath>Товары</dataPath>
-        <field>Товары</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>МоментВремени</dataPath>
-        <field>МоментВремени</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЕстьФайлы</dataPath>
-        <field>ЕстьФайлы</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Есть файлы</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Номенклатура</dataPath>
-        <field>Номенклатура</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ГарантийныйСрок</dataPath>
-        <field>ГарантийныйСрок</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
     </extInfo>
   </attributes>
   <commandInterface>

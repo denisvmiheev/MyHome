@@ -6,11 +6,11 @@
 	<object>
 		<name>Document.мх_ВводОстатков</name>
 		<right>
-			<name>InputByString</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -18,15 +18,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
+			<name>Posting</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -34,7 +26,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractivePosting</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -42,7 +34,23 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Insert</name>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -54,15 +62,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>

@@ -51,18 +51,18 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>ShowMultipleSelection</excludedCommands>
-    <excludedCommands>Refresh</excludedCommands>
-    <excludedCommands>FindByCurrentValue</excludedCommands>
-    <excludedCommands>SearchHistory</excludedCommands>
-    <excludedCommands>DynamicListStandardSettings</excludedCommands>
-    <excludedCommands>Post</excludedCommands>
-    <excludedCommands>LoadDynamicListSettings</excludedCommands>
-    <excludedCommands>SaveDynamicListSettings</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
     <excludedCommands>ChangeHistory</excludedCommands>
-    <excludedCommands>UndoPosting</excludedCommands>
+    <excludedCommands>CopyToClipboard</excludedCommands>
+    <excludedCommands>DynamicListStandardSettings</excludedCommands>
+    <excludedCommands>FindByCurrentValue</excludedCommands>
+    <excludedCommands>LoadDynamicListSettings</excludedCommands>
     <excludedCommands>OutputList</excludedCommands>
+    <excludedCommands>Post</excludedCommands>
+    <excludedCommands>Refresh</excludedCommands>
+    <excludedCommands>SaveDynamicListSettings</excludedCommands>
+    <excludedCommands>SearchHistory</excludedCommands>
+    <excludedCommands>ShowMultipleSelection</excludedCommands>
+    <excludedCommands>UndoPosting</excludedCommands>
     <items xsi:type="form:FormField">
       <name>КошелекОткуда</name>
       <id>19</id>
@@ -76,8 +76,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.КошелекОткуда</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.КошелекОткуда</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КошелекОткудаРасширеннаяПодсказка</name>
@@ -131,8 +133,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.КошелекКуда</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.КошелекКуда</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КошелекКудаРасширеннаяПодсказка</name>
@@ -182,8 +186,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Сумма</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.Сумма</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СуммаРасширеннаяПодсказка</name>
@@ -238,8 +244,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Список.Дата</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Список.Date</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДатаРасширеннаяПодсказка</name>
@@ -297,8 +305,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Список.Ответственный</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Список.Ответственный</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -348,8 +358,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Список.Комментарий</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Список.Комментарий</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КомментарийРасширеннаяПодсказка</name>

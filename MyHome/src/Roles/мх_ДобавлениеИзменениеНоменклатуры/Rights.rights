@@ -6,7 +6,7 @@
 	<object>
 		<name>Catalog.мх_Номенклатура</name>
 		<right>
-			<name>Edit</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -14,11 +14,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -30,15 +38,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
