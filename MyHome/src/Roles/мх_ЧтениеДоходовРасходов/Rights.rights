@@ -4,6 +4,21 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>AccumulationRegister.мх_ДоходыРасходы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.мх_Расходы</name>
 		<right>
 			<name>Read</name>
@@ -20,21 +35,6 @@
 	</object>
 	<object>
 		<name>AccumulationRegister.мх_Доходы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.мх_ДоходыРасходы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

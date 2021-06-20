@@ -6,7 +6,7 @@
 	<object>
 		<name>Catalog.мх_Документы</name>
 		<right>
-			<name>View</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -14,11 +14,15 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveClearDeletionMark</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -26,15 +30,11 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
+			<name>InteractiveClearDeletionMark</name>
 			<value>true</value>
 		</right>
 		<right>

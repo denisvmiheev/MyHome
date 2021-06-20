@@ -6,11 +6,11 @@
 	<object>
 		<name>Catalog.мх_Документы</name>
 		<right>
-			<name>View</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
