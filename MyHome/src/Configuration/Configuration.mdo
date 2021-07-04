@@ -682,7 +682,6 @@
   <commonModules>CommonModule.СклонениеПредставленийОбъектовКлиент</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектовКлиентСервер</commonModules>
   <commonModules>CommonModule.мх_СобытияФорм</commonModules>
-  <commonModules>CommonModule.мх_СобытияФормВызовСервера</commonModules>
   <commonModules>CommonModule.СоединенияИБ</commonModules>
   <commonModules>CommonModule.СоединенияИБВызовСервера</commonModules>
   <commonModules>CommonModule.СоединенияИБГлобальный</commonModules>
