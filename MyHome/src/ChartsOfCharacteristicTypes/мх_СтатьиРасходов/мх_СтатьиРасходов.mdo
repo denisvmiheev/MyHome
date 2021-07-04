@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8579b76-8ef3-4091-b10b-64f75523e550">
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8579b76-8ef3-4091-b10b-64f75523e550">
   <producedTypes>
     <objectType typeId="7d1926c5-883a-415c-8ee2-369e241d6208" valueTypeId="fb04e371-456b-4538-804e-fe448f6857f7"/>
     <refType typeId="96cbb44e-7838-48c2-8521-19e0a88ad1a8" valueTypeId="ce24b995-4f76-4d49-8b21-870804fbc515"/>
@@ -14,10 +14,8 @@
     <value>Статьи расходов (MyHome)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ChartOfCharacteristicTypes.мх_СтатьиРасходов.StandardAttribute.Code</inputByString>
   <inputByString>ChartOfCharacteristicTypes.мх_СтатьиРасходов.StandardAttribute.Description</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
-  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -37,6 +35,7 @@
     <key>ru</key>
     <value>Статьи расходов</value>
   </extendedListPresentation>
+  <dataHistory>Use</dataHistory>
   <type>
     <types>String</types>
     <types>CatalogRef.Пользователи</types>
@@ -55,4 +54,30 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <defaultObjectForm>ChartOfCharacteristicTypes.мх_СтатьиРасходов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="871a7423-1cae-48d8-a5a8-bbea1f830ea7">
+    <name>ТипАналитикиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип аналитики по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Characteristic.мх_СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6843ea61-cf09-4f72-81df-1a9f2a64b4ca">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ChartOfCharacteristicTypes>

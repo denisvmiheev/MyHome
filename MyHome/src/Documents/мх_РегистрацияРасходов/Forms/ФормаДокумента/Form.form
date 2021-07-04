@@ -426,7 +426,7 @@
               </dataPath>
               <handlers>
                 <event>OnChange</event>
-                <name>ДоходыСтатьяДоходов1ПриИзменении</name>
+                <name>РасходыСтатьяРасходовТекущиеДанныеПриИзменении</name>
               </handlers>
               <extendedTooltip>
                 <name>РасходыСтатьяРасходовТекущиеДанныеРасширеннаяПодсказка</name>
@@ -462,6 +462,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <choiceFoldersAndItems>Items</choiceFoldersAndItems>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -983,6 +984,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
+              <choiceFoldersAndItems>Items</choiceFoldersAndItems>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
