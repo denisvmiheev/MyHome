@@ -261,6 +261,10 @@
           <segments>АналитикаРасходов</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>АналитикаРасходовПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>АналитикаРасходовРасширеннаяПодсказка</name>
         <id>6</id>

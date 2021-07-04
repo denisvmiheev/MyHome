@@ -930,7 +930,6 @@
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.ВыборСтандартногоПериодаМесяц</commonForms>
-  <commonForms>CommonForm.ПрисоединенныеФайлы</commonForms>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.АутентификацияВСервисе</commonForms>
   <commonForms>CommonForm.ВводНаРазныхЯзыках</commonForms>
