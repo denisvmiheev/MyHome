@@ -40,4 +40,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.мх_МестаРасхода.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="55cd2a12-bf9d-4e0f-8760-e0d0835b5c35">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
