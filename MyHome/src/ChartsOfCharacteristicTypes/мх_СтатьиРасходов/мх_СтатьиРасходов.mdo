@@ -56,6 +56,7 @@
   <choiceMode>BothWays</choiceMode>
   <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <defaultObjectForm>ChartOfCharacteristicTypes.мх_СтатьиРасходов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.мх_СтатьиРасходов.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="871a7423-1cae-48d8-a5a8-bbea1f830ea7">
     <name>ТипАналитикиПоУмолчанию</name>
     <synonym>
@@ -76,6 +77,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="291fa9b8-1587-45fb-a08f-adc8f2e08415">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

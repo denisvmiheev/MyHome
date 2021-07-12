@@ -40,6 +40,7 @@
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>ChartOfCharacteristicTypes.мх_СтатьиДоходов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.мх_СтатьиДоходов.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="d8e6c754-afa5-4bff-9673-585c638d10ce">
     <name>ТипАналитикиПоУмолчанию</name>
     <synonym>
@@ -60,6 +61,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc8cc535-29b1-4686-975f-216647e4d497">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
