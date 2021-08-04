@@ -11,4 +11,6 @@
   <content>AccumulationRegister.мх_ПланированиеБюджета</content>
   <content>Report.мх_ПланированиеБюджета</content>
   <content>Subsystem.Финансы.Subsystem.Планирование</content>
+  <content>Document.мх_РегистрацияРасходов.TabularSection.Расходы.Attribute.ВнеБюджета</content>
+  <content>Document.мх_РегистрацияРасходов.Attribute.ВнеБюджета</content>
 </mdclass:FunctionalOption>

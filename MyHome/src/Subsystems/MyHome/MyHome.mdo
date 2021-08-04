@@ -101,4 +101,5 @@
   <content>Catalog.мх_ДокументыПрисоединенныеФайлы</content>
   <content>CommonModule.мх_СобытияФормПовтИсп</content>
   <content>CommonModule.мх_ОбработчикиСобытийДокументов</content>
+  <content>CommonPicture.мх_ВнеБюджета</content>
 </mdclass:Subsystem>

@@ -11,7 +11,7 @@
   <name>мх_ДоходыРасходы</name>
   <synonym>
     <key>ru</key>
-    <value>Мх доходы расходы</value>
+    <value>Доходы расходы (MyHome)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
