@@ -387,6 +387,7 @@
   <commonPictures>CommonPicture.ШиринаКолонки</commonPictures>
   <commonPictures>CommonPicture.Шрифт</commonPictures>
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.мх_ВнеБюджета</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>

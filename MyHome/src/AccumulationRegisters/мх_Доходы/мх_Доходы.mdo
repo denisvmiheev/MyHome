@@ -11,7 +11,7 @@
   <name>мх_Доходы</name>
   <synonym>
     <key>ru</key>
-    <value>Доходы</value>
+    <value>Доходы (MyHome)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>

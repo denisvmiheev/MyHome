@@ -149,6 +149,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="19e99afa-df76-4ad3-9d3f-5443f940aa8c">
+    <name>ВнеБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вне бюджета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="fd17f0df-b6a2-48b6-a41c-adf5b3b18858">
     <name>ФормаДокумента</name>
     <synonym>
@@ -292,6 +306,20 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f618839d-ac46-4f65-9053-23f2e52b9745">
+      <name>ВнеБюджета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вне бюджета</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
