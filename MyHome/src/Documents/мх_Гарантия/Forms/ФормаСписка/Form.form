@@ -54,6 +54,10 @@
     <items xsi:type="form:FormField">
       <name>ЕстьФайлы</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Есть файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

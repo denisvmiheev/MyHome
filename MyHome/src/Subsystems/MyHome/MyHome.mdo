@@ -100,6 +100,6 @@
   <content>Role.мх_ДобавлениеИзменениеДокументов</content>
   <content>Catalog.мх_ДокументыПрисоединенныеФайлы</content>
   <content>CommonModule.мх_СобытияФормПовтИсп</content>
-  <content>CommonModule.мх_ОбработчикиСобытийДокументов</content>
+  <content>CommonModule.мх_ОбработчикиСобытий</content>
   <content>CommonPicture.мх_ВнеБюджета</content>
 </mdclass:Subsystem>

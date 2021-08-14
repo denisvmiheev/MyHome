@@ -3,7 +3,7 @@
   <name>MyHome</name>
   <synonym>
     <key>ru</key>
-    <value>My home</value>
+    <value>My home 0.0</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="27da8013-970d-42ee-bb5c-665695b238da"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c6578022-7905-4d69-b1ee-c9bcc006fc06"/>
@@ -19,7 +19,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <version>0.0.3.0</version>
+  <version>0.0.3.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -54,9 +54,18 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>My home 0.0</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>My home 0.0</value>
+  </detailedInformation>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="5627039f-352b-405a-9469-802c05453f18">
@@ -577,7 +586,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВМоделиСервиса</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.мх_ОбработчикиСобытийДокументов</commonModules>
+  <commonModules>CommonModule.мх_ОбработчикиСобытий</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
@@ -989,15 +998,6 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
-  <catalogs>Catalog.мх_Автоплатежи</catalogs>
-  <catalogs>Catalog.мх_КошелькиИСчета</catalogs>
-  <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.мх_ГарантияПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.мх_Номенклатура</catalogs>
-  <catalogs>Catalog.мх_ПоказателиФизическихУпражнений</catalogs>
-  <catalogs>Catalog.мх_МестаРасхода</catalogs>
-  <catalogs>Catalog.мх_ФизическиеУпражнения</catalogs>
-  <catalogs>Catalog.мх_ВнешниеСистемы</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
@@ -1008,7 +1008,18 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Календари</catalogs>
+  <catalogs>Catalog.мх_Автоплатежи</catalogs>
+  <catalogs>Catalog.мх_ВнешниеСистемы</catalogs>
+  <catalogs>Catalog.мх_ГарантияПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.мх_Документы</catalogs>
+  <catalogs>Catalog.мх_ДокументыПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.мх_КошелькиИСчета</catalogs>
+  <catalogs>Catalog.мх_МестаРасхода</catalogs>
+  <catalogs>Catalog.мх_Номенклатура</catalogs>
+  <catalogs>Catalog.мх_ПоказателиФизическихУпражнений</catalogs>
+  <catalogs>Catalog.мх_ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
@@ -1017,14 +1028,12 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
-  <catalogs>Catalog.мх_Документы</catalogs>
-  <catalogs>Catalog.мх_ДокументыПрисоединенныеФайлы</catalogs>
   <documents>Document.мх_ВводОстатков</documents>
-  <documents>Document.мх_ПеремещениеДенежныхСредств</documents>
   <documents>Document.мх_ВозвратРасходов</documents>
   <documents>Document.мх_Гарантия</documents>
-  <documents>Document.мх_РегистрацияДоходов</documents>
+  <documents>Document.мх_ПеремещениеДенежныхСредств</documents>
   <documents>Document.мх_ПланированиеБюджета</documents>
+  <documents>Document.мх_РегистрацияДоходов</documents>
   <documents>Document.мх_РегистрацияРасходов</documents>
   <documents>Document.мх_РегистрацияФизическихУпражений</documents>
   <enums>Enum.мх_ТипыКошельковИСчетов</enums>

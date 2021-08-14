@@ -36,6 +36,7 @@
   <registerRecords>InformationRegister.мх_Гарантия</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <attributes uuid="c5be8880-7092-4eda-9c1e-1222fb614419">
     <name>Комментарий</name>
     <synonym>

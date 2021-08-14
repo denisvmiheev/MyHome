@@ -37,6 +37,7 @@
   <registerRecords>AccumulationRegister.мх_ПланированиеБюджета</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <attributes uuid="da0865d6-9ca3-451a-9620-53dbac4568fe">
     <name>НачалоПериода</name>
     <synonym>

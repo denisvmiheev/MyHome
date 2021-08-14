@@ -10,7 +10,7 @@
   <name>мх_ВводОстатков</name>
   <synonym>
     <key>ru</key>
-    <value>Ввод / изменение остатка</value>
+    <value>Ввод / изменение остатков</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.мх_ВводОстатков.StandardAttribute.Number</inputByString>
@@ -18,6 +18,14 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ввод / изменение остатков</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ввод / изменение остатков</value>
+  </listPresentation>
   <numberLength>7</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
@@ -26,11 +34,12 @@
   <registerRecords>AccumulationRegister.мх_ДвиженияДенежныхСредств</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <attributes uuid="edc157ce-2daa-422c-8018-5e02c1160d2e">
     <name>ОбъектУчета</name>
     <synonym>
       <key>ru</key>
-      <value>Кошелек</value>
+      <value>Объект учета</value>
     </synonym>
     <type>
       <types>CatalogRef.мх_КошелькиИСчета</types>
