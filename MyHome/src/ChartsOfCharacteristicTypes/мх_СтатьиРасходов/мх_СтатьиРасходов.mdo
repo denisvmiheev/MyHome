@@ -54,7 +54,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
-  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <defaultObjectForm>ChartOfCharacteristicTypes.мх_СтатьиРасходов.Form.ФормаЭлемента</defaultObjectForm>
   <defaultChoiceForm>ChartOfCharacteristicTypes.мх_СтатьиРасходов.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="871a7423-1cae-48d8-a5a8-bbea1f830ea7">
