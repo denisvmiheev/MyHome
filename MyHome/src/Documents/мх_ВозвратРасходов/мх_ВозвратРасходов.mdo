@@ -39,6 +39,7 @@
   <registerRecords>AccumulationRegister.мх_ДвиженияДенежныхСредств</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <attributes uuid="01773702-a659-424d-8514-9f0808667fda">
     <name>Автор</name>
     <synonym>

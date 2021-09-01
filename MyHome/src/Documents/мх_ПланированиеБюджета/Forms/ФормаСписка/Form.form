@@ -263,6 +263,10 @@
     <items xsi:type="form:FormField">
       <name>БюджетНаДень</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Бюджет на день</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -315,6 +319,10 @@
     <items xsi:type="form:FormField">
       <name>Ответственный</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

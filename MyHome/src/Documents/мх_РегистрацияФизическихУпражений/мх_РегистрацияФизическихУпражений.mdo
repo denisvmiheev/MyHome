@@ -27,6 +27,7 @@
   <registerRecords>AccumulationRegister.мх_СтатистикаФизическихУпражнений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <attributes uuid="b30994be-86be-40b5-9222-a3aa67142c2b">
     <name>Ответственный</name>
     <synonym>
