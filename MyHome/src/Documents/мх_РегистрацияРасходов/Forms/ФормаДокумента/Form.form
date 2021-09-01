@@ -995,6 +995,10 @@
                 <segments>Объект.Расходы.СтатьяРасходов</segments>
               </paths>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>РасходыСтатьяРасходовПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>РасходыСтатьяРасходовРасширеннаяПодсказка</name>
               <id>109</id>

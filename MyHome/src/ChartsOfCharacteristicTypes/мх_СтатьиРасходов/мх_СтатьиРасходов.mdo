@@ -71,6 +71,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c4a87577-7dbc-431e-82c1-e5993d7333ac">
+    <name>ВнеБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вне бюджета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6843ea61-cf09-4f72-81df-1a9f2a64b4ca">
     <name>ФормаЭлемента</name>
     <synonym>
