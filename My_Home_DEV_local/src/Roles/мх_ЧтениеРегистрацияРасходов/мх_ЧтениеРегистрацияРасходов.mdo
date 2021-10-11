@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd0482e6-d834-4c03-8be9-6e29d48b38b9">
-  <name>мх_ЧтениеРегистрацияРасходов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Чтение документа &quot;Регистрация расходов&quot; (MyHome)</value>
-  </synonym>
-</mdclass:Role>

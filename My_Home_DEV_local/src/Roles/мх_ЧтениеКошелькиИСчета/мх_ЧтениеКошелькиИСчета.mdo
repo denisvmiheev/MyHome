@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30732c18-6bb1-43ea-8653-9a8ec6c9b5fc">
-  <name>мх_ЧтениеКошелькиИСчета</name>
-  <synonym>
-    <key>ru</key>
-    <value>Чтение справочника кошельки и счета (MyHome)</value>
-  </synonym>
-</mdclass:Role>

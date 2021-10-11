@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="310eed90-58cb-4a1c-8db4-a76f3f03b1d6">
-  <name>мх_ИспользованиеРабочегоСтола</name>
-  <synonym>
-    <key>ru</key>
-    <value>Доступ к рабочему столу (MyHome)</value>
-  </synonym>
-</mdclass:Role>
