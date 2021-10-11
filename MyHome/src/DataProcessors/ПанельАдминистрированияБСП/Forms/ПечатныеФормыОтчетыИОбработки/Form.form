@@ -78,6 +78,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -1026,10 +1027,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ИспользоватьДополнительныеОтчетыИОбработки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьДополнительныеОтчетыИОбработки</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTip>

@@ -34,10 +34,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиСервиса.Добавить</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиСервиса.Добавить</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -80,10 +78,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиСервиса.Имя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиСервиса.Имя</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользователиСервисаИмяExtendedTooltip</name>
@@ -128,10 +124,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиСервиса.ПолноеИмя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиСервиса.ПолноеИмя</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользователиСервисаПолноеИмяExtendedTooltip</name>
@@ -175,10 +169,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиСервиса.Идентификатор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиСервиса.Идентификатор</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользователиСервисаИдентификаторExtendedTooltip</name>
@@ -223,10 +215,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиСервиса.Доступ</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиСервиса.Доступ</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользователиСервисаДоступExtendedTooltip</name>
@@ -292,6 +282,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -322,6 +313,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -524,6 +516,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -553,6 +546,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

@@ -78,6 +78,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -150,10 +151,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.ЗаголовокСистемы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.ЗаголовокСистемы</segments>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <handlers>
@@ -228,6 +227,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -321,10 +321,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.АдресПубликацииИнформационнойБазыВИнтернете</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.АдресПубликацииИнформационнойБазыВИнтернете</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -397,10 +395,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.АдресПубликацииИнформационнойБазыВЛокальнойСети</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.АдресПубликацииИнформационнойБазыВЛокальнойСети</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -1238,10 +1234,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ХранитьИсториюИзменений</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ХранитьИсториюИзменений</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -1309,6 +1303,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -1400,10 +1395,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ИспользоватьПолнотекстовыйПоиск</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИспользоватьПолнотекстовыйПоиск</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -1473,6 +1466,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -1849,10 +1843,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>УдалениеПомеченныхИспользование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>УдалениеПомеченныхИспользование</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
@@ -1920,6 +1912,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -2022,6 +2015,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>

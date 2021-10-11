@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Сумма</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Сумма</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -74,10 +72,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДатаОперации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДатаОперации</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаОперацииРасширеннаяПодсказка</name>
@@ -128,10 +124,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Кошелек</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Кошелек</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
@@ -187,10 +181,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтатьяРасходов</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтатьяРасходов</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -256,10 +248,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>АналитикаРасходов</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>АналитикаРасходов</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -313,10 +303,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Комментарий</segments>
       </dataPath>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
@@ -415,10 +403,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДобавитьЕщеОдинРасход</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДобавитьЕщеОдинРасход</segments>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
@@ -526,6 +512,7 @@
       <picture xsi:type="core:PictureRef">
         <picture>CommonPicture.Камера48</picture>
       </picture>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -566,6 +553,7 @@
       <picture xsi:type="core:PictureRef">
         <picture>StdPicture.SaveFile</picture>
       </picture>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

@@ -34,10 +34,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВыбранныеФорматыСохранения.Check</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВыбранныеФорматыСохранения.Check</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВыбранныеФорматыСохраненияПометкаExtendedTooltip</name>
@@ -79,10 +77,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВыбранныеФорматыСохранения.Value</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВыбранныеФорматыСохранения.Value</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВыбранныеФорматыСохраненияЗначениеExtendedTooltip</name>
@@ -335,10 +331,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>УпаковатьВАрхив</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УпаковатьВАрхив</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -381,10 +375,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПереводитьИменаФайловВТранслит</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПереводитьИменаФайловВТранслит</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <toolTip>
@@ -488,6 +480,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -518,6 +511,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

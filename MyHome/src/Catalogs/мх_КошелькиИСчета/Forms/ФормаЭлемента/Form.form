@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -60,10 +58,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Parent</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Parent</segments>
     </dataPath>
     <extendedTooltip>
       <name>РодительРасширеннаяПодсказка</name>
@@ -112,10 +108,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ТипСчета</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ТипСчета</segments>
     </dataPath>
     <extendedTooltip>
       <name>ТипСчетаРасширеннаяПодсказка</name>
@@ -164,10 +158,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Комментарий</segments>
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
@@ -216,10 +208,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.КредитныйЛимит</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.КредитныйЛимит</segments>
     </dataPath>
     <extendedTooltip>
       <name>КредитныйЛимитРасширеннаяПодсказка</name>
@@ -268,10 +258,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ИдентификаторКошелька</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ИдентификаторКошелька</segments>
     </dataPath>
     <toolTip>
       <key>ru</key>
@@ -325,10 +313,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Используется</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Используется</segments>
     </dataPath>
     <extendedTooltip>
       <name>ИспользуетсяРасширеннаяПодсказка</name>
@@ -370,10 +356,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ОтображатьОстатокНаРабочемСтоле</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ОтображатьОстатокНаРабочемСтоле</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОтображатьОстатокНаРабочемСтолеРасширеннаяПодсказка</name>

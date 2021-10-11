@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПредставлениеХранилищаФайлов</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПредставлениеХранилищаФайлов</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПредставлениеХранилищаФайловExtendedTooltip</name>
@@ -160,10 +158,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПутьКФайлу</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПутьКФайлу</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -217,10 +213,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Размер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Размер</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокРазмерРасширеннаяПодсказка</name>
@@ -270,10 +264,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Автор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Автор</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокАвторРасширеннаяПодсказка</name>
@@ -321,10 +313,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокСсылкаРасширеннаяПодсказка</name>

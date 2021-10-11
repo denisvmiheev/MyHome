@@ -694,10 +694,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПоляГруппировки.Представление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПоляГруппировки.Представление</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПоляГруппировкиПредставлениеРасширеннаяПодсказка</name>
@@ -1007,6 +1005,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

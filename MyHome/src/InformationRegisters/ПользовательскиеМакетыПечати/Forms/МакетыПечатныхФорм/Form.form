@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтрокаПоиска</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтрокаПоиска</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <titleLocation>None</titleLocation>
@@ -85,10 +83,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтборПоИспользованиюМакета</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборПоИспользованиюМакета</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -196,10 +192,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтборПоЯзыку</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборПоЯзыку</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -313,10 +307,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МакетыПечатныхФорм.КартинкаИспользования</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МакетыПечатныхФорм.КартинкаИспользования</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -376,10 +368,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МакетыПечатныхФорм.ПредставлениеМакета</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МакетыПечатныхФорм.ПредставлениеМакета</segments>
       </dataPath>
       <extendedTooltip>
         <name>МакетыПечатныхФормПредставлениеМакетаExtendedTooltip</name>
@@ -431,10 +421,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МакетыПечатныхФорм.ПредставлениеВладельца</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МакетыПечатныхФорм.ПредставлениеВладельца</segments>
       </dataPath>
       <extendedTooltip>
         <name>МакетыПечатныхФормПредставлениеВладельцаExtendedTooltip</name>
@@ -488,10 +476,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МакетыПечатныхФорм.ДоступныеЯзыки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МакетыПечатныхФорм.ДоступныеЯзыки</segments>
       </dataPath>
       <extendedTooltip>
         <name>МакетыПечатныхФормДоступныеЯзыкиРасширеннаяПодсказка</name>
@@ -566,6 +552,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
@@ -595,6 +582,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -658,6 +646,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
@@ -688,6 +677,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -748,6 +738,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:FormGroup">
@@ -781,6 +772,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
@@ -812,6 +804,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -872,6 +865,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>

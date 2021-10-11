@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПриоритетОбновленияВОбластяхДанных.ПриоритетОбновленияВОбластяхДанных</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПриоритетОбновленияВОбластяхДанных.ПриоритетОбновленияВОбластяхДанных</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <toolTipRepresentation>ShowBottom</toolTipRepresentation>
@@ -69,10 +67,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПриоритетОбновленияВОбластяхДанных.ПриоритетОбновленияВОбластяхДанных</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПриоритетОбновленияВОбластяхДанных.ПриоритетОбновленияВОбластяхДанных</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <toolTipRepresentation>ShowBottom</toolTipRepresentation>
@@ -130,10 +126,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПриоритетОбновленияВОбластяхДанных.ПриоритетОбновленияВОбластяхДанных</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПриоритетОбновленияВОбластяхДанных.ПриоритетОбновленияВОбластяхДанных</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <toolTipRepresentation>ShowBottom</toolTipRepresentation>

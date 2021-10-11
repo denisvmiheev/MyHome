@@ -78,6 +78,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -342,10 +343,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НаборКонстант.ИспользоватьДатыЗапретаЗагрузки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ИспользоватьДатыЗапретаЗагрузки</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTipRepresentation>None</toolTipRepresentation>
@@ -422,6 +421,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>

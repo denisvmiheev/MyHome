@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>КонстантыДляНастройки.мх_ИспользоватьПланированиеБюджета</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КонстантыДляНастройки.мх_ИспользоватьПланированиеБюджета</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -95,10 +93,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>КонстантыДляНастройки.мх_СистемаПроверкиЧеков</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КонстантыДляНастройки.мх_СистемаПроверкиЧеков</segments>
         </dataPath>
         <extendedTooltip>
           <name>КонстантыСистемаПроверкиЧековРасширеннаяПодсказка</name>
@@ -231,6 +227,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

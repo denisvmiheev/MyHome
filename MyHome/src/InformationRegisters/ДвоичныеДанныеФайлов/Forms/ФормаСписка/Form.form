@@ -69,6 +69,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
@@ -131,10 +132,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ТипФайла</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ТипФайла</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТипФайлаРасширеннаяПодсказка</name>
@@ -184,10 +183,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Файл</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Файл</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>

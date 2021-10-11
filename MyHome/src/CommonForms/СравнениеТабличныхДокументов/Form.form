@@ -40,6 +40,7 @@
           <picture xsi:type="core:PictureRef">
             <picture>StdPicture.MoveUp</picture>
           </picture>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
@@ -73,6 +74,7 @@
           <picture xsi:type="core:PictureRef">
             <picture>StdPicture.MoveDown</picture>
           </picture>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -113,10 +115,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТабличныйДокументЛевый</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТабличныйДокументЛевый</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -244,6 +244,7 @@
           <picture xsi:type="core:PictureRef">
             <picture>StdPicture.MoveUp</picture>
           </picture>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
@@ -277,6 +278,7 @@
           <picture xsi:type="core:PictureRef">
             <picture>StdPicture.MoveDown</picture>
           </picture>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -316,10 +318,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТабличныйДокументПравый</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТабличныйДокументПравый</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>

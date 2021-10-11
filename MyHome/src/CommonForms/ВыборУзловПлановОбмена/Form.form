@@ -37,10 +37,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>УзлыПлановОбмена.ПланОбменаПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УзлыПлановОбмена.ПланОбменаПредставление</segments>
       </dataPath>
       <extendedTooltip>
         <name>УзлыПлановОбменаПланОбменаПредставлениеExtendedTooltip</name>
@@ -89,10 +87,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>УзлыПлановОбмена.УзелПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УзлыПлановОбмена.УзелПредставление</segments>
       </dataPath>
       <extendedTooltip>
         <name>УзлыПлановОбменаУзелПредставлениеExtendedTooltip</name>
@@ -341,6 +337,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:FormGroup">

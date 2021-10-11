@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Number</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Number</segments>
         </dataPath>
         <extendedTooltip>
           <name>НомерРасширеннаяПодсказка</name>
@@ -70,10 +68,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Date</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Date</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДатаРасширеннаяПодсказка</name>
@@ -155,10 +151,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Ответственный</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Ответственный</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -207,10 +201,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
@@ -296,10 +288,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НесколькоОпераций</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НесколькоОпераций</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -353,10 +343,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары[0].Номенклатура</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары[0].Номенклатура</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураОднаОперацияРасширеннаяПодсказка</name>
@@ -408,10 +396,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары[0].ДатаПокупки</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары[0].ДатаПокупки</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -468,10 +454,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары[0].ГарантияМес</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары[0].ГарантияМес</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -572,10 +556,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары[0].ГарантийныйСрок</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары[0].ГарантийныйСрок</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -708,10 +690,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.LineNumber</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.LineNumber</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
@@ -760,10 +740,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.Номенклатура</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.Номенклатура</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
@@ -812,10 +790,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ДатаПокупки</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.ДатаПокупки</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -868,10 +844,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ГарантийныйСрок</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.ГарантийныйСрок</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -924,10 +898,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Товары.ГарантияМес</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.ГарантияМес</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>

@@ -10,5 +10,4 @@
     <types>DefinedType.ВладелецФайлов</types>
   </commandParameterType>
   <representation>Auto</representation>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

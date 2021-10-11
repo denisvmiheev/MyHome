@@ -65,10 +65,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Расходы_Заголовок</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Расходы_Заголовок</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -114,10 +112,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Расходы_Период</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Расходы_Период</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -174,10 +170,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Расходы_СуммаЗаПериод</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Расходы_СуммаЗаПериод</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -261,6 +255,7 @@
                 <font xsi:type="core:FontDef">
                   <height>12.0</height>
                 </font>
+                <toolTipRepresentation>Auto</toolTipRepresentation>
                 <shape>Usual</shape>
                 <shapeRepresentation>WhenActive</shapeRepresentation>
                 <pictureLocation>Right</pictureLocation>
@@ -436,10 +431,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>БалансБюджета_Заголовок</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>БалансБюджета_Заголовок</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -495,10 +488,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>БалансБюджета_Баланс</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>БалансБюджета_Баланс</segments>
                 </dataPath>
                 <titleLocation>Left</titleLocation>
                 <extendedTooltip>
@@ -561,10 +552,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>БалансБюджета_Наличные</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>БалансБюджета_Наличные</segments>
                 </dataPath>
                 <titleLocation>Left</titleLocation>
                 <extendedTooltip>
@@ -621,10 +610,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>БалансБюджета_Кредитные</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>БалансБюджета_Кредитные</segments>
                 </dataPath>
                 <titleLocation>Left</titleLocation>
                 <extendedTooltip>
@@ -677,10 +664,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>БалансБюджета_Общий</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>БалансБюджета_Общий</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>БалансБюджета_ОбщийРасширеннаяПодсказка</name>
@@ -892,10 +877,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ОстаткиКошельков_Заголовок</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ОстаткиКошельков_Заголовок</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -1104,10 +1087,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Заголовок</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Заголовок</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -1156,10 +1137,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Расход0</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход0</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ПланируемыеРасходы_Расход0РасширеннаяПодсказка</name>
@@ -1208,10 +1187,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Расход1</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход1</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ПланируемыеРасходы_Расход1РасширеннаяПодсказка</name>
@@ -1260,10 +1237,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Расход2</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход2</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ПланируемыеРасходы_Расход2РасширеннаяПодсказка</name>
@@ -1312,10 +1287,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Расход3</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход3</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ПланируемыеРасходы_Расход3РасширеннаяПодсказка</name>
@@ -1364,10 +1337,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Расход4</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход4</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ПланируемыеРасходы_Расход4РасширеннаяПодсказка</name>
@@ -1416,10 +1387,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Расход5</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход5</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ПланируемыеРасходы_Расход5РасширеннаяПодсказка</name>
@@ -1468,10 +1437,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ПланируемыеРасходы_Расход6</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ПланируемыеРасходы_Расход6</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ПланируемыеРасходы_Расход6РасширеннаяПодсказка</name>
@@ -2061,6 +2028,7 @@
       <picture xsi:type="core:PictureRef">
         <picture>StdPicture.Refresh</picture>
       </picture>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

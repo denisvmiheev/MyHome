@@ -32,10 +32,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокИдентификаторов.ПолноеИмя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокИдентификаторов.ПолноеИмя</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПолноеИмяРасширеннаяПодсказка</name>
@@ -82,10 +80,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокИдентификаторов.Ссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокИдентификаторов.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -292,10 +288,8 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
-    <rowPictureDataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>СписокИдентификаторов.DefaultPicture</segments>
-      </paths>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>СписокИдентификаторов.DefaultPicture</segments>
     </rowPictureDataPath>
     <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">

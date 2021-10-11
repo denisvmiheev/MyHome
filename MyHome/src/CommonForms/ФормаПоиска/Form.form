@@ -60,10 +60,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СостояниеПоискаПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СостояниеПоискаПредставление</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -147,10 +145,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтрокаПоиска</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтрокаПоиска</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -251,6 +247,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -291,6 +288,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -337,10 +335,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОбластиПоискаПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОбластиПоискаПредставление</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОбластиПоискаПредставлениеРасширеннаяПодсказка</name>
@@ -451,6 +447,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -488,6 +485,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -524,10 +522,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИнформацияОНайденномПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИнформацияОНайденномПредставление</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -608,10 +604,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>РезультатыПоискаПредставление</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>РезультатыПоискаПредставление</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
