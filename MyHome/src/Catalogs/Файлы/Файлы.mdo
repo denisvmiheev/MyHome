@@ -805,7 +805,6 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="2bc2ca58-6cc0-4d4b-8672-f9328c86c2c1">
     <name>ВерсииФайла</name>
@@ -818,6 +817,5 @@
       <types>CatalogRef.Файлы</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

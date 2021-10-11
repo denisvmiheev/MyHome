@@ -68,6 +68,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
@@ -99,6 +100,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
@@ -161,10 +163,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Ref.ИндексКартинки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Ref.ИндексКартинки</segments>
         </dataPath>
         <extendedTooltip>
           <name>СсылкаИндексКартинкиExtendedTooltip</name>
@@ -213,10 +213,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Ref.ПутьКФайлу</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Ref.ПутьКФайлу</segments>
         </dataPath>
         <extendedTooltip>
           <name>СсылкаПутьКФайлуExtendedTooltip</name>
@@ -291,10 +289,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ref.Размер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ref.Размер</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРазмерExtendedTooltip</name>
@@ -340,10 +336,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ref.Автор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ref.Автор</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаАвторExtendedTooltip</name>

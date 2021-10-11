@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ИмяФайла</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИмяФайла</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -88,10 +86,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользовательскиеНастройки.Check</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользовательскиеНастройки.Check</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользовательскиеНастройкиПометкаРасширеннаяПодсказка</name>
@@ -133,10 +129,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользовательскиеНастройки.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользовательскиеНастройки.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользовательскиеНастройкиЗначениеРасширеннаяПодсказка</name>
@@ -209,6 +203,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
@@ -240,6 +235,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
@@ -443,6 +439,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

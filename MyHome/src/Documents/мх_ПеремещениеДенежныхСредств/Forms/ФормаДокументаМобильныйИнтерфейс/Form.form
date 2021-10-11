@@ -24,10 +24,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Перемещения.КошелекОткуда</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Перемещения.КошелекОткуда</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПеремещенияКошелекОткудаРасширеннаяПодсказка</name>
@@ -81,10 +79,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Перемещения.КошелекКуда</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Перемещения.КошелекКуда</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПеремещенияКошелекКудаРасширеннаяПодсказка</name>
@@ -134,10 +130,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Перемещения.Сумма</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Перемещения.Сумма</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПеремещенияСуммаРасширеннаяПодсказка</name>
@@ -187,10 +181,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Перемещения.ДатаОперации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Перемещения.ДатаОперации</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПеремещенияДатаОперацииРасширеннаяПодсказка</name>
@@ -267,6 +259,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -452,10 +445,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Комментарий</segments>
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>

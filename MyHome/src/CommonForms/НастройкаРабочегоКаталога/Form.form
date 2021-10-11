@@ -19,10 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РабочийКаталогПользователя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РабочийКаталогПользователя</segments>
       </dataPath>
       <extendedTooltip>
         <name>РабочийКаталогПользователяExtendedTooltip</name>
@@ -101,6 +99,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -144,10 +143,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>МаксимальныйРазмерЛокальногоКэшаФайлов</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>МаксимальныйРазмерЛокальногоКэшаФайлов</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -203,10 +200,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактирования</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактирования</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>
@@ -260,10 +255,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоСуммарное</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоСуммарное</segments>
       </dataPath>
       <extendedTooltip>
         <name>КоличествоСуммарноеExtendedTooltip</name>
@@ -320,10 +313,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РазмерФайловВРабочемКаталоге</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РазмерФайловВРабочемКаталоге</segments>
       </dataPath>
       <extendedTooltip>
         <name>РазмерФайловВРабочемКаталогеExtendedTooltip</name>
@@ -411,6 +402,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -481,6 +473,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

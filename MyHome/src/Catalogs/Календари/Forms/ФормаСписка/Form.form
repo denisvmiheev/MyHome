@@ -67,6 +67,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -122,10 +123,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -170,10 +169,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Наименование</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -219,10 +216,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПроизводственныйКалендарь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПроизводственныйКалендарь</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПроизводственныйКалендарьExtendedTooltip</name>
@@ -267,10 +262,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.СпособЗаполнения</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СпособЗаполнения</segments>
       </dataPath>
       <extendedTooltip>
         <name>СпособЗаполненияExtendedTooltip</name>
@@ -319,10 +312,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ВозможнаяПричина</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВозможнаяПричина</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВозможнаяПричинаExtendedTooltip</name>
@@ -367,10 +358,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Описание</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Описание</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОписаниеExtendedTooltip</name>
@@ -636,10 +625,8 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Список.Ref</segments>
-      </paths>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ref</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ВозможнаяПричина</segments>

@@ -28,10 +28,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пересечения.ЗаписьЧитаемых</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пересечения.ЗаписьЧитаемых</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -80,10 +78,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пересечения.ПовторнаяЗапись</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пересечения.ПовторнаяЗапись</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -134,10 +130,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пересечения.ОбъектМетаданных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пересечения.ОбъектМетаданных</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПересеченияОбъектМетаданныхРасширеннаяПодсказка</name>
@@ -191,10 +185,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пересечения.ПроцедураПисатель</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пересечения.ПроцедураПисатель</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПересеченияПроцедураПисательРасширеннаяПодсказка</name>
@@ -248,10 +240,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пересечения.ПроцедураЧитательИлиПисатель2</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пересечения.ПроцедураЧитательИлиПисатель2</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПересеченияПроцедураЧитательИлиПисатель2РасширеннаяПодсказка</name>

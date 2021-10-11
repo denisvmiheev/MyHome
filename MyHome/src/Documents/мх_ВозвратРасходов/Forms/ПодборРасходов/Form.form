@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПериодРасходов</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПериодРасходов</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПериодРасходовРасширеннаяПодсказка</name>
@@ -84,6 +82,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -140,10 +139,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоРасходов.Подобрать</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоРасходов.Подобрать</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -194,10 +191,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоРасходов.ПредставлениеСтроки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоРасходов.ПредставлениеСтроки</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоРасходовПредставлениеСтрокиРасширеннаяПодсказка</name>
@@ -246,10 +241,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоРасходов.Сумма</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоРасходов.Сумма</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоРасходовСуммаРасширеннаяПодсказка</name>
@@ -490,6 +483,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

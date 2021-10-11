@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НадписьФайлы</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НадписьФайлы</segments>
         </dataPath>
         <extendedTooltip>
           <name>НадписьФайлыExtendedTooltip</name>
@@ -106,6 +104,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -170,10 +169,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВыбранныеФайлы.ИндексКартинки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВыбранныеФайлы.ИндексКартинки</segments>
           </dataPath>
           <extendedTooltip>
             <name>ВыбранныеФайлыИндексКартинкиExtendedTooltip</name>
@@ -223,10 +220,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВыбранныеФайлы.Путь</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВыбранныеФайлы.Путь</segments>
           </dataPath>
           <extendedTooltip>
             <name>ВыбранныеФайлыПутьExtendedTooltip</name>
@@ -517,10 +512,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПапкаДляДобавленияСтрокой</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПапкаДляДобавленияСтрокой</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПапкаДляДобавленияExtendedTooltip</name>
@@ -566,10 +559,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>УдалятьФайлыПослеДобавления</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>УдалятьФайлыПослеДобавления</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -617,10 +608,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Комментарий</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОписаниеExtendedTooltip</name>
@@ -674,10 +663,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ХранитьВерсии</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ХранитьВерсии</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -788,6 +775,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -861,6 +849,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -901,6 +890,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

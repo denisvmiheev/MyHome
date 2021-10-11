@@ -43,10 +43,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.Синхронизировать</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.Синхронизировать</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -98,10 +96,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.СинонимНаименованияОбъекта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.СинонимНаименованияОбъекта</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДеревоОбъектовМетаданныхСинонимНаименованияОбъектаРасширеннаяПодсказка</name>
@@ -180,10 +176,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоОбъектовМетаданных.ТипВладельцаФайла</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоОбъектовМетаданных.ТипВладельцаФайла</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоОбъектовМетаданныхТипВладельцаФайлаРасширеннаяПодсказка</name>
@@ -233,10 +227,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоОбъектовМетаданных.УчетнаяЗапись</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоОбъектовМетаданных.УчетнаяЗапись</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -291,10 +283,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоОбъектовМетаданных.ПравилоОтбора</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоОбъектовМетаданных.ПравилоОтбора</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоОбъектовМетаданныхПравилоОтбораРасширеннаяПодсказка</name>
@@ -528,6 +518,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CreateListItem</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -558,6 +549,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -592,6 +584,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -637,10 +630,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>АвтоматическиСинхронизироватьФайлы</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АвтоматическиСинхронизироватьФайлы</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -708,6 +699,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:FormGroup">
@@ -749,6 +741,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <visible>true</visible>
@@ -1087,6 +1080,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CreateListItem</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1117,6 +1111,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1147,6 +1142,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
@@ -1207,6 +1203,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <enabled>true</enabled>

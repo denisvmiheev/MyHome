@@ -16,10 +16,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЦелаяЧастьРод</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЦелаяЧастьРод</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -107,10 +105,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЦелаяЧастьОдин</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЦелаяЧастьОдин</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -175,10 +171,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЦелаяЧатьДва</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЦелаяЧатьДва</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -243,10 +237,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЦелаяЧастьПять</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЦелаяЧастьПять</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -357,10 +349,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДробнаяЧастьРод</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДробнаяЧастьРод</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -448,10 +438,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДробнаяЧастьОдин</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДробнаяЧастьОдин</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -516,10 +504,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДробнаяЧастьДва</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДробнаяЧастьДва</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -584,10 +570,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДробнаяЧастьПять</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДробнаяЧастьПять</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -684,10 +668,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДлинаДробнойЧасти</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДлинаДробнойЧасти</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -842,10 +824,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СуммаЧисло</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СуммаЧисло</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -898,10 +878,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СуммаПрописью</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СуммаПрописью</segments>
       </dataPath>
       <extendedTooltip>
         <name>СуммаПрописьюExtendedTooltip</name>
@@ -1010,6 +988,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -1040,6 +1019,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

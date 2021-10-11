@@ -70,6 +70,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.мх_Гарантия</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ПараметрыАдминистрированияИБ</name>
 		<right>
 			<name>Read</name>
@@ -365,6 +372,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.мх_ПеремещениеДенежныхСредств</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СоздаватьПодкаталогиСИменамиВладельцев</name>
 		<right>
 			<name>Read</name>
@@ -534,6 +548,13 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.мх_ПланированиеБюджета</name>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -1292,6 +1313,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.мх_ВозвратРасходов</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПапкиФайлов</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -1602,6 +1630,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.мх_РегистрацияРасходов</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.УчетныеЗаписиСинхронизацииФайлов</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -1706,6 +1741,13 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.мх_РегистрацияДоходов</name>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -1856,6 +1898,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.мх_РегистрацияФизическихУпражений</name>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -2080,6 +2129,13 @@
 		<name>Subsystem.СтандартныеПодсистемы.Subsystem.РезервноеКопированиеИБ</name>
 		<right>
 			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.мх_ВводОстатков</name>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -2335,62 +2391,6 @@
 		<name>SessionParameter.ОбластьДанныхЗначение</name>
 		<right>
 			<name>Set</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_ВводОстатков</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_ВозвратРасходов</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_Гарантия</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_ПеремещениеДенежныхСредств</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_ПланированиеБюджета</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_РегистрацияДоходов</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_РегистрацияРасходов</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мх_РегистрацияФизическихУпражений</name>
-		<right>
-			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>

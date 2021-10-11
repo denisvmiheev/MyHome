@@ -418,6 +418,5 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СостояниеПользователя08</picture>
     </picture>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

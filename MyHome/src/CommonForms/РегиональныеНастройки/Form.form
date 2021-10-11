@@ -17,10 +17,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ЧасовойПоясПрограммы</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ЧасовойПоясПрограммы</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЧасовойПоясПрограммыExtendedTooltip</name>
@@ -92,6 +90,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -139,10 +138,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ОсновнойЯзык</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОсновнойЯзык</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -239,10 +236,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ИспользоватьДополнительныйЯзык1</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ИспользоватьДополнительныйЯзык1</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -289,10 +284,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДополнительныйЯзык1</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДополнительныйЯзык1</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -382,10 +375,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ИспользоватьДополнительныйЯзык2</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ИспользоватьДополнительныйЯзык2</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -432,10 +423,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДополнительныйЯзык2</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДополнительныйЯзык2</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -952,6 +941,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -981,6 +971,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

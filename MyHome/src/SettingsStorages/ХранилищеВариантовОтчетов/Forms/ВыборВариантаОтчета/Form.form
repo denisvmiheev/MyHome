@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтборАвтор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборАвтор</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -126,6 +124,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -156,6 +155,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -193,6 +193,7 @@
       <picture xsi:type="core:PictureRef">
         <picture>StdPicture.MarkToDelete</picture>
       </picture>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
@@ -224,6 +225,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
@@ -255,6 +257,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
@@ -352,10 +355,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВариантовОтчета.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВариантовОтчета.Наименование</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоВариантовОтчетаПредставлениеExtendedTooltip</name>
@@ -403,10 +404,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВариантовОтчета.КартинкаАвтора</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВариантовОтчета.КартинкаАвтора</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -463,10 +462,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВариантовОтчета.Автор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВариантовОтчета.Автор</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоВариантовОтчетаАвторExtendedTooltip</name>
@@ -708,6 +705,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.MarkToDelete</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
@@ -739,6 +737,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
@@ -787,10 +786,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ВариантОписание</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВариантОписание</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
     <extendedTooltip>

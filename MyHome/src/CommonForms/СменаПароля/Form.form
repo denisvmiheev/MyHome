@@ -54,10 +54,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтарыйПароль</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтарыйПароль</segments>
       </dataPath>
       <extendedTooltip>
         <name>СтарыйПарольРасширеннаяПодсказка</name>
@@ -112,10 +110,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НовыйПароль</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НовыйПароль</segments>
         </dataPath>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <handlers>
@@ -175,10 +171,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НовыйПароль</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НовыйПароль</segments>
         </dataPath>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <handlers>
@@ -260,6 +254,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -302,10 +297,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Подтверждение</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Подтверждение</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -445,10 +438,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПоказыватьНовыйПароль</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПоказыватьНовыйПароль</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -580,6 +571,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -613,6 +605,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>

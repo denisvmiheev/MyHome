@@ -36,6 +36,7 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ЗаполнитьФорму</picture>
     </picture>
+    <toolTipRepresentation>Auto</toolTipRepresentation>
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:FormGroup">
@@ -110,6 +111,7 @@
       <picture xsi:type="core:PictureRef">
         <picture>StdPicture.WriteAndClose</picture>
       </picture>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -140,6 +142,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

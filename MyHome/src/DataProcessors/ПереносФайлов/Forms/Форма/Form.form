@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Действие</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Действие</segments>
     </dataPath>
     <titleLocation>Top</titleLocation>
     <handlers>
@@ -102,10 +100,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПереноситьВТом</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПереноситьВТом</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -148,10 +144,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТомХраненияПриемник</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТомХраненияПриемник</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -240,10 +234,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПереноситьИзТома</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПереноситьИзТома</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -286,10 +278,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТомХраненияИсточник</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТомХраненияИсточник</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -378,10 +368,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПереноситьФайлыВладельца</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПереноситьФайлыВладельца</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -424,10 +412,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВладелецФайлов</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВладелецФайлов</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -517,10 +503,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПереноситьПоДатеСоздания</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПереноситьПоДатеСоздания</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -566,10 +550,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>УточнениеДатыСоздания</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>УточнениеДатыСоздания</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -630,10 +612,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДатаСоздания</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДатаСоздания</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -747,10 +727,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПереноситьПоРасширению</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПереноситьПоРасширению</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -793,10 +771,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РасширенияФайлов</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РасширенияФайлов</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -890,10 +866,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПереноситьПоУсловию</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПереноситьПоУсловию</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -936,10 +910,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДополнительныеУсловия.Settings.Filter</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДополнительныеУсловия.Settings.Filter</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -1076,6 +1048,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -1110,6 +1083,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

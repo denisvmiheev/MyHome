@@ -32,10 +32,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НастройкиОтображенияОбъектов.МестоПоискаРеквизитПредставление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НастройкиОтображенияОбъектов.МестоПоискаРеквизитПредставление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПолеРасширеннаяПодсказка</name>
@@ -84,10 +82,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НастройкиОтображенияОбъектов.Картинка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НастройкиОтображенияОбъектов.Картинка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -327,6 +323,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -357,6 +354,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -387,6 +385,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -427,10 +426,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОбычноеУдаление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОбычноеУдаление</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTipRepresentation>ShowRight</toolTipRepresentation>
@@ -494,10 +491,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>БезопасноеУдаление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>БезопасноеУдаление</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTipRepresentation>ShowRight</toolTipRepresentation>
@@ -562,10 +557,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МонопольноеУдаление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МонопольноеУдаление</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTipRepresentation>ShowRight</toolTipRepresentation>
@@ -682,10 +675,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>АвтоматическиУдалятьПомеченныеОбъекты</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АвтоматическиУдалятьПомеченныеОбъекты</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -756,6 +747,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -903,6 +895,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
@@ -933,6 +926,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -963,6 +957,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -997,6 +992,7 @@
       <picture xsi:type="core:PictureRef">
         <picture>CommonPicture.ДлительнаяОперация16</picture>
       </picture>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>

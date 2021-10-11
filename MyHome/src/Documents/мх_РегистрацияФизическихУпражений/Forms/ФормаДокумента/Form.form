@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Number</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Number</segments>
     </dataPath>
     <extendedTooltip>
       <name>НомерРасширеннаяПодсказка</name>
@@ -60,10 +58,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Date</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Date</segments>
     </dataPath>
     <extendedTooltip>
       <name>ДатаРасширеннаяПодсказка</name>
@@ -112,10 +108,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Ответственный</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Ответственный</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -164,10 +158,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>НесколькоУпражнений</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>НесколькоУпражнений</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -219,10 +211,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ФизическиеУпражения.Упражнение</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ФизическиеУпражения.Упражнение</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -275,10 +265,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ФизическиеУпражения.Показатель</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ФизическиеУпражения.Показатель</segments>
         </dataPath>
         <extendedTooltip>
           <name>ФизическиеУпраженияПоказатель1РасширеннаяПодсказка</name>
@@ -327,10 +315,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ФизическиеУпражения.Количество</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ФизическиеУпражения.Количество</segments>
         </dataPath>
         <extendedTooltip>
           <name>ФизическиеУпраженияКоличество1РасширеннаяПодсказка</name>
@@ -424,10 +410,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ФизическиеУпражения.LineNumber</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ФизическиеУпражения.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>ФизическиеУпраженияНомерСтрокиРасширеннаяПодсказка</name>
@@ -472,10 +456,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ФизическиеУпражения.Упражнение</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ФизическиеУпражения.Упражнение</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -528,10 +510,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ФизическиеУпражения.Показатель</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ФизическиеУпражения.Показатель</segments>
           </dataPath>
           <extendedTooltip>
             <name>ФизическиеУпраженияПоказательРасширеннаяПодсказка</name>
@@ -580,10 +560,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ФизическиеУпражения.Количество</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ФизическиеУпражения.Количество</segments>
           </dataPath>
           <extendedTooltip>
             <name>ФизическиеУпраженияКоличествоРасширеннаяПодсказка</name>

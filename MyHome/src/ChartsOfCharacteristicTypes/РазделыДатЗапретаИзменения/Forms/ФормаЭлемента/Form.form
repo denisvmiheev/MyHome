@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -60,10 +58,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ValueType</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ValueType</segments>
     </dataPath>
     <extendedTooltip>
       <name>ТипЗначенияРасширеннаяПодсказка</name>
@@ -112,10 +108,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>1/0:ddc6761c-a32a-41e1-b110-fdc39ad440d3</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>1/0:ddc6761c-a32a-41e1-b110-fdc39ad440d3</segments>
     </dataPath>
     <extendedTooltip>
       <name>УдалитьНоваяСсылкаРасширеннаяПодсказка</name>
@@ -187,6 +181,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
