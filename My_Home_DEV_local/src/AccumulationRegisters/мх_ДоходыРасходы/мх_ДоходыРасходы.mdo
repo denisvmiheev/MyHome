@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f4e8a1c-2ff7-4747-b822-e2ede7dda94c">
+  <producedTypes>
+    <selectionType typeId="5e7e92c1-3d7b-408e-b867-73f06a4551e5" valueTypeId="e8b9e1e7-4738-4020-8757-da419ce72600"/>
+    <listType typeId="21064bdb-cd0d-45dd-bf01-6cf131453f49" valueTypeId="38850173-06ef-41df-b7bc-8d76ce2ccdb6"/>
+    <managerType typeId="831f7c9f-2f21-4bc7-ae88-75e8776699f5" valueTypeId="c310c0df-f3e9-41f7-96b3-20049c40628a"/>
+    <recordSetType typeId="d48edfcc-ab43-4bd3-b363-205f6c5ec482" valueTypeId="1c0341ec-97e2-4a28-9ff1-42b55426c381"/>
+    <recordKeyType typeId="0cca3464-5156-4906-8029-7f8fccdf857f" valueTypeId="4de83d2c-d1fa-4db6-b08b-67ab7ee8315c"/>
+    <recordType typeId="d4945124-dcee-4d1e-abd9-d7eb8040da70" valueTypeId="518ca4fa-3de1-4333-b6fc-585c6ca15d60"/>
+  </producedTypes>
+  <name>мх_ДоходыРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы расходы (MyHome)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="80c6e71f-79a0-4e17-9d40-30b4df991711">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="50dbd815-b7ca-4771-9ccd-d86b18e5b775">
+    <name>СтатьяДоходовРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов расходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.мх_СтатьиДоходов</types>
+      <types>ChartOfCharacteristicTypesRef.мх_СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7422bd0c-13e1-4c9e-a320-3c227b709dc4">
+  <producedTypes>
+    <objectType typeId="5b3e3f8a-cfca-42f3-b04a-aa93d77b100a" valueTypeId="b5b262ab-65a5-4cbe-9022-5547a1a759b3"/>
+    <managerType typeId="10fb0053-5f72-4fd7-8964-96762912d687" valueTypeId="0069cecf-fd6a-4ce2-b4c0-87ff6ac45b7d"/>
+  </producedTypes>
+  <name>мх_ГарантийныеСроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гарантийные сроки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.мх_ГарантийныеСроки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="aaae46b3-7d4b-4e4b-8aaa-6d8b0450a289">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65f3f665-f426-4bba-93be-1da1ef406b65">
+  <name>мх_ЧтениеВводаОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение документа &quot;Ввод остатков&quot; (MyHome)</value>
+  </synonym>
+</mdclass:Role>
