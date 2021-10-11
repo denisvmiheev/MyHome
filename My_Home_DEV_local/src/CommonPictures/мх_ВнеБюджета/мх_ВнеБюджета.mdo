@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9b3acf1-7812-438c-bbf9-0d7f6f74f546">
+  <name>мх_ВнеБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вне бюджета (МХ)</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d273aa-4aee-48d3-bbbf-4b6441c17ffe">
+  <producedTypes>
+    <selectionType typeId="1628bdd4-7062-45c6-9d24-21d7736da49c" valueTypeId="43f84a00-e8c1-4bc9-82c5-4631e462cf2e"/>
+    <listType typeId="96427e3f-3f1d-4840-964d-f08f8b2cfac7" valueTypeId="98351a28-08a0-4bb7-8458-2d10dbbfe474"/>
+    <managerType typeId="81160bd0-069f-40ce-9a2e-c94d9504a59a" valueTypeId="94e85ef4-b7d6-4afb-a408-ad99ff679ec2"/>
+    <recordSetType typeId="39607b78-4e12-4b27-bec3-e010cbe96941" valueTypeId="a4b1c86e-2ccf-4575-a55b-a73bc8c5f775"/>
+    <recordKeyType typeId="96796c25-9735-4211-826a-a34b06217b69" valueTypeId="11a337aa-6cd0-464a-b6f4-40ed0e072a6a"/>
+    <recordType typeId="a3e6c51d-8be2-4ba3-bad6-29743452aa4d" valueTypeId="6f30411a-244d-415d-ba5a-50a54032d36f"/>
+  </producedTypes>
+  <name>мх_СтатистикаФизическихУпражнений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика физических упражнений (MyHome)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="42f149fd-ae97-477e-be42-6fe5eff90e74">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="f587ad39-f6b4-4366-89bd-57ff148445dd">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_ПоказателиФизическихУпражнений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="02625430-d7f4-4b34-9f4f-61120c80aa1a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="f8e69648-5e26-4630-9588-cd839c027205">
+    <name>Упражнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражнение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_ФизическиеУпражнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

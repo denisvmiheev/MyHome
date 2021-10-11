@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d4f8e8-ce1a-48b1-ae47-62a68ab87149">
+  <name>Учет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделРегламентированныйУчет16</picture>
+  </picture>
+  <content>InformationRegister.мх_Гарантия</content>
+  <content>Document.мх_Гарантия</content>
+  <content>Catalog.мх_Номенклатура</content>
+  <content>Report.мх_ГарантийныеСроки</content>
+  <content>Catalog.мх_Документы</content>
+</mdclass:Subsystem>

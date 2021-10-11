@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7f7d180-e26c-4b29-a0d2-4d64dfb25b2c">
+  <producedTypes>
+    <containerType typeId="f0ee5062-c1c4-4ba4-a1d2-e9e3276d946f" valueTypeId="ffe24d08-d407-4222-b79d-8782a0fb7209"/>
+  </producedTypes>
+  <name>Калорийность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калорийность</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>5</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>
