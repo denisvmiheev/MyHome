@@ -420,6 +420,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Число разрядов дробной части</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЧислоРазрядовДробнойЧастиExtendedTooltip</name>
       <id>95</id>

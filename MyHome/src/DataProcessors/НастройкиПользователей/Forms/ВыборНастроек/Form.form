@@ -76,6 +76,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Быстрый поиск</value>
+      </title>
       <extendedTooltip>
         <name>БыстрыйПоискExtendedTooltip</name>
         <id>105</id>
@@ -266,6 +270,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель</value>
+      </title>
       <extendedTooltip>
         <name>КоманднаяПанельExtendedTooltip</name>
         <id>107</id>
@@ -384,6 +392,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Страница длительная операция</value>
+        </title>
         <extendedTooltip>
           <name>СтраницаДлительнаяОперацияРасширеннаяПодсказка</name>
           <id>173</id>
@@ -416,6 +428,10 @@
             <items xsi:type="form:Table">
               <name>ВнешнийВид</name>
               <id>29</id>
+              <title>
+                <key>ru</key>
+                <value>Внешний вид</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -594,6 +610,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Внешний вид картинка настройка пометка</value>
+                </title>
                 <extendedTooltip>
                   <name>ВнешнийВидКартинкаНастройкаПометкаExtendedTooltip</name>
                   <id>119</id>
@@ -944,6 +964,10 @@
             <items xsi:type="form:Table">
               <name>НастройкиОтчетовДерево</name>
               <id>19</id>
+              <title>
+                <key>ru</key>
+                <value>Настройки отчетов дерево</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1121,6 +1145,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Настройки отчетов картинка настройка пометка</value>
+                </title>
                 <extendedTooltip>
                   <name>НастройкиОтчетовКартинкаНастройкаПометкаExtendedTooltip</name>
                   <id>129</id>
@@ -1472,6 +1500,10 @@
             <items xsi:type="form:Table">
               <name>ПрочиеНастройки</name>
               <id>86</id>
+              <title>
+                <key>ru</key>
+                <value>Прочие настройки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1651,6 +1683,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Прочие настройки картинка настройка пометка</value>
+                </title>
                 <extendedTooltip>
                   <name>ПрочиеНастройкиКартинкаНастройкаПометкаExtendedTooltip</name>
                   <id>139</id>
@@ -1997,6 +2033,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Виды настроек</value>
+          </title>
           <extendedTooltip>
             <name>ВидыНастроекExtendedTooltip</name>
             <id>112</id>
@@ -2027,6 +2067,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Страница настройки</value>
+        </title>
         <extendedTooltip>
           <name>СтраницаНастройкиРасширеннаяПодсказка</name>
           <id>175</id>
@@ -2052,6 +2096,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Страницы длительная операция</value>
+      </title>
       <extendedTooltip>
         <name>СтраницыДлительнаяОперацияРасширеннаяПодсказка</name>
         <id>171</id>
@@ -2077,6 +2125,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Отображать отчет</value>
+    </title>
     <extendedTooltip>
       <name>ОтображатьОтчетExtendedTooltip</name>
       <id>104</id>

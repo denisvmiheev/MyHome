@@ -15,6 +15,11 @@
   <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
   <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <templates uuid="07e81872-afac-4720-86b4-91e7bf4a2881">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

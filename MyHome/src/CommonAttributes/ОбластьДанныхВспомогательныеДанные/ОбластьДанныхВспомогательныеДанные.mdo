@@ -17,6 +17,10 @@
   <dataHistory>Use</dataHistory>
   <fillValue xsi:type="core:UndefinedValue"/>
   <content>
+    <metadata>InformationRegister.ИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ОбработчикиОбновления</metadata>
     <use>Use</use>
   </content>
@@ -34,6 +38,10 @@
   </content>
   <content>
     <metadata>Constant.СведенияОБлокируемыхОбъектах</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</metadata>
     <use>Use</use>
   </content>
   <content>

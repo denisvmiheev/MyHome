@@ -119,6 +119,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основные параметры</value>
+    </title>
     <extendedTooltip>
       <name>ОсновныеПараметрыРасширеннаяПодсказка</name>
       <id>162</id>
@@ -276,6 +280,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Синхронизация файлов объекта</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСинхронизацияФайловОбъектаРасширеннаяПодсказка</name>
         <id>73</id>
@@ -403,6 +411,10 @@
       <name>ПравилоНастройкиОтбор</name>
       <id>10</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Правило настройки отбор</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1086,6 +1098,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Правило синхронизации группа</value>
+    </title>
     <extendedTooltip>
       <name>ПравилоСинхронизацииГруппаРасширеннаяПодсказка</name>
       <id>87</id>

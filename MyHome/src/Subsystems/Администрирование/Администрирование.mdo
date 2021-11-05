@@ -14,6 +14,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделАдминистрирование</picture>
   </picture>
+  <content>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</content>
   <content>DataProcessor.АктивныеПользователи</content>
   <content>DataProcessor.БлокировкаРаботыПользователей</content>
   <content>DataProcessor.ЖурналРегистрации</content>
@@ -21,35 +22,45 @@
   <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
   <content>DataProcessor.НастройкиПользователей</content>
   <content>Catalog.Пользователи</content>
+  <content>Catalog.ГруппыДоступа</content>
   <content>Catalog.ГруппыПользователей</content>
   <content>Catalog.ВнешниеПользователи</content>
   <content>Catalog.ГруппыВнешнихПользователей</content>
   <content>Catalog.ТомаХраненияФайлов</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
   <content>InformationRegister.ПользовательскиеМакетыПечати</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
   <content>Catalog.ДополнительныеОтчетыИОбработки</content>
   <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+  <content>DataProcessor.УстановкаОбновлений</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>
   <content>Catalog.ВариантыОтчетов</content>
   <content>InformationRegister.ДатыЗапретаИзменения</content>
   <content>DataProcessor.РезервноеКопированиеИБ</content>
   <content>DataProcessor.НастройкаРезервногоКопированияИБ</content>
   <content>CommonPicture.РазделАдминистрирование48</content>
+  <content>Report.АнализЖурналаРегистрации</content>
   <content>DataProcessor.ПанельАдминистрированияБСП</content>
   <content>CommonForm.ПараметрыПроксиСервера</content>
   <content>InformationRegister.НомераОтсканированныхФайлов</content>
   <content>Catalog.Валюты</content>
+  <content>DataProcessor.ОценкаПроизводительности</content>
   <content>CommonForm.НастройкаОтправкиSMS</content>
   <content>DataProcessor.ЗагрузкаКурсовВалют</content>
   <content>CommonCommand.ДобавитьПользователейСервиса</content>
   <content>InformationRegister.ВерсииПодсистемОбластейДанных</content>
   <content>Report.ДатыЗапретаЗагрузки</content>
   <content>Report.ДатыЗапретаИзменения</content>
+  <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
   <content>DataProcessor.РезультатыОбновленияПрограммы</content>
+  <content>Catalog.КлючевыеОперации</content>
   <content>Report.СведенияОПользователях</content>
   <content>CommonCommand.ПанельОтчетовАдминистрирование</content>
   <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
   <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
   <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+  <content>InformationRegister.НастройкиВерсионированияОбъектов</content>
   <content>DataProcessor.ПереносФайлов</content>
   <content>Report.ОбъемНенужныхФайлов</content>
   <content>DataProcessor.ПоискИУдалениеДублей</content>
@@ -61,5 +72,11 @@
   <content>InformationRegister.НастройкиОчисткиФайлов</content>
   <content>CommonCommand.ВремяТекущегоСеанса</content>
   <content>CommonForm.НастройкиВходаПользователей</content>
+  <content>Catalog.ПрофилиКлючевыхОпераций</content>
+  <content>Report.ОценкаПроизводительности</content>
+  <content>Report.ИспользуемыеВнешниеРесурсы</content>
+  <content>CommonForm.УстановленныеИсправления</content>
+  <content>Catalog.ВнешниеКомпоненты</content>
+  <content>Report.АнализПравДоступа</content>
   <content>CommonForm.ВосстановлениеПаролей</content>
 </mdclass:Subsystem>

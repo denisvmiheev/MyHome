@@ -236,6 +236,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель</value>
+      </title>
       <extendedTooltip>
         <name>КоманднаяПанельРасширеннаяПодсказка</name>
         <id>32</id>
@@ -262,6 +266,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Область поиска</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОбластьПоискаРасширеннаяПодсказка</name>
       <id>30</id>
@@ -290,6 +298,10 @@
   <items xsi:type="form:Table">
     <name>ДеревоРазделовПоиска</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Дерево разделов поиска</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

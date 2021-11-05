@@ -93,6 +93,9 @@
     <mdObject>InformationRegister.НаличиеФайлов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.УдалитьХранимыеФайлыВерсий</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ПараметрыАдминистрированияИБ</mdObject>
   </content>
   <content>
@@ -100,6 +103,15 @@
   </content>
   <content>
     <mdObject>Catalog.ВариантыОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КэшПереводов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрофилиКлючевыхОпераций</mdObject>
   </content>
   <content>
     <mdObject>Constant.ПараметрыРезервногоКопирования</mdObject>
@@ -117,6 +129,12 @@
     <mdObject>InformationRegister.НеудаленныеОбъекты</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ПериодХраненияЗамеров</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗамерыВремени</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.КурсыВалют</mdObject>
   </content>
   <content>
@@ -129,7 +147,16 @@
     <mdObject>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ВнешниеКомпоненты</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.АдресПубликацииИнформационнойБазыВИнтернете</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлючиДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаборыЗначенийДоступа</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.КалендарныеГрафики</mdObject>
@@ -138,7 +165,19 @@
     <mdObject>Catalog.Календари</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаКДанным</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.Валюты</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗависимостиПравДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ВыполнятьЗамерыПроизводительности</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПрофильБезопасностиИнформационнойБазы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</mdObject>
@@ -147,7 +186,19 @@
     <mdObject>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РазрешенияНаИспользованиеВнешнихРесурсов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НастройкиСинхронизацииФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлючевыеОперации</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ПредопределенныеВариантыОтчетовРасширений</mdObject>
@@ -165,6 +216,9 @@
     <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.НастройкиВерсионированияОбъектов</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.СписокЗапрещенныхРасширенийОбластиДанных</mdObject>
   </content>
   <content>
@@ -177,17 +231,25 @@
     <mdObject>InformationRegister.ДанныеПроизводственногоКалендаря</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ИспользоватьВерсионированиеОбъектов</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ВерсииРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаследованиеНастроекПравОбъектов</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
   </content>
   <content>
-    <mdObject>Catalog.мх_ГарантияПрисоединенныеФайлы</mdObject>
-    <autoRecord>Allow</autoRecord>
+    <mdObject>InformationRegister.ПраваРолей</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокРасширенийФайловOpenDocument</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</mdObject>
   </content>
   <content>
     <mdObject>Constant.ПровайдерSMS</mdObject>
@@ -199,16 +261,37 @@
     <mdObject>Catalog.ПользовательскиеНастройкиОтчетов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИзвлекатьТекстыФайловНаСервере</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ИспользоватьПрофилиБезопасностиДляДОО</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.КоличествоЗамеровВПакетеЭкспорта</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.РазрешитьВыполнениеДООРегламентнымиЗаданиямиВМоделиСервиса</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ОчередьИзвлеченияТекста</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.УчетныеЗаписиЭлектроннойПочты</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.МаксимальныйРазмерФайла</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</mdObject>
@@ -220,19 +303,40 @@
     <mdObject>Constant.ПриоритетОбновленияВОбластяхДанных</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.КлючиДоступаНаборовГруппДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.НастройкиВходаПользователей</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ПроизводственныеКалендари</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ПоставляемыеДополнительныеОтчетыИОбработки</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НазначениеДополнительныхОбработок</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтраныМира</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СклоненияПредставленийОбъектов</mdObject>
   </content>
   <content>
+    <mdObject>Constant.СтатусОбновленияКонфигурации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.СведенияОФайлах</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.КоличествоПотоковОбновленияДоступа</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СоставыГруппПользователей</mdObject>
@@ -247,7 +351,25 @@
     <mdObject>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ТаблицыГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаПользователей</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НеразделенныеПользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МинимальныйИнтервалРегламентныхЗаданийДОИОВМоделиСервиса</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УдалитьЗамерыВремени3</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиПравОбъектов</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ДополнительныеОтчетыИОбработки</mdObject>
@@ -259,13 +381,22 @@
     <mdObject>Catalog.ПапкиФайлов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользоватьПолнотекстовыйПоиск</mdObject>
   </content>
   <content>
+    <mdObject>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.КэшПрограммныхИнтерфейсов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГруппыЗначенийДоступа</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиКомандПечати</mdObject>
@@ -280,6 +411,9 @@
     <mdObject>Catalog.ПредопределенныеВариантыОтчетов</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ОценкаПроизводительностиПериодЗаписи</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ГлавныйУзел</mdObject>
   </content>
   <content>
@@ -290,6 +424,12 @@
   </content>
   <content>
     <mdObject>Catalog.ГруппыПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользуютсяПрофилиБезопасности</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиОчисткиФайлов</mdObject>
@@ -319,19 +459,34 @@
     <mdObject>Constant.ИспользоватьНесколькоПроизводственныхКалендарей</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПараметрыОграниченияДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.СписокЗапрещенныхРасширений</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиВариантовОтчетов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ИспользованиеДополнительныхОтчетовИОбработокСервисаВАвтономномРабочемМесте</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПараметрыРаботыВерсийРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ЯзыкиПечатныхФорм</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписей</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ГруппыВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗамерыВремениТехнологические</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользоватьРазделениеПоОбластямДанных</mdObject>
@@ -346,10 +501,16 @@
     <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ГруппыДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ОбщиеПоставляемыеМакетыПечати</mdObject>
   </content>
   <content>
     <mdObject>Constant.КоличествоПотоковОбновленияИнформационнойБазы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступа</mdObject>
   </content>
   <content>
     <mdObject>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</mdObject>
@@ -361,10 +522,19 @@
     <mdObject>InformationRegister.УдаляемыеОбъекты</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.КлючиДоступаКРегистрам</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьДатыЗапретаИзменения</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.КлючиДоступаКОбъектам</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ЭтоАвтономноеРабочееМесто</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НаборыГруппДоступа</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ТомаХраненияФайлов</mdObject>
@@ -376,10 +546,22 @@
     <mdObject>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.КлючиДоступаПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.КодировкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПоследнееОбновлениеДоступа</mdObject>
   </content>
   <content>
     <mdObject>Catalog.Файлы</mdObject>
@@ -406,10 +588,16 @@
     <mdObject>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ПрофилиГруппДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИдентификаторИнформационнойБазы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПоставляемыеМакетыПечати</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РежимыПодключенияВнешнихМодулей</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.БезопасноеХранилищеДанных</mdObject>

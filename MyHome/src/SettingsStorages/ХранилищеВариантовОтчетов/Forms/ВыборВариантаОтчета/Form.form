@@ -65,7 +65,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Быстрые отборы</value>
+      <value>Быстрые фильтры</value>
     </title>
     <extendedTooltip>
       <name>БыстрыеОтборыExtendedTooltip</name>
@@ -195,7 +195,6 @@
       </picture>
       <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ПоказыватьЛичныеВариантыОтчетовДругихАвторов</name>
@@ -227,7 +226,6 @@
       <placementArea>UserCmds</placementArea>
       <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ФормаОбновить</name>
@@ -259,7 +257,6 @@
       <placementArea>UserCmds</placementArea>
       <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:FormGroup">
       <name>КоманднаяПанельДерева</name>
@@ -707,7 +704,6 @@
         </picture>
         <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ПоказыватьЛичныеВариантыОтчетовДругихАвторовКМ</name>
@@ -739,7 +735,6 @@
         <placementArea>UserCmds</placementArea>
         <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -878,7 +873,7 @@
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
-      <value>ОсновнаяКоманднаяПанель</value>
+      <value></value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

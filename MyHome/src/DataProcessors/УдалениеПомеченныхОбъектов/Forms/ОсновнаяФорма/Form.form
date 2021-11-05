@@ -94,6 +94,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки отбора поиска</value>
+    </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка</name>
       <id>524</id>
@@ -124,38 +128,6 @@
     <items xsi:type="form:FormGroup">
       <name>КоманднаяПанельПоискПомеченных</name>
       <id>681</id>
-      <items xsi:type="form:Button">
-        <name>ДеревоПомеченныхНаУдалениеУдалитьВсе</name>
-        <id>517</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ДеревоПомеченныхНаУдалениеУдалитьВсеРасширеннаяПодсказка</name>
-          <id>518</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.УдалитьВсе</commandName>
-        <representation>Auto</representation>
-        <defaultButton>true</defaultButton>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаАктивныПослеПоискаПомеченные</name>
         <id>562</id>
@@ -184,11 +156,11 @@
           </extendedTooltip>
           <commandName>Form.Command.УдалитьВыбранные</commandName>
           <representation>Auto</representation>
+          <defaultButton>true</defaultButton>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <toolTipRepresentation>Auto</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:FormGroup">
           <name>КомандыВыбора</name>
@@ -419,43 +391,15 @@
           <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <items xsi:type="form:Button">
-          <name>Обновить</name>
-          <id>573</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ОбновитьРасширеннаяПодсказка</name>
-            <id>574</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <commandName>Form.Command.Обновить</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>Auto</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
-          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Удалить</value>
+        </title>
         <extendedTooltip>
           <name>Группа1РасширеннаяПодсказка7</name>
           <id>563</id>
@@ -472,6 +416,38 @@
           </extInfo>
         </extendedTooltip>
         <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+      </items>
+      <items xsi:type="form:Button">
+        <name>Обновить</name>
+        <id>573</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОбновитьРасширеннаяПодсказка</name>
+          <id>574</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Обновить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -887,6 +863,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Командная панель формы</value>
+    </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка3</name>
       <id>535</id>
@@ -1058,6 +1038,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Пояснение к длительной операции</value>
+        </title>
         <extendedTooltip>
           <name>Группа1РасширеннаяПодсказка5</name>
           <id>712</id>
@@ -1120,6 +1104,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Состояние выполняется</value>
+      </title>
       <extendedTooltip>
         <name>Группа1РасширеннаяПодсказка20</name>
         <id>648</id>
@@ -1240,6 +1228,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Состояние выполнено</value>
+      </title>
       <extendedTooltip>
         <name>Группа1РасширеннаяПодсказка21</name>
         <id>650</id>
@@ -1409,6 +1401,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Состояние выполнено с ошибками</value>
+      </title>
       <extendedTooltip>
         <name>Группа1РасширеннаяПодсказка16</name>
         <id>672</id>
@@ -1676,6 +1672,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы отображение состояния</value>
+    </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка19</name>
       <id>646</id>
@@ -1705,6 +1705,10 @@
       <items xsi:type="form:Table">
         <name>ДеревоПомеченныхНаУдаление</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Дерево помеченных на удаление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1831,6 +1835,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Строка списка помеченных</value>
+          </title>
           <width>20</width>
           <extendedTooltip>
             <name>СтрокаСпискаПомеченныхExtendedTooltip</name>
@@ -2236,7 +2244,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
-        <selectionMode>MultiRow</selectionMode>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -2351,6 +2358,10 @@
           <items xsi:type="form:Table">
             <name>НеУдаленные</name>
             <id>220</id>
+            <title>
+              <key>ru</key>
+              <value>Не удаленные</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2713,6 +2724,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Не удаленные таблица</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаНеУдаленныеТаблицаРасширеннаяПодсказка</name>
             <id>314</id>
@@ -2805,6 +2820,10 @@
               <items xsi:type="form:Table">
                 <name>МестаИспользованияНеудаленных</name>
                 <id>235</id>
+                <title>
+                  <key>ru</key>
+                  <value>Места использования неудаленных</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3303,6 +3322,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Текст ошибки</value>
+                </title>
                 <extendedTooltip>
                   <name>Группа1РасширеннаяПодсказка17</name>
                   <id>635</id>
@@ -3362,6 +3385,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страницы вариантов отображения причин</value>
+            </title>
             <extendedTooltip>
               <name>СтраницыВариантовОтображенияПричинРасширеннаяПодсказка</name>
               <id>256</id>
@@ -3387,6 +3414,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Причины</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаПричиныРасширеннаяПодсказка</name>
             <id>316</id>
@@ -3416,6 +3447,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Не удаленные</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНеУдаленныеРасширеннаяПодсказка</name>
           <id>230</id>
@@ -3477,6 +3512,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы информация</value>
+    </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка4</name>
       <id>537</id>
@@ -3720,6 +3759,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Картинок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКартинокРасширеннаяПодсказка</name>
       <id>546</id>
@@ -4807,6 +4850,19 @@
       <itemValueType/>
     </extInfo>
   </attributes>
+  <attributes>
+    <name>ВыполняетсяЗадание</name>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ДеревоПомеченныхНаУдалениеУстановитьВсе</name>
     <title>
@@ -4905,23 +4961,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>УдалитьВсе</name>
-    <title>
-      <key>ru</key>
-      <value>Удалить все</value>
-    </title>
-    <id>11</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>УдалитьВсе</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>УдалитьВыбранные</name>

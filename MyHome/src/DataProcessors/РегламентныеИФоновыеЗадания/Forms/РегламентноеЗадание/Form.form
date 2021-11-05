@@ -95,6 +95,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Включение и расписание</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаВключениеИРасписаниеРасширеннаяПодсказка</name>
         <id>72</id>
@@ -181,6 +185,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основное</value>
+    </title>
     <extendedTooltip>
       <name>ОсновноеExtendedTooltip</name>
       <id>50</id>
@@ -363,6 +371,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Действия при ошибках</value>
+    </title>
     <extendedTooltip>
       <name>ДействияПриОшибкахExtendedTooltip</name>
       <id>53</id>
@@ -610,6 +622,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Дополнительно</value>
+    </title>
     <extendedTooltip>
       <name>ДополнительноExtendedTooltip</name>
       <id>60</id>
@@ -793,6 +809,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Метаданные</value>
+    </title>
     <extendedTooltip>
       <name>МетаданныеExtendedTooltip</name>
       <id>65</id>
@@ -889,6 +909,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Сообщения пользователю и описание информации об ошибке</value>
+    </title>
     <extendedTooltip>
       <name>СообщенияПользователюИОписаниеИнформацииОбОшибкеExtendedTooltip</name>
       <id>69</id>

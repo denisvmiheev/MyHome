@@ -298,6 +298,10 @@
         <items xsi:type="form:FormField">
           <name>ПользователиВариантаПометка</name>
           <id>291</id>
+          <title>
+            <key>ru</key>
+            <value>Пометка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -345,6 +349,10 @@
         <items xsi:type="form:FormField">
           <name>ПользователиВариантаЗначение</name>
           <id>288</id>
+          <title>
+            <key>ru</key>
+            <value>Значение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2858,6 +2866,7 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <conversationsRepresentation>Show</conversationsRepresentation>
   <attributes>
     <name>Объект</name>
     <id>1</id>

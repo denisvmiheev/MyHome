@@ -459,6 +459,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Формата хранения</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаФорматаХраненияExtendedTooltip</name>
             <id>52</id>
@@ -591,6 +595,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Формата сканирования</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаФорматаСканированияExtendedTooltip</name>
             <id>55</id>
@@ -851,6 +859,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дополнительные настройки</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаДополнительныеНастройкиРасширеннаяПодсказка</name>
         <id>72</id>
@@ -880,6 +892,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаНастройкиРасширеннаяПодсказка</name>
       <id>70</id>

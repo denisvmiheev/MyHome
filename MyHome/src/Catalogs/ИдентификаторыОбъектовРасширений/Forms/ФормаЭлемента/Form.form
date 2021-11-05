@@ -1019,7 +1019,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenByValue.ТипОбъекта</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
@@ -1039,7 +1039,7 @@
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.ИсторияИзменений</command>
         <userVisible/>
       </cmiFragmentRecord>
     </navigationPanel>

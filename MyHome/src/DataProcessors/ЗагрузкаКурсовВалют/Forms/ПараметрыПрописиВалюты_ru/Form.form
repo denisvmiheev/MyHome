@@ -629,6 +629,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Склонение дробной части</value>
+      </title>
       <extendedTooltip>
         <name>СклонениеДробнойЧастиРасширеннаяПодсказка</name>
         <id>90</id>
@@ -749,6 +753,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Число разрядов дробной части</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаЧислоРазрядовДробнойЧастиExtendedTooltip</name>
         <id>95</id>

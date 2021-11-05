@@ -107,6 +107,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Лишние файлы</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЛишниеФайлыРасширеннаяПодсказка</name>
       <id>17</id>
@@ -234,6 +238,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКомментарийРасширеннаяПодсказка</name>
       <id>6</id>
@@ -375,6 +383,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки удаления</value>
+    </title>
     <extendedTooltip>
       <name>НастройкиУдаленияРасширеннаяПодсказка</name>
       <id>28</id>

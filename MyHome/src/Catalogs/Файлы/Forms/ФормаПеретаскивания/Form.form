@@ -65,6 +65,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Заголовок</value>
+      </title>
       <extendedTooltip>
         <name>ЗаголовокExtendedTooltip</name>
         <id>48</id>
@@ -92,6 +96,10 @@
     <items xsi:type="form:Table">
       <name>ДеревоФайлов</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Дерево файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -258,6 +266,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Картинка и наименование</value>
+        </title>
         <extendedTooltip>
           <name>КартинкаИНаименованиеExtendedTooltip</name>
           <id>51</id>
@@ -457,6 +469,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Файлы</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаФайлыРасширеннаяПодсказка</name>
       <id>47</id>
@@ -695,6 +711,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Реквизиты файлов</value>
+    </title>
     <extendedTooltip>
       <name>РеквизитыФайловExtendedTooltip</name>
       <id>57</id>
@@ -803,6 +823,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Кодировка</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКодировкаExtendedTooltip</name>
       <id>60</id>
@@ -918,6 +942,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основная командная панель</value>
+    </title>
     <extendedTooltip>
       <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
       <id>63</id>

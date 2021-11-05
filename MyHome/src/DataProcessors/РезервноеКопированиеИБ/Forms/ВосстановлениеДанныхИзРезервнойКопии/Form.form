@@ -183,6 +183,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Авторизации</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаАвторизацииExtendedTooltip</name>
           <id>105</id>
@@ -340,6 +344,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Картинки 1</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаКартинки1ExtendedTooltip</name>
               <id>109</id>
@@ -466,6 +474,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Надписей 1</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаНадписей1ExtendedTooltip</name>
               <id>111</id>
@@ -722,6 +734,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Comcntr файловый режим</value>
+              </title>
               <extendedTooltip>
                 <name>ГруппаComcntrФайловыйРежимExtendedTooltip</name>
                 <id>139</id>
@@ -752,6 +768,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Ошибки</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаОшибкиExtendedTooltip</name>
               <id>131</id>
@@ -811,6 +831,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Страницы статуса восстановления</value>
+        </title>
         <extendedTooltip>
           <name>СтраницыСтатусаВосстановленияРасширеннаяПодсказка</name>
           <id>156</id>
@@ -916,6 +940,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Картинки активных пользователей</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаКартинкиАктивныхПользователейExtendedTooltip</name>
             <id>120</id>
@@ -1085,6 +1113,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Надписи активных пользователей</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаНадписиАктивныхПользователейExtendedTooltip</name>
               <id>122</id>
@@ -1386,6 +1418,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Неуспешного копирования</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНеуспешногоКопированияРасширеннаяПодсказка</name>
           <id>174</id>
@@ -1502,6 +1538,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Не удалось</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНеУдалосьРасширеннаяПодсказка</name>
           <id>179</id>
@@ -1561,6 +1601,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы загрузки данных</value>
+    </title>
     <extendedTooltip>
       <name>СтраницыЗагрузкиДанныхExtendedTooltip</name>
       <id>95</id>

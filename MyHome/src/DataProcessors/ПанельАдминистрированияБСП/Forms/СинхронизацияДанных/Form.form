@@ -86,6 +86,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Справка</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСправкаExtendedTooltip</name>
         <id>2016</id>
@@ -111,6 +115,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>2013</id>
@@ -199,6 +207,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Использовать синхронизацию данных</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -269,6 +281,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки синхронизации данных</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -300,6 +316,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Синхронизация данных</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаСинхронизацияДанныхРасширеннаяПодсказка</name>
       <id>2018</id>
@@ -429,6 +449,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Даты запрета загрузки использование</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Запрет загрузки данных прошлых периодов из других программ.
@@ -469,6 +493,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Даты запрета загрузки настройка</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -500,6 +528,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Даты запрета загрузки</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаДатыЗапретаЗагрузкиРасширеннаяПодсказка</name>
       <id>2052</id>
@@ -572,6 +604,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Результатов синхронизации данных</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -646,6 +682,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Загрузка данных enterprise data</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -677,6 +717,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Синхронизация данных дополнительно</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаСинхронизацияДанныхДополнительноРасширеннаяПодсказка</name>
       <id>2025</id>
@@ -813,6 +857,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Префикс узла распределенной информационной базы</value>
+    </title>
     <toolTipRepresentation>ShowBottom</toolTipRepresentation>
     <width>43</width>
     <extendedTooltip>
@@ -1035,6 +1083,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Интерфейс o data</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаИнтерфейсODataРасширеннаяПодсказка</name>
       <id>2077</id>
@@ -1119,6 +1171,9 @@
       <segments>НаборКонстант.ЗапрещатьЗагрузкуФайловПоРасширению</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьВерсионированиеОбъектов</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьВнешнихПользователей</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -1126,6 +1181,9 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.МаксимальныйРазмерФайлаОбластиДанных</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ОграничиватьДоступНаУровнеЗаписей</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.СписокЗапрещенныхРасширенийОбластиДанных</segments>

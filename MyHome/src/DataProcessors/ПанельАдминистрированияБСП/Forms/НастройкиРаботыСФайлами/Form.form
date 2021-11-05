@@ -85,6 +85,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Справка</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСправкаExtendedTooltip</name>
         <id>2047</id>
@@ -110,6 +114,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>2044</id>
@@ -233,6 +241,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Способ хранения файлов</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -299,6 +311,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Перенос файлов</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаПереносФайловРасширеннаяПодсказка</name>
         <id>2154</id>
@@ -328,6 +344,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Управление хранением файлов</value>
+    </title>
     <extendedTooltip>
       <name>УправлениеХранениемФайловРасширеннаяПодсказка</name>
       <id>2147</id>
@@ -442,6 +462,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Справочник тома хранения файлов</value>
+      </title>
       <width>40</width>
       <extendedTooltip>
         <name>ГруппаСправочникТомаХраненияФайловExtendedTooltip</name>
@@ -528,6 +552,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Хранить файлы в томах в разрезе владельца</value>
+      </title>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаХранитьФайлыВТомахВРазрезеВладельцаРасширеннаяПодсказка</name>
@@ -558,6 +586,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Управление томами файлов</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаУправлениеТомамиФайловExtendedTooltip</name>
       <id>2049</id>
@@ -742,6 +774,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Управление расширениями файлов ВИБ</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаУправлениеРасширениямиФайловВИБРасширеннаяПодсказка</name>
       <id>2162</id>
@@ -925,6 +961,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Размер файлов ВИБ</value>
+      </title>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
         <name>ГруппаРазмерФайловВИБРасширеннаяПодсказка</name>
@@ -958,6 +998,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Управление размером файлов ВИБ</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаУправлениеРазмеромФайловВИБРасширеннаяПодсказка</name>
       <id>2181</id>
@@ -1145,6 +1189,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Расширение</value>
+      </title>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
         <name>ГруппаРасширениеExtendedTooltip</name>
@@ -1181,6 +1229,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Управление загрузкой файлов</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаУправлениеЗагрузкойФайловExtendedTooltip</name>
       <id>2056</id>
@@ -1320,6 +1372,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Размер</value>
+        </title>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
           <name>ГруппаРазмерExtendedTooltip</name>
@@ -1353,6 +1409,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Максимальный размер файла области данных</value>
+      </title>
       <width>43</width>
       <extendedTooltip>
         <name>ГруппаМаксимальныйРазмерФайлаОбластиДанныхExtendedTooltip</name>
@@ -1427,6 +1487,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройка очистки файлов</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаНастройкаОчисткиФайловРасширеннаяПодсказка</name>
         <id>2106</id>
@@ -1456,6 +1520,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Управление файлами</value>
+    </title>
     <horizontalStretch>false</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаУправлениеФайламиРасширеннаяПодсказка</name>
@@ -1599,6 +1667,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Список расширений файлов open document области данных</value>
+      </title>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
         <name>ГруппаСписокРасширенийФайловOpenDocumentОбластиДанныхExtendedTooltip</name>
@@ -1736,6 +1808,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Список расширений текстовых файлов</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСписокРасширенийТекстовыхФайловExtendedTooltip</name>
         <id>2069</id>
@@ -1764,6 +1840,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Список расширений файлов</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаСписокРасширенийФайловРасширеннаяПодсказка</name>
       <id>2130</id>
@@ -1852,6 +1932,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Синхронизация файлов</value>
+      </title>
       <width>43</width>
       <extendedTooltip>
         <name>ГруппаСинхронизацияФайловРасширеннаяПодсказка</name>
@@ -1925,6 +2009,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки синхронизации файлов</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаНастройкиСинхронизацииФайловРасширеннаяПодсказка</name>
         <id>2118</id>
@@ -1954,6 +2042,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Синхронизация файлов с облачными сервисами</value>
+    </title>
     <horizontalStretch>false</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаСинхронизацияФайловСОблачнымиСервисамиРасширеннаяПодсказка</name>
@@ -2142,6 +2234,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Размер 1</value>
+          </title>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
             <name>ГруппаРазмер1ExtendedTooltip</name>
@@ -2175,6 +2271,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Максимальный размер файла</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаМаксимальныйРазмерФайлаExtendedTooltip</name>
           <id>2085</id>
@@ -2316,6 +2416,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Список запрещенных расширений</value>
+          </title>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
             <name>ГруппаСписокЗапрещенныхРасширенийExtendedTooltip</name>
@@ -2453,6 +2557,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Список расширений файлов open document</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаСписокРасширенийФайловOpenDocumentExtendedTooltip</name>
             <id>2093</id>
@@ -2482,6 +2590,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Список расширений</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаСписокРасширенийРасширеннаяПодсказка</name>
           <id>2132</id>
@@ -2546,6 +2658,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Отступ 1</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОтступ1ExtendedTooltip</name>
       <id>2082</id>
@@ -2626,6 +2742,9 @@
       <segments>НаборКонстант.ЗапрещатьЗагрузкуФайловПоРасширению</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьВерсионированиеОбъектов</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьВнешнихПользователей</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -2636,6 +2755,9 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.МаксимальныйРазмерФайлаОбластиДанных</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ОграничиватьДоступНаУровнеЗаписей</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.СписокЗапрещенныхРасширенийОбластиДанных</segments>

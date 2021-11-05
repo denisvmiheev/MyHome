@@ -362,7 +362,6 @@
     <rowsPicture xsi:type="core:PictureRef">
       <picture>CommonPicture.Папки</picture>
     </rowsPicture>
-    <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
@@ -457,7 +456,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.НастроитьПрава</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>

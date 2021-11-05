@@ -82,6 +82,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Кнопок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКнопокExtendedTooltip</name>
       <id>158</id>
@@ -217,6 +221,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дата пользователь</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаДатаПользовательExtendedTooltip</name>
         <id>110</id>
@@ -410,6 +418,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Компьютер приложение разделение данных</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКомпьютерПриложениеРазделениеДанныхExtendedTooltip</name>
         <id>113</id>
@@ -439,6 +451,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основные</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОсновныеExtendedTooltip</name>
       <id>109</id>
@@ -590,6 +606,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Событие</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСобытиеExtendedTooltip</name>
         <id>146</id>
@@ -2349,6 +2369,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Горизонтальная группа свойств пользователя ИБ</value>
+            </title>
             <extendedTooltip>
               <name>ГоризонтальнаяГруппаСвойствПользователяИБExtendedTooltip</name>
               <id>141</id>
@@ -2408,6 +2432,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Представления данных</value>
+        </title>
         <extendedTooltip>
           <name>ПредставленияДанныхExtendedTooltip</name>
           <id>119</id>
@@ -2467,6 +2495,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основное</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОсновноеРасширеннаяПодсказка</name>
       <id>117</id>
@@ -2898,6 +2930,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Транзакция соединение</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаТранзакцияСоединениеExtendedTooltip</name>
       <id>149</id>

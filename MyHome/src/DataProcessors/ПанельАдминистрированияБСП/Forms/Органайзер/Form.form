@@ -86,6 +86,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Справка</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСправкаExtendedTooltip</name>
         <id>1641</id>
@@ -111,6 +115,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>1638</id>
@@ -205,6 +213,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Использовать почтовый клиент</value>
+          </title>
           <width>43</width>
           <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
@@ -292,6 +304,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Отправлять письма в формате HTML</value>
+          </title>
           <width>43</width>
           <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
@@ -412,6 +428,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Использовать прочие взаимодействия</value>
+          </title>
           <width>43</width>
           <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
@@ -500,6 +520,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Использовать признак рассмотрено</value>
+          </title>
           <width>43</width>
           <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
@@ -614,6 +638,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Безопасность почты</value>
+        </title>
         <extendedTooltip>
           <name>БезопасностьПочтыРасширеннаяПодсказка</name>
           <id>1806</id>
@@ -702,7 +730,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -715,6 +743,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Открыть настройки системной учетной записи ЭП</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -771,7 +803,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -784,6 +816,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Открыть учетные записи электронной почты</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1023,6 +1059,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Использовать заметки</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1110,6 +1150,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Использовать напоминания пользователя</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1141,6 +1185,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Заметки напоминания</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаЗаметкиНапоминанияРасширеннаяПодсказка</name>
         <id>1667</id>
@@ -1228,6 +1276,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Использовать анкетирование</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -1320,6 +1372,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Использовать шаблоны сообщений</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1386,6 +1442,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройка шаблоны сообщений</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1417,6 +1477,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Шаблоны сообщений</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаШаблоныСообщенийРасширеннаяПодсказка</name>
         <id>1795</id>
@@ -1547,6 +1611,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Использовать бизнес процессы и задачи</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1616,6 +1684,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Открыть роли и исполнители бизнес процессов</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1777,6 +1849,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Использовать подчиненные бизнес процессы</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1865,6 +1941,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Изменять задания задним числом</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -2027,6 +2107,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Использовать дату начала задач</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -2115,6 +2199,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Использовать дату и время в сроках задач</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -2347,6 +2435,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Мониторинг задач использование</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -2410,6 +2502,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Мониторинг задач</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаМониторингЗадачРасширеннаяПодсказка</name>
         <id>1712</id>
@@ -2611,6 +2707,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Уведомление исполнителей о новых задачах использование</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -2674,6 +2774,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Уведомление исполнителей о новых задачах</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаУведомлениеИсполнителейОНовыхЗадачахРасширеннаяПодсказка</name>
         <id>1737</id>

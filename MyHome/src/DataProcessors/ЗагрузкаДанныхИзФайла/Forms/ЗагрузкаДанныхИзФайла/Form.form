@@ -90,6 +90,10 @@
           <items xsi:type="form:FormField">
             <name>ВидЗагрузкиДанныхЗначение</name>
             <id>29</id>
+            <title>
+              <key>ru</key>
+              <value>Значение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2292,6 +2296,47 @@
             </choiceList>
           </extInfo>
         </items>
+        <items xsi:type="form:Decoration">
+          <name>ОтступСопоставление</name>
+          <id>684</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОтступСопоставлениеРасширеннаяПодсказка</name>
+            <id>686</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОтступСопоставлениеКонтекстноеМеню</name>
+            <id>685</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <width>2</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
         <items xsi:type="form:FormField">
           <name>СоздаватьЕслиНеСопоставлено</name>
           <id>423</id>
@@ -2307,6 +2352,7 @@
           <dataPath xsi:type="form:DataPath">
             <segments>СоздаватьЕслиНеСопоставлено</segments>
           </dataPath>
+          <shortcut>F5</shortcut>
           <extendedTooltip>
             <name>СоздаватьЕслиНеСопоставленоРасширеннаяПодсказка</name>
             <id>425</id>
@@ -2409,6 +2455,7 @@
           <key>ru</key>
           <value>Итого не сопоставленных</value>
         </title>
+        <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаИтогоНеСопоставленныхРасширеннаяПодсказка</name>
           <id>422</id>

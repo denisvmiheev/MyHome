@@ -87,6 +87,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Справка</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСправкаExtendedTooltip</name>
         <id>2040</id>
@@ -112,6 +116,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>2037</id>
@@ -240,6 +248,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Пользователи и группы</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -353,6 +365,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки входа пользователей</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -407,7 +423,7 @@
           </extInfo>
         </extendedTooltip>
         <type>Hyperlink</type>
-        <commandName>0</commandName>
+        <commandName>Report.АнализПравДоступа.StandardCommand.Open</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -420,6 +436,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки входа и отчет по правам</value>
+      </title>
       <extendedTooltip>
         <name>НастройкиВходаИОтчетПоПравамРасширеннаяПодсказка</name>
         <id>2242</id>
@@ -550,6 +570,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Использовать внешних пользователей</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -667,6 +691,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Список внешних пользователей</value>
+        </title>
         <width>41</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -741,6 +769,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки входа внешних пользователей</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -772,6 +804,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Внешние пользователи и настройки входа</value>
+      </title>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаВнешниеПользователиИНастройкиВходаРасширеннаяПодсказка</name>
@@ -872,7 +908,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>Catalog.ГруппыДоступа.StandardCommand.OpenList</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -888,6 +924,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ОграничиватьДоступНаУровнеЗаписей</segments>
+          </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTip>
             <key>ru</key>
@@ -934,6 +973,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группы доступа и ограничение на уровне записей</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -991,7 +1034,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1011,6 +1054,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ОграничиватьДоступНаУровнеЗаписейУниверсально</segments>
+          </dataPath>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <handlers>
             <event>OnChange</event>
@@ -1123,6 +1169,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Профили групп доступа</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1154,6 +1204,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группы доступа профили и ограничение на уровне записей</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаГруппыДоступаПрофилиИОграничениеНаУровнеЗаписейРасширеннаяПодсказка</name>
         <id>2049</id>
@@ -1265,6 +1319,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Копирование настроек пользователей</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1334,6 +1392,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки пользователей</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1365,6 +1427,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Работа с настройками пользователей</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаРаботаСНастройкамиПользователейРасширеннаяПодсказка</name>
         <id>2060</id>
@@ -1433,6 +1499,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Очистка настроек пользователей</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -1605,6 +1675,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Даты запрета изменения использование</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Запрет изменения данных прошлых периодов.</value>
@@ -1724,6 +1798,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Открыть настройки регистрации событий доступа к персональным данным</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1913,6 +1991,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Дней до скрытия</value>
+          </title>
           <toolTip>
             <key>ru</key>
             <value>Причиной скрытия данных может быть истечение срока действия согласия субъекта или его отсутствие.</value>
@@ -1948,6 +2030,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Скрытие персональных данных использование</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаСкрытиеПерсональныхДанныхИспользованиеРасширеннаяПодсказка</name>
           <id>2224</id>
@@ -1977,6 +2063,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки защиты персональных данных</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаНастройкиЗащитыПерсональныхДанныхРасширеннаяПодсказка</name>
         <id>2222</id>
@@ -2045,6 +2135,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обработка защита персональных данных</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -2169,6 +2263,9 @@
       <segments>НаборКонстант.ЗапрещатьЗагрузкуФайловПоРасширению</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьВерсионированиеОбъектов</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьВнешнихПользователей</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -2176,6 +2273,12 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.МаксимальныйРазмерФайлаОбластиДанных</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ОграничиватьДоступНаУровнеЗаписей</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ОграничиватьДоступНаУровнеЗаписейУниверсально</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.СписокЗапрещенныхРасширенийОбластиДанных</segments>

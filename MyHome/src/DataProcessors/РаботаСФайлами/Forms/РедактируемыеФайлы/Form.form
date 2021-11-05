@@ -180,6 +180,7 @@
     <type>CommandBar</type>
     <extInfo xsi:type="form:CommandBarExtInfo">
       <horizontalAlign>Left</horizontalAlign>
+      <commandSource>Item.Список</commandSource>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
@@ -1361,7 +1362,6 @@
     <borderColor xsi:type="core:ColorRef">
       <color>Style.BorderColor</color>
     </borderColor>
-    <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
     <currentRowUse>SelectionPresentationAndChoice</currentRowUse>

@@ -53,7 +53,7 @@
   <content>CommandGroup.Органайзер</content>
   <content>CommonPicture.Органайзер</content>
   <content>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</content>
-  <content>Role.РежимВсеФункции</content>
+  <content>Role.РежимТехническогоСпециалиста</content>
   <content>Role.СохранениеДанныхПользователя</content>
   <content>CommonPicture.ИерархическийСписок</content>
   <content>StyleItem.ПросроченныеДанныеЦвет</content>
@@ -254,5 +254,31 @@
   <content>CommonPicture.СтрелкаВправоЗеленая</content>
   <content>CommonPicture.Пустая</content>
   <content>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</content>
+  <content>51e1557d-cdb5-41ad-8bfb-1199379d6b70</content>
+  <content>CommonPicture.СохранитьКак</content>
+  <content>CommonPicture.ПиктограммыТиповДанных</content>
+  <content>CommonPicture.ТипБулево</content>
+  <content>CommonPicture.ТипГруппа</content>
+  <content>CommonPicture.ТипДата</content>
+  <content>CommonPicture.ТипДерево</content>
+  <content>CommonPicture.ТипИдентификатор</content>
+  <content>CommonPicture.ТипКонстанта</content>
+  <content>CommonPicture.ТипМакрос</content>
+  <content>CommonPicture.ТипСоставнойДополнительный</content>
+  <content>CommonPicture.ТипСписок</content>
+  <content>CommonPicture.ТипСсылка</content>
+  <content>CommonPicture.ТипСтрока</content>
+  <content>CommonPicture.ТипФильтр</content>
+  <content>CommonPicture.ТипФункция</content>
+  <content>CommonPicture.ТипЧисло</content>
+  <content>CommonPicture.Скачать</content>
+  <content>CommonPicture.ТипГиперссылка</content>
+  <content>CommonPicture.ТипКартинка</content>
+  <content>CommonPicture.ТипНеопределено</content>
+  <content>CommonPicture.ТипПапка</content>
+  <content>CommonPicture.ТипСоставнойОсновной</content>
+  <content>ScheduledJob.ОбработкаСервисовИнтеграции</content>
+  <content>CommonPicture.ВводимыеСимволыСкрыты</content>
+  <content>CommonPicture.ВводимыеСимволыВидны</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

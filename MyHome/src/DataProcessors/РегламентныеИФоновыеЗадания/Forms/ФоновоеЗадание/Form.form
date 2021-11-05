@@ -257,6 +257,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основное</value>
+    </title>
     <readOnly>true</readOnly>
     <extendedTooltip>
       <name>ОсновноеExtendedTooltip</name>
@@ -437,6 +441,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Дополнительно</value>
+    </title>
     <readOnly>true</readOnly>
     <extendedTooltip>
       <name>ДополнительноExtendedTooltip</name>
@@ -572,6 +580,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </title>
     <readOnly>true</readOnly>
     <extendedTooltip>
       <name>РегламентноеЗаданиеExtendedTooltip</name>

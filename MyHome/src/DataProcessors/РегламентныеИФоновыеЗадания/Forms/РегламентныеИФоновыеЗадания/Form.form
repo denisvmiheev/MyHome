@@ -3490,6 +3490,10 @@
     </columns>
     <columns>
       <name>Расписание</name>
+      <title>
+        <key>ru</key>
+        <value>Расписание</value>
+      </title>
       <id>7</id>
       <valueType>
         <types>String</types>

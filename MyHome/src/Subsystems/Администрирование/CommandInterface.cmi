@@ -6,7 +6,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:d0106f3a-8490-4277-a278-75c318ec252c</command>
+      <command>Catalog.ГруппыДоступа.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -19,10 +19,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>0:d917c19e-be15-41cc-9c8a-a97c8de85309</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>CommonCommand.ПанельОтчетовАдминистрирование</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -44,7 +40,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:782cb93d-36e6-4923-b2b6-75caa3459cd6</command>
+      <command>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -80,7 +76,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:344cb0de-315d-4d05-93f8-8a1f53208470</command>
+      <command>Catalog.КлючевыеОперации.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -96,7 +92,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:45af8f5d-d505-466b-a798-19f2219a180c</command>
+      <command>InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -124,7 +120,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:0d89036c-af6e-4709-847c-0dab74a33d72</command>
+      <command>Catalog.ПрофилиКлючевыхОпераций.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -152,7 +148,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:1610e73c-58df-41cc-8349-51b920806821</command>
+      <command>Catalog.ВнешниеКомпоненты.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -200,11 +196,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.РезервноеКопированиеИБ.Command.ПоказатьРезультат</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:f31f3dab-5796-47ac-a54d-3081f8cad817</command>
+      <command>Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -220,7 +212,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:6b2340d7-687f-43a3-8eb8-8ddb86712466</command>
+      <command>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -228,15 +220,11 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:bcd705ba-c9ac-4e73-94b1-7632c0f06c04</command>
+      <command>Report.АнализЖурналаРегистрации.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:8fbf9432-77e8-4951-87a1-4368e3a5e117</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>CommonCommand.ДополнительныеОтчетыАдминистрирование</command>
+      <command>Report.АнализПравДоступа.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -244,7 +232,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:269ada84-71a9-4b4b-9604-caa40c5b7067</command>
+      <command>Report.ОценкаПроизводительности.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -276,7 +264,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:90385850-d37b-4b2e-ac87-95c17f32197c</command>
+      <command>DataProcessor.ГрупповоеИзменениеРеквизитов.Command.ГрупповоеИзменениеРеквизитов</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -324,11 +312,11 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:085cbea9-1df1-4ee9-afb7-da2bf313697e</command>
+      <command>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:e0227e4b-be22-4614-8980-5d573fae705d</command>
+      <command>DataProcessor.ОценкаПроизводительности.Command.НастройкиОценкиПроизводительности</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -344,7 +332,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:256618cc-0956-4cda-9691-e4ced68a791f</command>
+      <command>DataProcessor.ОценкаПроизводительности.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -360,7 +348,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:4a749e8c-cb35-4bc4-9b31-fb5bc0eab474</command>
+      <command>DataProcessor.УстановкаОбновлений.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -408,7 +396,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:7a7b7882-a4c1-40c8-a807-cb2d71d054cc</command>
+      <command>DataProcessor.ОценкаПроизводительности.Command.ЭкспортЗамеровПроизводительности</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -416,7 +404,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:6f36007b-04dc-4007-abf7-e20fbd126b97</command>
+      <command>DataProcessor.ОценкаПроизводительности.Command.ИмпортЗамеровПроизводительности</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -440,7 +428,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>100:46e313f7-54da-4884-89e8-cdba6ae30d30</command>
+      <command>CommonForm.УстановленныеИсправления.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -468,11 +456,10 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
-      <commands>0:d0106f3a-8490-4277-a278-75c318ec252c</commands>
+      <commands>Catalog.ГруппыДоступа.StandardCommand.OpenList</commands>
       <commands>Catalog.ВнешниеПользователи.StandardCommand.OpenList</commands>
       <commands>DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации</commands>
       <commands>0:d917c19e-be15-41cc-9c8a-a97c8de85309</commands>
-      <commands>CommonCommand.ПанельОтчетовАдминистрирование</commands>
       <commands>Catalog.ВариантыОтчетов.StandardCommand.OpenList</commands>
       <commands>Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList</commands>
       <commands>0:8ce6cc1a-8570-4704-b9a3-44e815b2e753</commands>
@@ -488,22 +475,25 @@
       <commands>DataProcessor.АктивныеПользователи.Command.АктивныеПользователи</commands>
       <commands>Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList</commands>
       <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
-      <commands>0:f31f3dab-5796-47ac-a54d-3081f8cad817</commands>
+      <commands>Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList</commands>
       <commands>0:3dec1ae7-90bb-45ab-aa04-48cfbc14742e</commands>
       <commands>DataProcessor.УдалениеПомеченныхОбъектов.Command.УдалениеПомеченныхОбъектов</commands>
       <commands>DataProcessor.ПоискИУдалениеДублей.Command.ПоискИУдалениеДублей</commands>
-      <commands>0:6b2340d7-687f-43a3-8eb8-8ddb86712466</commands>
+      <commands>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ПанельОтчетовАдминистрирование</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
-      <commands>0:d0106f3a-8490-4277-a278-75c318ec252c</commands>
+      <commands>Catalog.ГруппыДоступа.StandardCommand.OpenList</commands>
       <commands>Catalog.ВнешниеПользователи.StandardCommand.OpenList</commands>
       <commands>DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации</commands>
       <commands>0:d917c19e-be15-41cc-9c8a-a97c8de85309</commands>
-      <commands>CommonCommand.ПанельОтчетовАдминистрирование</commands>
       <commands>Catalog.ВариантыОтчетов.StandardCommand.OpenList</commands>
       <commands>Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList</commands>
       <commands>0:8ce6cc1a-8570-4704-b9a3-44e815b2e753</commands>
@@ -519,7 +509,7 @@
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.НастройкиРаботыСФайлами</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.ПечатныеФормыОтчетыИОбработки</commands>
       <commands>0:ab494025-00b8-46f2-92a0-7b097cf8c901</commands>
-      <commands>0:782cb93d-36e6-4923-b2b6-75caa3459cd6</commands>
+      <commands>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</commands>
       <commands>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</commands>
       <commands>0:679cc0df-df5c-4c33-8c64-c0b6cee39116</commands>
       <commands>Catalog.ТомаХраненияФайлов.StandardCommand.OpenList</commands>
@@ -528,18 +518,18 @@
       <commands>0:95a71c2e-aa39-42ec-8889-2390a553f146</commands>
       <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
       <commands>0:b56f25d2-72a9-4d80-8998-77ac3097c873</commands>
-      <commands>0:344cb0de-315d-4d05-93f8-8a1f53208470</commands>
+      <commands>Catalog.КлючевыеОперации.StandardCommand.OpenList</commands>
       <commands>0:f692ab21-a8de-4feb-914f-4beef350543a</commands>
       <commands>DataProcessor.ЗагрузкаДанныхИзФайла.Command.ЗагрузкаДанныхИзФайла</commands>
       <commands>0:2e0b331d-92d4-4250-94c6-9ced8cdcb1e4</commands>
-      <commands>0:45af8f5d-d505-466b-a798-19f2219a180c</commands>
+      <commands>InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenList</commands>
       <commands>0:b8a966ba-3452-44df-91d0-7040ecd3e4c2</commands>
       <commands>0:2a6e1f2b-7378-456b-9657-9e971eaff716</commands>
       <commands>0:c3cdea20-3055-4b4e-a531-a02d4f3ed294</commands>
       <commands>0:e25b2b10-bf08-42db-9642-861efc5e583b</commands>
       <commands>InformationRegister.НастройкиОчисткиФайлов.StandardCommand.OpenList</commands>
       <commands>CommonCommand.ВремяТекущегоСеанса</commands>
-      <commands>0:0d89036c-af6e-4709-847c-0dab74a33d72</commands>
+      <commands>Catalog.ПрофилиКлючевыхОпераций.StandardCommand.OpenList</commands>
       <commands>0:55bce105-51c0-452e-9eec-b960fe740db2</commands>
       <commands>0:afe79ef0-7830-43ce-85f3-c4c97831aa67</commands>
       <commands>0:a4b6920e-3e25-4798-809a-27d7bfae4ee7</commands>
@@ -547,7 +537,7 @@
       <commands>0:981f6e35-64b8-4d63-b383-32ea71fcd025</commands>
       <commands>0:068cae63-6fae-4330-96ed-1c252842aa8b</commands>
       <commands>0:33fa908a-5516-43c8-94d3-28c60eba8d66</commands>
-      <commands>0:1610e73c-58df-41cc-8349-51b920806821</commands>
+      <commands>Catalog.ВнешниеКомпоненты.StandardCommand.OpenList</commands>
       <commands>0:1e14d062-1d5a-4939-8ce6-4d9514990376</commands>
       <commands>0:8b5358e9-5810-45a7-a49e-fe7fe63c73f3</commands>
     </orderFragments>
@@ -562,12 +552,11 @@
       <commands>0:c411827b-fa66-4a84-9560-12ffff43ba8b</commands>
       <commands>0:2a5a6e14-d41b-4218-8cf5-c59d5c683350</commands>
       <commands>0:22577964-6af5-44af-a2f2-6049dc67c1ce</commands>
-      <commands>DataProcessor.РезервноеКопированиеИБ.Command.ПоказатьРезультат</commands>
-      <commands>0:f31f3dab-5796-47ac-a54d-3081f8cad817</commands>
+      <commands>Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList</commands>
       <commands>0:3dec1ae7-90bb-45ab-aa04-48cfbc14742e</commands>
       <commands>DataProcessor.УдалениеПомеченныхОбъектов.Command.УдалениеПомеченныхОбъектов</commands>
       <commands>DataProcessor.ПоискИУдалениеДублей.Command.ПоискИУдалениеДублей</commands>
-      <commands>0:6b2340d7-687f-43a3-8eb8-8ddb86712466</commands>
+      <commands>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
@@ -580,7 +569,7 @@
       <commands>0:636983ac-b8c1-481d-b5b0-26cdb31fe770</commands>
       <commands>0:c1092cd5-ebef-4ca7-aa41-aba9ff112eef</commands>
       <commands>DataProcessor.РезервноеКопированиеИБ.Command.ВыполнитьВосстановлениеДанных</commands>
-      <commands>0:90385850-d37b-4b2e-ac87-95c17f32197c</commands>
+      <commands>DataProcessor.ГрупповоеИзменениеРеквизитов.Command.ГрупповоеИзменениеРеквизитов</commands>
       <commands>InformationRegister.ДатыЗапретаИзменения.Command.ДатыЗапретаЗагрузкиДанных</commands>
       <commands>InformationRegister.ДатыЗапретаИзменения.Command.ДатыЗапретаИзмененияДанных</commands>
       <commands>100:5e01ee62-d690-42bd-997e-491c90ea1c56</commands>
@@ -592,16 +581,16 @@
       <commands>DataProcessor.НастройкиПользователей.Command.КопированиеНастроекПользователей</commands>
       <commands>CommonForm.НастройкаОтправкиSMS.StandardCommand.Open</commands>
       <commands>DataProcessor.НастройкаРезервногоКопированияИБ.StandardCommand.Open</commands>
-      <commands>0:085cbea9-1df1-4ee9-afb7-da2bf313697e</commands>
-      <commands>0:e0227e4b-be22-4614-8980-5d573fae705d</commands>
+      <commands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commands>
+      <commands>DataProcessor.ОценкаПроизводительности.Command.НастройкиОценкиПроизводительности</commands>
       <commands>DataProcessor.НастройкиПользователей.StandardCommand.Open</commands>
       <commands>100:fabbac92-cb98-4087-b3fa-387482ed0d86</commands>
       <commands>CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open</commands>
-      <commands>0:256618cc-0956-4cda-9691-e4ced68a791f</commands>
+      <commands>DataProcessor.ОценкаПроизводительности.StandardCommand.Open</commands>
       <commands>DataProcessor.НастройкиПользователей.Command.ОчисткаНастроекПользователей</commands>
       <commands>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</commands>
       <commands>DataProcessor.ПереносФайлов.Command.ПереносФайлов</commands>
-      <commands>0:4a749e8c-cb35-4bc4-9b31-fb5bc0eab474</commands>
+      <commands>DataProcessor.УстановкаОбновлений.StandardCommand.Open</commands>
       <commands>DataProcessor.РегламентныеИФоновыеЗадания.StandardCommand.Open</commands>
       <commands>DataProcessor.РезервноеКопированиеИБ.StandardCommand.Open</commands>
       <commands>DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open</commands>
@@ -613,19 +602,31 @@
       <commands>100:4d660fec-4a76-470e-bba9-3d031941b289</commands>
       <commands>CommonForm.НастройкаКомандПечати.StandardCommand.Open</commands>
       <commands>CommonForm.Расширения.StandardCommand.Open</commands>
-      <commands>0:7a7b7882-a4c1-40c8-a807-cb2d71d054cc</commands>
+      <commands>DataProcessor.ОценкаПроизводительности.Command.ЭкспортЗамеровПроизводительности</commands>
       <commands>CommonForm.НастройкиВходаПользователей.StandardCommand.Open</commands>
-      <commands>0:6f36007b-04dc-4007-abf7-e20fbd126b97</commands>
+      <commands>DataProcessor.ОценкаПроизводительности.Command.ИмпортЗамеровПроизводительности</commands>
       <commands>0:f38bb317-8a59-4786-be76-e1d4e534628d</commands>
       <commands>0:13b3c973-6be3-4898-89d5-20852cd14e46</commands>
       <commands>0:be0fbbfc-5873-41a6-80ef-35ed1b8adb4c</commands>
       <commands>0:7904d64a-2c30-4434-8924-b4817b727db9</commands>
       <commands>0:413c2d03-f717-4503-9723-c605114b2799</commands>
-      <commands>100:46e313f7-54da-4884-89e8-cdba6ae30d30</commands>
+      <commands>CommonForm.УстановленныеИсправления.StandardCommand.Open</commands>
       <commands>0:37e36a72-4f28-44c7-9c73-f4c445f7722e</commands>
       <commands>0:70a06a02-8fb8-4a39-9e50-b7c27c41f49f</commands>
       <commands>CommonForm.ВосстановлениеПаролей.StandardCommand.Open</commands>
       <commands>0:25741b39-1c6b-4851-8584-9711d25ef05a</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ПанельОтчетовАдминистрирование</commands>
+      <commands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commands>
+      <commands>Report.АнализЖурналаРегистрации.StandardCommand.Open</commands>
+      <commands>Report.АнализПравДоступа.StandardCommand.Open</commands>
+      <commands>Report.ОбъемНенужныхФайлов.StandardCommand.Open</commands>
+      <commands>Report.ОценкаПроизводительности.StandardCommand.Open</commands>
+      <commands>Report.ПрогрессОтложенногоОбновления.StandardCommand.Open</commands>
+      <commands>Report.СведенияОПользователях.StandardCommand.Open</commands>
+      <commands>Report.УниверсальныйОтчет.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -104,6 +104,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Состояние поиска</value>
+    </title>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>СостояниеПоискаРасширеннаяПодсказка</name>
@@ -296,6 +300,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Шапка</value>
+    </title>
     <extendedTooltip>
       <name>ШапкаРасширеннаяПодсказка</name>
       <id>52</id>
@@ -382,6 +390,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Область поиска</value>
+    </title>
     <extendedTooltip>
       <name>ОбластьПоискаРасширеннаяПодсказка</name>
       <id>74</id>
@@ -493,6 +505,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Навигация</value>
+      </title>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаНавигацияExtendedTooltip</name>
@@ -570,6 +586,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Информация о найденном</value>
+    </title>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаИнформацияОНайденномExtendedTooltip</name>

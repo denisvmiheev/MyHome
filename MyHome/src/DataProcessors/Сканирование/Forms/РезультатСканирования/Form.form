@@ -10,6 +10,10 @@
     <items xsi:type="form:Table">
       <name>ТаблицаФайлов</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Таблица файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -350,6 +354,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Изображения</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаИзображенияExtendedTooltip</name>
       <id>31</id>
@@ -548,6 +556,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Текст настроек</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаТекстНастроекРасширеннаяПодсказка</name>
         <id>54</id>
@@ -577,6 +589,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </title>
     <height>2</height>
     <extendedTooltip>
       <name>ГруппаСообщениеExtendedTooltip</name>

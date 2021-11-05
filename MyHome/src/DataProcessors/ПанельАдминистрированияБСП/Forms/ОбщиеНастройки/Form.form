@@ -86,6 +86,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Справка</value>
+      </title>
       <groupHorizontalAlign>Right</groupHorizontalAlign>
       <extendedTooltip>
         <name>ГруппаСправкаExtendedTooltip</name>
@@ -112,6 +116,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>1829</id>
@@ -235,6 +243,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки программы</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаНастройкиПрограммыРасширеннаяПодсказка</name>
       <id>1834</id>
@@ -548,6 +560,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Открыть параметры прокси сервера</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -617,6 +633,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройка использования профилей безопасности</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Группа открыть параметры прокси сервера</value>
@@ -776,6 +796,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройка прокси сервера на сервере недоступна при использовании профилей безопасности</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаНастройкаПроксиСервераНаСервереНедоступнаПриИспользованииПрофилейБезопасностиРасширеннаяПодсказка</name>
         <id>1942</id>
@@ -871,7 +895,7 @@
         </extInfo>
       </extendedTooltip>
       <type>Hyperlink</type>
-      <commandName>0</commandName>
+      <commandName>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -984,6 +1008,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Использовать дополнительные реквизиты и сведения</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -1057,6 +1085,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Дополнительные реквизиты</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
           <id>1859</id>
@@ -1125,6 +1157,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Дополнительные сведения</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаДополнительныеСведенияExtendedTooltip</name>
           <id>1862</id>
@@ -1154,6 +1190,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дополнительные реквизиты или сведения</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -1311,6 +1351,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Использовать версионирование объектов</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Хранение и просмотр версий документов и справочников программы.</value>
@@ -1474,6 +1518,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Полнотекстовый поиск</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Управление поиском в документах, файлах, отчетах.</value>
@@ -1546,7 +1594,7 @@
     <name>ГруппаЭлектроннаяПодписьИШифрование</name>
     <id>1949</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаИспользоватьЭлектроннуюПодписьИШифрование</name>
+      <name>ГруппаЭлектроннаяПодпись</name>
       <id>1951</id>
       <items xsi:type="form:FormGroup">
         <name>ГоризонтальнаяГруппа</name>
@@ -1654,7 +1702,13 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Горизонтальная группа</value>
+        </title>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <width>43</width>
+        <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
           <name>ГоризонтальнаяГруппаРасширеннаяПодсказка</name>
           <id>1954</id>
@@ -1676,47 +1730,13 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
+          <group>AlwaysHorizontal</group>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <width>43</width>
-      <horizontalStretch>false</horizontalStretch>
-      <extendedTooltip>
-        <name>ГруппаИспользоватьЭлектроннуюПодписьИШифрованиеРасширеннаяПодсказка</name>
-        <id>1952</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormGroup">
-      <name>ГруппаНастройкиЭлектроннойПодписиИШифрования</name>
-      <id>1964</id>
       <items xsi:type="form:Button">
         <name>НастройкиЭлектроннойПодписиИШифрования</name>
         <id>2049</id>
@@ -1757,11 +1777,215 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <width>43</width>
+      <title>
+        <key>ru</key>
+        <value>Электронная подпись</value>
+      </title>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаНастройкиЭлектроннойПодписиИШифрованияРасширеннаяПодсказка</name>
-        <id>1965</id>
+        <name>ГруппаЭлектроннаяПодписьРасширеннаяПодсказка</name>
+        <id>1952</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаОблачнаяПодпись</name>
+      <id>2113</id>
+      <items xsi:type="form:FormField">
+        <name>ИспользоватьСервисОблачнойПодписи</name>
+        <id>2115</id>
+        <title>
+          <key>ru</key>
+          <value>Сервис облачной подписи</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <titleLocation>Right</titleLocation>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <handlers>
+          <event>OnChange</event>
+          <name>Подключаемый_ПриИзмененииРеквизита</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИспользоватьСервисОблачнойПодписиРасширеннаяПодсказка</name>
+          <id>2117</id>
+          <title>
+            <key>ru</key>
+            <value>Разрешить использовать для подписания сервисы облачной подписи.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИспользоватьСервисОблачнойПодписиКонтекстноеМеню</name>
+          <id>2116</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОблачнаяПодписьНастройки</name>
+        <id>2118</id>
+        <items xsi:type="form:Button">
+          <name>ОбработкаУправлениеПодключениемDSSСерверыОблачнойПодписи</name>
+          <id>2120</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОбработкаУправлениеПодключениемDSSСерверыОблачнойПодписиРасширеннаяПодсказка</name>
+            <id>2121</id>
+            <title>
+              <key>ru</key>
+              <value>Настройка серверов облачной подписи, 
+необходимо для организации подключения.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <width>28</width>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>0</commandName>
+          <representation>Auto</representation>
+          <width>43</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ОбработкаУправлениеПодключениемDSSУчетныеЗаписиОблачнойПодписи</name>
+          <id>2122</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОбработкаУправлениеПодключениемDSSУчетныеЗаписиОблачнойПодписиРасширеннаяПодсказка</name>
+            <id>2123</id>
+            <title>
+              <key>ru</key>
+              <value>Настройка учетных записей используемые для выполнения операций</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>0</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Облачная подпись настройки</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаОблачнаяПодписьНастройкиРасширеннаяПодсказка</name>
+          <id>2119</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>AlwaysHorizontal</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Облачная подпись</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаОблачнаяПодписьРасширеннаяПодсказка</name>
+        <id>2114</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1809,7 +2033,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>Vertical</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
       <controlRepresentation>Picture</controlRepresentation>
@@ -1920,6 +2144,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Регламентное удаление помеченных</value>
+        </title>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
           <name>Группа2РасширеннаяПодсказка1</name>
@@ -2023,6 +2251,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Просмотр помеченных на удаление</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Открыть рабочее место для удаления помеченных</value>

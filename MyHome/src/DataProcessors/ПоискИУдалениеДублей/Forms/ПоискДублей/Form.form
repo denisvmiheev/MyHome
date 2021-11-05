@@ -194,6 +194,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Шапка</value>
+    </title>
     <extendedTooltip>
       <name>ШапкаРасширеннаяПодсказка</name>
       <id>407</id>
@@ -714,6 +718,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанельРасширеннаяПодсказка</name>
           <id>97</id>
@@ -740,6 +748,10 @@
         <items xsi:type="form:Table">
           <name>НайденныеДубли</name>
           <id>67</id>
+          <title>
+            <key>ru</key>
+            <value>Найденные дубли</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -974,6 +986,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Использовать наименование</value>
+            </title>
             <extendedTooltip>
               <name>ИспользоватьНаименованиеРасширеннаяПодсказка</name>
               <id>110</id>
@@ -1534,6 +1550,10 @@
               <items xsi:type="form:Table">
                 <name>МестаИспользованияКандидата</name>
                 <id>137</id>
+                <title>
+                  <key>ru</key>
+                  <value>Места использования кандидата</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1914,6 +1934,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страницы места использования</value>
+            </title>
             <extendedTooltip>
               <name>СтраницыМестаИспользованияРасширеннаяПодсказка</name>
               <id>148</id>
@@ -1978,6 +2002,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Найденные дубли</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНайденныеДублиРасширеннаяПодсказка</name>
           <id>156</id>
@@ -2113,6 +2141,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Состояние</value>
+        </title>
         <height>2</height>
         <extendedTooltip>
           <name>ГруппаСостояниеРасширеннаяПодсказка</name>
@@ -2362,6 +2394,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Информация об успешном удалении</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаИнформацияОбУспешномУдаленииРасширеннаяПодсказка</name>
           <id>472</id>
@@ -2521,6 +2557,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Действия возможные дубли</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаДействияВозможныеДублиРасширеннаяПодсказка</name>
             <id>503</id>
@@ -2548,6 +2588,10 @@
         <items xsi:type="form:Table">
           <name>ВозможныеДубли</name>
           <id>473</id>
+          <title>
+            <key>ru</key>
+            <value>Возможные дубли</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2663,6 +2707,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Возможные дубли группа</value>
+            </title>
             <extendedTooltip>
               <name>ВозможныеДублиГруппаРасширеннаяПодсказка</name>
               <id>511</id>
@@ -3034,6 +3082,10 @@
           <items xsi:type="form:Table">
             <name>НеобработанныеДубли</name>
             <id>242</id>
+            <title>
+              <key>ru</key>
+              <value>Необработанные дубли</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3157,6 +3209,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Основной наименование</value>
+              </title>
               <toolTip>
                 <key>ru</key>
                 <value>Использовать наименование</value>
@@ -4158,6 +4214,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страницы места использования необработанных</value>
+            </title>
             <width>24</width>
             <extendedTooltip>
               <name>СтраницыМестаИспользованияНеобработанныхРасширеннаяПодсказка</name>
@@ -4184,6 +4244,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Горизонтальная необработанные дубли</value>
+          </title>
           <toolTip>
             <key>ru</key>
             <value>Группа горизонтальная найденные дубли</value>
@@ -4316,6 +4380,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Пояснение к необработанным</value>
+          </title>
           <shortcut>Ctrl+S</shortcut>
           <extendedTooltip>
             <name>ГруппаПояснениеКНеобработаннымРасширеннаяПодсказка</name>
@@ -4346,6 +4414,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Вертикальная необработанные дубли</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Группа вертикальная основного элемента</value>
@@ -4675,6 +4747,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Шаги мастера</value>
+    </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
       <name>ШагиМастераРасширеннаяПодсказка</name>
@@ -4738,6 +4814,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Панель действия мастера лево</value>
+      </title>
       <extendedTooltip>
         <name>ПанельДействияМастераЛевоРасширеннаяПодсказка</name>
         <id>513</id>
@@ -4865,6 +4945,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Панель действия мастера право</value>
+      </title>
       <extendedTooltip>
         <name>ПанельДействияМастераПравоРасширеннаяПодсказка</name>
         <id>515</id>
@@ -4890,6 +4974,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Панель действий мастера</value>
+    </title>
     <extendedTooltip>
       <name>ПанельДействийМастераРасширеннаяПодсказка</name>
       <id>168</id>
@@ -5138,6 +5226,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Картинок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКартинокРасширеннаяПодсказка</name>
       <id>76</id>
@@ -6297,6 +6389,19 @@
     <id>41</id>
     <valueType>
       <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВозвращеноМеньшеЧемНайдено</name>
+    <id>42</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

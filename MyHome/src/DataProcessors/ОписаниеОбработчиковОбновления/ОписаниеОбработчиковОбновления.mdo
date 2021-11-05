@@ -1400,7 +1400,7 @@
     <name>cut_tags</name>
     <synonym>
       <key>ru</key>
-      <value>Cut tags</value>
+      <value>Cut_tags</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>

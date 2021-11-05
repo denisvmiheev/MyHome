@@ -43,6 +43,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Catalog.ПрофилиКлючевыхОпераций</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ПараметрыРезервногоКопирования</metadata>
     <use>DontUse</use>
   </content>
@@ -52,6 +56,14 @@
   </content>
   <content>
     <metadata>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ПериодХраненияЗамеров</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ЗамерыВремени</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -67,7 +79,35 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ЗависимостиПравДоступа</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ВыполнятьЗамерыПроизводительности</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ПрофильБезопасностиИнформационнойБазы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.РазрешенияНаИспользованиеВнешнихРесурсов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ПланированиеИзвлеченияТекстаВМоделиСервиса</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.КлючевыеОперации</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -83,6 +123,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ОчисткаУстаревшихВерсийОбъектов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ДанныеПроизводственногоКалендаря</metadata>
     <use>DontUse</use>
   </content>
@@ -91,7 +135,19 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ПраваРолей</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.СписокРасширенийФайловOpenDocument</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -115,6 +171,22 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ИспользоватьПрофилиБезопасностиДляДОО</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ИсправлениеУстаревшихАдресов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.КоличествоЗамеровВПакетеЭкспорта</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.РазрешитьВыполнениеДООРегламентнымиЗаданиямиВМоделиСервиса</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ОтложенноеОбновлениеИБ</metadata>
     <use>DontUse</use>
   </content>
@@ -127,7 +199,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ПутьКТомуБезУчетаРегиональныхНастроек</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.МаксимальныйРазмерФайла</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -147,11 +227,35 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Catalog.ПоставляемыеДополнительныеОтчетыИОбработки</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.КоличествоПотоковОбновленияДоступа</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ПотокиОбновления</metadata>
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ЭкспортОценкиПроизводительности</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.НеразделенныеПользователи</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.МинимальныйИнтервалРегламентныхЗаданийДОИОВМоделиСервиса</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.УдалитьЗамерыВремени3</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -168,6 +272,10 @@
   </content>
   <content>
     <metadata>Constant.ДополнительныйЯзык2</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -191,11 +299,23 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ОценкаПроизводительностиПериодЗаписи</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ГлавныйУзел</metadata>
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ИспользуютсяПрофилиБезопасности</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ПараметрыРаботыПрограммы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ОчисткаЗамеровВремени</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -207,11 +327,27 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ОбновлениеДоступаНаУровнеЗаписей</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.СписокЗапрещенныхРасширений</metadata>
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ЗагрузкаКурсовВалют</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ОбработкаСервисовИнтеграции</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ЗамерыВремениТехнологические</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -268,6 +404,10 @@
   </content>
   <content>
     <metadata>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.РежимыПодключенияВнешнихМодулей</metadata>
     <use>DontUse</use>
   </content>
   <content>

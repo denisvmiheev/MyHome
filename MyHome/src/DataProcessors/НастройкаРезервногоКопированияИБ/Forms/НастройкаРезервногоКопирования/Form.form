@@ -429,6 +429,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Выбор варианта автоматического резервного копирования</value>
+            </title>
             <extendedTooltip>
               <name>ВыборВариантаАвтоматическогоРезервногоКопированияРасширеннаяПодсказка</name>
               <id>284</id>
@@ -578,6 +582,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Режимы работы</value>
+        </title>
         <extendedTooltip>
           <name>РежимыРаботыРасширеннаяПодсказка</name>
           <id>435</id>
@@ -674,6 +682,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Заведения пути копирования</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаЗаведенияПутиКопированияРасширеннаяПодсказка</name>
             <id>290</id>
@@ -841,6 +853,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Авторизации</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаАвторизацииExtendedTooltip</name>
             <id>294</id>
@@ -1197,6 +1213,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Хранить последние за период</value>
+                </title>
                 <extendedTooltip>
                   <name>ГруппаХранитьПоследниеЗаПериодРасширеннаяПодсказка</name>
                   <id>302</id>
@@ -1423,6 +1443,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Количество копий в каталоге</value>
+                </title>
                 <extendedTooltip>
                   <name>ГруппаКоличествоКопийВКаталогеРасширеннаяПодсказка</name>
                   <id>357</id>
@@ -1543,6 +1567,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Параметры</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаПараметрыРасширеннаяПодсказка</name>
           <id>378</id>
@@ -1818,6 +1846,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Ошибки</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаОшибкиExtendedTooltip</name>
             <id>334</id>
@@ -1847,6 +1879,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Горизонтальная группа ошибка подключения</value>
+        </title>
         <extendedTooltip>
           <name>ГоризонтальнаяГруппаОшибкаПодключенияExtendedTooltip</name>
           <id>332</id>
@@ -2054,6 +2090,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы помощника</value>
+    </title>
     <extendedTooltip>
       <name>СтраницыПомощникаExtendedTooltip</name>
       <id>268</id>
@@ -2180,6 +2220,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Командная панель</value>
+    </title>
     <extendedTooltip>
       <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>371</id>

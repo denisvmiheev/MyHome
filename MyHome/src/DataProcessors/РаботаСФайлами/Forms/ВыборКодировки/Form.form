@@ -3,6 +3,10 @@
   <items xsi:type="form:Table">
     <name>СписокКодировок</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Кодировок</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -15,6 +19,10 @@
     <items xsi:type="form:FormField">
       <name>СписокКодировокЗначение</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Значение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

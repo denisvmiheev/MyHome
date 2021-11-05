@@ -96,6 +96,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОшибкаExtendedTooltip</name>
       <id>85</id>
@@ -358,6 +362,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Период блокировки</value>
+        </title>
         <shortcut>Ctrl+S</shortcut>
         <extendedTooltip>
           <name>ГруппаПериодБлокировкиExtendedTooltip</name>
@@ -590,6 +598,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Запретить работу регламентных заданий</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаЗапретитьРаботуРегламентныхЗаданийРасширеннаяПодсказка</name>
           <id>121</id>
@@ -909,6 +921,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Период блокировки 1</value>
+            </title>
             <readOnly>true</readOnly>
             <shortcut>Ctrl+S</shortcut>
             <extendedTooltip>
@@ -941,6 +957,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Содержимое</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаСодержимоеExtendedTooltip</name>
             <id>108</id>
@@ -970,6 +990,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Состояние</value>
+        </title>
         <verticalStretch>false</verticalStretch>
         <extendedTooltip>
           <name>ГруппаСостояниеExtendedTooltip</name>
@@ -1031,6 +1055,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Режим</value>
+    </title>
     <horizontalStretch>false</horizontalStretch>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -1155,6 +1183,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основная командная панель</value>
+    </title>
     <extendedTooltip>
       <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
       <id>114</id>

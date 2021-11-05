@@ -196,6 +196,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки приемника</value>
+      </title>
       <extendedTooltip>
         <name>НастройкиПриемникаРасширеннаяПодсказка</name>
         <id>7</id>
@@ -330,6 +334,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки источника</value>
+      </title>
       <extendedTooltip>
         <name>НастройкиИсточникаРасширеннаяПодсказка</name>
         <id>15</id>
@@ -465,6 +473,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки владельца</value>
+      </title>
       <extendedTooltip>
         <name>НастройкиВладельцаРасширеннаяПодсказка</name>
         <id>23</id>
@@ -660,6 +672,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки уточнения даты</value>
+        </title>
         <extendedTooltip>
           <name>НастройкиУточненияДатыРасширеннаяПодсказка</name>
           <id>36</id>
@@ -689,6 +705,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки даты создания</value>
+      </title>
       <extendedTooltip>
         <name>НастройкиДатыСозданияРасширеннаяПодсказка</name>
         <id>31</id>
@@ -828,6 +848,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки расширений</value>
+      </title>
       <extendedTooltip>
         <name>НастройкиРасширенийРасширеннаяПодсказка</name>
         <id>44</id>
@@ -957,6 +981,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки дополнительных правил</value>
+      </title>
       <extendedTooltip>
         <name>НастройкиДополнительныхПравилРасширеннаяПодсказка</name>
         <id>52</id>

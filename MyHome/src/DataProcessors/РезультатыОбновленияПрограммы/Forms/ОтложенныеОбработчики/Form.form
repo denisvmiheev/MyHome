@@ -82,33 +82,6 @@
           <choiceList>
             <presentation>
               <key>ru</key>
-              <value>Ошибка</value>
-            </presentation>
-            <value xsi:type="core:StringValue">
-              <value>Ошибка</value>
-            </value>
-          </choiceList>
-          <choiceList>
-            <presentation>
-              <key>ru</key>
-              <value>Выполняется</value>
-            </presentation>
-            <value xsi:type="core:StringValue">
-              <value>Выполняется</value>
-            </value>
-          </choiceList>
-          <choiceList>
-            <presentation>
-              <key>ru</key>
-              <value>Выполнено</value>
-            </presentation>
-            <value xsi:type="core:StringValue">
-              <value>Выполнено</value>
-            </value>
-          </choiceList>
-          <choiceList>
-            <presentation>
-              <key>ru</key>
               <value>Желательно быстрее</value>
             </presentation>
             <value xsi:type="core:StringValue">
@@ -1904,6 +1877,10 @@
     </columns>
     <columns>
       <name>СтатусКартинка</name>
+      <title>
+        <key>ru</key>
+        <value>Статус картинка</value>
+      </title>
       <id>4</id>
       <valueType>
         <types>Picture</types>

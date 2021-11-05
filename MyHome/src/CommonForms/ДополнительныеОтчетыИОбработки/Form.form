@@ -9,6 +9,10 @@
       <items xsi:type="form:Table">
         <name>ТаблицаКоманд</name>
         <id>15</id>
+        <title>
+          <key>ru</key>
+          <value>Таблица команд</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -415,6 +419,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы</value>
+    </title>
     <extendedTooltip>
       <name>СтраницыExtendedTooltip</name>
       <id>54</id>
@@ -545,6 +553,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель страницы открыть обработку</value>
+      </title>
       <extendedTooltip>
         <name>КоманднаяПанельСтраницыОткрытьОбработкуExtendedTooltip</name>
         <id>64</id>
@@ -570,6 +582,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Подвал</value>
+    </title>
     <extendedTooltip>
       <name>ПодвалРасширеннаяПодсказка</name>
       <id>80</id>

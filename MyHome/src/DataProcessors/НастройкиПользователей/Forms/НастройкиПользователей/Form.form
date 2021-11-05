@@ -152,6 +152,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Быстрый поиск</value>
+        </title>
         <extendedTooltip>
           <name>БыстрыйПоискExtendedTooltip</name>
           <id>120</id>
@@ -497,6 +501,37 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
+            <name>ОчиститьУстаревшиеНастройки</name>
+            <id>233</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОчиститьУстаревшиеНастройкиРасширеннаяПодсказка</name>
+              <id>234</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОчиститьУстаревшиеНастройки</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
             <name>ОчиститьНастройкиОтчетовИВнешнегоВида</name>
             <id>100</id>
             <visible>true</visible>
@@ -586,6 +621,38 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ОчиститьНастройкиВсехПользователей</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>Auto</toolTipRepresentation>
+              <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ОчиститьУстаревшиеНастройкиВсехПользователей</name>
+              <id>235</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ОчиститьУстаревшиеНастройкиВсехПользователейРасширеннаяПодсказка</name>
+                <id>236</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ОчиститьУстаревшиеНастройкиВсехПользователей</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -717,6 +784,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанельExtendedTooltip</name>
           <id>123</id>
@@ -835,6 +906,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Страница длительная операция</value>
+          </title>
           <extendedTooltip>
             <name>СтраницаДлительнаяОперацияРасширеннаяПодсказка</name>
             <id>214</id>
@@ -867,6 +942,10 @@
               <items xsi:type="form:Table">
                 <name>ВнешнийВид</name>
                 <id>29</id>
+                <title>
+                  <key>ru</key>
+                  <value>Внешний вид</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -991,6 +1070,10 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Внешний вид картинка настройка пометка</value>
+                  </title>
                   <extendedTooltip>
                     <name>ВнешнийВидКартинкаНастройкаПометкаExtendedTooltip</name>
                     <id>151</id>
@@ -1450,6 +1533,10 @@
               <items xsi:type="form:Table">
                 <name>НастройкиОтчетовДерево</name>
                 <id>19</id>
+                <title>
+                  <key>ru</key>
+                  <value>Настройки отчетов дерево</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1573,6 +1660,10 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Настройки отчетов картинка настройка пометка</value>
+                  </title>
                   <extendedTooltip>
                     <name>НастройкиОтчетовКартинкаНастройкаПометкаExtendedTooltip</name>
                     <id>163</id>
@@ -2033,6 +2124,10 @@
               <items xsi:type="form:Table">
                 <name>ПрочиеНастройки</name>
                 <id>78</id>
+                <title>
+                  <key>ru</key>
+                  <value>Прочие настройки</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2155,6 +2250,10 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Прочие настройки картинка настройка пометка</value>
+                  </title>
                   <extendedTooltip>
                     <name>ПрочиеНастройкиКартинкаНастройкаПометкаExtendedTooltip</name>
                     <id>175</id>
@@ -2609,6 +2708,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Виды настроек</value>
+            </title>
             <extendedTooltip>
               <name>ВидыНастроекExtendedTooltip</name>
               <id>141</id>
@@ -2639,6 +2742,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Страница настройки</value>
+          </title>
           <extendedTooltip>
             <name>СтраницаНастройкиРасширеннаяПодсказка</name>
             <id>216</id>
@@ -2664,6 +2771,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Страницы длительная операция</value>
+        </title>
         <extendedTooltip>
           <name>СтраницыДлительнаяОперацияРасширеннаяПодсказка</name>
           <id>212</id>
@@ -2816,6 +2927,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Предупреждение и картинка</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаПредупреждениеИКартинкаExtendedTooltip</name>
           <id>181</id>
@@ -2971,6 +3086,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Недостаточно прав</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНедостаточноПравРасширеннаяПодсказка</name>
           <id>226</id>
@@ -3030,6 +3149,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Отчет или предупреждение</value>
+    </title>
     <extendedTooltip>
       <name>ОтчетИлиПредупреждениеExtendedTooltip</name>
       <id>118</id>
@@ -3926,6 +4049,49 @@
         <name>ОчиститьНастройкиВыбраннымПользователям</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОчиститьУстаревшиеНастройки</name>
+    <title>
+      <key>ru</key>
+      <value>Устаревшие настройки</value>
+    </title>
+    <id>18</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Очистить устаревшие настройки</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОчиститьУстаревшиеНастройки</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОчиститьУстаревшиеНастройкиВсехПользователей</name>
+    <title>
+      <key>ru</key>
+      <value>Устаревшие настройки у всех пользователей</value>
+    </title>
+    <id>19</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Очистить устаревшие настройки у всех пользователей</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОчиститьУстаревшиеНастройкиВсехПользователей</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>

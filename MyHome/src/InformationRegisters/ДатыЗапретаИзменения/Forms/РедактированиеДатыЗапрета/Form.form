@@ -18,6 +18,10 @@
           <segments>ОписаниеДатыЗапрета</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОписаниеДатыЗапретаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ЗапретИзмененияДанныхНеУстановленРасширеннаяПодсказка</name>
           <id>87</id>
@@ -75,6 +79,10 @@
             <segments>ОписаниеДатыЗапрета</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ПроизвольнаяДатаЗапретаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ПроизвольнаяДатаЗапретаРасширеннаяПодсказка</name>
             <id>92</id>
@@ -177,6 +185,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Произвольная дата</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаПроизвольнаяДатаРасширеннаяПодсказка</name>
           <id>89</id>
@@ -261,6 +273,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Больше возможностей</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаБольшеВозможностейРасширеннаяПодсказка</name>
           <id>100</id>
@@ -626,6 +642,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Произвольная дата</value>
+          </title>
           <extendedTooltip>
             <name>ПроизвольнаяДатаExtendedTooltip</name>
             <id>52</id>
@@ -651,6 +671,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Дата запрета с описанием</value>
+        </title>
         <extendedTooltip>
           <name>ДатаЗапретаСОписаниемExtendedTooltip</name>
           <id>50</id>
@@ -800,6 +824,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Количество дней разрешения</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаКоличествоДнейРазрешенияРасширеннаяПодсказка</name>
               <id>107</id>
@@ -880,6 +908,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Относительная дата</value>
+          </title>
           <extendedTooltip>
             <name>ОтносительнаяДатаРасширеннаяПодсказка</name>
             <id>58</id>
@@ -986,6 +1018,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Свойства даты запрета</value>
+        </title>
         <extendedTooltip>
           <name>СвойстваДатыЗапретаРасширеннаяПодсказка</name>
           <id>57</id>
@@ -1041,6 +1077,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Режимы работы</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаРежимыРаботыРасширеннаяПодсказка</name>
       <id>80</id>
@@ -1230,6 +1270,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Пояснение</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПояснениеРасширеннаяПодсказка</name>
       <id>70</id>
@@ -1531,6 +1575,19 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЗаписьСуществует</name>
+    <id>12</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОК</name>
     <title>
@@ -1607,6 +1664,12 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗаписьСуществует</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

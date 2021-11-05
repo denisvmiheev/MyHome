@@ -96,8 +96,8 @@
   <content>CommonPicture.ВысотаСтроки</content>
   <content>CommonPicture.ШиринаКолонки</content>
   <content>CommonPicture.Группировка</content>
-  <content>CommonPicture.Таблица</content>
-  <content>CommonPicture.КроссТаблица</content>
+  <content>CommonPicture.ОтчетТаблица</content>
+  <content>CommonPicture.ОтчетКроссТаблица</content>
   <content>CommonPicture.ПереместитьГруппировкуВыше</content>
   <content>CommonPicture.ПереместитьКолонкуВлево</content>
   <content>CommonPicture.ПереместитьГруппировкуНиже</content>
@@ -106,21 +106,6 @@
   <content>CommonPicture.СортироватьСтрокиПоУбыванию</content>
   <content>CommonPicture.Закрепить</content>
   <content>CommonPicture.ДобавитьЭлементНастроек</content>
-  <content>CommonPicture.ТипСоставной</content>
-  <content>CommonPicture.ТипКонстанта</content>
-  <content>CommonPicture.ТипДата</content>
-  <content>CommonPicture.ТипЧисло</content>
-  <content>CommonPicture.ТипОшибка</content>
-  <content>CommonPicture.ТипФильтр</content>
-  <content>CommonPicture.ТипФункция</content>
-  <content>CommonPicture.ТипБулево</content>
-  <content>CommonPicture.ТипГруппа</content>
-  <content>CommonPicture.ТипИдентификатор</content>
-  <content>CommonPicture.ТипСсылка</content>
-  <content>CommonPicture.ТипСписок</content>
-  <content>CommonPicture.ТипМакрос</content>
-  <content>CommonPicture.ТипСтрока</content>
-  <content>CommonPicture.ТипДерево</content>
   <content>StyleItem.ЦветТекстаОтрицательногоЗначения</content>
   <content>StyleItem.ЦветФонаОтрицательногоЗначения</content>
   <content>StyleItem.ЦветТекстаПоложительногоЗначения</content>
@@ -129,5 +114,13 @@
   <content>StyleItem.ЦветФонаВнимание</content>
   <content>CommonModule.ВариантыОтчетовСлужебныйКлиентСервер</content>
   <content>CommonPicture.ПерейтиВПолноэкранныйРежим</content>
+  <content>Enum.ВариантыПериода</content>
+  <content>Enum.ВариантыПредставленияПериода</content>
+  <content>CommonModule.КонструкторФормулСлужебный</content>
+  <content>CommonModule.КонструкторФормулКлиентСервер</content>
+  <content>CommonModule.КонструкторФормулКлиент</content>
+  <content>CommonModule.КонструкторФормул</content>
+  <content>DataProcessor.КонструкторФормул</content>
+  <content>CommonPicture.ПроверитьФормулу</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
