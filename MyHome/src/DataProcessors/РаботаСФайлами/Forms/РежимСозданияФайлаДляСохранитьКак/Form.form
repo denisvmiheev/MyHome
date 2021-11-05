@@ -108,6 +108,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаСообщениеExtendedTooltip</name>
       <id>23</id>
@@ -229,6 +233,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Файл и кнопка</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаФайлИКнопкаExtendedTooltip</name>
         <id>28</id>
@@ -258,6 +266,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Файл</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаФайлExtendedTooltip</name>
       <id>26</id>

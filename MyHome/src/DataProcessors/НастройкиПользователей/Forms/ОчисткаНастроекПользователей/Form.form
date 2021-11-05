@@ -227,6 +227,15 @@
         <choiceList>
           <presentation>
             <key>ru</key>
+            <value>Устаревшие настройки</value>
+          </presentation>
+          <value xsi:type="core:StringValue">
+            <value>УстаревшиеНастройки</value>
+          </value>
+        </choiceList>
+        <choiceList>
+          <presentation>
+            <key>ru</key>
             <value>Отдельные настройки:</value>
           </presentation>
           <value xsi:type="core:StringValue">

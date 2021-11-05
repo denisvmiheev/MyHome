@@ -7,5 +7,6 @@
   </synonym>
   <subsystems>БазоваяФункциональность</subsystems>
   <subsystems>Печать</subsystems>
+  <subsystems>ПереводТекста</subsystems>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

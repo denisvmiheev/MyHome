@@ -277,6 +277,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Авторизации</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаАвторизацииРасширеннаяПодсказка</name>
           <id>303</id>
@@ -530,6 +534,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Надписей</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаНадписейExtendedTooltip</name>
               <id>309</id>
@@ -779,6 +787,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Ошибка</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаОшибкаРасширеннаяПодсказка</name>
               <id>360</id>
@@ -838,6 +850,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Страницы статуса копирования</value>
+        </title>
         <extendedTooltip>
           <name>СтраницыСтатусаКопированияРасширеннаяПодсказка</name>
           <id>393</id>
@@ -1091,6 +1107,10 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Ожидания активных пользователей</value>
+                  </title>
                   <extendedTooltip>
                     <name>ГруппаОжиданияАктивныхПользователейРасширеннаяПодсказка</name>
                     <id>376</id>
@@ -1198,6 +1218,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Страница ожидания времени запуска</value>
+                </title>
                 <extendedTooltip>
                   <name>СтраницаОжиданияВремениЗапускаРасширеннаяПодсказка</name>
                   <id>378</id>
@@ -1223,6 +1247,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Ожидание</value>
+              </title>
               <extendedTooltip>
                 <name>ГруппаОжиданиеРасширеннаяПодсказка</name>
                 <id>374</id>
@@ -1325,6 +1353,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Завершение сеансов</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаЗавершениеСеансовРасширеннаяПодсказка</name>
               <id>436</id>
@@ -1354,6 +1386,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Активные сеансы</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаАктивныеСеансыРасширеннаяПодсказка</name>
             <id>421</id>
@@ -1614,6 +1650,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Объявления о успешном резервном копирование</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаОбъявленияОУспешномРезервномКопированиеРасширеннаяПодсказка</name>
           <id>343</id>
@@ -1737,6 +1777,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Автоматическое резервное копирование</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаАвтоматическоеРезервноеКопированиеРасширеннаяПодсказка</name>
           <id>419</id>
@@ -1855,6 +1899,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Неуспешного копирования</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНеуспешногоКопированияРасширеннаяПодсказка</name>
           <id>348</id>
@@ -2008,6 +2056,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Расшифровка</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаРасшифровкаРасширеннаяПодсказка</name>
             <id>408</id>
@@ -2037,6 +2089,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Не удалось</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНеУдалосьРасширеннаяПодсказка</name>
           <id>350</id>
@@ -2096,6 +2152,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы помощника</value>
+    </title>
     <extendedTooltip>
       <name>СтраницыПомощникаExtendedTooltip</name>
       <id>290</id>

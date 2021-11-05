@@ -99,6 +99,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Картинка и текст</value>
+    </title>
     <height>5</height>
     <extendedTooltip>
       <name>ГруппаКартинкаИТекстРасширеннаяПодсказка</name>
@@ -242,6 +246,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель</value>
+      </title>
       <groupVerticalAlign>Bottom</groupVerticalAlign>
       <extendedTooltip>
         <name>КоманднаяПанельРасширеннаяПодсказка</name>
@@ -269,6 +277,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Пояснение</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПояснениеРасширеннаяПодсказка</name>
       <id>17</id>

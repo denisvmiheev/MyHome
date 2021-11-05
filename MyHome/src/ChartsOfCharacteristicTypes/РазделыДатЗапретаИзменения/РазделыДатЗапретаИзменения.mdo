@@ -133,7 +133,7 @@
     <name>УдалитьНоваяСсылка</name>
     <synonym>
       <key>ru</key>
-      <value>Новая ссылка (Удалить)</value>
+      <value>(не используется)  Новая ссылка</value>
     </synonym>
     <type>
       <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>

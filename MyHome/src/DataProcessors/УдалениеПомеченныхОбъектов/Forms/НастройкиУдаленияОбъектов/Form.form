@@ -475,7 +475,7 @@
         <choiceList>
           <presentation>
             <key>ru</key>
-            <value>Стандартный  </value>
+            <value>Стандартный</value>
           </presentation>
           <value xsi:type="core:NumberValue">
             <value>1</value>
@@ -541,7 +541,7 @@
         <choiceList>
           <presentation>
             <key>ru</key>
-            <value>Упрощенный  </value>
+            <value>Упрощенный</value>
           </presentation>
           <value xsi:type="core:NumberValue">
             <value>1</value>
@@ -606,7 +606,7 @@
         <choiceList>
           <presentation>
             <key>ru</key>
-            <value>Ускоренный  </value>
+            <value>Ускоренный</value>
           </presentation>
           <value xsi:type="core:NumberValue">
             <value>1</value>

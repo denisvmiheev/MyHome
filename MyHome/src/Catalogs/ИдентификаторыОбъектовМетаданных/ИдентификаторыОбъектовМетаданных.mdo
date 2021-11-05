@@ -1253,6 +1253,30 @@
         <value></value>
       </code>
     </items>
+    <items id="51a9bff2-c716-4f86-bbfa-861b026ee9fd">
+      <name>РегистрСведенийИспользуемыеВидыДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bdd8a5af-48f3-48f5-b5ef-e03497baf600">
+      <name>РегистрСведенийИспользуемыеВидыДоступаПоТаблицам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="27eb08f4-c296-4ef9-9941-bceec60b4b02">
+      <name>РегистрСведенийКэшПереводов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f674dc60-7b2e-4976-83a1-ae630aad4b4b">
+      <name>РегистрСведенийСертификатыПользователяDSS</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>

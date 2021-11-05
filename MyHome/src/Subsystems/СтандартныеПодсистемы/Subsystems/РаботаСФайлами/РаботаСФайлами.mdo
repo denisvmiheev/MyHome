@@ -38,7 +38,7 @@
   <content>Enum.ФорматыХраненияМногостраничныхФайлов</content>
   <content>Enum.ФорматыХраненияОдностраничныхФайлов</content>
   <content>CommonModule.РаботаСФайлами</content>
-  <content>079ba95c-8293-47e2-b8bd-7acf73c2d880</content>
+  <content>InformationRegister.УдалитьХранимыеФайлыВерсий</content>
   <content>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</content>
   <content>DataProcessor.ПереносФайлов</content>
   <content>CommonModule.РаботаСФайламиКлиентПереопределяемый</content>
@@ -130,5 +130,8 @@
   <content>Constant.СоздаватьПодкаталогиСИменамиВладельцев</content>
   <content>CommonModule.РаботаСФайламиВТомахСлужебный</content>
   <content>StyleItem.ВладелецФайловШрифт</content>
+  <content>Constant.РежимОчисткиФайлов</content>
+  <content>Enum.РежимыОчисткиФайлов</content>
+  <content>Constant.ПутьКТомуБезУчетаРегиональныхНастроек</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

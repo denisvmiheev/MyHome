@@ -6,6 +6,10 @@
     <items xsi:type="form:Table">
       <name>ВыбранныеФорматы</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Выбранные форматы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -29,6 +33,10 @@
       <items xsi:type="form:FormField">
         <name>ВыбранныеФорматыСохраненияПометка</name>
         <id>37</id>
+        <title>
+          <key>ru</key>
+          <value>Пометка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -72,6 +80,10 @@
       <items xsi:type="form:FormField">
         <name>ВыбранныеФорматыСохраненияЗначение</name>
         <id>35</id>
+        <title>
+          <key>ru</key>
+          <value>Значение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -291,6 +303,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Выбор форматов</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаВыборФорматовExtendedTooltip</name>
       <id>44</id>
@@ -421,6 +437,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Дополнительные параметры</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаДополнительныеПараметрыExtendedTooltip</name>
       <id>48</id>

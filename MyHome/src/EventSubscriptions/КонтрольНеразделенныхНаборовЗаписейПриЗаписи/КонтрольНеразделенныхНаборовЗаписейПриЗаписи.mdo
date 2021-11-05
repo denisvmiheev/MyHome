@@ -7,12 +7,18 @@
   </synonym>
   <source>
     <types>InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря</types>
+    <types>InformationRegisterRecordSet.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</types>
+    <types>InformationRegisterRecordSet.РазрешенияНаИспользованиеВнешнихРесурсов</types>
     <types>InformationRegisterRecordSet.ВерсииПодсистем</types>
+    <types>InformationRegisterRecordSet.УдалитьЗамерыВремени3</types>
     <types>InformationRegisterRecordSet.ОбщиеПоставляемыеМакетыПечати</types>
     <types>InformationRegisterRecordSet.БезопасноеХранилищеДанных</types>
     <types>InformationRegisterRecordSet.НеразделенныеПользователи</types>
+    <types>InformationRegisterRecordSet.РежимыПодключенияВнешнихМодулей</types>
+    <types>InformationRegisterRecordSet.ЗависимостиПравДоступа</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыПрограммы</types>
     <types>InformationRegisterRecordSet.ОбработчикиОбновленияОбщихДанных</types>
+    <types>InformationRegisterRecordSet.ПраваРолей</types>
     <types>InformationRegisterRecordSet.ПериодыНерабочихДнейКалендаря</types>
   </source>
   <event>OnWrite</event>

@@ -109,7 +109,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>1/0:ddc6761c-a32a-41e1-b110-fdc39ad440d3</segments>
+      <segments>Объект.УдалитьНоваяСсылка</segments>
     </dataPath>
     <extendedTooltip>
       <name>УдалитьНоваяСсылкаРасширеннаяПодсказка</name>

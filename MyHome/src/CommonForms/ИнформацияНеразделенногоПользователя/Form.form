@@ -71,6 +71,12 @@
   <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <parameters>
+    <name>Ключ</name>
+    <valueType>
+      <types>CatalogRef.Пользователи</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>

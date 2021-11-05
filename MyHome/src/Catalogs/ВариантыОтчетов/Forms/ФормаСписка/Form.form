@@ -14,6 +14,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>СтрокаПоиска</segments>
       </dataPath>
+      <titleLocation>None</titleLocation>
       <toolTip>
         <key>ru</key>
         <value>Поиск слов в наименовании и описании отчета а также в наименованиях настроек отчета.</value>
@@ -66,6 +67,10 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <inputHint>
+          <key>ru</key>
+          <value>Наименование, поле или автор отчета</value>
+        </inputHint>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -2636,6 +2641,7 @@
         <name>ВыполнитьПоиск</name>
       </handler>
     </action>
+    <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>

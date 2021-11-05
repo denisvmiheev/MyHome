@@ -86,6 +86,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Справка</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСправкаExtendedTooltip</name>
         <id>1603</id>
@@ -111,6 +115,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>1600</id>
@@ -231,6 +239,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Подключение ИПП</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Подключение к Интернет-поддержке пользователей</value>
@@ -307,6 +319,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки ИПП левая колонка</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -372,6 +388,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки ИПП правая колонка</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -403,6 +423,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки ИПП колонки</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаНастройкиИППКолонкиРасширеннаяПодсказка</name>
         <id>1732</id>
@@ -693,6 +717,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Классификаторы предупреждения</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаКлассификаторыПредупрежденияРасширеннаяПодсказка</name>
             <id>1908</id>
@@ -722,6 +750,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройка обновления</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНастройкаОбновленияРасширеннаяПодсказка</name>
           <id>1903</id>
@@ -986,6 +1018,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Адресный классификатор настройки</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1055,6 +1091,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Обработка загрузка курсов валют</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1086,6 +1126,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Классификаторы БСП</value>
+      </title>
       <extendedTooltip>
         <name>КлассификаторыБСПРасширеннаяПодсказка</name>
         <id>1897</id>
@@ -1218,6 +1262,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Включение новостей</value>
+      </title>
       <enableContentChange>true</enableContentChange>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
@@ -1286,6 +1334,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки новостей</value>
+      </title>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаНастройкиНовостейРасширеннаяПодсказка</name>
@@ -1398,6 +1450,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Обновление левая колонка</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -1514,6 +1570,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Открыть описание изменений системы</value>
+          </title>
           <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
             <name>ГруппаОткрытьОписаниеИзмененийСистемыExtendedTooltip</name>
@@ -1544,6 +1604,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Обновление правая колонка</value>
+        </title>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаОбновлениеПраваяКолонкаРасширеннаяПодсказка</name>
@@ -1574,6 +1638,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление колонки</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаОбновлениеКолонкиРасширеннаяПодсказка</name>
         <id>1758</id>
@@ -1780,6 +1848,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Расписание проверки обновлений</value>
+        </title>
         <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаРасписаниеПроверкиОбновленийРасширеннаяПодсказка</name>
@@ -1810,6 +1882,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление программы настройки</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.FormTextColor</color>
       </titleTextColor>
@@ -1908,6 +1984,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройка исправления патчи</value>
+        </title>
         <width>43</width>
         <extendedTooltip>
           <name>ГруппаНастройкаИсправленияПатчиРасширеннаяПодсказка</name>
@@ -1989,6 +2069,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление программы исправления</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.FormTextColor</color>
       </titleTextColor>
@@ -2070,6 +2154,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Отложенная обработка данных</value>
+        </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
@@ -2161,6 +2249,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Детализировать обновление ИБВ журнале регистрации</value>
+        </title>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip</name>
@@ -2191,6 +2283,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление и описание изменений вторая строка</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаОбновлениеИОписаниеИзмененийВтораяСтрокаРасширеннаяПодсказка</name>
         <id>1786</id>
@@ -2376,6 +2472,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Левая колонка первой группы</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -2489,6 +2589,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Правая колонка первой группы</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -2792,6 +2896,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Подключение обсуждений</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -2957,6 +3065,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Разрешение на вызов онлайн поддержки</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -3026,6 +3138,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройка онлайн поддержки</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -3160,6 +3276,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Разрешение склонения</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -3229,6 +3349,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройка склонения</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -3457,6 +3581,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Переключатель</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаПереключательРасширеннаяПодсказка</name>
           <id>1671</id>
@@ -3565,6 +3693,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки отправки отчетов об ошибках</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНастройкиОтправкиОтчетовОбОшибкахРасширеннаяПодсказка</name>
           <id>1843</id>
@@ -3674,6 +3806,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Отправить контактную информацию</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаОтправитьКонтактнуюИнформациюРасширеннаяПодсказка</name>
           <id>1848</id>
@@ -3703,6 +3839,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Разрешить отправлять данные</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаРазрешитьОтправлятьДанныеРасширеннаяПодсказка</name>
         <id>1666</id>
@@ -3837,6 +3977,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Стороннему</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаСтороннемуРасширеннаяПодсказка</name>
         <id>1833</id>
@@ -3968,6 +4112,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Отправки данных настройка ресурса общая</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаОтправкиДанныхНастройкаРесурсаОбщаяРасширеннаяПодсказка</name>
         <id>1679</id>
@@ -4100,6 +4248,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Запретить отправлять данные</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаЗапретитьОтправлятьДанныеРасширеннаяПодсказка</name>
         <id>1687</id>
@@ -4205,7 +4357,7 @@
           </extInfo>
         </extendedTooltip>
         <type>Hyperlink</type>
-        <commandName>0</commandName>
+        <commandName>Catalog.ВнешниеКомпоненты.StandardCommand.OpenList</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4218,6 +4370,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Управление внешними компонентами</value>
+      </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
@@ -4285,21 +4441,58 @@
   <items xsi:type="form:FormGroup">
     <name>БИПГруппаИнтеграцияСПлатежнымиСистемами</name>
     <id>1921</id>
-    <items xsi:type="form:Button">
-      <name>БИПНастройкаИнтеграцииСПлатежнымиСистемами</name>
-      <id>1923</id>
+    <items xsi:type="form:FormGroup">
+      <name>БИПГруппаНастройкиИнтеграции</name>
+      <id>1941</id>
+      <items xsi:type="form:Button">
+        <name>БИПНастройкаИнтеграцииСПлатежнымиСистемами</name>
+        <id>1923</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>БИПНастройкаИнтеграцииСПлатежнымиСистемамиРасширеннаяПодсказка</name>
+          <id>1924</id>
+          <title>
+            <key>ru</key>
+            <value>Настройка подключения и обмена данными с платежными системами.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.БИПНастройкаИнтеграцииСПлатежнымиСистемами</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настройки интеграции</value>
+      </title>
+      <width>43</width>
       <extendedTooltip>
-        <name>БИПНастройкаИнтеграцииСПлатежнымиСистемамиРасширеннаяПодсказка</name>
-        <id>1924</id>
-        <title>
-          <key>ru</key>
-          <value>Настройка подключения и обмена данными с платежными системами.</value>
-        </title>
+        <name>БИПГруппаНастройкиИнтеграцииРасширеннаяПодсказка</name>
+        <id>1942</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4312,14 +4505,160 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <type>Hyperlink</type>
-      <commandName>Form.Command.БИПНастройкаИнтеграцииСПлатежнымиСистемами</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-      <representationInContextMenu>Auto</representationInContextMenu>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>БИПГруппаДлительностьОперации</name>
+      <id>1943</id>
+      <items xsi:type="form:FormField">
+        <name>БИПДлительностьОперацииПлатежнойСистемы</name>
+        <id>1945</id>
+        <title>
+          <key>ru</key>
+          <value>Длительность
+операции</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>БИПДлительностьОперацииПлатежнойСистемы</segments>
+        </dataPath>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <handlers>
+          <event>OnChange</event>
+          <name>БИПДлительностьОперацииПлатежнойСистемыПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>БИПДлительностьОперацииПлатежнойСистемыРасширеннаяПодсказка</name>
+          <id>1947</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>БИПДлительностьОперацииПлатежнойСистемыКонтекстноеМеню</name>
+          <id>1946</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>БИПДекорацияЕдинициИзмерения</name>
+        <id>1955</id>
+        <title>
+          <key>ru</key>
+          <value>секунд</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <toolTip>
+          <key>ru</key>
+          <value>Длительность ожидания подтверждения
+оплаты покупателем.</value>
+        </toolTip>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <extendedTooltip>
+          <name>БИПДекорацияЕдинициИзмеренияРасширеннаяПодсказка</name>
+          <id>1957</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>БИПДекорацияЕдинициИзмеренияКонтекстноеМеню</name>
+          <id>1956</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Длительность операции</value>
+      </title>
+      <extendedTooltip>
+        <name>БИПГруппаДлительностьОперацииРасширеннаяПодсказка</name>
+        <id>1944</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -4348,7 +4687,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
+      <group>AlwaysHorizontal</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
       <controlRepresentation>Picture</controlRepresentation>
@@ -4424,6 +4763,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>БИП группа сервис коннект</value>
+      </title>
       <width>43</width>
       <extendedTooltip>
         <name>БИПГруппаСервисКоннектРасширеннаяПодсказка</name>
@@ -4497,6 +4840,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>БИП группа настройка коннект</value>
+      </title>
       <extendedTooltip>
         <name>БИПГруппаНастройкаКоннектРасширеннаяПодсказка</name>
         <id>1933</id>
@@ -4893,6 +5240,26 @@
     <id>29</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>БИПДлительностьОперацииПлатежнойСистемы</name>
+    <title>
+      <key>ru</key>
+      <value>Длительность операции</value>
+    </title>
+    <id>30</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>

@@ -204,6 +204,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Адрес сервера</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаАдресСервераExtendedTooltip</name>
         <id>47</id>
@@ -422,6 +426,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Аутентификация</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаАутентификацияРасширеннаяПодсказка</name>
         <id>75</id>
@@ -531,6 +539,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дополнительных параметров</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаДополнительныхПараметровExtendedTooltip</name>
         <id>53</id>
@@ -561,6 +573,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Параметры прокси</value>
+    </title>
     <extendedTooltip>
       <name>ПараметрыПроксиExtendedTooltip</name>
       <id>46</id>

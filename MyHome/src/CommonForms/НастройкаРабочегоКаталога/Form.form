@@ -107,6 +107,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Расположение</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаРасположениеExtendedTooltip</name>
       <id>30</id>

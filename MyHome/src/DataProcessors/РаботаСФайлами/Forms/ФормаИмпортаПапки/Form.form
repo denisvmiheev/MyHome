@@ -277,6 +277,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Свойств файлов</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаСвойствФайловExtendedTooltip</name>
       <id>34</id>
@@ -385,6 +389,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Кодировка</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКодировкаExtendedTooltip</name>
       <id>37</id>
@@ -502,6 +510,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основная командная панель</value>
+    </title>
     <extendedTooltip>
       <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
       <id>40</id>

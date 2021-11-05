@@ -13,6 +13,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа пользовательских настроек</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПользовательскихНастроекРасширеннаяПодсказка</name>
       <id>62</id>
@@ -178,6 +182,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Картинка и наименование папок</value>
+        </title>
         <extendedTooltip>
           <name>КартинкаИНаименованиеПапокExtendedTooltip</name>
           <id>47</id>
@@ -627,6 +635,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Картинка и наименование</value>
+        </title>
         <extendedTooltip>
           <name>КартинкаИНаименованиеExtendedTooltip</name>
           <id>51</id>
@@ -1002,6 +1014,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Списки</value>
+    </title>
     <height>10</height>
     <extendedTooltip>
       <name>ГруппаСпискиExtendedTooltip</name>

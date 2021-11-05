@@ -7,19 +7,29 @@
   </synonym>
   <source>
     <types>ConstantValueManager.МаксимальныйРазмерФайла</types>
+    <types>ConstantValueManager.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</types>
     <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
     <types>ConstantValueManager.СписокЗапрещенныхРасширений</types>
+    <types>ConstantValueManager.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</types>
+    <types>ConstantValueManager.КоличествоПотоковОбновленияДоступа</types>
     <types>ConstantValueManager.СоздаватьПодкаталогиСИменамиВладельцев</types>
     <types>ConstantValueManager.ОсновнойЯзык</types>
     <types>ConstantValueManager.ИспользоватьПолнотекстовыйПоиск</types>
     <types>ConstantValueManager.КоличествоПотоковОбновленияИнформационнойБазы</types>
     <types>ConstantValueManager.ДетализироватьОбновлениеИБВЖурналеРегистрации</types>
+    <types>ConstantValueManager.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</types>
     <types>ConstantValueManager.ДополнительныйЯзык2</types>
+    <types>CatalogObject.ПоставляемыеДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.ИзвлекатьТекстыФайловНаСервере</types>
+    <types>ConstantValueManager.ПрофильБезопасностиИнформационнойБазы</types>
+    <types>ConstantValueManager.ПутьКТомуБезУчетаРегиональныхНастроек</types>
+    <types>ConstantValueManager.РазрешитьВыполнениеДООРегламентнымиЗаданиямиВМоделиСервиса</types>
+    <types>ConstantValueManager.ИспользоватьПрофилиБезопасностиДляДОО</types>
     <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
     <types>ConstantValueManager.ПараметрыРезервногоКопирования</types>
     <types>ConstantValueManager.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</types>
     <types>ConstantValueManager.ПараметрыАдминистрированияИБ</types>
+    <types>ConstantValueManager.ИспользуютсяПрофилиБезопасности</types>
     <types>ConstantValueManager.ЭтоАвтономноеРабочееМесто</types>
     <types>ConstantValueManager.ПараметрыХраненияФайловВИБ</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
@@ -27,7 +37,9 @@
     <types>ChartOfCharacteristicTypesObject.РазделыДатЗапретаИзменения</types>
     <types>ConstantValueManager.СпособХраненияФайлов</types>
     <types>ConstantValueManager.ГлавныйУзел</types>
+    <types>ConstantValueManager.ОценкаПроизводительностиПериодЗаписи</types>
     <types>ConstantValueManager.СписокРасширенийФайловOpenDocument</types>
+    <types>ConstantValueManager.МинимальныйИнтервалРегламентныхЗаданийДОИОВМоделиСервиса</types>
     <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
     <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
     <types>ConstantValueManager.ИспользоватьДополнительныйЯзык1</types>
@@ -38,7 +50,11 @@
     <types>CatalogObject.ТомаХраненияФайлов</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
     <types>ConstantValueManager.ДополнительныйЯзык1</types>
+    <types>ConstantValueManager.ВыполнятьЗамерыПроизводительности</types>
+    <types>ConstantValueManager.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</types>
+    <types>ConstantValueManager.ПериодХраненияЗамеров</types>
     <types>ConstantValueManager.НастройкаПроксиСервера</types>
+    <types>ConstantValueManager.КоличествоЗамеровВПакетеЭкспорта</types>
     <types>ConstantValueManager.ИспользоватьНесколькоПроизводственныхКалендарей</types>
   </source>
   <event>OnWrite</event>

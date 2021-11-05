@@ -109,6 +109,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основная командная панель</value>
+    </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
       <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>

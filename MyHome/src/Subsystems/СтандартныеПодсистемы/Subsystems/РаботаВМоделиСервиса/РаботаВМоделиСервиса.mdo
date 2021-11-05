@@ -7,7 +7,9 @@
   </synonym>
   <subsystems>БазоваяФункциональностьВМоделиСервиса</subsystems>
   <subsystems>ОбновлениеВерсииИБВМоделиСервиса</subsystems>
-  <subsystems>ПользователиВМоделиСервиса</subsystems>
   <subsystems>РаботаСФайламиВМоделиСервиса</subsystems>
+  <subsystems>ПользователиВМоделиСервиса</subsystems>
+  <subsystems>ДополнительныеОтчетыИОбработкиВМоделиСервиса</subsystems>
+  <subsystems>УправлениеДоступомВМоделиСервиса</subsystems>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

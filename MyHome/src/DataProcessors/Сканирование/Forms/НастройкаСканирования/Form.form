@@ -516,6 +516,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>PDF</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаPDFExtendedTooltip</name>
           <id>57</id>
@@ -545,6 +549,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Основное</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаОсновноеРасширеннаяПодсказка</name>
         <id>82</id>
@@ -719,6 +727,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Формата хранения</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаФорматаХраненияExtendedTooltip</name>
             <id>61</id>
@@ -851,6 +863,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Формата сканирования</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаФорматаСканированияExtendedTooltip</name>
             <id>64</id>
@@ -1111,6 +1127,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дополнительные настройки</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаДополнительныеНастройкиРасширеннаяПодсказка</name>
         <id>84</id>
@@ -1140,6 +1160,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаНастройкиExtendedTooltip</name>
       <id>55</id>

@@ -116,6 +116,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Условие по дате</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаУсловиеПоДатеРасширеннаяПодсказка</name>
       <id>8</id>
@@ -212,6 +216,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Командная панель</value>
+    </title>
     <extendedTooltip>
       <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>10</id>

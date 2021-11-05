@@ -111,6 +111,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Интервал времени</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаИнтервалВремениExtendedTooltip</name>
       <id>25</id>
@@ -289,6 +293,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Статуса</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаСтатусаExtendedTooltip</name>
       <id>30</id>

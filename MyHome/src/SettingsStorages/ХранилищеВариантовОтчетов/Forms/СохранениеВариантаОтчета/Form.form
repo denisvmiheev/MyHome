@@ -134,6 +134,10 @@
       <items xsi:type="form:Table">
         <name>ПользователиВарианта</name>
         <id>206</id>
+        <title>
+          <key>ru</key>
+          <value>Пользователи варианта</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -152,6 +156,10 @@
         <items xsi:type="form:FormField">
           <name>ПользователиВариантаПометка</name>
           <id>236</id>
+          <title>
+            <key>ru</key>
+            <value>Пометка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -199,6 +207,10 @@
         <items xsi:type="form:FormField">
           <name>ПользователиВариантаЗначение</name>
           <id>219</id>
+          <title>
+            <key>ru</key>
+            <value>Значение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -417,7 +429,6 @@
             <placementArea>UserCmds</placementArea>
             <toolTipRepresentation>Auto</toolTipRepresentation>
             <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -731,6 +742,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Описание</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаОписаниеРасширеннаяПодсказка</name>
           <id>251</id>
@@ -1010,6 +1025,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Что будет дальше</value>
+          </title>
           <extendedTooltip>
             <name>ЧтоБудетДальшеРасширеннаяПодсказка</name>
             <id>124</id>
@@ -1035,6 +1054,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Страница 1 подвал</value>
+        </title>
         <extendedTooltip>
           <name>Страница1ПодвалРасширеннаяПодсказка</name>
           <id>191</id>
@@ -1145,6 +1168,10 @@
       <items xsi:type="form:Table">
         <name>ДеревоПодсистем</name>
         <id>74</id>
+        <title>
+          <key>ru</key>
+          <value>Дерево подсистем</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1273,6 +1300,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Колонок</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаКолонокExtendedTooltip</name>
             <id>132</id>
@@ -1609,6 +1640,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы</value>
+    </title>
     <extendedTooltip>
       <name>СтраницыExtendedTooltip</name>
       <id>111</id>
@@ -1670,6 +1705,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель левая</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКоманднаяПанельЛеваяРасширеннаяПодсказка</name>
         <id>148</id>
@@ -1787,7 +1826,6 @@
         <placementArea>UserCmds</placementArea>
         <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаКоманднаяПанельСправка</name>
@@ -1821,6 +1859,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель правая</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКоманднаяПанельПраваяРасширеннаяПодсказка</name>
         <id>150</id>
@@ -1846,6 +1888,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Командная панель</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКоманднаяПанельРасширеннаяПодсказка</name>
       <id>146</id>
@@ -1919,17 +1965,17 @@
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
-      <value>Сохранить</value>
+      <value></value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
-      <value>Отмена</value>
+      <value></value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
-      <value>ГруппаКоманднаяПанельСправка</value>
+      <value></value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

@@ -147,6 +147,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель</value>
+      </title>
       <extendedTooltip>
         <name>КоманднаяПанельРасширеннаяПодсказка</name>
         <id>445</id>
@@ -173,6 +177,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Шапка</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаШапкаРасширеннаяПодсказка</name>
       <id>447</id>
@@ -410,6 +418,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Использование дат запрета</value>
+    </title>
     <extendedTooltip>
       <name>ИспользованиеДатЗапретаРасширеннаяПодсказка</name>
       <id>452</id>
@@ -439,6 +451,10 @@
       <items xsi:type="form:Table">
         <name>Пользователи</name>
         <id>124</id>
+        <title>
+          <key>ru</key>
+          <value>Пользователи</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -906,6 +922,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Установка по пользователям</value>
+      </title>
       <extendedTooltip>
         <name>УстановкаПоПользователямExtendedTooltip</name>
         <id>324</id>
@@ -1196,6 +1216,10 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <title>
+                      <key>ru</key>
+                      <value>Произвольная дата</value>
+                    </title>
                     <extendedTooltip>
                       <name>ГруппаПроизвольнаяДатаРасширеннаяПодсказка</name>
                       <id>471</id>
@@ -1280,6 +1304,10 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <title>
+                      <key>ru</key>
+                      <value>Больше возможностей</value>
+                    </title>
                     <extendedTooltip>
                       <name>ГруппаБольшеВозможностейРасширеннаяПодсказка</name>
                       <id>479</id>
@@ -1645,6 +1673,10 @@
                       <userVisible>
                         <common>true</common>
                       </userVisible>
+                      <title>
+                        <key>ru</key>
+                        <value>Произвольная дата</value>
+                      </title>
                       <extendedTooltip>
                         <name>ПроизвольнаяДатаExtendedTooltip</name>
                         <id>341</id>
@@ -1670,6 +1702,10 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <title>
+                      <key>ru</key>
+                      <value>Дата запрета с описанием</value>
+                    </title>
                     <extendedTooltip>
                       <name>ДатаЗапретаСОписаниемExtendedTooltip</name>
                       <id>339</id>
@@ -1819,6 +1855,10 @@
                         <userVisible>
                           <common>true</common>
                         </userVisible>
+                        <title>
+                          <key>ru</key>
+                          <value>Количество дней разрешения</value>
+                        </title>
                         <extendedTooltip>
                           <name>ГруппаКоличествоДнейРазрешенияРасширеннаяПодсказка</name>
                           <id>486</id>
@@ -1895,6 +1935,10 @@
                       <userVisible>
                         <common>true</common>
                       </userVisible>
+                      <title>
+                        <key>ru</key>
+                        <value>Относительная дата</value>
+                      </title>
                       <extendedTooltip>
                         <name>ОтносительнаяДатаРасширеннаяПодсказка</name>
                         <id>484</id>
@@ -2001,6 +2045,10 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <title>
+                      <key>ru</key>
+                      <value>Свойства даты запрета</value>
+                    </title>
                     <extendedTooltip>
                       <name>СвойстваДатыЗапретаРасширеннаяПодсказка</name>
                       <id>346</id>
@@ -2055,6 +2103,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Режимы работы</value>
+                </title>
                 <extendedTooltip>
                   <name>ГруппаРежимыРаботыРасширеннаяПодсказка</name>
                   <id>460</id>
@@ -2111,6 +2163,10 @@
               <items xsi:type="form:Table">
                 <name>ДатыЗапрета</name>
                 <id>132</id>
+                <title>
+                  <key>ru</key>
+                  <value>Даты запрета</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2830,6 +2886,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Способы указания</value>
+            </title>
             <extendedTooltip>
               <name>СпособыУказанияExtendedTooltip</name>
               <id>336</id>
@@ -3028,6 +3088,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Данные пользователя</value>
+        </title>
         <extendedTooltip>
           <name>ДанныеПользователяExtendedTooltip</name>
           <id>331</id>
@@ -3053,6 +3117,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Текущий пользователь представление</value>
+      </title>
       <width>60</width>
       <extendedTooltip>
         <name>ТекущийПользовательПредставлениеРасширеннаяПодсказка</name>
@@ -3084,6 +3152,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройка даты запрета</value>
+    </title>
     <extendedTooltip>
       <name>НастройкаДатыЗапретаExtendedTooltip</name>
       <id>323</id>

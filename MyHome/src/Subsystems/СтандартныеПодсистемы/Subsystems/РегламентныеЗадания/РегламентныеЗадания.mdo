@@ -20,5 +20,6 @@
   <content>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</content>
   <content>CommonModule.РегламентныеЗаданияКлиент</content>
   <content>CommonModule.БлокировкаРаботыСВнешнимиРесурсами</content>
+  <content>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

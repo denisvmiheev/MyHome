@@ -10,4 +10,5 @@
   <content>Catalog.Пользователи.Command.ПользователиИнформационнойБазы</content>
   <content>DataProcessor.НастройкаРезервногоКопированияИБ</content>
   <content>DataProcessor.РезервноеКопированиеИБ</content>
+  <content>DataProcessor.УстановкаОбновлений</content>
 </mdclass:FunctionalOption>

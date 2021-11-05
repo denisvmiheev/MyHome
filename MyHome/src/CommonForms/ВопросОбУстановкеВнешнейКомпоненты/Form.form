@@ -61,6 +61,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Шапка</value>
+    </title>
     <extendedTooltip>
       <name>ШапкаРасширеннаяПодсказка</name>
       <id>17</id>

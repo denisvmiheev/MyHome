@@ -9,14 +9,18 @@
     <value>Место хранения функциональных опций</value>
   </synonym>
   <type>
+    <types>ConstantValueManager.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</types>
     <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
     <types>ConstantValueManager.ИспользоватьПолнотекстовыйПоиск</types>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписей</types>
     <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
     <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
+    <types>ConstantValueManager.ИспользуютсяПрофилиБезопасности</types>
     <types>ConstantValueManager.ЭтоАвтономноеРабочееМесто</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
     <types>ConstantValueManager.ИспользоватьГруппыПользователей</types>
     <types>ConstantValueManager.ИспользоватьНесколькоПроизводственныхКалендарей</types>
+    <types>ConstantValueManager.ИспользоватьВерсионированиеОбъектов</types>
   </type>
 </mdclass:DefinedType>

@@ -202,6 +202,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Выбрать пользователей</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаВыбратьПользователейExtendedTooltip</name>
         <id>75</id>
@@ -390,6 +394,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <verticalStretch>true</verticalStretch>
       <extendedTooltip>
         <name>ГруппаВыбратьExtendedTooltip</name>
