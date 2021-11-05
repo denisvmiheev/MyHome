@@ -12,6 +12,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7978d335-d690-4dc0-abfe-e738fe5f7625"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="bf3b213f-a3de-4d9f-b827-fb1fbb22075c"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="dced4c6c-46c8-46f8-8b1b-87484026ed5c"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -66,6 +67,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="5627039f-352b-405a-9469-802c05453f18">
     <name>Русский</name>
     <synonym>
@@ -681,6 +683,7 @@
   <commonModules>CommonModule.РаботаСФайламиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.РаботаСФайламиСлужебныйКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаСФайламиСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.РаботаСФайламиСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.РегламентированныеДанныеКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияКлиент</commonModules>
@@ -711,7 +714,6 @@
   <commonModules>CommonModule.СтандартныеПодсистемыКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиент</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
