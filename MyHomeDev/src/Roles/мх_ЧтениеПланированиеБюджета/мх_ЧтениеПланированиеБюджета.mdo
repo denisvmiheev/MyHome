@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aaee9ac-02b2-449d-b355-1039c80f3634">
-  <name>мх_ЧтениеПланированиеБюджета</name>
-  <synonym>
-    <key>ru</key>
-    <value>Чтение документа &quot;Планирование бюджета&quot; (MyHome)</value>
-  </synonym>
-</mdclass:Role>

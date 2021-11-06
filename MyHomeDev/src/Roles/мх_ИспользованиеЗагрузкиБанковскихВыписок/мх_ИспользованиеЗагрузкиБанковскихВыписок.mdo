@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a40a197a-d6de-41ea-9b6f-e814b471b024">
-  <name>мх_ИспользованиеЗагрузкиБанковскихВыписок</name>
-  <synonym>
-    <key>ru</key>
-    <value>Доступ к загрузке банковских выписок (MyHome)</value>
-  </synonym>
-</mdclass:Role>
