@@ -98,4 +98,5 @@
   <content>CommonModule.мх_СобытияФормПовтИсп</content>
   <content>CommonModule.мх_ОбработчикиСобытий</content>
   <content>CommonPicture.мх_ВнеБюджета</content>
+  <content>Report.мх_АнализДоходов</content>
 </mdclass:Subsystem>

@@ -27,6 +27,7 @@
   <content>Report.мх_БюджетДоходовРасходов</content>
   <content>Report.мх_АнализДвиженийДенежныхСредств</content>
   <content>Report.мх_ПланированиеБюджета</content>
+  <content>Report.мх_АнализДоходов</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
   <subsystems>Планирование</subsystems>

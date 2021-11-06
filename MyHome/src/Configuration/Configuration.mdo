@@ -1370,6 +1370,7 @@
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.ОценкаПроизводительности</reports>
   <reports>Report.ПраваДоступа</reports>
+  <reports>Report.мх_АнализДоходов</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
   <dataProcessors>DataProcessor.мх_ЗагрузкаБанковскихВыписок</dataProcessors>
