@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d08e127-3224-4562-9a09-1e8d8ab510a5">
+  <producedTypes>
+    <managerType typeId="de4df419-2c9d-4db6-b41d-171407ba8c5c" valueTypeId="389118ef-81d4-446f-af24-84a533137af7"/>
+    <valueManagerType typeId="d1939980-daf1-45a7-9b5f-ee2833974d36" valueTypeId="dcd6b1f7-06ce-46ba-8724-8b8b1a41c8d0"/>
+    <valueKeyType typeId="e07b92c9-5970-47d1-b1e6-0dc8d9f5eea2" valueTypeId="b7bf94d2-ddc2-495f-a3aa-bf167e97081e"/>
+  </producedTypes>
+  <name>мх_ИспользоватьПланированиеБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать планирование бюджета (MyHome)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

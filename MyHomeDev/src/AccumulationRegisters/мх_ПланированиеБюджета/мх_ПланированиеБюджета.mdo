@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04f491f7-b9fe-41a0-b50d-0515d3963e6a">
+  <producedTypes>
+    <selectionType typeId="feeb0b67-9709-44f8-9b2b-7976701fcbb6" valueTypeId="adbce71e-2e9d-4696-b606-9b97598852c0"/>
+    <listType typeId="cd7b88a1-c129-477a-93aa-b797afc88fe1" valueTypeId="67f20bc8-c228-4b35-a066-a80a22078b2d"/>
+    <managerType typeId="982a281a-f488-41de-9a1b-1ee3b8696079" valueTypeId="38ade0da-4f13-4c76-b0bc-6512a96213bb"/>
+    <recordSetType typeId="c9a41ccb-7bf2-4caa-a5a3-a3820c8f5d51" valueTypeId="840abd4a-95fb-4a87-b4e4-a4417d05a010"/>
+    <recordKeyType typeId="b706b7de-88c9-4a53-abdd-f01abb40e2ee" valueTypeId="f39dee9f-f267-41bd-aa72-714da37718a3"/>
+    <recordType typeId="e0a0b3b5-c491-4260-9e26-321855da4521" valueTypeId="4f6503aa-7564-4735-ab23-93e4f3ffda24"/>
+  </producedTypes>
+  <name>мх_ПланированиеБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мх планирование бюджета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c3629d52-c514-4484-bca8-8dbf463ce9bc">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6ba02599-83da-4dca-98b2-0ac646bce9c2">
+    <name>СуммаБюджетНаДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма бюджет на день</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f1cb7fe5-414c-4520-866a-3e3b6ec99b66">
+    <name>СтатьяДоходовРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов расходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.мх_СтатьиДоходов</types>
+      <types>ChartOfCharacteristicTypesRef.мх_СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

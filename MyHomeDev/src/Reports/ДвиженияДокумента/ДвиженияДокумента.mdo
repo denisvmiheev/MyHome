@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a852943-386c-4d0f-a755-8aa59739dde9">
+  <producedTypes>
+    <objectType typeId="2414e2e7-2532-4e5a-b3c1-5e2beb91bbab" valueTypeId="cb01479c-69f6-468a-aefb-df0657015070"/>
+    <managerType typeId="e8dda526-2d50-42a7-82e7-85da541e386d" valueTypeId="56543ba0-7e16-4952-9483-2fea0545e395"/>
+  </producedTypes>
+  <name>ДвиженияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения документа</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДвиженияДокумента.Template.ПустаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="23bb0c42-16b5-4667-bc3b-3521022d39e5">
+    <name>ПустаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустая схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="37a69839-33fa-492e-b8cb-429a195cd0e2">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

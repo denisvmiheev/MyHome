@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdf497b8-1d9d-4b6c-9544-182955203925">
+  <producedTypes>
+    <selectionType typeId="3551fc5e-469a-4fbe-9f0d-797ffa4804f4" valueTypeId="f3a9e626-e610-4434-9407-c41ad532d959"/>
+    <listType typeId="064a737d-c42a-4d31-8c4e-47b4b5eb65a3" valueTypeId="f90ff73d-5728-4c9a-8045-e851c27a42d7"/>
+    <managerType typeId="f79c6e39-721c-402c-884f-e5db240340c4" valueTypeId="c3bf9dd9-347a-4700-a6e4-b211aefbc9b4"/>
+    <recordSetType typeId="8e825531-c102-4994-a626-53872ea9172f" valueTypeId="10c9739a-d7e6-47b3-b887-d590cbdee431"/>
+    <recordKeyType typeId="0f205908-63d6-4df3-83d0-daedab99e689" valueTypeId="81d65b35-2203-4784-a6fe-941a5a186f85"/>
+    <recordType typeId="4f2e0271-a2a8-49b8-ac75-068d9f29887a" valueTypeId="2e3bf2f9-55b5-4136-bf3f-e0ec36bfd5c9"/>
+  </producedTypes>
+  <name>мх_ДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения денежных средств (MyHome)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="08711e86-9ab7-4388-9bdb-2d9342a44cd3">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ad17e4e9-1b3e-4d8f-a5e5-7574facad923">
+    <name>Кошелек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелек</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_КошелькиИСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
