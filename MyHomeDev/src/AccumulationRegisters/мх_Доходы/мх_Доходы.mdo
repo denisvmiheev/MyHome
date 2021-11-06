@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fecf7d46-e337-4445-8445-fb24aee31350">
+  <producedTypes>
+    <selectionType typeId="d9f07f62-e23d-4ac9-97cf-b0208ac2efb3" valueTypeId="7be23f27-31dd-4099-b8e1-c3c25bcf902f"/>
+    <listType typeId="8555479e-051f-49b9-85f5-9e319d42100c" valueTypeId="39c3eb75-cabf-4afc-af26-423ff2362271"/>
+    <managerType typeId="200ac5a3-3381-4a4f-b6e9-0f30fc189220" valueTypeId="9a21a5e8-956f-4445-a511-b312754514f2"/>
+    <recordSetType typeId="96da8efb-c622-48ed-8a13-29ac8257cec1" valueTypeId="3960f36d-1405-449e-a92e-cf3362e035ce"/>
+    <recordKeyType typeId="768db5a5-7e5d-4194-8e8d-66f7999ad831" valueTypeId="6355493b-e1b6-4dbe-832f-0239c85899bb"/>
+    <recordType typeId="34cad100-ea81-47f5-be6d-4bcf55c9465b" valueTypeId="a15da234-bb0e-4837-9b32-2da7a623f165"/>
+  </producedTypes>
+  <name>мх_Доходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы (MyHome)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="60766b22-a759-4502-9dc5-a5d40b1cb02d">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="75089814-b00e-4a25-946a-bf52ee7eca55">
+    <name>СтатьяДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.мх_СтатьиДоходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6dc1a4fb-8d34-4b79-a003-a827a8939400">
+    <name>АналитикаДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика доходов</value>
+    </synonym>
+    <type>
+      <types>Characteristic.мх_СтатьиДоходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

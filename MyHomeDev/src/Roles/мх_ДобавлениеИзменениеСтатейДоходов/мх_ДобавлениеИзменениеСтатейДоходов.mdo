@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="122dddce-97f4-440f-84cc-55f76cb468b4">
+  <name>мх_ДобавлениеИзменениеСтатейДоходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение статей доходов (MyHome)</value>
+  </synonym>
+</mdclass:Role>

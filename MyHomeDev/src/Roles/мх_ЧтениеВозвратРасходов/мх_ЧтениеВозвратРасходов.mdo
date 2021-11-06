@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4df90d69-71be-489b-9279-3f065b1ee6aa">
+  <name>мх_ЧтениеВозвратРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение документа &quot;Возврат расходов&quot; (MyHome)</value>
+  </synonym>
+</mdclass:Role>

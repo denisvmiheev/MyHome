@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba7cdfdc-791b-4b28-a053-ffa9d48eba5f">
+  <name>мх_ИспользоватьПланированиеБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать планирование бюджета (MyHome)</value>
+  </synonym>
+  <location>Constant.мх_ИспользоватьПланированиеБюджета</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.мх_ПланированиеБюджета</content>
+  <content>AccumulationRegister.мх_ПланированиеБюджета</content>
+  <content>Report.мх_ПланированиеБюджета</content>
+  <content>Subsystem.Финансы.Subsystem.Планирование</content>
+  <content>Document.мх_РегистрацияРасходов.TabularSection.Расходы.Attribute.ВнеБюджета</content>
+  <content>Document.мх_РегистрацияРасходов.Attribute.ВнеБюджета</content>
+</mdclass:FunctionalOption>
