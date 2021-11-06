@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ed45614-1de3-48c0-9ad1-35b21f7f2214">
-  <name>мх_СобытияФорм</name>
-  <synonym>
-    <key>ru</key>
-    <value>События форм (MyHome)</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>

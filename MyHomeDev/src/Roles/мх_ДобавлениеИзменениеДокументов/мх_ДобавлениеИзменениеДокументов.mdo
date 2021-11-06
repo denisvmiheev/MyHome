@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cb7a1ad-0d5d-4b32-9724-d800f0f1c786">
-  <name>мх_ДобавлениеИзменениеДокументов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Добавление изменение документов (MyHome)</value>
-  </synonym>
-</mdclass:Role>

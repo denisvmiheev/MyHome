@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b43a6206-393e-4724-b248-2c2db09c1d48">
-  <name>мх_ВариантИнтерфейса</name>
-  <synonym>
-    <key>ru</key>
-    <value>Вариант интерфейса (MyHome)</value>
-  </synonym>
-  <use>InformationRegister.мх_ДанныеСеансовИнформационнойБазы.Dimension.НомерСеанса</use>
-</mdclass:FunctionalOptionsParameter>
