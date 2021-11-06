@@ -966,28 +966,14 @@
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаписатьВерсиюОбъекта</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаписатьЗависимыеНаборыЗначенийДоступа</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаписатьНаборыЗначенийДоступа</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьКонтактнуюИнформацию</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастей</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.КонтактнаяИнформацияОбработкаПроверкиЗаполнения</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьГруппыВладельцевНастроекПрав</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьГруппыЗначенийДоступа</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьЗначенияГруппДоступа</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьКонтактнуюИнформацию</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОчиститьИнформациюОбАвтореВерсии</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписью</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписьюДокумента</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписьюНабораЗаписей</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписьюНабораЗаписейРегистраРасчета</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПередУдалением</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПередУдалениемДокумента</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписи</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиДокумента</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписей</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписейРегистраРасчета</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <scheduledJobs>ScheduledJob.мх_ОбработкаАвтоплатежей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
