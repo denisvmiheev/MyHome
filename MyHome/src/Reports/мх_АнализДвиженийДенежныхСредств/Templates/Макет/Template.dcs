@@ -19,6 +19,23 @@
 				<dcscom:periodNumber>6</dcscom:periodNumber>
 				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Кошелек</dataPath>
@@ -38,28 +55,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ПериодПолугодие</dataPath>
-			<field>ПериодПолугодие</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Полугодие</v8:content>
-				</v8:item>
-			</title>
-			<role>
-				<dcscom:periodNumber>5</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ПериодКвартал</dataPath>
-			<field>ПериодКвартал</field>
-			<role>
-				<dcscom:periodNumber>4</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодМесяц</dataPath>
 			<field>ПериодМесяц</field>
 			<title xsi:type="v8:LocalStringType">
@@ -72,6 +67,12 @@
 				<dcscom:periodNumber>3</dcscom:periodNumber>
 				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -97,6 +98,12 @@
 				<dcscom:periodNumber>1</dcscom:periodNumber>
 				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -140,20 +147,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ПериодНеделя</dataPath>
-			<field>ПериодНеделя</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Неделя</v8:content>
-				</v8:item>
-			</title>
-			<role>
-				<dcscom:periodNumber>2</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаРасход</dataPath>
 			<field>СуммаРасход</field>
 			<title xsi:type="v8:LocalStringType">
@@ -179,10 +172,7 @@
 	ДДС.СуммаКонечныйОстаток,
 	ДДС.ПериодГод,
 	ДДС.ПериодДень,
-	ДДС.ПериодКвартал,
 	ДДС.ПериодМесяц,
-	ДДС.ПериодНеделя,
-	ДДС.ПериодПолугодие,
 	ДДС.Регистратор
 ИЗ
 	РегистрНакопления.мх_ДвиженияДенежныхСредств.ОстаткиИОбороты(,, Авто,,) КАК ДДС</query>

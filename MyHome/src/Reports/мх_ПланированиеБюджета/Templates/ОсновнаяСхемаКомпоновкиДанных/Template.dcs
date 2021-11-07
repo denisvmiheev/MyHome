@@ -43,6 +43,12 @@
 				<dcscom:periodNumber>3</dcscom:periodNumber>
 				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -90,6 +96,12 @@
 				<dcscom:periodNumber>2</dcscom:periodNumber>
 				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -113,6 +125,12 @@
 				<dcscom:periodNumber>4</dcscom:periodNumber>
 				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -199,7 +217,29 @@
 	Факт.СуммаРасход,
 	ВЫРАЗИТЬ("Факт" КАК Строка(100))
 ИЗ
-	РегистрНакопления.мх_ДоходыРасходы.Обороты({&amp;НачалоПериода}, {&amp;КонецПериода}, Авто,) КАК Факт</query>
+	РегистрНакопления.мх_ДоходыРасходы.Обороты({&amp;НачалоПериода}, {&amp;КонецПериода}, Авто,) КАК Факт
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	мх_Расходы.Регистратор,
+	мх_Расходы.СтатьяРасходов,
+	0,
+	0,
+	НАЧАЛОПЕРИОДА(мх_Расходы.Период, ДЕНЬ),
+	НАЧАЛОПЕРИОДА(мх_Расходы.Период, МЕСЯЦ),
+	НАЧАЛОПЕРИОДА(мх_Расходы.Период, ГОД),
+	0,
+	-мх_Расходы.Сумма,
+	0,
+	-мх_Расходы.Сумма,
+	ВЫРАЗИТЬ("Вне бюджета" КАК Строка(100))
+ИЗ
+	РегистрНакопления.мх_Расходы КАК мх_Расходы
+ГДЕ
+	мх_Расходы.ВнеБюджета
+{ГДЕ
+	мх_Расходы.Период МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода}</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>ДоходОткл</dataPath>

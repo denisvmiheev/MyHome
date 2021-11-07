@@ -28,9 +28,7 @@
   <content>Catalog.мх_Автоплатежи</content>
   <content>Catalog.мх_КошелькиИСчета</content>
   <content>Catalog.мх_ГарантияПрисоединенныеФайлы</content>
-  <content>Catalog.мх_ПоказателиФизическихУпражнений</content>
   <content>Catalog.мх_МестаРасхода</content>
-  <content>Catalog.мх_ФизическиеУпражнения</content>
   <content>Catalog.мх_ВнешниеСистемы</content>
   <content>Document.мх_ВводОстатков</content>
   <content>Document.мх_ПеремещениеДенежныхСредств</content>
@@ -39,7 +37,6 @@
   <content>Document.мх_ПланированиеБюджета</content>
   <content>Document.мх_РегистрацияДоходов</content>
   <content>Document.мх_РегистрацияРасходов</content>
-  <content>Document.мх_РегистрацияФизическихУпражений</content>
   <content>Enum.мх_ТипыКошельковИСчетов</content>
   <content>Enum.мх_ВариантыЗагрузкиБанковскихВыписок</content>
   <content>Report.мх_АнализДвиженийДенежныхСредств</content>
@@ -58,7 +55,6 @@
   <content>AccumulationRegister.мх_ДоходыРасходы</content>
   <content>AccumulationRegister.мх_ПланированиеБюджета</content>
   <content>AccumulationRegister.мх_Расходы</content>
-  <content>AccumulationRegister.мх_СтатистикаФизическихУпражнений</content>
   <content>InformationRegister.мх_ДанныеСеансовИнформационнойБазы</content>
   <content>Role.мх_ПодсистемаУчет</content>
   <content>Role.мх_ПодсистемаФинансы</content>
@@ -102,4 +98,5 @@
   <content>CommonModule.мх_СобытияФормПовтИсп</content>
   <content>CommonModule.мх_ОбработчикиСобытий</content>
   <content>CommonPicture.мх_ВнеБюджета</content>
+  <content>Report.мх_АнализДоходов</content>
 </mdclass:Subsystem>

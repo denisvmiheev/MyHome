@@ -82,7 +82,6 @@
   <subsystems>Subsystem.ФинансыМобильныйИнтерфейс</subsystems>
   <subsystems>Subsystem.Учет</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
-  <subsystems>Subsystem.Спорт</subsystems>
   <subsystems>Subsystem.УчетМобильныйИнтерфейс</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряРабочийЦвет</styleItems>
@@ -1271,8 +1270,6 @@
   <catalogs>Catalog.мх_КошелькиИСчета</catalogs>
   <catalogs>Catalog.мх_МестаРасхода</catalogs>
   <catalogs>Catalog.мх_Номенклатура</catalogs>
-  <catalogs>Catalog.мх_ПоказателиФизическихУпражнений</catalogs>
-  <catalogs>Catalog.мх_ФизическиеУпражнения</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
@@ -1301,7 +1298,6 @@
   <documents>Document.мх_ПланированиеБюджета</documents>
   <documents>Document.мх_РегистрацияДоходов</documents>
   <documents>Document.мх_РегистрацияРасходов</documents>
-  <documents>Document.мх_РегистрацияФизическихУпражений</documents>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
   <enums>Enum.РазмерыБумаги</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
@@ -1374,6 +1370,7 @@
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.ОценкаПроизводительности</reports>
   <reports>Report.ПраваДоступа</reports>
+  <reports>Report.мх_АнализДоходов</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
   <dataProcessors>DataProcessor.мх_ЗагрузкаБанковскихВыписок</dataProcessors>
@@ -1495,7 +1492,6 @@
   <accumulationRegisters>AccumulationRegister.мх_ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_ПланированиеБюджета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_Расходы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.мх_СтатистикаФизическихУпражнений</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.мх_СтатьиРасходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.мх_СтатьиДоходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
