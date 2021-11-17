@@ -178,7 +178,61 @@
         <length>15</length>
       </stringQualifiers>
     </type>
-    <mask>9999999999</mask>
+    <mask>+79999999999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3ca2cd9-e605-4fa6-91c2-fa7cae673b25">
+    <name>Тинькофф_wuid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя (wuid)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d9a1829-117b-4bfa-9aeb-e3da3e9e12ae">
+    <name>Тинькофф_ИдентификаторСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сессии (sessionid)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cee4e214-5e22-454e-901f-206bb5bdb476">
+    <name>Тинькофф_ИдентификаторПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тинькофф идентификатор пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

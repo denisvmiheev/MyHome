@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01769256-0c8d-4320-9661-c2a2f56e00e3">
+  <name>мх_ИнтеграцияТинькоффВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Тинькофф вызов сервера (MyHome)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
