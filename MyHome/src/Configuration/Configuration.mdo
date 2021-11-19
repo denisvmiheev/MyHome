@@ -579,7 +579,7 @@
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <filterCriteria>FilterCriterion.ФайлыВТоме</filterCriteria>
   <commonModules>CommonModule.GoogleПереводчик</commonModules>
-  <commonModules>CommonModule.АвтоплатежиСервер</commonModules>
+  <commonModules>CommonModule.мх_АвтоплатежиСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаПереопределяемый</commonModules>
   <commonModules>CommonModule.ЗаполнениеОбъектов</commonModules>
@@ -909,6 +909,10 @@
   <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.мх_ИнтеграцияТинькоффКлиент</commonModules>
   <commonModules>CommonModule.мх_ИнтеграцияТинькофф</commonModules>
+  <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиВызовСервера</commonModules>
+  <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиент</commonModules>
+  <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемами</commonModules>
+  <commonModules>CommonModule.мх_РегламентныеЗадания</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -1002,6 +1006,7 @@
   <scheduledJobs>ScheduledJob.ОчисткаЗамеровВремени</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОчисткаУстаревшихВерсийОбъектов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЭкспортОценкиПроизводительности</scheduledJobs>
+  <scheduledJobs>ScheduledJob.мх_ЗагрузкаДанныхИзЛичныхКабинетовБанков</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.мх_ИспользоватьПланированиеБюджета</functionalOptions>
   <functionalOptions>FunctionalOption.мх_ИспользуетсяПолнофункциональныйИнтерфейс</functionalOptions>
@@ -1355,6 +1360,8 @@
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
   <enums>Enum.УровниПроизводительности</enums>
+  <enums>Enum.мх_СтатусыСообщенийИнтеграции</enums>
+  <enums>Enum.мх_ТипыВнешнихСистем</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.мх_АнализРасходов</reports>
   <reports>Report.мх_БюджетДоходовРасходов</reports>
@@ -1494,6 +1501,8 @@
   <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.мх_ЖурналСообщенийИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.мх_ОчередьСообщенийИнтеграции</informationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_ДвиженияДенежныхСредств</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_Доходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_ДоходыРасходы</accumulationRegisters>

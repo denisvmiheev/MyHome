@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Обработка автоплатежей (MyHome)</value>
   </synonym>
-  <methodName>CommonModule.АвтоплатежиСервер.ВыполнитьОбработкуАвтоплатежей</methodName>
+  <methodName>CommonModule.мх_АвтоплатежиСервер.ВыполнитьОбработкуАвтоплатежей</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>25</restartIntervalOnFailure>
