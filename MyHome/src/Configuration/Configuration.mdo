@@ -1085,6 +1085,7 @@
   <definedTypes>DefinedType.ЗначениеДоступаОбъект</definedTypes>
   <definedTypes>DefinedType.ОбъектСНастраиваемымПорядком</definedTypes>
   <definedTypes>DefinedType.ПолеРегистраКлючейДоступаКРегистрам</definedTypes>
+  <definedTypes>DefinedType.мх_ДокументыПлатежей</definedTypes>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ЗагрузитьКурсыВалют</commonCommands>
@@ -1360,7 +1361,6 @@
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
   <enums>Enum.УровниПроизводительности</enums>
-  <enums>Enum.мх_СтатусыСообщенийИнтеграции</enums>
   <enums>Enum.мх_ТипыВнешнихСистем</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.мх_АнализРасходов</reports>
@@ -1502,7 +1502,7 @@
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.мх_ЖурналСообщенийИнтеграции</informationRegisters>
-  <informationRegisters>InformationRegister.мх_ОчередьСообщенийИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.мх_ЖурналПлатежей</informationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_ДвиженияДенежныхСредств</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_Доходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_ДоходыРасходы</accumulationRegisters>

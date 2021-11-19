@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3badcb4f-b6a3-4172-a2c5-e80e98c7c25c">
+  <producedTypes>
+    <containerType typeId="2d86a274-dcf5-4123-904b-6b207bf8c1c4" valueTypeId="eec94f6d-2db2-4540-9fdf-e45d31084444"/>
+  </producedTypes>
+  <name>мх_ДокументыПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы платежей (MyHome)</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.мх_РегистрацияДоходов</types>
+    <types>DocumentRef.мх_ВозвратРасходов</types>
+    <types>DocumentRef.мх_РегистрацияРасходов</types>
+    <types>DocumentRef.мх_ПеремещениеДенежныхСредств</types>
+  </type>
+</mdclass:DefinedType>

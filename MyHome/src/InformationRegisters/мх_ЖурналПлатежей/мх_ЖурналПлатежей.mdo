@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48ef8992-7061-43a3-abbe-94d5928b6d76">
+  <producedTypes>
+    <selectionType typeId="dc6a81b3-a6bf-49b2-a044-c82f46dacff0" valueTypeId="8054f9b9-aef3-49bc-a6c2-c94d32aa1eae"/>
+    <listType typeId="b96d58a5-0c7a-4a21-be83-0e2401dda5aa" valueTypeId="e2f07d99-73fd-4771-bdc1-afbbab624d91"/>
+    <managerType typeId="032054ef-27c5-4a5d-bd7f-2260b71e041a" valueTypeId="5e6fcb99-80b7-4d06-8a9d-7b88aa47b4bc"/>
+    <recordSetType typeId="d4cae284-3922-41ae-b4fc-58b8df5121e3" valueTypeId="ce7b9d06-ac03-49ef-91c1-95d79ba1d7cf"/>
+    <recordKeyType typeId="f2c570a6-e313-4e5b-98ad-a9e60009cd87" valueTypeId="3f782bdc-d27d-4ea3-8581-154c5c904c89"/>
+    <recordType typeId="9c96b461-f0f4-46be-ba6d-86a076288f74" valueTypeId="fd40583b-6641-4b45-ae8b-c30617cafb42"/>
+    <recordManagerType typeId="e48039fe-52ec-4f36-8b99-4e680184f062" valueTypeId="a399ce7c-9a99-4035-9a26-1b3402777ef1"/>
+  </producedTypes>
+  <name>мх_ЖурналПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мх журнал платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="43732e1d-7d68-454d-8d76-f9810f05b2a9">
+    <name>ТипПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b25034fe-efa9-4061-af62-cd7b14b168ea">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f16eb7de-926b-4e1b-b2ff-ac36a08a6b70">
+    <name>ДатаОперацииУниверсальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата операции универсальная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>30</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ec22ff14-8d1a-4baf-8d70-e727d3e15241">
+    <name>ДатаОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата операции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fd04c07f-4dbc-4687-ad55-ceb5b1061dd8">
+    <name>НомерКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fec2b241-5c66-4a04-9102-c12f38530f06">
+    <name>ДокументПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="ba950c35-7e54-4fb2-90e9-9daac403f4b4">
+    <name>ИдентификаторПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c6189cea-ba6d-4ea3-98fc-565687e615c1">
+    <name>ВнешняяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_ВнешниеСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

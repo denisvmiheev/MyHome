@@ -115,5 +115,5 @@
   <content>ScheduledJob.мх_ЗагрузкаДанныхИзЛичныхКабинетовБанков</content>
   <content>DataProcessor.мх_ИнтеграцияТинькофф</content>
   <content>InformationRegister.мх_ЖурналСообщенийИнтеграции</content>
-  <content>InformationRegister.мх_ОчередьСообщенийИнтеграции</content>
+  <content>25d2a3f8-57bf-4baf-b921-e46e50c4c3c7</content>
 </mdclass:Subsystem>
