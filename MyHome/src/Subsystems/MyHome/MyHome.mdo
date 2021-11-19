@@ -99,4 +99,21 @@
   <content>CommonModule.мх_ОбработчикиСобытий</content>
   <content>CommonPicture.мх_ВнеБюджета</content>
   <content>Report.мх_АнализДоходов</content>
+  <content>CommonModule.мх_АвтоплатежиСервер</content>
+  <content>CommonModule.мх_ОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиентСервер</content>
+  <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиПовтИсп</content>
+  <content>CommonModule.мх_ИнтеграцияТинькоффКлиентСерверПовтИсп</content>
+  <content>CommonModule.мх_ИнтеграцияТинькоффКлиентСервер</content>
+  <content>CommonModule.мх_ИнтеграцияТинькоффВызовСервера</content>
+  <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиСлужебныйКлиентСервер</content>
+  <content>CommonModule.мх_ИнтеграцияТинькоффКлиент</content>
+  <content>CommonModule.мх_ИнтеграцияТинькофф</content>
+  <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиВызовСервера</content>
+  <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиент</content>
+  <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемами</content>
+  <content>ScheduledJob.мх_ЗагрузкаДанныхИзЛичныхКабинетовБанков</content>
+  <content>DataProcessor.мх_ИнтеграцияТинькофф</content>
+  <content>InformationRegister.мх_ЖурналСообщенийИнтеграции</content>
+  <content>InformationRegister.мх_ОчередьСообщенийИнтеграции</content>
 </mdclass:Subsystem>
