@@ -437,6 +437,7 @@
   <commonPictures>CommonPicture.ТипПапка</commonPictures>
   <commonPictures>CommonPicture.ТипСоставнойОсновной</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
+  <commonPictures>CommonPicture.мх_РазбитьСтроку</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ДействующиеДатыЗапретаИзменения</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
@@ -913,6 +914,7 @@
   <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиент</commonModules>
   <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемами</commonModules>
   <commonModules>CommonModule.мх_РегламентныеЗадания</commonModules>
+  <commonModules>CommonModule.мх_РаботаСТабличнымиЧастямиКлиент</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
