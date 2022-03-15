@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18090845-04c7-4e76-a8ad-8a6152a8a523">
+  <name>мх_ИнтеграцияТинькоффКлиентСерверПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция тинькофф клиент сервер повт исп (МХ)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

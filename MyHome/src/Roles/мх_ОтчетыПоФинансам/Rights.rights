@@ -26,6 +26,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.мх_АнализДоходов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Report.мх_ПланированиеБюджета</name>
 		<right>
 			<name>Use</name>
@@ -38,17 +49,6 @@
 	</object>
 	<object>
 		<name>Report.мх_БюджетДоходовРасходов</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.мх_АнализДоходов</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

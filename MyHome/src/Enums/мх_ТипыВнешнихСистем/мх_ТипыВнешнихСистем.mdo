@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc6943d5-ec1f-4765-ac55-f64f42e78c7f">
+  <producedTypes>
+    <refType typeId="32711dc2-e888-4249-9260-5ce94952a2ed" valueTypeId="d9d696ce-f6d8-47cd-9795-d3073ddad9ae"/>
+    <listType typeId="36474dec-8875-422b-9503-f8256f6ea873" valueTypeId="d3ecea5a-0aeb-4058-a9a4-a76a66d30b50"/>
+    <managerType typeId="ce4ab2ae-00fd-40a8-8481-f821b188492b" valueTypeId="24311fe1-2bfd-414e-84d9-c01e8e9985fb"/>
+  </producedTypes>
+  <name>мх_ТипыВнешнихСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы внешних систем (MyHome)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f00cb05-7c10-4eba-bbd5-53a3585cd47a">
+    <name>Тинькофф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тинькофф</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c076b01d-ce7f-44a5-8154-b3ee5a7db6f3">
+    <name>Сбербанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сбербанк</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

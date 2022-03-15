@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f800246-317c-45ee-a1d2-f94273ca4f44">
+  <producedTypes>
+    <objectType typeId="441e9df2-908e-41ed-9c26-afc86f1e7fd5" valueTypeId="cbb96b6b-ff84-48ef-8e6e-58a3a8b91640"/>
+    <managerType typeId="a410d890-955f-49ad-a489-39978a2422f6" valueTypeId="fb201256-9306-4043-a054-d3f28a9f5c35"/>
+  </producedTypes>
+  <name>мх_ИнтеграцияТинькофф</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция тинькофф (MyHome)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.мх_ИнтеграцияТинькофф.Form.ФормаАвторизации</defaultForm>
+  <attributes uuid="739499de-afc4-45ea-bf43-5aecb1bd9d1f">
+    <name>ВнешняяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_ВнешниеСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="dcfe136d-2f51-4c35-bf11-d393df9bdcdc">
+    <name>ФормаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма авторизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
