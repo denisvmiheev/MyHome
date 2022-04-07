@@ -118,4 +118,14 @@
   <content>25d2a3f8-57bf-4baf-b921-e46e50c4c3c7</content>
   <content>CommonModule.мх_РаботаСТабличнымиЧастямиКлиент</content>
   <content>CommonPicture.мх_РазбитьСтроку</content>
+  <content>Document.мх_ПриходЛекарств</content>
+  <content>Enum.мх_ТипыНоменклатуры</content>
+  <content>Enum.мх_ТипыВнешнихСистем</content>
+  <content>Catalog.мх_ЕдиницыИзмерения</content>
+  <content>CommonModule.мх_РегламентныеЗадания</content>
+  <content>DefinedType.мх_ДокументыПлатежей</content>
+  <content>Document.мх_РасходЛекарств</content>
+  <content>InformationRegister.мх_ЖурналПлатежей</content>
+  <content>AccumulationRegister.мх_Лекарства</content>
+  <content>Report.мх_ОстаткиЛекарств</content>
 </mdclass:Subsystem>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaafd1d7-81cb-4474-b83f-da7f6ce61e12">
+  <producedTypes>
+    <objectType typeId="bc46ec36-8c48-489a-bf58-1d038622b7c9" valueTypeId="482a1848-5a4d-4815-9ee2-d83ac53db864"/>
+    <refType typeId="e3fce406-920c-41aa-8e17-30932cc57ffd" valueTypeId="ccd143f0-8eb7-4ec6-adbb-e1bc234cd43e"/>
+    <selectionType typeId="21351f42-47ee-41e4-9fcb-618f801c8ec4" valueTypeId="2e3e7352-49cd-43ed-afcc-a278a615817c"/>
+    <listType typeId="523b672a-f7c9-42f3-980c-78acf879b152" valueTypeId="2e77c0e1-4034-453a-8243-85a05b3ba899"/>
+    <managerType typeId="3fbed398-2cda-4a9c-8ca0-3de33f4431c7" valueTypeId="98edc30e-377c-4211-b0af-95bba8963610"/>
+  </producedTypes>
+  <name>мх_ПриходЛекарств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход лекарств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.мх_ПриходЛекарств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приход лекарств</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Приход лекарств</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приходы лекарств</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Приходы лекарств</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.мх_ПриходЛекарств.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.мх_ПриходЛекарств.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.мх_Лекарства</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="08de0acc-619b-4269-bda1-2da8b54c0036">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28d41666-7cab-44ba-8993-d3edd3c35909">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cab1ef9b-f184-4195-8179-c3ef954179b5">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42d3700f-a666-465f-b6c5-6b92ab6dadaf">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8b4da2b-6c36-45e6-bbb9-5e4ce77d83f5">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb24a952-0b0f-486b-b685-c132c20877b6">
+    <name>Единица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0016a43f-afd9-4f36-ac2f-9bd39a06a3f3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ada6096e-bd28-448a-a01b-de16841a0146">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="20f0042e-4691-4854-8641-104e5e0a5d66">
+    <producedTypes>
+      <objectType typeId="69ef9ed1-ecd9-4d44-a68c-ac912611caa1" valueTypeId="4a6780d6-3c4f-4d9f-9e85-cca684b754ec"/>
+      <rowType typeId="a851093d-2317-4b02-9225-9ab8e39137e9" valueTypeId="c9794f4b-358b-4920-a5b4-a5cce93e8666"/>
+    </producedTypes>
+    <name>Лекарства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекарства</value>
+    </synonym>
+    <attributes uuid="61db4eba-f130-4d23-8f1e-6bf579bf23a7">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мх_Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Тип</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.мх_ТипыНоменклатуры.EnumValue.Лекарство</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef8b4488-f3aa-43f7-acbf-98fee4ea1515">
+      <name>СрокГодности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок годности</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8750ea4c-ac2b-4881-988a-1fead83976ac">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81ad9e54-feec-4341-99e6-4a16377a9bce">
+      <name>Единица</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мх_ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
