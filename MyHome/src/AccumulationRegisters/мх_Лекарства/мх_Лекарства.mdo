@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1be3d49-a170-4806-8e94-85070730c97e">
+  <producedTypes>
+    <selectionType typeId="cb492f9d-9f82-4e31-ba1c-4eb3b2519ee6" valueTypeId="9641c7e2-0613-4f27-b2c9-1921a3f43dca"/>
+    <listType typeId="5654312d-febc-426f-a09b-f57e6607f3a6" valueTypeId="2643d105-8ba8-437e-a23a-bb666105c9e2"/>
+    <managerType typeId="0d09da26-d4b2-4d1a-a141-0489041a131a" valueTypeId="14e0131e-a5f5-44e6-9bbe-a98a8e12f111"/>
+    <recordSetType typeId="f3eb9c8a-531d-4aa5-b679-b8a6cda468fd" valueTypeId="bf643c3a-51ab-4b8f-b53a-6e6d7f02ec34"/>
+    <recordKeyType typeId="e1849e2b-db07-41ae-83b6-d31185594095" valueTypeId="da9c62a0-bc2f-4f9c-b29c-783375e07e65"/>
+    <recordType typeId="1ab60fad-f59b-4ea7-8ed8-2c379f79ff8b" valueTypeId="582809b6-54e9-401a-8ea0-2fa50882b425"/>
+  </producedTypes>
+  <name>мх_Лекарства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лекарства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fad185a0-e366-4c6e-b9b4-fcf78c60c881">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="674ce730-585a-420e-9ae9-7f8215402f2d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7a66be55-a971-4163-8338-355181eccdc6">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0e5bc89b-6939-497e-b185-c9beb890206e">
+    <name>Единица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мх_ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

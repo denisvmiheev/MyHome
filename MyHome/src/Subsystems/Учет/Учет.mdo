@@ -15,4 +15,5 @@
   <content>Catalog.мх_Номенклатура</content>
   <content>Report.мх_ГарантийныеСроки</content>
   <content>Catalog.мх_Документы</content>
+  <subsystems>УчетЛекарств</subsystems>
 </mdclass:Subsystem>

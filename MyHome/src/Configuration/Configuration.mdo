@@ -19,7 +19,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <version>0.1.0.2</version>
+  <version>0.1.1.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -1305,6 +1305,7 @@
   <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.мх_ЕдиницыИзмерения</catalogs>
   <documents>Document.мх_ВводОстатков</documents>
   <documents>Document.мх_ВозвратРасходов</documents>
   <documents>Document.мх_Гарантия</documents>
@@ -1312,6 +1313,8 @@
   <documents>Document.мх_ПланированиеБюджета</documents>
   <documents>Document.мх_РегистрацияДоходов</documents>
   <documents>Document.мх_РегистрацияРасходов</documents>
+  <documents>Document.мх_ПриходЛекарств</documents>
+  <documents>Document.мх_РасходЛекарств</documents>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
   <enums>Enum.РазмерыБумаги</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
@@ -1364,6 +1367,7 @@
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
   <enums>Enum.УровниПроизводительности</enums>
   <enums>Enum.мх_ТипыВнешнихСистем</enums>
+  <enums>Enum.мх_ТипыНоменклатуры</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.мх_АнализРасходов</reports>
   <reports>Report.мх_БюджетДоходовРасходов</reports>
@@ -1386,6 +1390,7 @@
   <reports>Report.ОценкаПроизводительности</reports>
   <reports>Report.ПраваДоступа</reports>
   <reports>Report.мх_АнализДоходов</reports>
+  <reports>Report.мх_ОстаткиЛекарств</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
   <dataProcessors>DataProcessor.мх_ЗагрузкаБанковскихВыписок</dataProcessors>
@@ -1510,6 +1515,7 @@
   <accumulationRegisters>AccumulationRegister.мх_ДоходыРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_ПланированиеБюджета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.мх_Расходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.мх_Лекарства</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.мх_СтатьиРасходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.мх_СтатьиДоходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b779571-913f-4b19-88fe-6e14dc96da77">
+  <producedTypes>
+    <objectType typeId="2dfc3751-e26b-4ba5-af4f-a377108d21d7" valueTypeId="fd5861cb-4df1-49a3-b318-9098f1c0be87"/>
+    <managerType typeId="abe0fb8a-23de-481a-bcac-36e0cecabfb3" valueTypeId="beed7678-f3d2-40f7-90b9-c65821af5bac"/>
+  </producedTypes>
+  <name>мх_ОстаткиЛекарств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки лекарств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.мх_ОстаткиЛекарств.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="55d447d6-4d0f-4ad6-83f9-0c5b5e03b947">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="e3436385-e9e7-49eb-bd90-4715b0cd7b87">
+    <name>ОстаткиЛекарств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки лекарств</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>
