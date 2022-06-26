@@ -904,12 +904,7 @@
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЯндексПереводчик</commonModules>
-  <commonModules>CommonModule.мх_ИнтеграцияТинькоффКлиентСерверПовтИсп</commonModules>
-  <commonModules>CommonModule.мх_ИнтеграцияТинькоффКлиентСервер</commonModules>
-  <commonModules>CommonModule.мх_ИнтеграцияТинькоффВызовСервера</commonModules>
   <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.мх_ИнтеграцияТинькоффКлиент</commonModules>
-  <commonModules>CommonModule.мх_ИнтеграцияТинькофф</commonModules>
   <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиВызовСервера</commonModules>
   <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиент</commonModules>
   <commonModules>CommonModule.мх_ИнтеграцияСВнешнимиСистемами</commonModules>

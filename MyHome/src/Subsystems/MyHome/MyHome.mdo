@@ -103,12 +103,7 @@
   <content>CommonModule.мх_ОбновлениеИнформационнойБазы</content>
   <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиентСервер</content>
   <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиПовтИсп</content>
-  <content>CommonModule.мх_ИнтеграцияТинькоффКлиентСерверПовтИсп</content>
-  <content>CommonModule.мх_ИнтеграцияТинькоффКлиентСервер</content>
-  <content>CommonModule.мх_ИнтеграцияТинькоффВызовСервера</content>
   <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиСлужебныйКлиентСервер</content>
-  <content>CommonModule.мх_ИнтеграцияТинькоффКлиент</content>
-  <content>CommonModule.мх_ИнтеграцияТинькофф</content>
   <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиВызовСервера</content>
   <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемамиКлиент</content>
   <content>CommonModule.мх_ИнтеграцияСВнешнимиСистемами</content>
