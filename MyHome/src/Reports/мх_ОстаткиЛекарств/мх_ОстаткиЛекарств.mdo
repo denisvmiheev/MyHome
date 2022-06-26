@@ -10,7 +10,11 @@
     <value>Остатки лекарств</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.мх_ОстаткиЛекарств.Template.Макет</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <templates uuid="55d447d6-4d0f-4ad6-83f9-0c5b5e03b947">
     <name>Макет</name>
     <synonym>
