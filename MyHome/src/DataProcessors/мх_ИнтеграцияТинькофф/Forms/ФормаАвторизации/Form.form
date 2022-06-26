@@ -62,9 +62,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВнешняяСистема.Тинькофф_wuid</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ВнешняяСистемаТинькофф_wuidРасширеннаяПодсказка</name>
       <id>6</id>
@@ -90,19 +87,10 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ВнешняяСистемаТинькофф_ИдентификаторПользователя</name>
@@ -116,9 +104,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВнешняяСистема.Тинькофф_ИдентификаторПользователя</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ВнешняяСистемаТинькофф_ИдентификаторПользователяРасширеннаяПодсказка</name>
       <id>9</id>
@@ -144,19 +129,10 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ВнешняяСистемаТинькофф_ИдентификаторСессии</name>
@@ -170,9 +146,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВнешняяСистема.Тинькофф_ИдентификаторСессии</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ВнешняяСистемаТинькофф_ИдентификаторСессииРасширеннаяПодсказка</name>
       <id>12</id>
@@ -198,19 +171,10 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>

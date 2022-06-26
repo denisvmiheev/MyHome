@@ -32,6 +32,9 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.мх_ВводОстатков.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.мх_ДвиженияДенежныхСредств</registerRecords>
+  <registerRecords>AccumulationRegister.мх_ДоходыРасходы</registerRecords>
+  <registerRecords>AccumulationRegister.мх_Доходы</registerRecords>
+  <registerRecords>AccumulationRegister.мх_Расходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
