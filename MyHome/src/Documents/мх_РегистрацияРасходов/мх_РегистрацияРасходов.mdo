@@ -241,6 +241,10 @@
         <name>Отбор.ЭтоГруппа</name>
         <value xsi:type="core:BooleanValue"/>
       </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.Архив</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
