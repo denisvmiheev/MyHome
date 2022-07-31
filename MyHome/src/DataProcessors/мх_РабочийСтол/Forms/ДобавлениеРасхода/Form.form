@@ -234,6 +234,12 @@
             <value xsi:type="core:BooleanValue"/>
           </value>
         </choiceParameters>
+        <choiceParameters>
+          <name>Отбор.Архив</name>
+          <value xsi:type="form:FormChoiceListDesTimeValue">
+            <value xsi:type="core:BooleanValue"/>
+          </value>
+        </choiceParameters>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
