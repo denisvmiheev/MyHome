@@ -123,4 +123,5 @@
   <content>InformationRegister.мх_ЖурналПлатежей</content>
   <content>AccumulationRegister.мх_Лекарства</content>
   <content>Report.мх_ОстаткиЛекарств</content>
+  <content>Constant.мх_ВалютаПоУмолчанию</content>
 </mdclass:Subsystem>

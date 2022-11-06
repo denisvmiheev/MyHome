@@ -137,20 +137,125 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Курс</dataPath>
+			<field>Курс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Курс</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ДоходыРасходыОстаткиИОбороты.Регистратор КАК Регистратор,
-	ДоходыРасходыОстаткиИОбороты.ПериодДень КАК ПериодДень,
-	ДоходыРасходыОстаткиИОбороты.ПериодМесяц КАК ПериодМесяц,
-	ДоходыРасходыОстаткиИОбороты.ПериодГод КАК ПериодГод,
-	ДоходыРасходыОстаткиИОбороты.СтатьяДоходовРасходов КАК СтатьяДоходовРасходов,
-	ДоходыРасходыОстаткиИОбороты.СуммаПриход КАК СуммаПриход,
-	ДоходыРасходыОстаткиИОбороты.СуммаРасход КАК СуммаРасход,
-	ДоходыРасходыОстаткиИОбороты.СуммаНачальныйОстаток КАК СуммаНачальныйОстаток,
-	ДоходыРасходыОстаткиИОбороты.СуммаКонечныйОстаток КАК СуммаКонечныйОстаток
+	ДоходыРасходы.Регистратор КАК Регистратор,
+	ДоходыРасходы.ПериодДень КАК ПериодДень,
+	ДоходыРасходы.ПериодМесяц КАК ПериодМесяц,
+	ДоходыРасходы.ПериодГод КАК ПериодГод,
+	ДоходыРасходы.СтатьяДоходовРасходов КАК СтатьяДоходовРасходов,
+	ДоходыРасходы.Валюта КАК Валюта,
+	ДоходыРасходы.СуммаПриход КАК СуммаПриход,
+	ДоходыРасходы.СуммаРасход КАК СуммаРасход,
+	ДоходыРасходы.СуммаНачальныйОстаток КАК СуммаНачальныйОстаток,
+	ДоходыРасходы.СуммаКонечныйОстаток КАК СуммаКонечныйОстаток,
+	ЕСТЬNULL(КурсыВалют.Курс, 1) / ВЫБОР
+		КОГДА ЕСТЬNULL(КурсыВалют.Кратность, 1) = 0
+			ТОГДА 1
+		ИНАЧЕ ЕСТЬNULL(КурсыВалют.Кратность, 1)
+	КОНЕЦ КАК Курс
 ИЗ
-	РегистрНакопления.мх_ДоходыРасходы.ОстаткиИОбороты({(&amp;ДатаНачала)}, {(&amp;ДатаОкончания)}, Авто, , ) КАК ДоходыРасходыОстаткиИОбороты</query>
+	РегистрНакопления.мх_ДоходыРасходы.ОстаткиИОбороты({(&amp;ДатаНачала)}, {(&amp;ДатаОкончания)}, Авто, , ) КАК ДоходыРасходы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КурсыВалют.СрезПоследних({(&amp;ДатаОкончания)}, ) КАК КурсыВалют
+		ПО ДоходыРасходы.Валюта = КурсыВалют.Валюта</query>
 	</dataSet>
+	<calculatedField>
+		<dataPath>СуммаКонечныйОстатокВРублях</dataPath>
+		<expression>СуммаКонечныйОстаток* Курс</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конечный остаток (руб.)</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаНачальныйОстатокВРублях</dataPath>
+		<expression>СуммаНачальныйОстаток* Курс</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начальный остаток (руб.)</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаПриходВРублях</dataPath>
+		<expression>СуммаПриход* Курс</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Приход (руб.)</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаРасходВРублях</dataPath>
+		<expression>СуммаРасход* Курс</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расход (руб.)</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаРасходОбщий</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма расход общий</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаПриходОбщий</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма приход общий</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаНачальныйОстатокОбщий</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма начальный остаток общий</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаКонечныйОстатокОбщий</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма конечный остаток общий</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
 	<totalField>
 		<dataPath>СуммаНачальныйОстаток</dataPath>
 		<expression>Сумма(СуммаНачальныйОстаток)</expression>
@@ -166,6 +271,78 @@
 	<totalField>
 		<dataPath>СуммаПриход</dataPath>
 		<expression>Сумма(СуммаПриход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКонечныйОстатокВРублях</dataPath>
+		<expression>Сумма(СуммаКонечныйОстатокВРублях)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНачальныйОстатокВРублях</dataPath>
+		<expression>Сумма(СуммаНачальныйОстатокВРублях)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПриходВРублях</dataPath>
+		<expression>Сумма(СуммаПриходВРублях)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаРасходВРублях</dataPath>
+		<expression>Сумма(СуммаРасходВРублях)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаРасходОбщий</dataPath>
+		<expression>Сумма(СуммаРасходВРублях)</expression>
+		<group>ПериодГод</group>
+		<group>ПериодДень</group>
+		<group>ПериодМесяц</group>
+		<group>Регистратор</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаРасходОбщий</dataPath>
+		<expression>Сумма(СуммаРасход)</expression>
+		<group>Валюта</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПриходОбщий</dataPath>
+		<expression>Сумма(СуммаПриходВРублях)</expression>
+		<group>ПериодГод</group>
+		<group>ПериодДень</group>
+		<group>ПериодМесяц</group>
+		<group>Регистратор</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПриходОбщий</dataPath>
+		<expression>Сумма(СуммаПриход)</expression>
+		<group>Валюта</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКонечныйОстатокОбщий</dataPath>
+		<expression>Сумма(СуммаКонечныйОстатокВРублях)</expression>
+		<group>ПериодГод</group>
+		<group>ПериодДень</group>
+		<group>ПериодМесяц</group>
+		<group>Регистратор</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКонечныйОстатокОбщий</dataPath>
+		<expression>Сумма(СуммаКонечныйОстаток)</expression>
+		<group>Валюта</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНачальныйОстатокОбщий</dataPath>
+		<expression>Сумма(СуммаНачальныйОстатокВРублях)</expression>
+		<group>ПериодГод</group>
+		<group>ПериодДень</group>
+		<group>ПериодМесяц</group>
+		<group>Регистратор</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНачальныйОстатокОбщий</dataPath>
+		<expression>Сумма(СуммаНачальныйОстаток)</expression>
+		<group>Валюта</group>
 	</totalField>
 	<parameter>
 		<name>ПериодОтчета</name>
@@ -219,21 +396,6 @@
 		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
 		<availableAsField>false</availableAsField>
 	</parameter>
-	<parameter>
-		<name>ВыводитьДетализациюПоДням</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>По дням</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:boolean</v8:Type>
-		</valueType>
-		<value xsi:type="xs:boolean">false</value>
-		<useRestriction>false</useRestriction>
-		<use>Always</use>
-	</parameter>
 	<settingsVariant>
 		<dcsset:name>БюджетДоходовРасходов	</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -244,17 +406,77 @@
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаНачальныйОстаток</dcsset:field>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начальный остаток</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаНачальныйОстатокОбщий</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Руб.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаПриход</dcsset:field>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приход</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаПриходОбщий</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Руб.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаРасход</dcsset:field>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расход</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаРасходОбщий</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Руб.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конечный остаток</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаКонечныйОстатокОбщий</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Руб.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
 				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>dee9926c-0f22-4506-8ed0-78a01d7cbd86</dcsset:userSettingID>
@@ -267,16 +489,9 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-						<v8:startDate>2021-01-01T00:00:00</v8:startDate>
-						<v8:endDate>2022-06-30T23:59:59</v8:endDate>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">FromBeginningOfThisYear</v8:variant>
 					</dcscor:value>
 					<dcsset:userSettingID>144d4217-e6f6-4d13-9fd5-cdd32e69ab5c</dcsset:userSettingID>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ВыводитьДетализациюПоДням</dcscor:parameter>
-					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
-					<dcsset:userSettingID>266f4c7a-4da4-473e-b2da-9637484f2bfa</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:order>
@@ -288,6 +503,9 @@
 					<dcsset:selection>
 						<dcsset:item>
 							<dcsset:field>СуммаНачальныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СуммаНачальныйОстатокОбщий</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:filter>
@@ -316,6 +534,9 @@
 						<dcsset:item>
 							<dcsset:field>СуммаПриход</dcsset:field>
 						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СуммаПриходОбщий</dcsset:field>
+						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:filter/>
 					<dcsset:appearance>
@@ -337,6 +558,9 @@
 						<dcsset:item>
 							<dcsset:field>СуммаРасход</dcsset:field>
 						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СуммаРасходОбщий</dcsset:field>
+						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:filter/>
 					<dcsset:appearance>
@@ -357,6 +581,9 @@
 					<dcsset:selection>
 						<dcsset:item>
 							<dcsset:field>СуммаНачальныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СуммаНачальныйОстатокОбщий</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:filter>
@@ -385,6 +612,9 @@
 						<dcsset:item>
 							<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
 						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СуммаКонечныйОстатокОбщий</dcsset:field>
+						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -411,6 +641,9 @@
 					<dcsset:selection>
 						<dcsset:item>
 							<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СуммаКонечныйОстатокОбщий</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:filter>
@@ -478,30 +711,19 @@
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
 						<dcsset:groupItems>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
-								<dcsset:field>ПериодДень</dcsset:field>
+								<dcsset:field>Валюта</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 							</dcsset:item>
 						</dcsset:groupItems>
-						<dcsset:filter>
-							<dcsset:item xsi:type="dcsset:FilterItemComparison">
-								<dcsset:left xsi:type="dcscor:Field">ПараметрыДанных.ВыводитьДетализациюПоДням</dcsset:left>
-								<dcsset:comparisonType>Equal</dcsset:comparisonType>
-								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
-							</dcsset:item>
-						</dcsset:filter>
 						<dcsset:order>
 							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 						</dcsset:order>
 						<dcsset:selection>
 							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 						</dcsset:selection>
-						<dcsset:outputParameters>
-							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-								<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
-								<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
-							</dcscor:item>
-						</dcsset:outputParameters>
 					</dcsset:item>
 				</dcsset:item>
 			</dcsset:item>
@@ -525,7 +747,13 @@
 				</dcsset:point>
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
+						<dcsset:field>СуммаКонечныйОстатокОбщий</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Руб.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:outputParameters>

@@ -13,11 +13,6 @@
   <defaultForm>Report.ПраваДоступа.Form.ФормаОтчета</defaultForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <forms uuid="a5667633-9264-4dfa-9e26-c45e96e61ae3">
     <name>ФормаОтчета</name>
     <synonym>

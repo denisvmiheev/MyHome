@@ -19,7 +19,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <version>0.1.1.0</version>
+  <version>0.2.1.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -1192,6 +1192,7 @@
   <constants>Constant.СервисПереводаТекста</constants>
   <constants>Constant.СтатусОбновленияКонфигурации</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
+  <constants>Constant.мх_ВалютаПоУмолчанию</constants>
   <commonForms>CommonForm.АутентификацияВСервисе</commonForms>
   <commonForms>CommonForm.ВосстановлениеПаролей</commonForms>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
@@ -1364,28 +1365,28 @@
   <enums>Enum.мх_ТипыВнешнихСистем</enums>
   <enums>Enum.мх_ТипыНоменклатуры</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
+  <reports>Report.АнализЖурналаРегистрации</reports>
+  <reports>Report.АнализПравДоступа</reports>
+  <reports>Report.ДатыЗапретаЗагрузки</reports>
+  <reports>Report.ДатыЗапретаИзменения</reports>
+  <reports>Report.ДвиженияДокумента</reports>
+  <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
+  <reports>Report.МестаИспользованияСсылок</reports>
+  <reports>Report.мх_АнализДвиженийДенежныхСредств</reports>
+  <reports>Report.мх_АнализДоходов</reports>
   <reports>Report.мх_АнализРасходов</reports>
   <reports>Report.мх_БюджетДоходовРасходов</reports>
-  <reports>Report.мх_АнализДвиженийДенежныхСредств</reports>
-  <reports>Report.ДатыЗапретаИзменения</reports>
-  <reports>Report.мх_ПланированиеБюджета</reports>
-  <reports>Report.ДвиженияДокумента</reports>
   <reports>Report.мх_ГарантийныеСроки</reports>
-  <reports>Report.МестаИспользованияСсылок</reports>
+  <reports>Report.мх_ОстаткиЛекарств</reports>
+  <reports>Report.мх_ПланированиеБюджета</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
-  <reports>Report.АнализЖурналаРегистрации</reports>
-  <reports>Report.ДатыЗапретаЗагрузки</reports>
+  <reports>Report.ОценкаПроизводительности</reports>
+  <reports>Report.ПраваДоступа</reports>
   <reports>Report.ПроверкаЦелостностиТома</reports>
   <reports>Report.ПрогрессОбновленияОбластейДанных</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
-  <reports>Report.АнализПравДоступа</reports>
-  <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
-  <reports>Report.ОценкаПроизводительности</reports>
-  <reports>Report.ПраваДоступа</reports>
-  <reports>Report.мх_АнализДоходов</reports>
-  <reports>Report.мх_ОстаткиЛекарств</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
   <dataProcessors>DataProcessor.мх_ЗагрузкаБанковскихВыписок</dataProcessors>
