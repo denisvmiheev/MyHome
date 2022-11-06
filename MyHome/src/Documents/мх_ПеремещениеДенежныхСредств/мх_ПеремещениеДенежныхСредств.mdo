@@ -133,6 +133,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8f757bb4-5e2b-4b1c-a3b2-962f29049410">
+    <name>СуммаКуда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма куда</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="93bc722a-cf21-43a7-93d9-bb5bc351cd62">
     <name>ФормаДокумента</name>
     <synonym>
@@ -206,6 +221,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -214,6 +230,21 @@
       <synonym>
         <key>ru</key>
         <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bdaf659c-31eb-4b20-8f24-2fa229d01501">
+      <name>СуммаКуда</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма куда</value>
       </synonym>
       <type>
         <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>

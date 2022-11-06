@@ -2466,14 +2466,31 @@
       </edit>
     </columns>
     <columns>
-      <name>Баланс</name>
+      <name>СуммаОстаток</name>
       <title>
         <key>ru</key>
-        <value>Баланс</value>
+        <value>Сумма остаток</value>
       </title>
       <id>47</id>
       <valueType>
         <types>DefinedType.ДенежнаяСуммаЛюбойЗнак</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Валюта</name>
+      <title>
+        <key>ru</key>
+        <value>Валюта</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>CatalogRef.Валюты</types>
       </valueType>
       <view>
         <common>true</common>
